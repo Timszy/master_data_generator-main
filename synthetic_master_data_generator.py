@@ -7,8 +7,6 @@ from helpers import store_table_as_csv
 fake = Faker()
 Faker.seed(0)
 
-
-
 def generate_address(country_code):
     """
     Generate a random address for a given country code with aligned city and postal code
@@ -45,6 +43,55 @@ def generate_address(country_code):
         "city": city,
         "postalCode": postal_code,
         "country": country_code
+    }
+
+def generate_related_address(parent_address, country_code):
+    """
+    Generate an address related to a parent address (for departments in the same organization)
+    """
+    # Get the parent address components
+    parent_data = next((a for a in addresses if a["identifier"] == parent_address), None)
+    
+    if not parent_data:
+        # Fallback to generating a new address
+        return generate_address(country_code)
+    
+    # Parse the parent address
+    parts = parent_data["text"].split(", ")
+    if len(parts) < 2:
+        return generate_address(country_code)
+        
+    street_part = parts[0]
+    city_postal_part = parts[1]
+    
+    # Keep the same city and postal code but modify the street/building number
+    locales = {"NL": "nl_NL", "AT": "de_AT", "EE": "et_EE"}
+    fake_locale = Faker(locales[country_code])
+    
+    # Extract street name without number
+    street_components = street_part.split()
+    try:
+        # Try to identify the number part and replace it
+        if street_components[-1].isdigit():
+            street_name = " ".join(street_components[:-1])
+            new_number = random.randint(1, 150)
+            new_street = f"{street_name} {new_number}"
+        else:
+            # If no number found, use the same street but different building/suite indicator
+            new_street = f"{street_part}, Suite {random.randint(100, 999)}"
+    except IndexError:
+        # Fallback for any parsing issues
+        new_street = f"{fake_locale.street_name()} {random.randint(1, 150)}"
+    
+    # Create new address text with same city/postal but different street
+    address_text = f"{new_street}, {city_postal_part}"
+    
+    return {
+        "identifier": fake.uuid4(),
+        "text": address_text,
+        "city": parent_data["city"],
+        "postalCode": parent_data["postalCode"],
+        "country": parent_data["country"]
     }
 
 # Function to generate many variations of a canonical name
@@ -211,12 +258,21 @@ org_departments = {}
 # Generate data for ServiceDepartment and organize by institution
 for org in healthcare_organization:
     org_departments[org["identifier"]] = []
+    # Find the organization's address identifier
+    org_address_id = org["address"]
+    org_country = next((a["country"] for a in addresses if a["identifier"] == org_address_id), "NL")
+    
     for _ in range(random.randint(3, 5)):  # Each org has 3-5 departments
         department_name = random.choice(medical_departments)
+        
+        # Generate a related address for the department
+        dept_address = generate_related_address(org_address_id, org_country)
+        addresses.append(dept_address)  # Add this new address to our addresses list
+        
         department = {
             "identifier": fake.uuid4(),
             "serviceDepartmentName": department_name,
-            "address": random.choice(addresses)["identifier"],  # Randomly assign existing address
+            "address": dept_address["identifier"],  # Use the new related address
             "isPartOf": org["identifier"],
             "contact": f"Contact: {fake.phone_number()}"
         }
@@ -226,24 +282,65 @@ for org in healthcare_organization:
 # Generate data for HealthcarePersonnel and Person
 healthcare_personnel = []
 persons = []
+
+# Generate personnel for each organization
 for org in healthcare_organization:
-    # Check if the organization has departments
+    # Skip if org has no departments
     if not org_departments.get(org["identifier"], []):
         continue
         
-    for _ in range(random.randint(10, 20)):  # Each org has 10-20 personnel
-        # Choose a department for this person within their organization
+    # Define target personnel count for this organization
+    target_total_personnel = random.randint(10, 20)
+    current_personnel_count = 0
+    
+    # First ensure all departments have at least 2 personnel
+    for department in org_departments[org["identifier"]]:
+        department_name = department["serviceDepartmentName"]
+        
+        # Add exactly 2 personnel to each department first
+        for _ in range(2):
+            # Select an appropriate job title based on the department
+            job_titles = department_job_titles.get(department_name, ["Healthcare Specialist", "Medical Professional"])
+            job_title = random.choice(job_titles)
+            
+            person_name = fake.name()
+            email_local_part = person_name.lower().replace(" ", "").replace(".", "").replace("'", "")
+            email_address = f"{email_local_part}@healthcare.org"
+
+            # Create person record
+            person = {
+                "identifier": fake.uuid4(),
+                "personName": person_name,
+                "birthDate": fake.date_of_birth(minimum_age=25, maximum_age=65).isoformat(),
+                "gender": random.choice(["Male", "Female", "Other"]),
+                "primaryLanguage": random.choice(["nl", "de", "et"])
+            }
+            persons.append(person)
+
+            # Create personnel record
+            personnel = {
+                "identifier": person["identifier"],
+                "institution": org["identifier"],
+                "department": department["identifier"],
+                "jobTitle": job_title,
+                "email": email_address
+            }
+            healthcare_personnel.append(personnel)
+            current_personnel_count += 1
+    
+    # Then add remaining personnel to reach the desired total
+    while current_personnel_count < target_total_personnel:
+        # Randomly select a department for additional personnel
         department = random.choice(org_departments[org["identifier"]])
         department_name = department["serviceDepartmentName"]
         
-        # Select an appropriate job title based on the department
+        # Select job title and create person/personnel records (same as above)
         job_titles = department_job_titles.get(department_name, ["Healthcare Specialist", "Medical Professional"])
         job_title = random.choice(job_titles)
         
         person_name = fake.name()
         email_local_part = person_name.lower().replace(" ", "").replace(".", "").replace("'", "")
-        email_domain = "healthcare.org"
-        email_address = f"{email_local_part}@{email_domain}"
+        email_address = f"{email_local_part}@healthcare.org"
 
         person = {
             "identifier": fake.uuid4(),
@@ -255,13 +352,14 @@ for org in healthcare_organization:
         persons.append(person)
 
         personnel = {
-            "identifier": person["identifier"],  # Link by identifier
+            "identifier": person["identifier"],
             "institution": org["identifier"],
-            "department": department["identifier"],  # Link to specific department within their organization
-            "jobTitle": job_title,  # Use department-specific job title
+            "department": department["identifier"],
+            "jobTitle": job_title,
             "email": email_address
         }
         healthcare_personnel.append(personnel)
+        current_personnel_count += 1
 
 # Apply variations to each list and track duplicates
 addresses = introduce_variations(addresses, address_variation, variation_rate=0.2, entity_type='Address')
