@@ -140,9 +140,57 @@ def generate_canonical_name(country_code):
     else:
         return fake.company() + " Healthcare"
 
+def generate_contact_point(entity_type, country_code="NL"):
+    """
+    Generate a comprehensive contact point with multiple communication channels
+    
+    Parameters:
+        entity_type: "organization" or "department" to customize contact types
+        country_code: Country code to determine language and phone format
+    
+    Returns:
+        A dictionary with contact information
+    """
+    # Set up language options based on country
+    language_map = {
+        "NL": ["nl", "en"],
+        "AT": ["de", "en"],
+        "EE": ["et", "en", "ru"]
+    }
+    available_languages = language_map.get(country_code, ["en"])
+    
+    # Define possible contact types based on entity
+    if entity_type == "organization":
+        contact_types = ["General Inquiries", "Patient Services", "Media Relations", 
+                         "Administrative", "Billing"]
+    else:  # department
+        contact_types = ["Appointments", "Information", "Emergency", "Staff", "Referrals"]
+    
+    # Generate localized faker for phone numbers
+    locales = {"NL": "nl_NL", "AT": "de_AT", "EE": "et_EE"}
+    fake_locale = Faker(locales.get(country_code, "en_US"))
+    
+    # Email domain based on entity type
+    email_domains = {
+        "organization": ["healthcare.org", "hospital.com", "medical.net", "health-center.org"],
+        "department": ["dept.healthcare.org", "department.hospital.com", "section.medical.net"]
+    }
+    
+    # Create contact point
+    contact_point = {
+        "identifier": fake.uuid4(),
+        "contactType": random.choice(contact_types),
+        "phone": fake_locale.phone_number(),
+        "email": f"{fake.word().lower()}.{fake.word().lower()}@{random.choice(email_domains[entity_type])}",
+        "availableLanguage": [available_languages[0]] + (["en"] if "en" in available_languages and random.choice([True, False]) else []),
+        "fax": fake_locale.phone_number()
+    }
+    
+    return contact_point
 
 healthcare_organization = []
 addresses = []
+contact_points = []
 for _ in range(100):
     country_code = random.choice(["NL", "AT", "EE"])
     address = generate_address(country_code)
@@ -152,14 +200,16 @@ for _ in range(100):
     name_variations = generate_name_variations(canonical_name, num_variations=25)
     organization_name = random.choice(name_variations)
 
+    # Generate contact point for organization
+    contact_point = generate_contact_point("organization", country_code)
+    contact_points.append(contact_point)
+    
     healthcare_organization.append({
         "identifier": fake.uuid4(),
         "healthcareOrganizationName": organization_name,
-        #"canonicalName": canonical_name,  # Keep track of the canonical name
         "address": address["identifier"],
-        "contact": f"Contact: {fake.phone_number()}"
+        "contactPoint": contact_point["identifier"]
     })
-
 
 service_department = []
 # Predefined list of medical department names
@@ -269,12 +319,16 @@ for org in healthcare_organization:
         dept_address = generate_related_address(org_address_id, org_country)
         addresses.append(dept_address)  # Add this new address to our addresses list
         
+        # Generate contact point for department
+        contact_point = generate_contact_point("department", org_country)
+        contact_points.append(contact_point)
+
         department = {
             "identifier": fake.uuid4(),
             "serviceDepartmentName": department_name,
             "address": dept_address["identifier"],  # Use the new related address
             "isPartOf": org["identifier"],
-            "contact": f"Contact: {fake.phone_number()}"
+            "contactPoint": contact_point["identifier"]
         }
         service_department.append(department)
         org_departments[org["identifier"]].append(department)
@@ -313,7 +367,7 @@ for org in healthcare_organization:
                 "personName": person_name,
                 "birthDate": fake.date_of_birth(minimum_age=25, maximum_age=65).isoformat(),
                 "gender": random.choice(["Male", "Female", "Other"]),
-                "primaryLanguage": random.choice(["nl", "de", "et"])
+                "knowsLanguage": random.choice(["nl", "de", "et"])
             }
             persons.append(person)
 
@@ -347,7 +401,7 @@ for org in healthcare_organization:
             "personName": person_name,
             "birthDate": fake.date_of_birth(minimum_age=25, maximum_age=65).isoformat(),
             "gender": random.choice(["Male", "Female", "Other"]),
-            "primaryLanguage": random.choice(["nl", "de", "et"])
+            "knowsLanguage": random.choice(["nl", "de", "et"])
         }
         persons.append(person)
 
@@ -377,5 +431,6 @@ export_duplicate_registry('golden_standard_duplicates.csv')
 store_table_as_csv(addresses, 'Address.csv')
 store_table_as_csv(healthcare_organization, 'HealthcareOrganization.csv')
 store_table_as_csv(service_department, 'ServiceDepartment.csv')
+store_table_as_csv(contact_points, 'ContactPoint.csv')
 store_table_as_csv(healthcare_personnel, 'HealthcarePersonnel.csv')
 store_table_as_csv(persons, 'Person.csv')
