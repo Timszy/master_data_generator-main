@@ -9,7 +9,7 @@ variation_rate_default = 0.2
 # Dictionary to track all introduced duplicates across all entities
 duplicate_registry = {}
 
-def register_duplicate(original_id, duplicate_id, entity_type, variation_type, field_name):
+def register_duplicate(original_id, duplicate_id, entity_type, variation_type, field_name, original_value, varied_value):
     """Register a duplicate relationship in the global registry"""
     if original_id not in duplicate_registry:
         duplicate_registry[original_id] = []
@@ -18,7 +18,9 @@ def register_duplicate(original_id, duplicate_id, entity_type, variation_type, f
         'duplicate_id': duplicate_id,
         'entity_type': entity_type,
         'variation_type': variation_type,
-        'field_name': field_name
+        'field_name': field_name,
+        'original_value': original_value,
+        'varied_value': varied_value
     })
 
 # Helper functions for generating variations
@@ -34,7 +36,9 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
             duplicate_id=varied_item["identifier"], 
             entity_type=entity_type or variation_function.__name__.replace("_variation", ""),
             variation_type=variation_info["variation_type"],
-            field_name=variation_info["field_name"]
+            field_name=variation_info["field_name"],
+            original_value=variation_info.get("original_value", ""),
+            varied_value=variation_info.get("varied_value", "")
         )
     return data_list + variations
 
@@ -44,10 +48,16 @@ def address_variation(address):
     # Original simple variation (missing postal code)
     var1 = copy.deepcopy(address)
     if var1.get("postalCode"):
+        original_value = var1["postalCode"]  # Capture original
         var1["postalCode"] = ''  # Simulate missing postal code
         var1["identifier"] = var1["identifier"] + "_var1"  # Add variant identifier
         # Return the modified address and variation info
-        return var1, {"variation_type": "missing_field", "field_name": "postalCode"}
+        return var1, {
+            "variation_type": "missing_field", 
+            "field_name": "postalCode",
+            "original_value": original_value,
+            "varied_value": ""
+        }
     
     # Variation with typo in city name
     var2 = copy.deepcopy(address)
@@ -66,23 +76,40 @@ def address_variation(address):
         elif typo_type == "extra":
             city.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
         
+        original_value = var2["city"]
         var2["city"] = "".join(city)
         var2["text"] = re.sub(r'[^,]+, ([^,]+) ([^,]+)', f'{var2["city"]}, \\1 \\2', var2["text"])
         var2["identifier"] = var2["identifier"] + "_var2"
-        return var2, {"variation_type": "typo", "field_name": "city"}
+        return var2, {
+            "variation_type": "typo", 
+            "field_name": "city",
+            "original_value": original_value,
+            "varied_value": var2["city"]
+        }
     
     # Default variation - format change
     var3 = copy.deepcopy(address)
     if all(key in var3 for key in ["city", "postalCode", "country"]):
         street_part = var3["text"].split(',')[0]
+        original_value = var3["text"]
         var3["text"] = f"{var3['postalCode']} {var3['city']}, {street_part}, {var3['country']}"
         var3["identifier"] = var3["identifier"] + "_var3"
-        return var3, {"variation_type": "format_change", "field_name": "text"}
+        return var3, {
+            "variation_type": "format_change", 
+            "field_name": "text",
+            "original_value": original_value,
+            "varied_value": var3["text"]
+        }
     
     # If nothing else worked, return a simple copy with minimal change
     var4 = copy.deepcopy(address)
     var4["identifier"] = var4["identifier"] + "_var4"
-    return var4, {"variation_type": "minor_change", "field_name": "text"}
+    return var4, {
+        "variation_type": "minor_change", 
+        "field_name": "text",
+        "original_value": address["text"],
+        "varied_value": var4["text"]
+    }
 
 # Enhanced person name variations
 def person_names_variation(person):
@@ -90,23 +117,40 @@ def person_names_variation(person):
     var1 = copy.deepcopy(person)
     names = var1["personName"].split()
     if len(names) > 1:
+        original_value = var1["personName"]
         var1["personName"] = ' '.join(names[::-1])
         var1["identifier"] = var1["identifier"] + "_var1"
-        return var1, {"variation_type": "name_swap", "field_name": "personName"}
+        return var1, {
+            "variation_type": "name_swap", 
+            "field_name": "personName",
+            "original_value": original_value,
+            "varied_value": var1["personName"]
+        }
     
     var2 = copy.deepcopy(person)
     names = var2["personName"].split()
     if len(names) >= 2:
         if len(names) == 2:  # Add middle initial if none exists
             middle_initial = random.choice("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+            original_value = var2["personName"]
             var2["personName"] = f"{names[0]} {middle_initial}. {names[1]}"
             var2["identifier"] = var2["identifier"] + "_var2"
-            return var2, {"variation_type": "middle_initial_added", "field_name": "personName"}
+            return var2, {
+                "variation_type": "middle_initial_added", 
+                "field_name": "personName",
+                "original_value": original_value,
+                "varied_value": var2["personName"]
+            }
     
     # Default minimal change
     var3 = copy.deepcopy(person)
     var3["identifier"] = var3["identifier"] + "_var3"
-    return var3, {"variation_type": "minor_change", "field_name": "personName"}
+    return var3, {
+        "variation_type": "minor_change", 
+        "field_name": "personName",
+        "original_value": person["personName"],
+        "varied_value": var3["personName"]
+    }
 
 def replace_day_or_month(date_string, new_value, is_day=True):
     """
@@ -131,9 +175,15 @@ def replace_day_or_month(date_string, new_value, is_day=True):
 def person_dob_variation(person):
     """Generate variations of a person's date of birth"""
     var1 = copy.deepcopy(person)
+    original_value = var1["birthDate"]
     var1["birthDate"] = replace_day_or_month(var1["birthDate"], '01', is_day=True)
     var1["identifier"] = var1["identifier"] + "_var1"
-    return var1, {"variation_type": "default_day", "field_name": "birthDate"}
+    return var1, {
+        "variation_type": "default_day", 
+        "field_name": "birthDate",
+        "original_value": original_value,
+        "varied_value": var1["birthDate"]
+    }
 
 # New variation function for organization names
 def organization_name_variation(organization):
@@ -141,6 +191,7 @@ def organization_name_variation(organization):
     var1 = copy.deepcopy(organization)
     if "healthcareOrganizationName" in var1:
         name = var1["healthcareOrganizationName"]
+        original_value = name
         # Add/remove suffixes
         suffixes = [" Inc.", " LLC", " Ltd.", " Group", " Center", " Associates", " & Co."]
         if any(name.endswith(suffix) for suffix in suffixes):
@@ -151,14 +202,22 @@ def organization_name_variation(organization):
         else:
             var1["healthcareOrganizationName"] = name + random.choice(suffixes)
         var1["identifier"] = var1["identifier"] + "_var1"
-        return var1, {"variation_type": "suffix_change", "field_name": "healthcareOrganizationName"}
+        return var1, {
+            "variation_type": "suffix_change", 
+            "field_name": "healthcareOrganizationName",
+            "original_value": original_value,
+            "varied_value": var1["healthcareOrganizationName"]
+        }
     
     # Default minimal change if no name present
     var2 = copy.deepcopy(organization)
     var2["identifier"] = var2["identifier"] + "_var2"
-    return var2, {"variation_type": "minor_change", "field_name": "healthcareOrganizationName"}
-    
-
+    return var2, {
+        "variation_type": "minor_change", 
+        "field_name": "healthcareOrganizationName",
+        "original_value": organization.get("healthcareOrganizationName", ""),
+        "varied_value": var2.get("healthcareOrganizationName", "")
+    }
 
 # New variation function for email addresses
 def email_variation(personnel):
@@ -166,6 +225,7 @@ def email_variation(personnel):
     var1 = copy.deepcopy(personnel)
     if "email" in var1:
         local_part, domain = var1["email"].split('@')
+        original_value = var1["email"]
         alt_domains = {
             "healthcare.org": "health-care.org",
             "hospital.com": "hospitals.com",
@@ -174,19 +234,30 @@ def email_variation(personnel):
             "doctor.net": "dr.net",
             "health.org": "healthcare.org"
         }
-        if domain in alt_domains:
-            var1["email"] = f"{local_part}@{alt_domains[domain]}"
+        if (varied_value := alt_domains.get(domain)):
+            var1["email"] = f"{local_part}@{varied_value}"
         else:
             # Add a location prefix to the domain
             locations = ["us", "eu", "uk", "ca", "au"]
-            var1["email"] = f"{local_part}@{random.choice(locations)}.{domain}"
+            varied_value = f"{local_part}@{random.choice(locations)}.{domain}"
+            var1["email"] = varied_value
         var1["identifier"] = var1["identifier"] + "_var1"
-        return var1, {"variation_type": "domain_change", "field_name": "email"}
+        return var1, {
+            "variation_type": "domain_change", 
+            "field_name": "email",
+            "original_value": original_value,
+            "varied_value": var1["email"]
+        }
     
     # Default minimal change if no email present
     var2 = copy.deepcopy(personnel)
     var2["identifier"] = var2["identifier"] + "_var2"
-    return var2, {"variation_type": "minor_change", "field_name": "email"}
+    return var2, {
+        "variation_type": "minor_change", 
+        "field_name": "email",
+        "original_value": personnel.get("email", ""),
+        "varied_value": var2.get("email", "")
+    }
 
 # New function for department name variations
 def department_name_variation(department):
@@ -194,6 +265,7 @@ def department_name_variation(department):
     var1 = copy.deepcopy(department)
     if "serviceDepartmentName" in var1:
         dept_name = var1["serviceDepartmentName"]
+        original_value = dept_name
         abbreviations = {
             "Anesthesia": "Anesth Dept",
             "Cardiovascular": "Cardio",
@@ -226,13 +298,22 @@ def department_name_variation(department):
             if full in dept_name:
                 var1["serviceDepartmentName"] = dept_name.replace(full, abbr)
                 var1["identifier"] = var1["identifier"] + "_var1"
-                return var1, {"variation_type": "abbreviation", "field_name": "serviceDepartmentName"}
+                return var1, {
+                    "variation_type": "abbreviation", 
+                    "field_name": "serviceDepartmentName",
+                    "original_value": original_value,
+                    "varied_value": var1["serviceDepartmentName"]
+                }
     
     # Default minimal change if no match
     var2 = copy.deepcopy(department)
     var2["identifier"] = var2["identifier"] + "_var2"
-    return var2, {"variation_type": "minor_change", "field_name": "serviceDepartmentName"}
-    
+    return var2, {
+        "variation_type": "minor_change", 
+        "field_name": "serviceDepartmentName",
+        "original_value": department.get("serviceDepartmentName", ""),
+        "varied_value": var2.get("serviceDepartmentName", "")
+    }
 
 def export_duplicate_registry(filename='duplicate_registry.csv'):
     """
@@ -241,7 +322,8 @@ def export_duplicate_registry(filename='duplicate_registry.csv'):
     import csv
     
     with open(filename, 'w', newline='') as csvfile:
-        fieldnames = ['original_id', 'duplicate_id', 'entity_type', 'variation_type', 'field_name']
+        fieldnames = ['original_id', 'duplicate_id', 'entity_type', 'variation_type', 
+                     'field_name', 'original_value', 'varied_value']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()
@@ -252,5 +334,7 @@ def export_duplicate_registry(filename='duplicate_registry.csv'):
                     'duplicate_id': dup['duplicate_id'],
                     'entity_type': dup['entity_type'],
                     'variation_type': dup['variation_type'],
-                    'field_name': dup['field_name']
+                    'field_name': dup['field_name'],
+                    'original_value': dup.get('original_value', ''),
+                    'varied_value': dup.get('varied_value', '')
                 })
