@@ -1,0 +1,589 @@
+identifier,text,city,postalCode,country
+d4713d60-c8a7-4639-ab11-67b367a9c378,Anna-Lena-Nemeth-Straße 84,Mistelbach an der Zaya,7068,AT
+247a8333-f7b0-47d2-8da8-056c3d15eef7,Raivo Forges 69,Toomasland,88435,EE
+adf20806-e521-4606-b717-6e84d977e993,Neumüllerplatz 143,Wolfsberg,9188,AT
+31d0b664-0589-4877-9b02-52440950fd13,Klara-Trinkl-Gasse 66,Marchegg,2912,AT
+713b7e05-ebe2-4368-98c7-52051e01a934,Nöbauerring 52,Frauenkirchen,1851,AT
+6b10e53a-9145-4e05-b3ab-1b2cdf26f517,Bastiaanring 99,Sint Geertruid,7266 MW,NL
+dfa7c6ed-32d1-481b-a636-425c9bbd750d,Jonathanboulevard 87,'s-Heerenberg,7058 VQ,NL
+2da44da1-89b5-4368-9f14-c6125f58d5b5,Post Mews 84,Port Valerifort,45262,EE
+6d316b4a-7f6b-4793-b318-ad4c1db2b452,Heinsoo Neck 136,Maripuumouth,20922,EE
+0ac728b4-a418-45bf-b50d-278d41a8a6e1,Niina Locks 82,New Merikeborough,27886,EE
+03e9ba02-4cea-4df0-8a66-dc4e21681081,Andres Fork 32,Davõdovland,20494,EE
+cf5e9ea3-6258-4ab3-a877-7babc5c14262,Suzelaan 70,Neerlangel,4420 CP,NL
+31e9ca80-58bf-4b9e-a624-5b598c94af98,Eichbergerweg 18,Traismauer,9322,AT
+ec41e6f6-6c0b-455c-90e6-39e1e44fc3a9,Elena Meadow 53,Mironovport,39431,EE
+f58c43ce-b51d-40d8-982d-d9727a089ca8,Mihhail Creek 79,Port Elena,84573,EE
+71df24d9-3f80-431f-95a5-712c5ac4b6c7,Huttererweg 72,Schwaz,1236,AT
+1d4d1180-4c6e-4fbb-b7fe-f6b501fda698,Faysingel 4,Hekelingen,6884 JA,NL
+eb83af16-e404-4808-bfc1-8c00dc0520a4,Ernststr. 81,Kindberg,1200,AT
+e32866d3-0d6a-48b0-beda-9ab9bec60ffe,Michadreef 122,Twijzel,6811 UB,NL
+2fd3b9f2-e90f-49f8-b578-3f662114c2d6,Olga Island 118,Jakobsonmouth,70718,EE
+56525ce0-3725-4d0c-b9c4-5c38b440ffe0,Zakarialaan 74,Wetsens,6382 XN,NL
+339d78f5-d658-41b3-b012-ae1c5882e3bb,Sebastian-Weninger-Weg 111,Lilienfeld,9189,AT
+8e9b185e-1b77-4deb-af51-ea78fea2a33a,Bianca-Kirchner-Ring 22,Gmunden,5345,AT
+9501e917-496d-427b-baf2-f402a0e624f1,Larspad 116,Born,4230 QJ,NL
+8e36b82f-3856-4e31-b568-c9c6033c1469,Lääts Inlet 108,New Romanstad,35045,EE
+032f594d-0b82-461c-bdd0-c8660649def5,Rayana-Reiter-Gasse 111,Leibnitz,5758,AT
+f4e1680b-05a0-4c72-b22a-4fc63f2de8a8,Haslauerplatz 87,Bregenz,9552,AT
+08f1100b-fa32-42c4-b80a-fabf8cea309b,Oberhauserring 126,Amstetten,3126,AT
+6e566274-99c7-4bea-a756-264dc8649f78,Jöbstlstraße 91,Innsbruck,5212,AT
+caa0a679-6e83-47b2-8857-d8c3b4a06976,Kastnerplatz 132,Hainfeld,4615,AT
+4598244b-f0bd-4405-a50d-d400a27ee80d,Maryam-Buchegger-Straße 138,Gänserndorf,6370,AT
+f45aa79b-d855-4b35-9763-b159ed9a189a,Bischofring 17,Waidhofen an der Thaya,5745,AT
+8d7f7ba5-72e6-416e-a671-0ad2c1b5468a,Valge Drives 46,Ülleview,62509,EE
+4fae667b-b2e7-4e77-8fe1-cedfa5387901,Bilalring 96,Echteld,5192 AK,NL
+df254e5d-befa-4c47-8dd6-650fca6ef7ce,Nathansingel 24,Andelst,5329 FM,NL
+adae7e45-a036-474b-a34d-7804f5657d00,Florentina-Baier-Straße 43,Trieben,6791,AT
+ec2b5e21-3f7a-48e0-b611-8bd6553a773a,Pinterweg 32,Mistelbach an der Zaya,5901,AT
+bb22fa31-6bc9-4970-848a-e37406dc1579,Jackring 25,Oudeschans,1946 UD,NL
+354af1bd-ba56-42f7-a00a-a45e44e1b08c,Tiina Loop 81,Piretchester,91585,EE
+68fc642a-f6f2-4926-8e60-678b82f4b48a,Lauri Mountains 48,Jevgenifurt,45648,EE
+8463416a-fe65-4bef-a0ef-c9892ab465e9,Svetlana Vista 82,Port Ninaburgh,19209,EE
+64aba3f6-7a65-4abe-9188-afa1f660ffd5,Mihhail Cliff 12,Eveport,88581,EE
+f6aca9b4-5e14-4c30-bd2c-db8d39ebfa32,Elifring 106,Nieuwebrug,4394 CC,NL
+7fd2770a-568d-4f3e-b4b4-45aaedfda291,Lauradreef 127,Siegerswoude,2349 EL,NL
+61f6c877-0212-485b-8b2f-8580f3f05323,Barthof 89,Grootebroek,2778 DF,NL
+845c21e7-988d-4e4a-a266-a107a408001f,Ivysingel 16,Nigtevecht,6487 WL,NL
+7b056d02-59de-4319-bf9b-bcfc742c5905,Sarah-Kappel-Platz 30,Litschau,9111,AT
+f60ce881-c5ac-4520-8d46-68fef2b72bd2,Aus Turnpike 75,Kaldaburgh,54865,EE
+31307e46-af79-4546-be51-68dc5690f74d,Pienweg 52,Rotstergaast,1335 UU,NL
+6151787e-4f02-4fe8-bd5d-9031e80bb7eb,Olga Row 119,Lake Aino,95034,EE
+62b22fd5-51c6-42e4-af48-744f7abc9f0b,Bräuerstr. 83,Traiskirchen,4865,AT
+854ca896-1aac-4ca1-920c-904e4063d525,Stelzergasse 64,Stockerau,5394,AT
+cda840fd-4adb-4798-839d-60ba9c993735,Beauboulevard 58,Marle,3021 WZ,NL
+e368f7d2-d973-4b86-bfb2-30b2b55dc442,Aus Tunnel 12,Lauraside,47606,EE
+daa6b26a-e30d-44fd-b58c-1e9f2a0b2040,Wesleybaan 49,Lepelstraat,2463 IM,NL
+02fbad7c-8866-4aba-9601-8cc6db160641,Emirdreef 37,Oud Ootmarsum,9604 RQ,NL
+40e5e8fa-b033-4368-a443-a7378072b635,Melissalaan 35,Nijland,9637 VL,NL
+e807092d-74ca-4c56-8d39-03626ef4d6b4,Kasperring 132,Schwechat,1382,AT
+bd05bc2c-5a50-4a98-85c5-5e39881d0ee1,Nico-Artner-Weg 7,Wilhelmsburg,6579,AT
+6bd8e65f-72a2-461a-9ba6-6e98679140e0,Pfefferweg 136,Radstadt,4790,AT
+e70a26e9-eb6b-46ec-aa3a-5bf369946c6d,Boazhof 17,Clinge,3816 WM,NL
+c5cf255f-278d-44f6-88df-480ea3b4e529,Novabaan 71,Vught,3869 YY,NL
+a4efedef-24cb-4b4e-b825-a7e1e80d2403,Anneboulevard 128,Westerbork,6854 PR,NL
+5e349e31-1c67-456d-b9ac-d84313b2cc15,Lorenzostraat 121,Oldeholtwolde,4041 KZ,NL
+d36d8076-998b-4e1c-9f81-fca3ffb1c2c9,Jolijnsingel 131,Zonnemaire,8039 PG,NL
+98b0b4d7-b5e1-4e19-b464-2bad89599298,Nikiforov Extensions 40,Port Viktor,78864,EE
+b85f2ec4-9d6f-41b5-8420-e63bc34dfc64,Ljubov Estate 34,Belovville,50299,EE
+22e7ee59-1414-4ca8-b455-f1f64574a37e,Valentina Ridges 43,Niinaport,51898,EE
+96b09e29-89e4-49df-9a45-a71745ac1564,Maie Overpass 61,Tatjanaborough,89838,EE
+1f217475-66f0-4769-8909-c1ba18fa5472,Maria Corners 66,Kalmusmouth,92080,EE
+d35f581e-3648-431f-ae9e-8d0384983111,Raphael-Lengauer-Platz 123,Wilhelmsburg,9308,AT
+49ace049-13bd-41ae-b0dd-4704248988cf,Kreidlgasse 14,Villach,6186,AT
+cb020672-8fff-4a1a-b3e5-2b1541c14dc0,Kyrastraat 40,Zwartsluis,7640 CO,NL
+63f6ed2d-6865-4c4d-a322-e658410223b4,Pepijnpad 46,Bronnegerveen,3156 EO,NL
+72824622-a4b0-473b-b74e-21a162e5b726,Merike Burg 115,Annastad,30687,EE
+78edd1c6-e981-44a4-b894-cf22c2dc9456,Julia Knolls 126,Marinaberg,56980,EE
+3e2598d6-32ca-4ebe-98cd-5da373cc3524,Jasper-Karrer-Ring 118,Feldbach,9633,AT
+768ec101-3ac2-496e-a243-6476b9298df6,Gutmannring 66,Bruck an der Leitha,6113,AT
+7d87d793-1170-4ee3-b43b-4fb0912d791d,Adamson Flat 30,Soosalumouth,50667,EE
+eafe0d1f-6e79-4d5f-9314-70c8acb14314,Friedlstraße 82,Waidhofen an der Ybbs,5341,AT
+70bef8fb-6598-42bf-8a18-bafe2df4a748,Isisring 71,Grootschermer,4819 AU,NL
+0878f6db-004c-4af0-8ed9-1a324f0fa9db,Albrechtring 28,Deutsch-Wagram,2632,AT
+8fcb2362-52fb-4fd4-aa37-651587543d51,Quintypad 96,De Kwakel,9566 XZ,NL
+7eb78350-cb11-4ef8-806d-d8c51856d169,Kaljuste Roads 123,Lake Maie,41806,EE
+97e27d7a-9c36-4f6d-9121-9f59df240ae5,Aliciahof 123,Vuren,7547 UD,NL
+ce307195-a2fb-4221-9cb4-7e14bbda98aa,Juulweg 88,Oijen,8508 FP,NL
+50abc451-9af1-4456-8034-dca41eb62178,Meister Mountain 23,Kovalside,76765,EE
+50ce44f4-7f42-45af-af1a-030cfba98e75,Fennadreef 52,Hoeven,8910 DF,NL
+eb8313a8-5b53-4d42-8d6e-758b14b92ea4,Raivo Green 25,East Siimmouth,33739,EE
+38168876-cda5-40a0-9700-fb19b473e514,Valentijndreef 86,Sint Maartensbrug,5811 KH,NL
+7c113797-76bf-4a9b-a41d-257116d91fc5,Marek Summit 69,Toomasville,49651,EE
+c3c02b36-ea72-4bf4-a02a-ae6410afa961,Haindlplatz 68,Friesach,4527,AT
+567ffb07-cbc9-4874-9bb3-aa4c5147a3fa,Noortjering 94,Warder,8978 QR,NL
+e2cd8130-01e1-4d8c-91a7-859b39147d0e,Roman Street 65,Kalmusfurt,42126,EE
+29efcdfc-8199-4dc5-9748-8a7680aaf97e,Danilaan 148,Harmelen,1104 FT,NL
+d6fdf516-6b1a-47c6-a3ed-6d79186f4ef1,Rainerring 10,Schwechat,7543,AT
+bc0f91ee-2428-44fd-9b3d-663628e1a8af,Sergey Road 83,New Katrinmouth,40476,EE
+fba435db-5c0d-4feb-8fc5-7f7beed5c0da,Felderweg 97,Mistelbach an der Zaya,3469,AT
+417358fd-cfc3-4c95-8d42-c15027836433,Pimring 56,Lent,3515 GZ,NL
+0c7c9761-a617-4e49-844e-c9a812c19b82,Victoria-Brugger-Straße 100,Hainfeld,4269,AT
+d00fb068-4b3d-4b2a-b70b-d8a791fd7815,Haringstraße 73,Althofen,3807,AT
+327bb556-9162-43b7-af1d-4b70ba5a29ff,Ricardo-Karner-Straße 47,Pulkau,9354,AT
+1d2152f4-51b3-46f6-8736-65614da72eb9,Mateo-Wiesinger-Platz 61,Saalfelden am Steinernen Meer,6044,AT
+405e342d-fbe3-4bf9-88f1-559e1f265d01,Pascal-Scherr-Straße 64,Groß-Gerungs,6405,AT
+81b377bd-59ea-469a-a09c-93ded12ea61b,Dmitri Mountain 11,Kisseljovmouth,43465,EE
+890974e4-1ddd-415a-b323-e4341bbf9922,Tamara Run 146,Jelenabury,41082,EE
+beabdee5-c861-4c36-b916-751942a699a5,Riina Junctions 108,Ninamouth,74974,EE
+3e0f7488-5c88-4320-a7b0-a957c0fa5031,Žukov Flat 119,North Tarmo,37303,EE
+3b6b8130-f687-4f7a-b683-4a01bdb5ff1d,Julia Curve 31,Tamarafort,61711,EE
+b235872f-f682-43bd-8174-dc65f9646b27,Pockweg 44,Eferding,5314,AT
+54bb58bd-4e8b-4b51-ba0c-d3b5e85c7c1b,Lina-Rainer-Straße 22,Hall in Tirol,3592,AT
+e2238f55-48e4-42fd-b89e-d0ff2c8cb3fc,Schalkring 139,Bärnbach,7960,AT
+1acd3824-43ab-4db8-8e45-aea58fdd2315,Natascha-Egger-Straße 101,Gmünd,2999,AT
+5774a8f0-bc73-40c9-9918-cda4d95e1ab2,Cornelius-Klinger-Ring 23,Hall in Tirol,4235,AT
+931e0d80-fc7e-4ebb-9616-7a2f57a47b99,Katharina-Stecher-Ring 71,Groß-Enzersdorf,6737,AT
+14b64d4f-c548-4917-b297-30a1560e409d,Walterplatz 26,Feldkirchen,9687,AT
+673ce1e6-fb95-40e0-acd8-88239993bdd7,Urbanstraße 44,Mattersburg,9206,AT
+e90a2364-3a03-473e-bb9b-df46f5930c38,Reischlstraße 10,Amstetten,7400,AT
+d4e3fd71-e861-43fd-bca1-248409aaae6d,Rosa-Sorger-Straße 88,Gföhl,8543,AT
+514f652f-cb71-4e2f-bbe1-4cbd9b7f3e1b,Calvin-Kasper-Straße 59,Dürnstein,8646,AT
+eb63d7ef-1540-454d-a644-d4f4e0985dd3,Fleischmanngasse 68,Köflach,1175,AT
+19f8b828-a40a-4ab8-aea4-e39843f26ed2,Elyas-Pieber-Gasse 14,Schrattenthal,4692,AT
+a63a98d1-f116-4fa5-b3ad-f6e2736243ad,Dana-Edlinger-Straße 42,Kufstein,7991,AT
+08f2bc96-d0a7-46b0-9c3e-5d9b0640151e,Elisapad 88,Heukelom,5965 MH,NL
+d592d2ca-1926-4a1b-a161-960086983739,Novaweg 92,Driel,6983 TW,NL
+ff893bcf-c3e3-487b-9fae-c0ab3a70f605,Chrishof 29,Hoornsterzwaag,1048 EM,NL
+ecba187c-570a-4533-bcc3-12ae80678ee3,Ninasteeg 25,Wassenaar,3292 HC,NL
+70a3eddd-79fb-4bcd-b382-650595d570e1,Sebastiaanboulevard 28,Kalenberg,2437 IQ,NL
+2a08214c-3c91-41d0-8f28-b6f3fc788700,Victoriastraat 127,Alde Leie,9518 CB,NL
+dd0d8085-fa84-479f-9774-80db5ab3f451,Anoukring 5,Giethoorn,1452 BF,NL
+ccde7b53-f511-4f71-b4d9-380be321095e,Renskeboulevard 135,Blitterswijck,4948 KV,NL
+faca0a80-5fd9-4507-be82-8c9b54bd103a,Klaas Pine 15,Jurimouth,50557,EE
+156d3de3-241f-4c26-885e-520447468251,Maie Manors 34,South Priit,72275,EE
+b0fca11e-8cec-413e-afb3-dafa6d9ed7ae,Aasa Canyon 96,Jaanmouth,61414,EE
+9d592a7b-2542-4ff6-8710-01c5c02e3a7a,Lillemets Roads 103,North Jelenafurt,29367,EE
+dc0f71ff-12ef-4ae2-b46d-dff4865d2030,Ene Avenue 19,Mäefort,76523,EE
+107a34af-5c72-4d49-a375-d8af7b50c356,Vladimir Spurs 97,Kuuskmouth,47841,EE
+04da2f4c-1127-4e77-8c13-2eec9b1958d8,Igor Mountains 26,North Kadri,52130,EE
+6c63086a-e06e-4d8a-aa18-91a549075479,Denissov Courts 23,East Indrek,54388,EE
+bad0e4d2-f9db-4648-99bc-0787974b0fff,Vahter Trail 31,South Jelenaview,71884,EE
+97ad1730-763c-4274-b719-509c5b786208,Bondarenko Road 28,West Toomashaven,92520,EE
+5d67ed18-0be3-4dd4-9e46-5d888c6f140e,Ülle Rapids 18,Pärnaland,85566,EE
+ea4bf4c7-3501-4ab6-b46b-deda13779d45,Davõdov Freeway 58,North Mihhail,53970,EE
+7a04a0d5-d997-44bf-a09f-d44768e72010,Marek Courts 19,East Olgaton,29212,EE
+b88e5969-a6f0-47bc-ac00-4781934dafd1,Viktor Extension 27,Kurgside,56522,EE
+43a1a51e-1abc-43a3-a280-9a497d65e308,Madeliefsteeg 141,Onderdendam,3604 ME,NL
+9378de03-3c44-44a5-a8ef-1f7c347cc539,Sophiaboulevard 100,Lutten,4687 CG,NL
+2d6efa7d-6a25-4d90-99e2-a4c57b57619f,Pietersingel 22,Moerstraten,4207 MW,NL
+65f64da9-086e-4705-8be0-b1766993400e,Zaraweg 10,Doesburg,3599 LV,NL
+ccd6b053-f952-4b70-a6c7-54b399092b7c,Selina-Prohaska-Gasse 7,Wels,4908,AT
+59688841-0df5-4972-876e-f1af37eb9bfb,Johann-Spreitzer-Ring 58,Stockerau,2229,AT
+de047110-f364-48a0-9939-ab398f22c548,Schwaighoferstraße 49,Vils,6703,AT
+f48a7aeb-100d-4114-8d19-08c8461aac84,Freudenthalerstr. 70,Landeck,7656,AT
+4f8529fc-ca81-42d4-ae7b-259fc37164aa,Vladimir Prairie 102,Antsstad,80971,EE
+55dcee03-dcb5-4e02-abc0-92e01e7c6252,Marek Estates 144,New Aleksander,96667,EE
+64cb2808-eae4-4deb-9edc-f3a9beb78d97,Jevgeni Crossroad 147,West Tatiana,97759,EE
+320bb03a-708e-408a-b875-be9799fff4ba,Anu Ramp 126,Sergeitown,17697,EE
+c57f314c-17fc-422c-9683-1b09e8b174a4,Karro Wells 109,South Merike,79398,EE
+68ec562e-0059-435c-ad77-c2a98b680b6a,Malle Manors 44,Truufort,41377,EE
+04490b5d-aa14-425c-b9aa-80fc2daa0123,Ojaste Plain 116,New Üllefurt,31798,EE
+556a666d-5019-4572-b109-bc67a0f80547,Ülle Ville 64,Port Riina,71600,EE
+4c072c16-540f-4137-909a-a3b5ba923a64,Tom-Unger-Weg 50,Schwechat,6085,AT
+9d2e5daa-3788-47ce-bcab-7a91183947ef,Wagnerring 114,Gloggnitz,7381,AT
+6a9000a8-f744-45c9-963f-464362d63c9d,Christoph-Holzinger-Gasse 13,Schwaz,9795,AT
+5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa,Ravisteeg 121,Den Hoorn,1394 AG,NL
+9883502e-7f32-4e78-a7fe-651efd8c2a6f,Suusbaan 47,Goënga,3081 FS,NL
+b31190b6-21e4-4b25-adb2-bb78765d13de,Hannalaan 87,Oudemolen,3532 IG,NL
+bcb7b35d-6829-4389-a110-e83c1a44cf29,Vogtstraße 132,Wolkersdorf,2560,AT
+2970243b-3d47-43df-a97f-9e57cd84cbf3,Hofmeisterplatz 80,Völkermarkt,8525,AT
+21258915-7b10-477c-bf32-e5f786bbc79d,Fabian-Ludwig-Platz 109,Pulkau,9056,AT
+fe3b6267-c382-4cf9-8f32-e3157a2b15d6,Hubmannring 96,Murau,5324,AT
+db03dadf-a10f-4588-b1e1-9146f654f453,Pienweg 107,Loon,2451 UN,NL
+055c64dd-e478-40a6-9368-e0d60b46b634,Corneliahof 34,Snakkerburen,4073 UN,NL
+cb562026-a4d6-4d94-9097-be87168d8bf9,Rikstraat 55,Puttershoek,8730 QN,NL
+ee7150cd-f25b-4180-a41f-26d3b6f6fec4,Linnbaan 128,Sleen,5361 RW,NL
+3a1e1faa-400a-47fc-b5ca-4006085698d7,Gijsweg 128,Beutenaken,7189 AP,NL
+0ce131dc-eece-4051-94b6-35d80f23d695,Filatov Curve 48,Jaanusberg,39425,EE
+8cff3e99-1e8e-4d52-aab9-c1851af0ed28,Vahtra Island 124,Port Nina,91993,EE
+b97c9029-ddf0-4312-8bb7-89b41be62446,Ljubov Mews 114,Kuznetsovborough,85500,EE
+e4058234-14ab-4236-933c-c2c7a78a25da,Lukadreef 2,Wijnandsrade,4050 YS,NL
+571532b3-3839-4b4d-a0b0-dea7560ba7be,Felixring 5,Demen,8113 TQ,NL
+1ddf3199-a03c-4061-a8a7-d3daf0591d22,Ravipad 31,Leens,4506 BA,NL
+2a9df500-ff2a-4d86-baa5-07d4fe68155c,Nienkesteeg 29,Westerhoven,3397 SW,NL
+c16a8771-a94a-440c-8926-e63271bd78ea,Jentepad 14,Kronenberg,1296 BE,NL
+737ab5fd-791d-40c4-bf13-63754f439433,Thalhammerstr. 39,Wieselburg,4294,AT
+4c8909e3-1d54-4d05-b0de-ca69debcb6d2,Marvin-Kaltenegger-Gasse 114,Oberndorf bei Salzburg,7488,AT
+d2865c01-77f7-4d19-8ee5-ddf0d996f125,Julian-Suppan-Gasse 36,Judenburg,9793,AT
+b4901da8-af3e-4140-81c9-edfe2ba1c841,Landlgasse 49,Hallein,9829,AT
+d3901a57-e545-4672-a955-c5439ccb8846,Emanuela-Reinprecht-Platz 78,Friesach,6619,AT
+085c52f0-f19d-49dd-9bb6-cafb82acaff5,Hellgasse 101,Kapfenberg,1417,AT
+c04139ad-c89a-4359-a03f-debf966d66ed,Megansingel 39,Blije,8739 MG,NL
+65a20e0a-e151-40df-b36f-6e304c05e703,Kyaralaan 87,Reahûs,9832 JL,NL
+86494985-7b7c-42e3-acbb-98aed2d657be,Lisadreef 25,Rolde,6837 HQ,NL
+329c4a2f-156e-40c4-8f86-7760a8b0cbeb,Tychopad 129,Ellertshaar,3220 WE,NL
+64022306-649c-4312-991c-bb26c189fcb9,Anne Oval 137,Sanderhaven,27280,EE
+d11b3ec4-2a3c-4c48-9d73-4dcb989822a6,Nina Viaduct 102,Indrekbury,54670,EE
+d6acf304-5a2b-4c73-a04e-263e574b411a,Kozlov Locks 45,Lake Tamarafurt,53968,EE
+509e7263-2a8a-4952-8344-866204a4211a,Selin-Haslauer-Ring 12,Wolfsberg,4636,AT
+6326ee35-3e40-4347-9907-e4c01a254c4e,Matheo-Klement-Straße 48,Laakirchen,7853,AT
+c87e7309-2c99-4175-9a3a-fac9365c6e11,Mariana-Erber-Gasse 47,Laa an der Thaya,9768,AT
+987695b0-23ac-4b84-be35-a53466ef219a,Rechbergerplatz 7,Wolfsberg,8112,AT
+542ffd61-23e8-48ba-93b2-b82856d830a3,Nussbaumerstr. 44,Hainfeld,8271,AT
+bbf60181-8edc-4f3f-bb3c-b1db792613ac,Schmidlplatz 50,Gallneukirchen,6263,AT
+9b736c70-ca28-467f-855a-188d948340fa,Jungwirthplatz 116,Rust,5734,AT
+7dd82bab-0573-4f5b-8b4f-f2e2182c539b,Huemerstr. 77,Ternitz,7438,AT
+e4f78188-ab8b-4683-a51b-95d40f633fda,Elisa-Kronsteiner-Straße 35,Amstetten,9582,AT
+e94f51b2-cf74-4443-8248-3212f7023321,Amonweg 73,Gmunden,7093,AT
+86d34bfe-1de4-4628-ad10-0cbf767bf585,Scherzerstraße 9,Murau,6028,AT
+01cf8436-31cc-42bb-9e83-e5414492cc12,Steiningerstraße 6,Wilhelmsburg,6667,AT
+f9a31bd2-3fee-4277-bf90-c4b98e87e850,Müllnerplatz 63,Pregarten,2786,AT
+9ad098f6-599d-4000-ba17-9e2f54ed0e60,Krainerweg 29,Scheibbs,6752,AT
+1704e146-312c-4940-a497-78e2194c955f,Wechselbergerring 74,Allentsteig,2229,AT
+19c502db-1bad-42f5-90da-e03db25b8444,Zeilingerstraße 119,Radenthein,1808,AT
+16e77920-5120-4f9c-b94b-a37c928b66d5,Frida-Paulitsch-Platz 45,Leoben,7073,AT
+9b7f3e35-16fb-488c-9e44-ea1ce188ea61,Yvonne-Bösch-Platz 4,Weitra,8934,AT
+85d40ed2-763f-4abd-b602-6e8a026019f0,Schinaglstr. 19,Trieben,4263,AT
+4ecf5732-3f6e-43e2-920a-3b503ad25d09,Bernhard-Zeiler-Ring 35,Pinkafeld,8977,AT
+25b6d5a5-47ce-427b-8b25-74647591789b,Anna-Lena-Reicher-Weg 4,Feldbach,4469,AT
+b7bb0adc-5d89-4352-80d9-06afd61aac3d,Adlerweg 114,Schladming,6320,AT
+64f33f45-f633-4d9d-b3dd-4a2b40b7c7ba,Paulina-Erlacher-Straße 80,Vöcklabruck,9411,AT
+7c261b43-eef7-4d97-ab98-f113f546e1d0,Andreev Forges 81,New Ivanport,27857,EE
+3d7082f0-91e7-4aca-827e-b997718c4d39,Puusepp Ports 120,Tatjanaside,49380,EE
+da11d2c9-43e6-4d9b-9e7e-0170a4819363,Viktoria Keys 73,South Marekhaven,89755,EE
+7e48a1c8-ef4d-478a-b195-c85b1a78dfc0,Liivamägi Union 111,West Piret,49363,EE
+a47bc229-a657-427e-85fc-b47763ba97a1,Adamlaan 22,De Koog,8632 XW,NL
+93aa8737-f9ef-47d5-bf43-36a5dbaa94c4,Lennsteeg 48,Altforst,3208 IC,NL
+c275663e-85ae-4d15-a3d1-4466dbe7afb7,Marijnboulevard 147,Goingarijp,4348 MQ,NL
+11d0fd54-750e-41b1-997e-b2fc26fc574c,Silkehof 64,Zennewijnen,7547 MG,NL
+36f4851f-431d-479a-9ec3-40991ca7b806,Aliring 126,Sommelsdijk,3214 ZZ,NL
+6aa33909-aff3-4c60-a7a2-d842dac513d3,Mariaboulevard 50,Gendt,9027 WW,NL
+0b4e3fdc-4907-48b0-8530-aee39044d06c,Aidenboulevard 94,Arcen,7377 ZM,NL
+d2bd504f-53bc-4098-afb1-fa076a8cfe71,Emilysingel 50,Achterveld,7256 NM,NL
+97582cd6-dac2-4c5a-8d88-01dec51e4f7d,Lana-Eisner-Straße 75,Schwanenstadt,9933,AT
+13c49a5c-892c-4c7c-92c1-138bd7bec639,Martina-Hofmann-Ring 142,Hartberg,3899,AT
+43e1dfa2-2522-466b-89ab-9a1b986079bb,Heldgasse 77,Pulkau,4705,AT
+1a35187c-79da-40b9-920c-d3b84d26d96f,Linderring 4,Schwechat,8788,AT
+3d85cd44-1426-4795-b1b2-7d3eb8daa7f2,Bacherplatz 83,Herzogenburg,6443,AT
+d1935abb-42ce-4886-a7c8-a86a03fd60b3,Hoffmannweg 38,Ferlach,4726,AT
+0adaf92d-2534-4858-b1e8-9782e23d2e90,Irma-Köck-Platz 148,Salzburg,2143,AT
+b80150f9-c7a3-477c-b229-31d3a38685f6,Chrisring 134,Schildwolde,9506 PC,NL
+52c28839-db51-4bc0-a2bd-6dd6cdd67b39,Nielssingel 126,Poppenwier,1910 WH,NL
+9f78299c-b9a9-4a03-bf8d-c9f2e3a10464,Jortring 148,Eext,9319 FM,NL
+eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c,Timosingel 27,Warstiens,3320 KH,NL
+b50aea15-20ff-42cb-a857-548c9e689188,Katrin Well 109,Orlovland,41661,EE
+7d3e3711-2985-4817-a937-cc865f40ec47,Jevgeni Cliffs 93,Marikachester,61808,EE
+b889d6c7-1221-4a43-9f15-b76d8718685c,Pärna Hollow 63,East Marinafort,99287,EE
+5f82283e-4d7a-4830-8950-724d7dbfd37f,Põder Avenue 150,South Laurashire,50210,EE
+c7e470d9-9d81-4b64-83c7-4f42c4b9ee85,Kristina Dale 103,Kaljulabury,96672,EE
+0a97b6f9-aaf5-4770-a208-1bc46f3454e0,Kalda Villages 140,Olegberg,78357,EE
+bf5057fe-bbdb-499e-9be2-6a9c4f0743b1,Martinson Point 32,Ignatjevmouth,65198,EE
+93f0e4b4-3871-48d4-a341-68653b6803ee,Randmaa Prairie 81,West Svetlanaview,25275,EE
+14dfffd5-9d9f-4090-baf9-439753a34be0,Pavel Street 4,Jevgeniburgh,86143,EE
+8cc66bfd-eebe-444c-a8eb-7deb67672789,Vladimir Villages 31,Merilaside,56581,EE
+2d5ac28c-f8c6-401f-9e8d-3dac1ff99c18,Andrei Fields 6,Markofort,25893,EE
+7a5829c1-d315-48c9-93f0-b2f5968d1581,Tarmo Spur 76,Golubevshire,63222,EE
+8f5c1488-2b22-49a9-886f-43d91980da38,Juri Vista 3,Vlassovville,97519,EE
+4fe97f7b-3b14-436a-8bdd-595c0099319c,Maria Gateway 98,Port Aleksandra,98550,EE
+a4d4ee9b-9de7-4046-a2c8-6a4976ebbb2e,Tsvetkov Trail 106,Zaitsevfurt,62868,EE
+d99dd5d7-6ad1-421e-92e8-f6afa2b2af7e,Mati Wall 89,West Aleksandrabury,93718,EE
+1acaa971-9fd6-495b-91ac-8823e847ca2b,Natalja Landing 67,South Eneborough,85615,EE
+cd63b97e-d94d-4cd0-a83b-af0436dfdf93,Teder Tunnel 147,Liblikville,97048,EE
+7fc071bd-346d-4398-b144-088aadf8dbc8,Pippastraat 16,Loenersloot,5533 ZH,NL
+3df2a81b-a4e1-45dd-9843-bb4401650350,Jillring 80,Holwerd,6893 HT,NL
+232aabb1-47e9-4726-8a51-f91354cd927e,Tirzaweg 76,Westerhoven,6814 RX,NL
+bb70815a-c58d-476f-bbdd-4130be7c18ea,Madsring 82,Neerlangel,2049 NO,NL
+58acab37-934c-4ac7-827b-384253449005,Sanderstraat 31,Gouderak,9750 XG,NL
+f09aea3f-232f-499b-b59c-c90aac7d6d40,Zaralaan 36,Eext,7689 AG,NL
+688ba9e7-0449-4aef-90a2-7b0ea7ef9956,Lukepad 8,Rijssen,1125 QY,NL
+bde2f7a4-0029-4b0b-9fa6-28625ae33a0e,Tessring 45,Tuitjenhorn,2648 RJ,NL
+38fc7db8-9222-4bd0-b327-b039dc4f9b59,Lievestraat 131,Teerns,2172 KT,NL
+2f889483-3c73-446d-a28a-7cc429a6bc74,Larslaan 90,Cothen,3919 QU,NL
+73557453-1da1-4e1a-999e-10e71138b1e2,Ibrahimlaan 106,Oudemirdum,8964 NP,NL
+9dd68ce9-d264-4c64-884f-a1a7c0d32d89,Kevinbaan 14,Son en Breugel,3791 YK,NL
+020da7e7-aef3-4182-bc42-940cb81a840c,Tiefenbacherstr. 9,Wörgl,7334,AT
+e7c1b6a8-bc65-4fdb-a7f8-927724101196,Stummerweg 120,Stockerau,1644,AT
+079b6afb-cce4-4ca7-9043-c53ae6739bcf,Markus-Kitzler-Gasse 58,Feldkirch,9581,AT
+2223ac1d-276d-4cb4-88d9-bbb6381768ca,Hutterstr. 19,Wieselburg,9908,AT
+74c88f42-3567-4412-b920-a9cb6916312b,Kernstr. 92,Gänserndorf,3582,AT
+0bde3249-cd06-43c9-9149-fe6377f141cd,Mati Fort 63,East Kristjanfurt,30718,EE
+78ec4ac4-5fd6-4f49-9329-0b13ac234f14,Riina Circle 85,South Nina,19645,EE
+8ccde8ad-4a88-449d-8e22-49237bc1a87f,Galina Pass 76,Port Mariaton,83503,EE
+e98449fb-ba4c-40a8-a0dc-f37b8c013495,Svetlana Orchard 148,Frolovborough,41542,EE
+92bb7f1f-3775-4ba9-afe5-d8224ad874e8,Ene Ferry 99,East Aivar,34451,EE
+d30b748a-e64b-47ce-ab91-93025633c34e,Luukboulevard 128,Kaatsheuvel,7984 LH,NL
+584c1484-a8ef-4278-9975-36a8d8b23694,Bassingel 63,Beltrum,5355 CX,NL
+2ea6d7bf-cac5-4b0a-a5a9-bfbcdd9e635f,Tylerpad 136,Garyp,6788 OD,NL
+ed59751a-4753-4335-8703-c5f15b4f5458,Anissimov Locks 108,South Reetmouth,97265,EE
+86863e50-b8a8-4409-8d64-cd61a3769512,Jõgi Walks 142,Port Nataliaberg,95678,EE
+0502629d-81eb-4561-bfae-217e9e2d720d,Zaitsev Ferry 8,West Linda,75597,EE
+7da69555-f78e-4166-bb2f-bde51c30ebae,Juhanson Forest 82,Lake Jaanusberg,56848,EE
+f68af6a8-c21f-4252-a321-fa697151f48f,Andrei Cliff 42,South Sirjestad,49883,EE
+f2bb8a67-ec5b-43af-8b90-e059cc1590c6,Emely-Gritsch-Straße 40,Groß-Enzersdorf,2581,AT
+a7b40929-3f26-4191-9a09-4c0551c756d4,Stegerstraße 90,Grieskirchen,5024,AT
+022c88c0-b563-446c-9cbf-0c64c039c71e,Annika-Schuler-Gasse 102,Linz,8005,AT
+c5b5d451-cdf3-4232-a215-b52235b7df75,Hebenstreitgasse 112,Braunau am Inn,8680,AT
+fb7d8c44-650b-4499-965a-cedf7ef1748c,Edda-Pfister-Ring 100,Mödling,7387,AT
+6b1190ef-e8cf-4812-ac57-53187ba55437,Paul-Pohl-Weg 22,Jennersdorf,5724,AT
+1ad9ec63-ba64-4b01-a76c-5c21513a81ca,Katja-Toth-Gasse 150,Tulln an der Donau,7037,AT
+4402d7c5-5371-4155-ac2b-3b43738a67ee,Leebplatz 28,Radenthein,1956,AT
+63aa09e3-6fdb-4d54-bd0d-fcc63a38dc11,Faasdreef 52,Oosterwijtwerd,1799 ET,NL
+917429b0-9773-4ac7-97b1-a69b171ceff1,Lizsteeg 126,Hulshorst,7876 BW,NL
+77e4b1c1-77ab-475d-a717-743f4adb2666,Ellasteeg 93,Dalmsholte,7727 RK,NL
+fcb6865b-2e70-4419-864b-e13495954e63,Fennaring 76,Swichum,1130 BZ,NL
+ce90746c-2725-4a9c-9a47-b4a9ffb4d662,Jaakson Village 101,Poomside,92558,EE
+1f0d3601-2ce4-4400-89bf-1bd23aaadbe6,Jalakas Loop 132,Tiinaburgh,71415,EE
+a54643b7-71b1-4f59-b268-495d0f2cd3b3,Paap Junction 120,Kohvchester,19284,EE
+06758928-6a0f-4f42-88cd-a9b55e5a7b11,Õispuu Stream 34,Nadeždamouth,39730,EE
+d65e5de6-4120-47c5-bce5-af5d4f351d34,Mare Landing 7,East Svetlana,64504,EE
+09785886-6546-40ea-a119-9b372bf8efdb,Lennring 147,Akersloot,1290 RS,NL
+3a232817-ac21-44c5-b4de-4f243d8fd773,Jacksingel 41,Buinerveen,9870 RF,NL
+2e9c87b2-406e-4a06-84c9-9c1a38f511d9,Nadineboulevard 29,Esbeek,8871 LR,NL
+e0170029-c618-4045-8a9d-59f9e27f71fd,Jannahof 82,Eenrum,7829 UQ,NL
+79546a17-388a-4e7b-8fa5-1a73b4c0d639,Jornlaan 81,Erica,2838 AS,NL
+568417d0-775e-4686-8cb8-ad13ebf7b844,Isabelhof 141,Amsterdam,7410 GK,NL
+656f30e6-f691-425e-83b0-f2d3cbfbc572,Wesselsingel 77,Hekelingen,9733 WD,NL
+acb3e64b-4b2b-4839-90b3-940cf3be2b73,Jaysondreef 67,Castelre,9850 ZJ,NL
+33976f54-a627-411c-a741-92a6a15d00f2,Mareweg 25,Mander,5410 IT,NL
+f4ade208-29a6-4a4d-9eb4-e6300615377a,Majaring 12,Dalerveen,4144 LQ,NL
+5219d5c3-ed87-4e84-8d88-d35691eb585b,Majalaan 112,Garderen,5494 DY,NL
+a7be5443-8010-42b8-ab2f-ead91dfe8d40,Alex-Gollner-Weg 119,Bad Hall,3209,AT
+fa2b6c87-feb8-4839-ae16-208a920a9b43,Fürststr. 77,Mattersburg,2084,AT
+7ce7194b-a9f2-442b-8cee-48d661d2191a,Rudolfgasse 91,Trofaiach,7819,AT
+577b78d4-e010-477e-ba6e-30bf70fdd411,Geierstr. 52,Retz,8292,AT
+51ccfaaa-931f-4649-b56a-07c364c8d42b,Steidlstr. 91,Amstetten,2555,AT
+35d74923-c983-453c-bcf9-cb1aa31f5461,Kucerastr. 104,Litschau,7861,AT
+b0537fbb-2bcd-4cf3-adfc-297ac2888198,Schmidlplatz 18,Korneuburg,4799,AT
+4eb43ad4-92c6-4edf-a9e6-72e49685da72,Schmidtgasse 60,Schwaz,9087,AT
+c0f2b58b-cc72-4558-b887-a1233263dd11,Iris-Kraft-Platz 113,Leoben,3435,AT
+38b7db84-c39a-41ec-92b4-6ef212905a3a,Oswaldring 118,Freistadt,3853,AT
+d8958961-1d03-4632-a1ef-443569eafdb8,Luttenbergerring 1,Imst,3857,AT
+ff86e9fd-5f0f-42f4-bc22-f2753a831ec4,Selena-Schwab-Weg 32,Deutschlandsberg,6786,AT
+42db17dc-77df-4e63-9fc7-5d5233ccec76,Mia-Felder-Straße 72,Bleiburg,8445,AT
+c5f82087-1e4e-4c47-bf69-0a7e08f46f44,Tirzadreef 99,Alde Leie,1955 AW,NL
+9e268ce0-cb49-4926-8ebe-97441b6043ff,Willemsteeg 2,Terborg,5923 KL,NL
+308f3d08-410e-40fc-94ee-511c8b599c63,Tirzalaan 102,Ter Aard,9229 TS,NL
+f7892518-fc99-40b0-a287-7b0968786cbc,Jaydalaan 5,Hoogezand,1287 SI,NL
+5c146299-4404-43fb-8e93-1f818eecedff,Nouthof 119,Gaastmeer,2598 DA,NL
+8fe0cb1a-17bb-425f-9abb-2b4bbe99d695,Bentesteeg 88,Maassluis,9949 OS,NL
+ff9f52c7-28a9-4c64-aee6-39e605a80eca,Jennaring 98,Sloten,9399 UG,NL
+27bea4db-a1b2-4a92-bcdb-e1056c441570,Hannahdreef 95,Sint Anthonis,7091 LB,NL
+9e888d32-0c4b-4dfa-ad01-b7b14bc1343e,Femkebaan 47,Den Dolder,8256 AD,NL
+8f94f05f-f4b0-4218-9c6c-d0491ad8ff4f,Elenapad 54,Nijlande,8055 QM,NL
+a016b5b6-bc80-45f5-8717-2938771928d2,Finnsteeg 32,Kapelle,5845 QH,NL
+db4adf79-a6c1-402d-a380-282ea255337d,Liekesingel 130,Ellertshaar,9855 LX,NL
+092d92e4-d1df-4cc0-a1d8-0302e9773b06,Laurenweg 56,Oosterhesselen,8455 XF,NL
+5b9482ed-1969-4d41-93a5-5d1298b5ee85,Nynkesteeg 127,Zonnemaire,3713 NL,NL
+d474ae8e-6a4c-4b4b-9222-4a535e64b288,Ninthesteeg 32,Spijk Gn,7288 AC,NL
+471db312-aeee-46d5-a536-c20e4329eeef,Helenaring 17,Oudesluis,3334 CD,NL
+704b2b61-62c7-431e-9da9-cdbca1c61284,Joostpad 97,Stedum,4273 HP,NL
+05c0826a-c67c-4d5a-8504-74442a6188b2,Jespersteeg 75,Rijswijk (NB),1484 QL,NL
+72b8ffe7-09c1-4ae3-85ee-aa53ff5ce505,Emmabaan 80,Smilde,3956 KU,NL
+156377d9-7574-4884-9545-67698cf78e49,Estherhof 76,Nieuwveen,7027 TK,NL
+d39fc0fa-965d-4589-aabe-af2e723437bf,Maritdreef 33,Sint Anthonis,8358 YR,NL
+56731588-79d3-4f63-8c4a-3950345d7816,Joëllebaan 45,Zenderen,5981 UR,NL
+61cc6889-82ee-4082-9c7f-eb8bfa294b11,Müürsepp Ville 95,Valentinabury,84058,EE
+3f4abad4-0edf-4c50-b219-4ca9c66a764d,Ene Hills 33,West Anneliborough,11279,EE
+4d47990e-2310-47ae-afcc-c53c4a2c3395,Mihkel Knoll 8,Merikeville,14538,EE
+c7e59b73-8e49-4b2e-9dce-efa627ff85b1,Toots Inlet 65,Raivoport,97962,EE
+bf58c150-71ee-4f38-8948-45fb8a259e2f,Urmas Plains 61,Raagville,11706,EE
+fd940478-bbb6-4059-8a59-f5dc395ac924,Niina Springs 18,Lake Mihhail,97051,EE
+b1366ef0-1afe-4e9c-88a0-ad107349b23b,Järve Field 92,Port Markoport,44695,EE
+fe86e65c-18ce-4760-9b67-ea4203c41edf,Unt Field 149,Lake Jaanus,26754,EE
+594de949-8e2f-4e0e-975c-4a9ae985f7c1,Ants Heights 50,Lake Peeterton,31490,EE
+b6c3763f-c084-4b5f-beb2-85ef479935f6,Drozdov Cliffs 14,Ojaborough,66967,EE
+7192b7fc-a3cf-4324-b0cf-0b93d6e5586b,Põldma Fort 98,Port Sergei,50462,EE
+4b040b7a-92e3-4c2d-99a2-881c15a9242b,Piirsalu Greens 44,Mihhailburgh,15306,EE
+1e3f6d3e-27b0-47f3-ad76-31fc71e16a87,Ljudmila Shoals 123,North Niina,79107,EE
+5358447c-3331-49ac-8ba7-462717db3ca9,Ojaste Knolls 96,West Sirjeville,16172,EE
+506ea048-30a7-48e1-b33c-56826053a94b,Alexander Ridges 88,North Jevgenifort,99247,EE
+34301ab4-86d6-47d1-8496-33b7df6c33f0,Meelis Mills 120,Lake Raivo,75546,EE
+8cdd88dd-1868-451b-bf34-d7d5c03a36b5,Sander Ports 35,Lake Jaanberg,58656,EE
+b0708e82-07f9-4a7f-be14-c1908b12561b,Peeter Mews 101,Olegton,77968,EE
+41761cbe-21a0-4c70-903d-c1c318d69a54,Sirje Gardens 105,Piirmouth,47713,EE
+3f269f91-1d91-4daf-967e-eb28a19e0635,Tuisk Divide 107,Lake Viktorfurt,19530,EE
+9a37d1c8-8df7-4a5b-b232-50cb29f114f5,Igor Knoll 143,Marikaborough,27032,EE
+785bc569-e52a-4a9a-8141-2f5351004cdc,Hoffmanngasse 137,Freistadt,8993,AT
+85021f59-5472-4fd0-83e4-6cf0c1a1b036,Ajna-Meixner-Straße 122,Attnang-Puchheim,1246,AT
+db39ae44-c79c-4835-b2a7-3453074861a4,Hemetsbergerstr. 70,Steyregg,9325,AT
+556da1e7-4e65-443c-9ec6-a70588432213,Magdalena-Baier-Weg 123,Bad Aussee,4178,AT
+c0409b8b-8176-4c72-857e-69bdfd08f61e,Victor-Lackner-Gasse 26,Wolkersdorf,3745,AT
+03665273-0982-4050-9c9a-6e13d51d43c3,Schullerplatz 28,Mistelbach an der Zaya,2142,AT
+09d77150-abff-4a25-909e-e5ba1af6b2cb,Siena-Engl-Platz 71,Eferding,3050,AT
+72ab28fc-b5a8-47fc-a36a-b68a1d527699,Schwendingerplatz 64,Gmünd,3455,AT
+bddaa347-5ee6-4430-9be5-c0997397d0dc,Felinestraat 34,Winsum,2283 ZE,NL
+9c4448e5-b7df-47ad-b1fe-d80d21c21541,Lizweg 4,Kamperveen,5430 WA,NL
+b0f732f7-eb50-45f1-94d0-a31fe1df3b76,Isabellalaan 4,Sintjohannesga,7872 XV,NL
+aceca3f5-842f-4199-a00d-cee45427dc44,Berendboulevard 144,Poortvliet,3420 SV,NL
+d1f22cad-309c-46d4-9734-7e13b017d2d8,Améliedreef 24,Sint-Annaland,9826 ET,NL
+e52ccbae-dc8b-470e-ae3a-bb7cf8b81678,Jackpad 116,Gassel,1291 IL,NL
+64a09784-5b5b-4b0a-9807-fde998ae1d95,Aydensingel 41,Bovensmilde,3831 WB,NL
+6cc35cb2-e94a-47ac-9b1f-97c8b8479ed1,Nathanpad 63,Albergen,2403 NN,NL
+3152e057-17a0-4f42-bd0d-267d4d3e1e1e,Ants Shore 30,Suurport,24427,EE
+d30f35b9-46a0-4155-8f17-6d08f7d97f1c,Viktoria Point 85,South Nadežda,63410,EE
+51856779-b316-4062-a414-10e95153e035,Tarmo Circle 111,Lake Kristi,44046,EE
+e04a250d-e915-4332-81d3-8c5790bf3778,Marika Brooks 25,Port Sergey,16709,EE
+bf6cbfcc-3fb4-4ba8-b96a-4166cd9161a7,Viktor Turnpike 36,Sandermouth,20985,EE
+500e2d6d-cbc4-4f7f-9411-18b0db1286c2,Soosaar Dale 10,Sergeimouth,48181,EE
+069c2773-9a54-4f67-89d6-7cbbc7dc7d2b,Gratzring 42,Graz,2992,AT
+cd62806a-bead-460c-822e-4505f3812799,Schinaglplatz 123,Fürstenfeld,2856,AT
+afb5fe36-642d-4f77-9f58-442823a6e63d,Kröllstr. 120,Neunkirchen,1480,AT
+4075dcd9-0db7-4ceb-9eb7-4dc658e73926,Bruggergasse 4,Althofen,3695,AT
+2066baa4-1aac-4190-8a6c-6d4d33f7b73b,Florin-Aigner-Platz 23,Heidenreichstein,1197,AT
+55bcb664-1675-457f-88f0-13ee579a24da,Diana-Hochleitner-Gasse 32,Zeltweg,6995,AT
+1a02744e-6b70-488d-99b3-f5f7ae83a3e8,Petra-Fercher-Ring 127,Groß-Siegharts,4169,AT
+1eaf15ef-a870-407e-8d71-98d2b6c7ec17,Ants Inlet 128,South Siimhaven,22183,EE
+cb7b6e94-8019-4ed0-9894-e4e67e557b45,Toomsalu Turnpike 64,Läätsfort,57341,EE
+0af8d933-5f99-497f-b0ef-6d2b0af3b8f2,Tiiu Coves 16,North Velloburgh,54281,EE
+65083f22-c030-41bf-aaf2-1870e75284ad,Kristi Pine 20,North Viktorview,92977,EE
+4c1a3858-2be8-4c74-b955-8319282877e1,Janine-Herzog-Gasse 127,Purkersdorf,6706,AT
+251f91c2-a7bc-4259-af00-7b75ba2e7f02,Lara-Sophie-Landl-Weg 121,Schladming,9189,AT
+58bd9178-b940-4711-ad7e-b26a6d7cd889,Schneebergerplatz 24,Steyregg,4927,AT
+09c95e12-141c-4bda-b578-27cddcbf26cb,Luis-Burger-Weg 57,Althofen,5701,AT
+867572b4-623a-47d8-8cc3-f60631879eb8,Ecrinsingel 68,Maartensdijk,4605 QN,NL
+04bbf9e5-8637-451c-9e21-9f1faf40279c,Bilalboulevard 63,Grijpskerke,1863 NR,NL
+9a8ecf1b-e846-406c-b341-712a790e5564,Zeynepweg 118,Oudesluis,3207 TJ,NL
+753529be-37d7-4f61-9e7f-9920f3135e31,Marina-Böck-Weg 131,Retz,3167,AT
+abab8afa-079b-4d72-86de-0552d1527d38,Reiterring 68,Traiskirchen,7090,AT
+93398288-ac13-49b9-836c-0483f9a11410,Leibetsederstr. 91,Schrattenthal,6212,AT
+ee62255e-f0ed-42c8-a8fc-50b6885b6c61,Ariesingel 143,Achtmaal,6854 XJ,NL
+87626cc3-6724-41fd-9e16-41ef12ce3ed7,Mikeboulevard 90,Langweer,5710 GV,NL
+6e2a275f-3ca6-4542-8f86-74b91c96d543,Mettebaan 62,Erica,9090 RP,NL
+b1f944e9-de54-44cf-98b1-44e2e7d69fd5,Novapad 68,Geelbroek,6310 FS,NL
+c44117e6-2c98-49d9-bd88-deb7fc584d66,Bondarenko Dam 16,Port Martin,58785,EE
+f84b85e7-da12-4d3a-bcaa-db1a7dcd07ad,Katrin Parks 24,South Kadriport,54263,EE
+eedbba8b-0f83-41ee-b2ac-89bdb2998fa3,Linda Expressway 128,Mõttustown,40408,EE
+1ba43eaf-84f4-4346-9301-6d9e87d3b238,Vaht Prairie 60,Gerassimovville,96032,EE
+8089a684-556e-4366-9752-b057bb0b995d,Danalaan 114,Neerloon,5312 OV,NL
+ebfc0256-aab1-47c6-acd8-66053d3b57b9,Dexdreef 44,Wijk bij Duurstede,6949 PS,NL
+199ff3c7-a132-4fe7-a8a0-605c28c7cf45,Joëlsingel 127,Baneheide,4993 XF,NL
+a1f121ab-5964-413d-8ac3-7c6bcce60499,Joeplaan 127,Broek op Langedijk,1406 WH,NL
+87f311b5-b275-4630-b558-720bfe33e8fa,Imkesingel 131,Nijmegen,7545 PT,NL
+2c040f51-7fd1-41e5-bf77-d3ae781e6a65,Lindesingel 140,Homoet,6033 NL,NL
+17c4dfab-12d2-4972-8dbe-9e150be73c99,Siennabaan 140,Strijensas,3131 KB,NL
+5f2a8e3e-d839-49b0-b4fc-5bf097ddc839,Linda Valleys 2,Toomsaluview,56355,EE
+b7de6805-20d9-4b3c-b87c-f1e24d0b8806,Teearu Estate 91,North Aleksandra,56644,EE
+d5b5430c-8ab6-42b0-a63b-5358059f01ae,Vladimir Row 119,South Reinchester,33703,EE
+4e5e2b2c-1faf-4e59-9d7f-51e011ecdee5,Luts Mews 145,Igorville,44149,EE
+a926e02a-dcec-409b-b44b-77ce9d8ee4ff,Juliaweg 103,Aardenburg,8215 SO,NL
+ba72b29f-f9b1-4dbd-ac2a-79d65862d4ab,Hannastraat 46,Burgh-Haamstede,4877 YD,NL
+adf63331-e063-4199-809b-e1a75d310df6,Carlijnsteeg 122,'t Harde,9227 EG,NL
+a456ac83-2fd2-43dc-8fc1-076c820be76e,Kalinin Trail 22,East Mareland,31195,EE
+d6bcfb6b-d475-477d-aac6-907086150251,Aleksander Port 30,Port Piretchester,62355,EE
+a24e35ed-1651-423f-9f0e-68c0e27d8d11,Laks Extension 133,Kiikport,72769,EE
+395650ae-6546-4097-b546-9de5278dd499,Gerassimov Stravenue 107,Riinafort,14078,EE
+acbebe26-a7db-41db-a8ba-e4b527bb171c,Villemson Expressway 92,West Aleksandra,24133,EE
+eb6661d3-ff30-4d96-b436-767d0a6a9be0,Jetdreef 83,Leeuwarden,4882 KE,NL
+b9158ed5-e230-4063-a6be-2cfa2faf5ddc,Alexboulevard 94,Batenburg,6217 FO,NL
+09ab8efa-729e-4fb1-b8d6-4f071f38f3c6,Floortjesteeg 142,De Weere,7305 AS,NL
+6e884f76-9f94-47a8-b378-76abd7e76f31,Tessabaan 15,Meteren,8769 RM,NL
+519ce370-951e-49a9-94d9-724bcca6216f,Lunastraat 76,Harfsen,2763 VH,NL
+ad5b97ad-006b-4a01-bdbc-26e78734baef,Raamat Trace 72,North Tiitville,89218,EE
+a6cc99ac-8c22-4625-afd8-72007f98b2fd,Kroon Trafficway 32,Kroonside,61277,EE
+668ded57-91eb-4616-bcfc-5e8fa900ae61,Laks Stravenue 113,North Tiina,19387,EE
+ce6b1385-5e53-48da-9047-c33c3e65989c,Kozlov Ville 18,Nadeždaland,60998,EE
+bff369fd-0fb3-4216-aff6-8edf6a5fbbd6,Indrek Rest 82,Tsvetkovstad,16093,EE
+2c608c40-e1bd-4746-adda-1463906c391f,Dirnbergerstraße 82,Spittal an der Drau,9729,AT
+b93a1c92-9452-4b68-81f7-c10e7f70cc70,Matthias-Kahr-Weg 116,Purkersdorf,3881,AT
+8bc2f6f5-70b7-4586-90cd-bb11340c518c,Milica-Kölbl-Platz 36,Straßburg,4108,AT
+8644436a-214e-4c10-a652-9aff54287c89,Lizzyboulevard 77,Den Bommel,6407 YW,NL
+85eb115e-fec7-4137-8e94-37505858ae08,Daphnelaan 120,Haelen,2973 DR,NL
+17484b1c-9d61-4002-811b-529e6145d2a2,Jennastraat 17,Kekerdom,3741 LN,NL
+ae2aa67f-4a90-445d-a592-467796ebb2b3,Diana Ranch 129,Lumishire,14220,EE
+30150406-c0ac-4845-8f0a-4f1d99affdf1,Mati Shore 59,Priitmouth,37634,EE
+495109c5-9020-41cb-9c4d-c502a5ef30cd,Riina Highway 73,Müürside,35992,EE
+7790e902-b31f-49ed-92ce-f4d339f950f5,Talts Burgs 71,Riinaland,83989,EE
+bd84ac7c-068c-4375-9fac-a4a1d8fa61f9,Siemhof 19,Bantega,4265 LI,NL
+7c1691b4-3bbf-4d08-bca0-9ca1733c2b58,Baspad 33,Ell,8867 XT,NL
+e33a8212-d774-4dcb-8969-37b7d94a5b7d,Isering 32,Afferden,7228 YA,NL
+aa798d9b-6d17-48d8-9231-c521e170f082,Tylersteeg 116,Oosterwolde Gld,5846 BM,NL
+6e9bd342-07c0-400f-85ff-d61b51f00aad,Adriano-Anderl-Gasse 52,Hardegg,6084,AT
+6121cc0c-525c-42ea-854b-f14ef147d5c0,Manuela-Gartner-Straße 47,Friedberg,5752,AT
+a04fdc86-2c9c-4db3-ab92-4da9a163a7cf,Rainerstr. 22,Retz,5739,AT
+00da5e70-027d-48dd-98bb-b0a9dfcff5af,Laureen-Weigl-Weg 147,Korneuburg,1534,AT
+b63b0ac4-c671-441d-88d9-b7ff58b1c832,Jüri Knoll 146,East Kristi,46277,EE
+8f041c18-afa0-4c08-acff-a6d533d34a61,Oks Fork 96,East Anneliville,82847,EE
+01518e30-e7ce-4182-833f-d7f759cbb836,Valeri Wall 138,Lake Aleksandra,62129,EE
+6364e890-ffe6-459c-8b8c-2f3f01586fcc,Klaas Pines 143,South Sergey,41784,EE
+631453f4-5768-42a9-9a30-72b6466faaa1,Mati Harbor 70,South Aleksandra,70989,EE
+723c7bc3-64a2-4291-a492-ac551654fe52,Clarissa-Höfler-Straße 11,Oberndorf bei Salzburg,6986,AT
+c30ccdd8-1cda-4e2b-8ced-b02dc0dc83c7,Adam-Schmuck-Platz 87,Salzburg,4086,AT
+d42f0328-4e16-46a9-9a30-72b3e7934b00,Tobias-Hammer-Platz 51,Rust,6537,AT
+d5964131-dcb3-4aaf-9a0b-de0e1ee9f778,Paulgasse 93,Schrattenthal,3197,AT
+c72c1863-a478-4863-91af-f050e1e610b0,Oscar-Wenzl-Platz 144,Mautern an der Donau,2905,AT
+bc79ec4a-c4e0-4932-8cde-1d255c1e223e,Floortjepad 98,Beringe,6640 QP,NL
+b394d10d-8f2d-487b-bb97-0b0655e95db1,Lukassingel 83,Berghem,5716 KY,NL
+35debf03-e1f9-4042-acfd-1c3ce956dbfb,Norapad 106,Spannum,6623 RG,NL
+c9752d4b-d7c9-4ced-b495-749639374e65,Jesperstraat 134,Jorwert,3835 CM,NL
+c6e3ac57-ff1c-4c80-92c9-4c1148766f32,Hackerring 18,Frohnleiten,6285,AT
+02bc5d78-a13e-43e7-9ea0-f50ffa57f379,Elias-Schandl-Straße 88,Oberwälz,1896,AT
+17415390-0383-478c-ae09-b65178e0882b,Jungwirthplatz 51,Laakirchen,8274,AT
+e33a8212-d774-4dcb-8969-37b7d94a5b7d_var4,Isering 32,Afferden,7228YA,NL
+577b78d4-e010-477e-ba6e-30bf70fdd411_var2,Geierstr. 52,Reetz,8292,AT
+d6acf304-5a2b-4c73-a04e-263e574b411a_var4,Kozlov Locks 45,Lake Tamarafurt,53968 ,EE
+085c52f0-f19d-49dd-9bb6-cafb82acaff5_var3,Hellgasse 101,Kapfenberg,1417,Austria
+4f8529fc-ca81-42d4-ae7b-259fc37164aa_var4,Vladimir Prairie 102,Antsstad,80971 ,EE
+723c7bc3-64a2-4291-a492-ac551654fe52_var4,Clarissa-Höfler-Straße 11,Oberndorf bei Salzburg,6986 ,AT
+64022306-649c-4312-991c-bb26c189fcb9_var2,Anne Oval 137,Sandrhaven,27280,EE
+64f33f45-f633-4d9d-b3dd-4a2b40b7c7ba_var1,Paulina-Erlacher-Straße 80C,Vöcklabruck,9411,AT
+c30ccdd8-1cda-4e2b-8ced-b02dc0dc83c7_var3,Adam-Schmuck-Platz 87,Salzburg,4086,Austria
+a7b40929-3f26-4191-9a09-4c0551c756d4_var4,Stegerstraße 90,Grieskirchen,5024 ,AT
+21258915-7b10-477c-bf32-e5f786bbc79d_var1,Fabian-Ludwig-Platz 109C,Pulkau,9056,AT
+b85f2ec4-9d6f-41b5-8420-e63bc34dfc64_var1,Ljubov Estate 34C,Belovville,50299,EE
+d5964131-dcb3-4aaf-9a0b-de0e1ee9f778_var4,Paulgasse 93,Schrattenthal,3197 ,AT
+ff893bcf-c3e3-487b-9fae-c0ab3a70f605_var1,Chrishof 29A,Hoornsterzwaag,1048 EM,NL
+b0537fbb-2bcd-4cf3-adfc-297ac2888198_var1,Schmidlplatz 18B,Korneuburg,4799,AT
+8f94f05f-f4b0-4218-9c6c-d0491ad8ff4f_var4,Elenapad 54,Nijlande,8055QM,NL
+eedbba8b-0f83-41ee-b2ac-89bdb2998fa3_var2,Linda Expressway 128,Mõttstown,40408,EE
+16e77920-5120-4f9c-b94b-a37c928b66d5_var3,Frida-Paulitsch-Platz 45,Leoben,7073,Austria
+db39ae44-c79c-4835-b2a7-3453074861a4_var1,Hemetsbergerstr. 70A,Steyregg,9325,AT
+7c113797-76bf-4a9b-a41d-257116d91fc5_var4,Marek Summit 69,Toomasville,49651 ,EE
+33976f54-a627-411c-a741-92a6a15d00f2_var3,Mareweg 25,Mander,5410 IT,Netherlands
+65a20e0a-e151-40df-b36f-6e304c05e703_var4,Kyaralaan 87,Reahûs,9832JL,NL
+631453f4-5768-42a9-9a30-72b6466faaa1_var4,Mati Harbor 70,South Aleksandra,70989 ,EE
+584c1484-a8ef-4278-9975-36a8d8b23694_var3,Bassingel 63,Beltrum,5355 CX,Netherlands
+d4713d60-c8a7-4639-ab11-67b367a9c378_var1,Anna-Lena-Nemeth-Straße 84B,Mistelbach an der Zaya,7068,AT
+e70a26e9-eb6b-46ec-aa3a-5bf369946c6d_var1,Boazhof 17C,Clinge,3816 WM,NL
+a24e35ed-1651-423f-9f0e-68c0e27d8d11_var1,Laks Extension 133B,Kiikport,72769,EE
+6121cc0c-525c-42ea-854b-f14ef147d5c0_var1,Manuela-Gartner-Straße 47C,Friedberg,5752,AT
+594de949-8e2f-4e0e-975c-4a9ae985f7c1_var3,Ants Heights 50,Lake Peeterton,31490,Estonia
+9ad098f6-599d-4000-ba17-9e2f54ed0e60_var2,Krainerweg 29,Scheibs,6752,AT
+9883502e-7f32-4e78-a7fe-651efd8c2a6f_var2,Suusbaan 47,Gonga,3081 FS,NL
+e7c1b6a8-bc65-4fdb-a7f8-927724101196_var4,Stummerweg 120,Stockerau,1644 ,AT
+6326ee35-3e40-4347-9907-e4c01a254c4e_var1,Matheo-Klement-Straße 48A,Laakirchen,7853,AT
+5774a8f0-bc73-40c9-9918-cda4d95e1ab2_var1,Cornelius-Klinger-Ring 23C,Hall in Tirol,4235,AT
+5f2a8e3e-d839-49b0-b4fc-5bf097ddc839_var3,Linda Valleys 2,Toomsaluview,56355,Estonia
+71df24d9-3f80-431f-95a5-712c5ac4b6c7_var1,Huttererweg 72A,Schwaz,1236,AT
+97ad1730-763c-4274-b719-509c5b786208_var1,Bondarenko Road 28B,West Toomashaven,92520,EE
+9b736c70-ca28-467f-855a-188d948340fa_var4,Jungwirthplatz 116,Rust,5734 ,AT
+78ec4ac4-5fd6-4f49-9329-0b13ac234f14_var3,Riina Circle 85,South Nina,19645,Estonia
+81b377bd-59ea-469a-a09c-93ded12ea61b_var2,Dmitri Mountain 11,Kwisseljovmouth,43465,EE
+97e27d7a-9c36-4f6d-9121-9f59df240ae5_var3,Aliciahof 123,Vuren,7547 UD,Netherlands
+6d316b4a-7f6b-4793-b318-ad4c1db2b452_var1,Heinsoo Neck 136B,Maripuumouth,20922,EE
+4fae667b-b2e7-4e77-8fe1-cedfa5387901_var2,Bilalring 96,Ecteld,5192 AK,NL
+df254e5d-befa-4c47-8dd6-650fca6ef7ce_var3,Nathansingel 24,Andelst,5329 FM,Netherlands
+86494985-7b7c-42e3-acbb-98aed2d657be_var2,Lisadreef 25,Rlode,6837 HQ,NL
+bddaa347-5ee6-4430-9be5-c0997397d0dc_var1,Felinestraat 34A,Winsum,2283 ZE,NL
+0bde3249-cd06-43c9-9149-fe6377f141cd_var2,Mati Fort 63,East Kristjafnurt,30718,EE
+31e9ca80-58bf-4b9e-a624-5b598c94af98_var3,Eichbergerweg 18,Traismauer,9322,Austria
+ad5b97ad-006b-4a01-bdbc-26e78734baef_var3,Raamat Trace 72,North Tiitville,89218,Estonia
+abab8afa-079b-4d72-86de-0552d1527d38_var4,Reiterring 68,Traiskirchen,7090 ,AT
+aceca3f5-842f-4199-a00d-cee45427dc44_var3,Berendboulevard 144,Poortvliet,3420 SV,Netherlands
+63aa09e3-6fdb-4d54-bd0d-fcc63a38dc11_var4,Faasdreef 52,Oosterwijtwerd,1799ET,NL
+055c64dd-e478-40a6-9368-e0d60b46b634_var1,Corneliahof 34C,Snakkerburen,4073 UN,NL
+b80150f9-c7a3-477c-b229-31d3a38685f6_var1,Chrisring 134B,Schildwolde,9506 PC,NL
+4598244b-f0bd-4405-a50d-d400a27ee80d_var3,Maryam-Buchegger-Straße 138,Gänserndorf,6370,Austria
+fd940478-bbb6-4059-8a59-f5dc395ac924_var2,Niina Springs 18,Lake eMihhail,97051,EE
+b88e5969-a6f0-47bc-ac00-4781934dafd1_var4,Viktor Extension 27,Kurgside,56522 ,EE
+43e1dfa2-2522-466b-89ab-9a1b986079bb_var4,Heldgasse 77,Pulkau,4705 ,AT
+1ad9ec63-ba64-4b01-a76c-5c21513a81ca_var4,Katja-Toth-Gasse 150,Tulln an der Donau,7037 ,AT
+d42f0328-4e16-46a9-9a30-72b3e7934b00_var2,Tobias-Hammer-Platz 51,Ruts,6537,AT
+73557453-1da1-4e1a-999e-10e71138b1e2_var2,Ibrahimlaan 106,Oduemirdum,8964 NP,NL
+a7be5443-8010-42b8-ab2f-ead91dfe8d40_var3,Alex-Gollner-Weg 119,Bad Hall,3209,Austria
+e368f7d2-d973-4b86-bfb2-30b2b55dc442_var1,Aus Tunnel 12B,Lauraside,47606,EE
+d4e3fd71-e861-43fd-bca1-248409aaae6d_var3,Rosa-Sorger-Straße 88,Gföhl,8543,Austria
+3f4abad4-0edf-4c50-b219-4ca9c66a764d_var3,Ene Hills 33,West Anneliborough,11279,Estonia
+03665273-0982-4050-9c9a-6e13d51d43c3_var3,Schullerplatz 28,Mistelbach an der Zaya,2142,Austria
+9501e917-496d-427b-baf2-f402a0e624f1_var2,Larspad 116,Brorn,4230 QJ,NL
+1a02744e-6b70-488d-99b3-f5f7ae83a3e8_var2,Petra-Fercher-Ring 127,Groß-iegharts,4169,AT
+cb7b6e94-8019-4ed0-9894-e4e67e557b45_var4,Toomsalu Turnpike 64,Läätsfort,57341 ,EE
+eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c_var4,Timosingel 27,Warstiens,3320KH,NL
+a63a98d1-f116-4fa5-b3ad-f6e2736243ad_var3,Dana-Edlinger-Straße 42,Kufstein,7991,Austria
+7d87d793-1170-4ee3-b43b-4fb0912d791d_var2,Adamson Flat 30,Soosalumuth,50667,EE
+2e9c87b2-406e-4a06-84c9-9c1a38f511d9_var1,Nadineboulevard 29B,Esbeek,8871 LR,NL
+890974e4-1ddd-415a-b323-e4341bbf9922_var4,Tamara Run 146,Jelenabury,41082 ,EE
+2a9df500-ff2a-4d86-baa5-07d4fe68155c_var2,Nienkesteeg 29,Westerhooven,3397 SW,NL
+7790e902-b31f-49ed-92ce-f4d339f950f5_var4,Talts Burgs 71,Riinaland,83989 ,EE
+04490b5d-aa14-425c-b9aa-80fc2daa0123_var3,Ojaste Plain 116,New Üllefurt,31798,Estonia
+50abc451-9af1-4456-8034-dca41eb62178_var1,Meister Mountain 23A,Kovalside,76765,EE
+d1f22cad-309c-46d4-9734-7e13b017d2d8_var2,Améliedreef 24,Sint-Annalland,9826 ET,NL
+2066baa4-1aac-4190-8a6c-6d4d33f7b73b_var3,Florin-Aigner-Platz 23,Heidenreichstein,1197,Austria
+339d78f5-d658-41b3-b012-ae1c5882e3bb_var2,Sebastian-Weninger-Weg 111,Lilieenfeld,9189,AT
+d2bd504f-53bc-4098-afb1-fa076a8cfe71_var2,Emilysingel 50,Actherveld,7256 NM,NL
+acb3e64b-4b2b-4839-90b3-940cf3be2b73_var1,Jaysondreef 67C,Castelre,9850 ZJ,NL
+ecba187c-570a-4533-bcc3-12ae80678ee3_var1,Ninasteeg 25A,Wassenaar,3292 HC,NL
+5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa_var4,Ravisteeg 121,Den Hoorn,1394AG,NL
+daa6b26a-e30d-44fd-b58c-1e9f2a0b2040_var4,Wesleybaan 49,Lepelstraat,2463IM,NL
+d65e5de6-4120-47c5-bce5-af5d4f351d34_var1,Mare Landing 7C,East Svetlana,64504,EE
+da11d2c9-43e6-4d9b-9e7e-0170a4819363_var3,Viktoria Keys 73,South Marekhaven,89755,Estonia
+5e349e31-1c67-456d-b9ac-d84313b2cc15_var1,Lorenzostraat 121B,Oldeholtwolde,4041 KZ,NL
+7da69555-f78e-4166-bb2f-bde51c30ebae_var2,Juhanson Forest 82,LakeJaanusberg,56848,EE
+c57f314c-17fc-422c-9683-1b09e8b174a4_var2,Karro Wells 109,South eMrike,79398,EE
+987695b0-23ac-4b84-be35-a53466ef219a_var3,Rechbergerplatz 7,Wolfsberg,8112,Austria
+6b10e53a-9145-4e05-b3ab-1b2cdf26f517_var3,Bastiaanring 99,Sint Geertruid,7266 MW,Netherlands
+6aa33909-aff3-4c60-a7a2-d842dac513d3_var2,Mariaboulevard 50,Gent,9027 WW,NL
+ccde7b53-f511-4f71-b4d9-380be321095e_var4,Renskeboulevard 135,Blitterswijck,4948KV,NL
+2223ac1d-276d-4cb4-88d9-bbb6381768ca_var4,Hutterstr. 19,Wieselburg,9908 ,AT
+b63b0ac4-c671-441d-88d9-b7ff58b1c832_var1,Jüri Knoll 146A,East Kristi,46277,EE
+29efcdfc-8199-4dc5-9748-8a7680aaf97e_var4,Danilaan 148,Harmelen,1104FT,NL
