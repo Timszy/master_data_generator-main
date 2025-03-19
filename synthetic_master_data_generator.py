@@ -1,6 +1,6 @@
 from faker import Faker
 import random
-from variation_helpers import introduce_variations, address_variation, person_names_variation, person_dob_variation, organization_name_variation, email_variation, department_name_variation
+from variation_helpers import introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation
 from helpers import store_table_as_csv
 
 # Initialize Faker
@@ -39,7 +39,7 @@ def generate_address(country_code):
     
     return {
         "identifier": fake.uuid4(),
-        "text": address_text,
+        "text": street,
         "city": city,
         "postalCode": postal_code,
         "country": country_code
@@ -88,49 +88,15 @@ def generate_related_address(parent_address, country_code):
     
     return {
         "identifier": fake.uuid4(),
-        "text": address_text,
+        "text": new_street,
         "city": parent_data["city"],
         "postalCode": parent_data["postalCode"],
         "country": parent_data["country"]
     }
 
-# Function to generate many variations of a canonical name
-def generate_name_variations(canonical_name, num_variations=10):
-    variations = set()
-    variations.add(canonical_name)
-
-    while len(variations) < num_variations:
-        variation = list(canonical_name)
-
-        # Randomly decide on the type of variation
-        variation_type = random.choice(['swap', 'duplicate', 'missing', 'extra', 'case_change'])
-
-        if variation_type == 'swap' and len(variation) > 1:
-            i = random.randint(0, len(variation) - 2)
-            variation[i], variation[i + 1] = variation[i + 1], variation[i]
-
-        elif variation_type == 'duplicate' and len(variation) > 0:
-            i = random.randint(0, len(variation) - 1)
-            variation.insert(i, variation[i])
-
-        elif variation_type == 'missing' and len(variation) > 1:
-            i = random.randint(0, len(variation) - 1)
-            del variation[i]
-
-        elif variation_type == 'extra':
-            variation.insert(random.randint(0, len(variation)), random.choice("abcdefghijklmnopqrstuvwxyz"))
-
-        elif variation_type == 'case_change':
-            i = random.randint(0, len(variation) - 1)
-            variation[i] = variation[i].upper() if variation[i].islower() else variation[i].lower()
-
-        variations.add("".join(variation))
-
-    return list(variations)
-
 
 # Function to generate a random canonical name based on country
-def generate_canonical_name(country_code):
+def generate_organization_name(country_code):
     if country_code == "NL":
         return fake.company() + " Zorg"
     elif country_code == "AT":
@@ -140,7 +106,7 @@ def generate_canonical_name(country_code):
     else:
         return fake.company() + " Healthcare"
 
-def generate_contact_point(entity_type, country_code="NL"):
+def generate_contact_point(entity_type, country_code="NL", organization_name=None, department_name=None):
     """
     Generate a comprehensive contact point with multiple communication channels
     
@@ -172,36 +138,38 @@ def generate_contact_point(entity_type, country_code="NL"):
     
     # Email domain based on entity type
     email_domains = {
-        "organization": ["healthcare.org", "hospital.com", "medical.net", "health-center.org"],
-        "department": ["dept.healthcare.org", "department.hospital.com", "section.medical.net"]
+        "organization": ["healthcare.org"],
+        "department": ["dept.healthcare.org"]
     }
     
+    # Remove punctuation and take first word
+    organization_name_first = ''.join(c for c in organization_name.split()[0] if c.isalnum())
+    department_name_first = department_name.split()[0] if department_name else fake.word()
     # Create contact point
     contact_point = {
         "identifier": fake.uuid4(),
         "contactType": random.choice(contact_types),
         "phone": fake_locale.phone_number(),
-        "email": f"{fake.word().lower()}.{fake.word().lower()}@{random.choice(email_domains[entity_type])}",
+        "email": f"{organization_name_first}@{random.choice(email_domains[entity_type])}" if entity_type == "organization" else f"{organization_name_first}.{department_name_first}@{random.choice(email_domains[entity_type])}",
         "availableLanguage": [available_languages[0]] + (["en"] if "en" in available_languages and random.choice([True, False]) else []),
         "fax": fake_locale.phone_number()
     }
     
     return contact_point
 
-healthcare_organization = []
+
 addresses = []
+healthcare_organization = []
 contact_points = []
 for _ in range(100):
     country_code = random.choice(["NL", "AT", "EE"])
     address = generate_address(country_code)
     addresses.append(address)
 
-    canonical_name = generate_canonical_name(country_code)
-    name_variations = generate_name_variations(canonical_name, num_variations=25)
-    organization_name = random.choice(name_variations)
+    organization_name = generate_organization_name(country_code)
 
     # Generate contact point for organization
-    contact_point = generate_contact_point("organization", country_code)
+    contact_point = generate_contact_point("organization", country_code, organization_name)
     contact_points.append(contact_point)
     
     healthcare_organization.append({
@@ -320,7 +288,7 @@ for org in healthcare_organization:
         addresses.append(dept_address)  # Add this new address to our addresses list
         
         # Generate contact point for department
-        contact_point = generate_contact_point("department", org_country)
+        contact_point = generate_contact_point("department", org_country, org["healthcareOrganizationName"], department_name)
         contact_points.append(contact_point)
 
         department = {
@@ -415,13 +383,13 @@ for org in healthcare_organization:
         healthcare_personnel.append(personnel)
         current_personnel_count += 1
 
-# Apply variations to each list and track duplicates
+# Apply variations with explicit entity type registration
 addresses = introduce_variations(addresses, address_variation, variation_rate=0.2, entity_type='Address')
-persons = introduce_variations(persons, person_names_variation, variation_rate=0.2, entity_type='Person')
-persons = introduce_variations(persons, person_dob_variation, variation_rate=0.2, entity_type='Person')
 healthcare_organization = introduce_variations(healthcare_organization, organization_name_variation, variation_rate=0.2, entity_type='HealthcareOrganization')
-healthcare_personnel = introduce_variations(healthcare_personnel, email_variation, variation_rate=0.2, entity_type='HealthcarePersonnel')
 service_department = introduce_variations(service_department, department_name_variation, variation_rate=0.2, entity_type='ServiceDepartment')
+persons = introduce_variations(persons, person_variation, variation_rate=0.2, entity_type='Person')
+healthcare_personnel = introduce_variations(healthcare_personnel, email_variation, variation_rate=0.2, entity_type='HealthcarePersonnel')
+contact_points = introduce_variations(contact_points, email_variation, variation_rate=0.2, entity_type='ContactPoint')
 
 # Export the duplicate registry for validation
 from variation_helpers import export_duplicate_registry

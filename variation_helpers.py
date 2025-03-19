@@ -23,18 +23,32 @@ def register_duplicate(original_id, duplicate_id, entity_type, variation_type, f
         'varied_value': varied_value
     })
 
-# Helper functions for generating variations
+# Modified introduce_variations function
 def introduce_variations(data_list, variation_function, variation_rate=variation_rate_default, entity_type=None):
+    """
+    Generate variations for a subset of items in data_list using the variation_function
+    
+    Args:
+        data_list: List of entities to potentially create variations for
+        variation_function: Function that generates variations
+        variation_rate: Percentage of entities to create variations for
+        entity_type: Type name of the entity (e.g., "Address", "Person")
+    """
+    # Determine entity type - use provided entity_type or guess from function name
+    base_entity_type = entity_type or variation_function.__name__.replace("_variation", "")
+    
     # Generate variations for only a subset of the items based on the variation_rate
     selected_indices = random.sample(range(len(data_list)), int(len(data_list) * variation_rate))
     variations = []
+    
     for index in selected_indices:
-        varied_item, variation_info = variation_function(data_list[index])
+        original_item = data_list[index]
+        varied_item, variation_info = variation_function(original_item)
         variations.append(varied_item)
         register_duplicate(
-            original_id=data_list[index]["identifier"],
-            duplicate_id=varied_item["identifier"], 
-            entity_type=entity_type or variation_function.__name__.replace("_variation", ""),
+            original_id=original_item["identifier"],
+            duplicate_id=varied_item["identifier"],
+            entity_type=base_entity_type,
             variation_type=variation_info["variation_type"],
             field_name=variation_info["field_name"],
             original_value=variation_info.get("original_value", ""),
@@ -42,32 +56,57 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
         )
     return data_list + variations
 
-# Enhanced address variations
+#### Address variations
+# Updated address_variation function with balanced variation application
 def address_variation(address):
-    """Generate variations of an address"""
-    # Original simple variation (missing postal code)
-    var1 = copy.deepcopy(address)
-    if var1.get("postalCode"):
-        original_value = var1["postalCode"]  # Capture original
-        var1["postalCode"] = ''  # Simulate missing postal code
-        var1["identifier"] = var1["identifier"] + "_var1"  # Add variant identifier
-        # Return the modified address and variation info
-        return var1, {
-            "variation_type": "missing_field", 
-            "field_name": "postalCode",
-            "original_value": original_value,
-            "varied_value": ""
+    """Generate variations of an address with balanced distribution"""
+    possible_variations = []
+
+    if address.get("text"):
+        possible_variations.append("house_number_suffix")
+    if address.get("city") and len(address.get("city")) > 3:
+        possible_variations.append("city_typo")
+    if address.get("country") in ["NL", "AT", "EE"]:
+        possible_variations.append("country_expansion")
+    if address.get("postalCode"):
+        possible_variations.append("postal_format")
+
+    if not possible_variations:
+        default_var = copy.deepcopy(address)
+        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        return default_var, {
+            "variation_type": "no_change", 
+            "field_name": "address",
+            "original_value": str(address),
+            "varied_value": str(default_var)
         }
-    
-    # Variation with typo in city name
-    var2 = copy.deepcopy(address)
-    if var2.get("city") and len(var2["city"]) > 3:
-        city = list(var2["city"])
+
+    selected_variation = random.choice(possible_variations)
+
+    if selected_variation == "house_number_suffix":
+        var = copy.deepcopy(address)
+        original_value = var["text"]
+        words = var["text"].split()
+        for i, word in enumerate(words):
+            if word.isdigit() or (word[:-1].isdigit() and not word[-1].isdigit()):
+                words[i] = words[i] + random.choice(["A", "B", "C"])
+                break
+        var["text"] = " ".join(words)
+        var["identifier"] = var["identifier"] + "_var1"
+        return var, {
+            "variation_type": "house_number_suffix", 
+            "field_name": "text",
+            "original_value": original_value,
+            "varied_value": var["text"]
+        }
+
+    if selected_variation == "city_typo":
+        var = copy.deepcopy(address)
+        original_city = var["city"]
+        city = list(var["city"])
         pos = random.randint(1, len(city) - 2)
-        # Random typo operations
         typo_type = random.choice(["swap", "duplicate", "missing", "extra"])
-        
-        if typo_type == "swap":
+        if typo_type == "swap" and pos < len(city) - 1:
             city[pos], city[pos+1] = city[pos+1], city[pos]
         elif typo_type == "duplicate":
             city.insert(pos, city[pos])
@@ -75,244 +114,651 @@ def address_variation(address):
             city.pop(pos)
         elif typo_type == "extra":
             city.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
-        
-        original_value = var2["city"]
-        var2["city"] = "".join(city)
-        var2["text"] = re.sub(r'[^,]+, ([^,]+) ([^,]+)', f'{var2["city"]}, \\1 \\2', var2["text"])
-        var2["identifier"] = var2["identifier"] + "_var2"
-        return var2, {
-            "variation_type": "typo", 
+        var["city"] = "".join(city)
+        var["identifier"] = var["identifier"] + "_var2"
+        return var, {
+            "variation_type": "city_typo", 
             "field_name": "city",
-            "original_value": original_value,
-            "varied_value": var2["city"]
+            "original_value": original_city,
+            "varied_value": var["city"]
         }
-    
-    # Default variation - format change
-    var3 = copy.deepcopy(address)
-    if all(key in var3 for key in ["city", "postalCode", "country"]):
-        street_part = var3["text"].split(',')[0]
-        original_value = var3["text"]
-        var3["text"] = f"{var3['postalCode']} {var3['city']}, {street_part}, {var3['country']}"
-        var3["identifier"] = var3["identifier"] + "_var3"
-        return var3, {
-            "variation_type": "format_change", 
-            "field_name": "text",
-            "original_value": original_value,
-            "varied_value": var3["text"]
-        }
-    
-    # If nothing else worked, return a simple copy with minimal change
-    var4 = copy.deepcopy(address)
-    var4["identifier"] = var4["identifier"] + "_var4"
-    return var4, {
-        "variation_type": "minor_change", 
-        "field_name": "text",
-        "original_value": address["text"],
-        "varied_value": var4["text"]
-    }
 
-# Enhanced person name variations
-def person_names_variation(person):
-    """Generate variations of a person's name"""
-    var1 = copy.deepcopy(person)
-    names = var1["personName"].split()
+    if selected_variation == "country_expansion":
+        var = copy.deepcopy(address)
+        original_country = var["country"]
+        country_map = {"NL": "Netherlands", "AT": "Austria", "EE": "Estonia"}
+        var["country"] = country_map[var["country"]]
+        var["identifier"] = var["identifier"] + "_var3"
+        return var, {
+            "variation_type": "country_expansion", 
+            "field_name": "country",
+            "original_value": original_country,
+            "varied_value": var["country"]
+        }
+
+    if selected_variation == "postal_format":
+        var = copy.deepcopy(address)
+        original_postal = var["postalCode"]
+        if " " in var["postalCode"]:
+            var["postalCode"] = var["postalCode"].replace(" ", "")
+        else:
+            var["postalCode"] = var["postalCode"] + " "
+        var["identifier"] = var["identifier"] + "_var4"
+        return var, {
+            "variation_type": "postal_format", 
+            "field_name": "postalCode",
+            "original_value": original_postal,
+            "varied_value": var["postalCode"]
+        }
+    
+
+##### Person name variations
+def person_variation(person):
+    """Generate variations of a person with balanced distribution"""
+    possible_variations = []
+    
+    # Check what variations are possible based on available fields
+    names = person.get("personName", "").split()
     if len(names) > 1:
-        original_value = var1["personName"]
-        var1["personName"] = ' '.join(names[::-1])
-        var1["identifier"] = var1["identifier"] + "_var1"
-        return var1, {
+        possible_variations.append("name_swap")
+        possible_variations.append("abbreviated_first_name")
+    
+    if names and any(len(name) > 2 for name in names):
+        possible_variations.append("name_typo")
+    
+    if "knowsLanguage" in person and person["knowsLanguage"] in ["nl", "de", "et"]:
+        possible_variations.append("language_expansion")
+    
+    if "birthDate" in person and len(person["birthDate"].split('-')) == 3:
+        possible_variations.append("date_format_variation")
+    
+    # If no variations are possible, return with no changes
+    if not possible_variations:
+        default_var = copy.deepcopy(person)
+        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        return default_var, {
+            "variation_type": "no_change", 
+            "field_name": "person",
+            "original_value": str(person),
+            "varied_value": str(default_var)
+        }
+    
+    # Select a variation randomly from the possible ones
+    selected_variation = random.choice(possible_variations)
+    
+    # Name order swap variation
+    if selected_variation == "name_swap":
+        var = copy.deepcopy(person)
+        names = var["personName"].split()
+        original_value = var["personName"]
+        var["personName"] = ' '.join(names[::-1])
+        var["identifier"] = var["identifier"] + "_var1"
+        return var, {
             "variation_type": "name_swap", 
             "field_name": "personName",
             "original_value": original_value,
-            "varied_value": var1["personName"]
+            "varied_value": var["personName"]
         }
     
-    var2 = copy.deepcopy(person)
-    names = var2["personName"].split()
-    if len(names) >= 2:
-        if len(names) == 2:  # Add middle initial if none exists
-            middle_initial = random.choice("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-            original_value = var2["personName"]
-            var2["personName"] = f"{names[0]} {middle_initial}. {names[1]}"
-            var2["identifier"] = var2["identifier"] + "_var2"
-            return var2, {
-                "variation_type": "middle_initial_added", 
-                "field_name": "personName",
+    # First name abbreviation
+    if selected_variation == "abbreviated_first_name":
+        var = copy.deepcopy(person)
+        names = var["personName"].split()
+        original_value = var["personName"]
+        first_initial = names[0][0] + "."
+        var["personName"] = f"{first_initial} {' '.join(names[1:])}"
+        var["identifier"] = var["identifier"] + "_var2"
+        return var, {
+            "variation_type": "abbreviated_first_name", 
+            "field_name": "personName",
+            "original_value": original_value,
+            "varied_value": var["personName"]
+        }
+    
+    # Name typo variation
+    if selected_variation == "name_typo":
+        var = copy.deepcopy(person)
+        names = var["personName"].split()
+        original_value = var["personName"]
+        name_to_change = random.choice([n for n in names if len(n) > 2])
+        name_chars = list(name_to_change)
+        pos = random.randint(1, len(name_chars) - 2)
+        
+        typo_type = random.choice(["swap", "missing", "extra", "wrong_letter"])
+        if typo_type == "swap" and pos < len(name_chars) - 1:
+            name_chars[pos], name_chars[pos+1] = name_chars[pos+1], name_chars[pos]
+        elif typo_type == "missing":
+            name_chars.pop(pos)
+        elif typo_type == "extra":
+            name_chars.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
+        elif typo_type == "wrong_letter":
+            name_chars[pos] = random.choice("abcdefghijklmnopqrstuvwxyz")
+        
+        changed_name = "".join(name_chars)
+        var["personName"] = var["personName"].replace(name_to_change, changed_name, 1)
+        var["identifier"] = var["identifier"] + "_var3"
+        return var, {
+            "variation_type": "name_typo", 
+            "field_name": "personName",
+            "original_value": original_value,
+            "varied_value": var["personName"]
+        }
+    
+    # Language expansion variation
+    if selected_variation == "language_expansion":
+        var = copy.deepcopy(person)
+        original_value = var["knowsLanguage"]
+        language_map = {
+            "nl": "Dutch",
+            "de": "German",
+            "et": "Estonian"
+        }
+        if var["knowsLanguage"] in language_map:
+            var["knowsLanguage"] = language_map[var["knowsLanguage"]]
+            var["identifier"] = var["identifier"] + "_var4"
+            return var, {
+                "variation_type": "language_expansion", 
+                "field_name": "knowsLanguage",
                 "original_value": original_value,
-                "varied_value": var2["personName"]
+                "varied_value": var["knowsLanguage"]
             }
     
-    # Default minimal change
-    var3 = copy.deepcopy(person)
-    var3["identifier"] = var3["identifier"] + "_var3"
-    return var3, {
-        "variation_type": "minor_change", 
-        "field_name": "personName",
-        "original_value": person["personName"],
-        "varied_value": var3["personName"]
-    }
+    # Birthday format variation (swap day/month)
+    if selected_variation == "date_format_variation":
+        var = copy.deepcopy(person)
+        original_value = var["birthDate"]
+        date_parts = var["birthDate"].split('-')
+        var["birthDate"] = f"{date_parts[0]}-{date_parts[2]}-{date_parts[1]}"
+        var["identifier"] = var["identifier"] + "_var5"
+        return var, {
+            "variation_type": "date_format_variation",
+            "field_name": "birthDate",
+            "original_value": original_value,
+            "varied_value": var["birthDate"]
+        }
 
-def replace_day_or_month(date_string, new_value, is_day=True):
-    """
-    Replace the day or month in a date string.
-
-    Parameters:
-        date_string (str): Original date string in 'YYYY-MM-DD' format.
-        new_value (str): New value for the day or month.
-        is_day (bool): If True, replace the day, otherwise replace the month.
-
-    Returns:
-        str: Modified date string.
-    """
-    parts = date_string.split('-')
-    if is_day:
-        parts[2] = new_value.zfill(2)
-    else:
-        parts[1] = new_value.zfill(2)
-    return '-'.join(parts)
-
-# Enhanced date of birth variations
-def person_dob_variation(person):
-    """Generate variations of a person's date of birth"""
-    var1 = copy.deepcopy(person)
-    original_value = var1["birthDate"]
-    var1["birthDate"] = replace_day_or_month(var1["birthDate"], '01', is_day=True)
-    var1["identifier"] = var1["identifier"] + "_var1"
-    return var1, {
-        "variation_type": "default_day", 
-        "field_name": "birthDate",
-        "original_value": original_value,
-        "varied_value": var1["birthDate"]
-    }
-
-# New variation function for organization names
+#### Organization name variations
 def organization_name_variation(organization):
-    """Generate variations of an organization name"""
-    var1 = copy.deepcopy(organization)
-    if "healthcareOrganizationName" in var1:
-        name = var1["healthcareOrganizationName"]
-        original_value = name
-        # Add/remove suffixes
-        suffixes = [" Inc.", " LLC", " Ltd.", " Group", " Center", " Associates", " & Co."]
-        if any(name.endswith(suffix) for suffix in suffixes):
-            for suffix in suffixes:
-                if name.endswith(suffix):
-                    var1["healthcareOrganizationName"] = name.replace(suffix, "")
-                    break
-        else:
-            var1["healthcareOrganizationName"] = name + random.choice(suffixes)
-        var1["identifier"] = var1["identifier"] + "_var1"
-        return var1, {
-            "variation_type": "suffix_change", 
+    """Generate variations of an organization name with balanced distribution"""
+    possible_variations = []
+    
+    # Check for possible variations
+    if "healthcareOrganizationName" in organization:
+        org_name = organization["healthcareOrganizationName"]
+        
+        # Check if name can be abbreviated (has at least 2 capital letters)
+        capitals = [c for c in org_name if c.isupper()]
+        if len(capitals) >= 2:
+            possible_variations.append("name_abbreviation")
+        
+        # Check if name has words that are long enough for typos
+        words = org_name.split()
+        if any(len(word) > 3 for word in words):
+            possible_variations.append("name_typo")
+    
+    # If no variations are possible, return with no changes
+    if not possible_variations:
+        default_var = copy.deepcopy(organization)
+        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        return default_var, {
+            "variation_type": "no_change", 
+            "field_name": "organization",
+            "original_value": str(organization),
+            "varied_value": str(default_var)
+        }
+    
+    # Select a variation randomly from the possible ones
+    selected_variation = random.choice(possible_variations)
+    
+    # Variation 1: Abbreviate the name using capital letters
+    if selected_variation == "name_abbreviation":
+        var = copy.deepcopy(organization)
+        original_name = var["healthcareOrganizationName"]
+        
+        # Identify the suffix part
+        suffixes = [" Zorg", " Gesundheitszentrum", " Tervisekeskus", " Healthcare"]
+        suffix = ""
+        main_name = original_name
+        
+        for potential_suffix in suffixes:
+            if original_name.endswith(potential_suffix):
+                suffix = potential_suffix
+                main_name = original_name[:-len(suffix)]
+                break
+                
+        # Create abbreviation from capital letters
+        capitals = [c for c in main_name if c.isupper()]
+        abbreviation = ''.join(capitals) + suffix
+        var["healthcareOrganizationName"] = abbreviation
+        var["identifier"] = var["identifier"] + "_var1"
+        return var, {
+            "variation_type": "name_abbreviation", 
             "field_name": "healthcareOrganizationName",
-            "original_value": original_value,
-            "varied_value": var1["healthcareOrganizationName"]
+            "original_value": original_name,
+            "varied_value": abbreviation
         }
-    
-    # Default minimal change if no name present
-    var2 = copy.deepcopy(organization)
-    var2["identifier"] = var2["identifier"] + "_var2"
-    return var2, {
-        "variation_type": "minor_change", 
-        "field_name": "healthcareOrganizationName",
-        "original_value": organization.get("healthcareOrganizationName", ""),
-        "varied_value": var2.get("healthcareOrganizationName", "")
-    }
+        
+    # Variation 2: Introduce typos in the name
+    if selected_variation == "name_typo":
+        var = copy.deepcopy(organization)
+        original_name = var["healthcareOrganizationName"]
+        
+        # Identify the suffix part
+        suffixes = [" Zorg", " Gesundheitszentrum", " Tervisekeskus", " Healthcare"]
+        suffix = ""
+        main_name = original_name
+        
+        for potential_suffix in suffixes:
+            if original_name.endswith(potential_suffix):
+                suffix = potential_suffix
+                main_name = original_name[:-len(suffix)]
+                break
+        
+        # Apply typos to the main part of the name only
+        words = main_name.split()
+        if words:
+            word_to_change = random.choice([w for w in words if len(w) > 3])
+            word_chars = list(word_to_change)
+            pos = random.randint(1, len(word_chars) - 2)
+            
+            # Different types of typos
+            typo_type = random.choice(["swap", "missing", "extra", "substitute"])
+            
+            if typo_type == "swap" and pos < len(word_chars) - 1:
+                word_chars[pos], word_chars[pos+1] = word_chars[pos+1], word_chars[pos]
+            elif typo_type == "missing":
+                word_chars.pop(pos)
+            elif typo_type == "extra":
+                word_chars.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
+            elif typo_type == "substitute":
+                word_chars[pos] = random.choice("abcdefghijklmnopqrstuvwxyz")
+            
+            changed_word = "".join(word_chars)
+            new_name = main_name.replace(word_to_change, changed_word, 1) + suffix
+            
+            var["healthcareOrganizationName"] = new_name
+            var["identifier"] = var["identifier"] + "_var2"
+            return var, {
+                "variation_type": "name_typo", 
+                "field_name": "healthcareOrganizationName",
+                "original_value": original_name,
+                "varied_value": new_name
+            }
 
-# New variation function for email addresses
-def email_variation(personnel):
-    """Generate variations of an email address"""
-    var1 = copy.deepcopy(personnel)
-    if "email" in var1:
-        local_part, domain = var1["email"].split('@')
-        original_value = var1["email"]
-        alt_domains = {
-            "healthcare.org": "health-care.org",
-            "hospital.com": "hospitals.com",
-            "clinic.org": "clinics.org",
-            "medical.com": "med.com",
-            "doctor.net": "dr.net",
-            "health.org": "healthcare.org"
-        }
-        if (varied_value := alt_domains.get(domain)):
-            var1["email"] = f"{local_part}@{varied_value}"
-        else:
-            # Add a location prefix to the domain
-            locations = ["us", "eu", "uk", "ca", "au"]
-            varied_value = f"{local_part}@{random.choice(locations)}.{domain}"
-            var1["email"] = varied_value
-        var1["identifier"] = var1["identifier"] + "_var1"
-        return var1, {
-            "variation_type": "domain_change", 
-            "field_name": "email",
-            "original_value": original_value,
-            "varied_value": var1["email"]
-        }
-    
-    # Default minimal change if no email present
-    var2 = copy.deepcopy(personnel)
-    var2["identifier"] = var2["identifier"] + "_var2"
-    return var2, {
-        "variation_type": "minor_change", 
-        "field_name": "email",
-        "original_value": personnel.get("email", ""),
-        "varied_value": var2.get("email", "")
-    }
-
-# New function for department name variations
+###3 department name variations
 def department_name_variation(department):
-    """Generate variations of a department name"""
-    var1 = copy.deepcopy(department)
-    if "serviceDepartmentName" in var1:
-        dept_name = var1["serviceDepartmentName"]
-        original_value = dept_name
+    """Generate variations of a department name with balanced distribution"""
+    possible_variations = []
+    
+    # Check for possible variations
+    if "serviceDepartmentName" in department:
+        dept_name = department["serviceDepartmentName"]
+        
         abbreviations = {
             "Anesthesia": "Anesth Dept",
             "Cardiovascular": "Cardio",
             "Community Health": "Comm Health",
             "Dentistry": "Dental",
             "Dermatology": "Derm",
+            "Diet Nutrition": "Diet & Nutr",
             "Emergency": "ER",
             "Endocrine": "Endo",
             "Gastroenterologic": "GI",
+            "Genetic": "Gen Med",
+            "Geriatric": "Geri",
             "Gynecologic": "GYN",
             "Hematologic": "Hema",
             "Infectious": "ID",
-            "Laboratory": "Lab",
+            "Laboratory Science": "Lab",
+            "Midwifery": "Midwife Svc",
             "Musculoskeletal": "MSK",
             "Neurologic": "Neuro",
+            "Nursing": "Nurs",
             "Obstetric": "OB",
             "Oncologic": "Onc",
             "Optometric": "Opt",
             "Otolaryngologic": "ENT",
             "Pathology": "Path",
             "Pediatric": "Peds",
+            "Pharmacy Specialty": "Pharm",
+            "Physiotherapy": "PT",
+            "Plastic Surgery": "Plastics",
+            "Podiatric": "Foot Care",
+            "Primary Care": "PCP",
             "Psychiatric": "Psych",
+            "Public Health": "Pub Health",
             "Pulmonary": "Pulm",
-            "Radiography": "Radiology",
-            "Respiratory": "Resp",
-            "Surgical": "Surgery"
+            "Radiography": "Rad",
+            "Renal": "Kidney",
+            "Respiratory Therapy": "Resp",
+            "Rheumatologic": "Rheum",
+            "Speech Pathology": "Speech",
+            "Surgical": "Surg",
+            "Toxicologic": "Tox",
+            "Urologic": "Uro"
+        }
+        
+        alternatives = {
+            "Anesthesia": "Anesthesiology Department",
+            "Cardiovascular": "Heart Center",
+            "Community Health": "Community Care Services",
+            "Dentistry": "Dental Services",
+            "Dermatology": "Skin Care Center",
+            "Diet Nutrition": "Nutritional Services",
+            "Emergency": "Emergency Services",
+            "Endocrine": "Hormone & Metabolism Center",
+            "Gastroenterologic": "Digestive Health Center",
+            "Genetic": "Medical Genetics Department",
+            "Geriatric": "Elderly Care Services",
+            "Gynecologic": "Women's Health Center",
+            "Hematologic": "Blood Disorders Clinic",
+            "Infectious": "Infection Control & Prevention",
+            "Laboratory Science": "Clinical Laboratory",
+            "Midwifery": "Midwifery & Birth Center",
+            "Musculoskeletal": "Bone & Joint Center",
+            "Neurologic": "Brain & Spine Center",
+            "Nursing": "Nursing Services",
+            "Obstetric": "Maternity Care",
+            "Oncologic": "Cancer Center",
+            "Optometric": "Vision Care Center",
+            "Otolaryngologic": "Ear, Nose & Throat",
+            "Pathology": "Diagnostic Pathology",
+            "Pediatric": "Children's Health",
+            "Pharmacy Specialty": "Clinical Pharmacy",
+            "Physiotherapy": "Physical Rehabilitation",
+            "Plastic Surgery": "Reconstructive & Cosmetic Surgery",
+            "Podiatric": "Foot & Ankle Center",
+            "Primary Care": "Family Medicine",
+            "Psychiatric": "Mental Health Services",
+            "Public Health": "Population Health Center",
+            "Pulmonary": "Lung & Breathing Center",
+            "Radiography": "Medical Imaging",
+            "Renal": "Kidney Care Center",
+            "Respiratory Therapy": "Respiratory Care Services",
+            "Rheumatologic": "Arthritis & Rheumatism Center",
+            "Speech Pathology": "Speech & Language Therapy",
+            "Surgical": "Surgical Services",
+            "Toxicologic": "Poison Control Center",
+            "Urologic": "Urology & Kidney Health"
+        }
+        
+        # Check if the department name can be abbreviated
+        for full, _ in abbreviations.items():
+            if full in dept_name:
+                possible_variations.append("department_abbreviation")
+                break
+                
+        # Check if name has an alternative
+        if dept_name in alternatives:
+            possible_variations.append("alternative_naming")
+    
+    # If no variations are possible, return with no changes
+    if not possible_variations:
+        default_var = copy.deepcopy(department)
+        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        return default_var, {
+            "variation_type": "no_change", 
+            "field_name": "department",
+            "original_value": str(department),
+            "varied_value": str(default_var)
+        }
+    
+    # Select a variation randomly from the possible ones
+    selected_variation = random.choice(possible_variations)
+    
+    # Abbreviation variation
+    if selected_variation == "department_abbreviation":
+        var = copy.deepcopy(department)
+        original_name = var["serviceDepartmentName"]
+        dept_name = var["serviceDepartmentName"]
+        abbreviations = {
+            "Anesthesia": "Anesth Dept",
+            "Cardiovascular": "Cardio",
+            "Community Health": "Comm Health",
+            "Dentistry": "Dental",
+            "Dermatology": "Derm",
+            "Diet Nutrition": "Diet & Nutr",
+            "Emergency": "ER",
+            "Endocrine": "Endo",
+            "Gastroenterologic": "GI",
+            "Genetic": "Gen Med",
+            "Geriatric": "Geri",
+            "Gynecologic": "GYN",
+            "Hematologic": "Hema",
+            "Infectious": "ID",
+            "Laboratory Science": "Lab",
+            "Midwifery": "Midwife Svc",
+            "Musculoskeletal": "MSK",
+            "Neurologic": "Neuro",
+            "Nursing": "Nurs",
+            "Obstetric": "OB",
+            "Oncologic": "Onc",
+            "Optometric": "Opt",
+            "Otolaryngologic": "ENT",
+            "Pathology": "Path",
+            "Pediatric": "Peds",
+            "Pharmacy Specialty": "Pharm",
+            "Physiotherapy": "PT",
+            "Plastic Surgery": "Plastics",
+            "Podiatric": "Foot Care",
+            "Primary Care": "PCP",
+            "Psychiatric": "Psych",
+            "Public Health": "Pub Health",
+            "Pulmonary": "Pulm",
+            "Radiography": "Rad",
+            "Renal": "Kidney",
+            "Respiratory Therapy": "Resp",
+            "Rheumatologic": "Rheum",
+            "Speech Pathology": "Speech",
+            "Surgical": "Surg",
+            "Toxicologic": "Tox",
+            "Urologic": "Uro"
         }
         
         for full, abbr in abbreviations.items():
             if full in dept_name:
-                var1["serviceDepartmentName"] = dept_name.replace(full, abbr)
-                var1["identifier"] = var1["identifier"] + "_var1"
-                return var1, {
-                    "variation_type": "abbreviation", 
+                var["serviceDepartmentName"] = dept_name.replace(full, abbr)
+                var["identifier"] = var["identifier"] + "_var1"
+                return var, {
+                    "variation_type": "department_abbreviation", 
                     "field_name": "serviceDepartmentName",
-                    "original_value": original_value,
-                    "varied_value": var1["serviceDepartmentName"]
+                    "original_value": original_name,
+                    "varied_value": var["serviceDepartmentName"]
                 }
+        
+    # Alternative naming variation
+    if selected_variation == "alternative_naming":
+        var = copy.deepcopy(department)
+        original_name = var["serviceDepartmentName"]
+        dept_name = var["serviceDepartmentName"]
+        alternatives = {
+            "Anesthesia": "Anesthesiology Department",
+            "Cardiovascular": "Heart Center",
+            "Community Health": "Community Care Services",
+            "Dentistry": "Dental Services",
+            "Dermatology": "Skin Care Center",
+            "Diet Nutrition": "Nutritional Services",
+            "Emergency": "Emergency Services",
+            "Endocrine": "Hormone & Metabolism Center",
+            "Gastroenterologic": "Digestive Health Center",
+            "Genetic": "Medical Genetics Department",
+            "Geriatric": "Elderly Care Services",
+            "Gynecologic": "Women's Health Center",
+            "Hematologic": "Blood Disorders Clinic",
+            "Infectious": "Infection Control & Prevention",
+            "Laboratory Science": "Clinical Laboratory",
+            "Midwifery": "Midwifery & Birth Center",
+            "Musculoskeletal": "Bone & Joint Center",
+            "Neurologic": "Brain & Spine Center",
+            "Nursing": "Nursing Services",
+            "Obstetric": "Maternity Care",
+            "Oncologic": "Cancer Center",
+            "Optometric": "Vision Care Center",
+            "Otolaryngologic": "Ear, Nose & Throat",
+            "Pathology": "Diagnostic Pathology",
+            "Pediatric": "Children's Health",
+            "Pharmacy Specialty": "Clinical Pharmacy",
+            "Physiotherapy": "Physical Rehabilitation",
+            "Plastic Surgery": "Reconstructive & Cosmetic Surgery",
+            "Podiatric": "Foot & Ankle Center",
+            "Primary Care": "Family Medicine",
+            "Psychiatric": "Mental Health Services",
+            "Public Health": "Population Health Center",
+            "Pulmonary": "Lung & Breathing Center",
+            "Radiography": "Medical Imaging",
+            "Renal": "Kidney Care Center",
+            "Respiratory Therapy": "Respiratory Care Services",
+            "Rheumatologic": "Arthritis & Rheumatism Center",
+            "Speech Pathology": "Speech & Language Therapy",
+            "Surgical": "Surgical Services",
+            "Toxicologic": "Poison Control Center",
+            "Urologic": "Urology & Kidney Health"
+        }
+        
+        if dept_name in alternatives:
+            var["serviceDepartmentName"] = alternatives[dept_name]
+            var["identifier"] = var["identifier"] + "_var2"
+            return var, {
+                "variation_type": "alternative_naming", 
+                "field_name": "serviceDepartmentName",
+                "original_value": original_name,
+                "varied_value": var["serviceDepartmentName"]
+            }
+
+def email_variation(entity):
+    """Generate variations of email addresses with balanced distribution"""
+    possible_variations = []
     
-    # Default minimal change if no match
-    var2 = copy.deepcopy(department)
-    var2["identifier"] = var2["identifier"] + "_var2"
-    return var2, {
-        "variation_type": "minor_change", 
-        "field_name": "serviceDepartmentName",
-        "original_value": department.get("serviceDepartmentName", ""),
-        "varied_value": var2.get("serviceDepartmentName", "")
+    # Check for possible variations
+    if "email" in entity:
+        email = entity["email"]
+        parts = email.split('@')
+        
+        if len(parts) == 2:
+            local, domain = parts
+            domain_parts = domain.split('.')
+            
+            # Check if local part is long enough for typo
+            if len(local) > 3:
+                possible_variations.append("email_typo")
+                
+            # Check if domain can be changed based on language
+            if len(domain_parts) >= 2:
+                if "availableLanguage" in entity and entity["availableLanguage"]:
+                    if (isinstance(entity["availableLanguage"], list) and 
+                        any(lang.lower() in ["nl", "de", "et"] for lang in entity["availableLanguage"])):
+                        possible_variations.append("email_domain_change_list")
+                    elif (isinstance(entity["availableLanguage"], str) and 
+                          entity["availableLanguage"].startswith("[") and
+                          any(lang.lower() in ["nl", "de", "et"] for lang in 
+                              [l.strip().strip("'\"") for l in entity["availableLanguage"].strip("[]").split(",")])):
+                        possible_variations.append("email_domain_change_str")
+    
+    # If no variations are possible, return with no changes
+    if not possible_variations:
+        default_var = copy.deepcopy(entity)
+        default_var["identifier"] = default_var["identifier"] + "_var_email"
+        return default_var, {
+            "variation_type": "no_change", 
+            "field_name": "email",
+            "original_value": entity.get("email", ""),
+            "varied_value": entity.get("email", "")
+        }
+    
+    # Select a variation randomly from the possible ones
+    selected_variation = random.choice(possible_variations)
+    
+    # Email typo variation (before @)
+    if selected_variation == "email_typo":
+        var = copy.deepcopy(entity)
+        original_email = var["email"]
+        parts = original_email.split('@')
+        local, domain = parts
+        
+        # Different types of typos
+        typo_type = random.choice(["swap", "missing", "extra", "duplicate"])
+        local_chars = list(local)
+        pos = random.randint(1, len(local_chars) - 2)
+        
+        if typo_type == "swap" and pos < len(local_chars) - 1:
+            local_chars[pos], local_chars[pos+1] = local_chars[pos+1], local_chars[pos]
+        elif typo_type == "missing":
+            local_chars.pop(pos)
+        elif typo_type == "extra":
+            local_chars.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
+        elif typo_type == "duplicate":
+            local_chars.insert(pos, local_chars[pos])
+        
+        var["email"] = f"{''.join(local_chars)}@{domain}"
+        var["identifier"] = var["identifier"] + "_var1"
+        return var, {
+            "variation_type": "email_typo", 
+            "field_name": "email",
+            "original_value": original_email,
+            "varied_value": var["email"]
+        }
+    
+    # Domain suffix change based on language list
+    if selected_variation == "email_domain_change_list":
+        var = copy.deepcopy(entity)
+        original_email = var["email"]
+        parts = original_email.split('@')
+        local, domain = parts
+        domain_parts = domain.split('.')
+        
+        # Get first language code from availableLanguage that matches our target languages
+        target_langs = ["nl", "de", "et"]
+        available_langs = [lang.lower() for lang in var["availableLanguage"]]
+        matching_langs = [lang for lang in available_langs if lang in target_langs]
+        
+        if matching_langs:
+            domain_parts[-1] = matching_langs[0]
+            new_domain = '.'.join(domain_parts)
+            var["email"] = f"{local}@{new_domain}"
+            var["identifier"] = var["identifier"] + "_var2"
+            return var, {
+                "variation_type": "email_domain_change", 
+                "field_name": "email",
+                "original_value": original_email,
+                "varied_value": var["email"]
+            }
+    
+    # Domain suffix change based on language string
+    if selected_variation == "email_domain_change_str":
+        var = copy.deepcopy(entity)
+        original_email = var["email"]
+        parts = original_email.split('@')
+        local, domain = parts
+        domain_parts = domain.split('.')
+        
+        # Try to extract language from string format
+        try:
+            lang_list = [l.strip().strip("'\"") for l in var["availableLanguage"].strip("[]").split(",")]
+            target_langs = ["nl", "de", "et"]
+            matching_langs = [lang.lower() for lang in lang_list if lang.lower() in target_langs]
+            
+            if matching_langs:
+                domain_parts[-1] = matching_langs[0]
+                new_domain = '.'.join(domain_parts)
+                var["email"] = f"{local}@{new_domain}"
+                var["identifier"] = var["identifier"] + "_var3"
+                return var, {
+                    "variation_type": "email_domain_change", 
+                    "field_name": "email",
+                    "original_value": original_email,
+                    "varied_value": var["email"]
+                }
+        except:
+            pass  # If parsing fails, fall through to default
+
+    # Default variation if none of the above apply
+    var_default = copy.deepcopy(entity)
+    var_default["identifier"] = var_default["identifier"] + "_var_email"
+    return var_default, {
+        "variation_type": "no_change", 
+        "field_name": "email",
+        "original_value": var_default.get("email", ""),
+        "varied_value": var_default.get("email", "")
     }
 
 def export_duplicate_registry(filename='duplicate_registry.csv'):
