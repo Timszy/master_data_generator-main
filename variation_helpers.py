@@ -2,6 +2,7 @@ import random
 import copy
 import re
 from datetime import datetime, timedelta
+from faker import Faker
 
 # Variation rate
 variation_rate_default = 0.2
@@ -58,6 +59,8 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
 
 #### Address variations
 # Updated address_variation function with balanced variation application
+fake = Faker()
+
 def address_variation(address):
     """Generate variations of an address with balanced distribution"""
     possible_variations = []
@@ -73,7 +76,7 @@ def address_variation(address):
 
     if not possible_variations:
         default_var = copy.deepcopy(address)
-        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        default_var["identifier"] = fake.uuid4()  # Generate a new UUID
         return default_var, {
             "variation_type": "no_change", 
             "field_name": "address",
@@ -92,7 +95,7 @@ def address_variation(address):
                 words[i] = words[i] + random.choice(["A", "B", "C"])
                 break
         var["text"] = " ".join(words)
-        var["identifier"] = var["identifier"] + "_var1"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "house_number_suffix", 
             "field_name": "text",
@@ -115,7 +118,7 @@ def address_variation(address):
         elif typo_type == "extra":
             city.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
         var["city"] = "".join(city)
-        var["identifier"] = var["identifier"] + "_var2"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "city_typo", 
             "field_name": "city",
@@ -128,7 +131,7 @@ def address_variation(address):
         original_country = var["country"]
         country_map = {"NL": "Netherlands", "AT": "Austria", "EE": "Estonia"}
         var["country"] = country_map[var["country"]]
-        var["identifier"] = var["identifier"] + "_var3"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "country_expansion", 
             "field_name": "country",
@@ -143,7 +146,7 @@ def address_variation(address):
             var["postalCode"] = var["postalCode"].replace(" ", "")
         else:
             var["postalCode"] = var["postalCode"] + " "
-        var["identifier"] = var["identifier"] + "_var4"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "postal_format", 
             "field_name": "postalCode",
@@ -175,7 +178,7 @@ def person_variation(person):
     # If no variations are possible, return with no changes
     if not possible_variations:
         default_var = copy.deepcopy(person)
-        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        default_var["identifier"] = fake.uuid4()  # Generate a new UUID
         return default_var, {
             "variation_type": "no_change", 
             "field_name": "person",
@@ -192,7 +195,7 @@ def person_variation(person):
         names = var["personName"].split()
         original_value = var["personName"]
         var["personName"] = ' '.join(names[::-1])
-        var["identifier"] = var["identifier"] + "_var1"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "name_swap", 
             "field_name": "personName",
@@ -207,7 +210,7 @@ def person_variation(person):
         original_value = var["personName"]
         first_initial = names[0][0] + "."
         var["personName"] = f"{first_initial} {' '.join(names[1:])}"
-        var["identifier"] = var["identifier"] + "_var2"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "abbreviated_first_name", 
             "field_name": "personName",
@@ -236,7 +239,7 @@ def person_variation(person):
         
         changed_name = "".join(name_chars)
         var["personName"] = var["personName"].replace(name_to_change, changed_name, 1)
-        var["identifier"] = var["identifier"] + "_var3"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "name_typo", 
             "field_name": "personName",
@@ -255,7 +258,7 @@ def person_variation(person):
         }
         if var["knowsLanguage"] in language_map:
             var["knowsLanguage"] = language_map[var["knowsLanguage"]]
-            var["identifier"] = var["identifier"] + "_var4"
+            var["identifier"] = fake.uuid4()  # Generate a new UUID
             return var, {
                 "variation_type": "language_expansion", 
                 "field_name": "knowsLanguage",
@@ -269,7 +272,7 @@ def person_variation(person):
         original_value = var["birthDate"]
         date_parts = var["birthDate"].split('-')
         var["birthDate"] = f"{date_parts[0]}-{date_parts[2]}-{date_parts[1]}"
-        var["identifier"] = var["identifier"] + "_var5"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "date_format_variation",
             "field_name": "birthDate",
@@ -657,7 +660,7 @@ def email_variation(entity):
     # If no variations are possible, return with no changes
     if not possible_variations:
         default_var = copy.deepcopy(entity)
-        default_var["identifier"] = default_var["identifier"] + "_var_email"
+        default_var["identifier"] = fake.uuid4()  # Generate a new UUID
         return default_var, {
             "variation_type": "no_change", 
             "field_name": "email",
@@ -690,7 +693,7 @@ def email_variation(entity):
             local_chars.insert(pos, local_chars[pos])
         
         var["email"] = f"{''.join(local_chars)}@{domain}"
-        var["identifier"] = var["identifier"] + "_var1"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "email_typo", 
             "field_name": "email",
@@ -715,7 +718,7 @@ def email_variation(entity):
             domain_parts[-1] = matching_langs[0]
             new_domain = '.'.join(domain_parts)
             var["email"] = f"{local}@{new_domain}"
-            var["identifier"] = var["identifier"] + "_var2"
+            var["identifier"] = fake.uuid4()  # Generate a new UUID
             return var, {
                 "variation_type": "email_domain_change", 
                 "field_name": "email",
@@ -741,7 +744,7 @@ def email_variation(entity):
                 domain_parts[-1] = matching_langs[0]
                 new_domain = '.'.join(domain_parts)
                 var["email"] = f"{local}@{new_domain}"
-                var["identifier"] = var["identifier"] + "_var3"
+                var["identifier"] = fake.uuid4()  # Generate a new UUID
                 return var, {
                     "variation_type": "email_domain_change", 
                     "field_name": "email",
@@ -753,7 +756,7 @@ def email_variation(entity):
 
     # Default variation if none of the above apply
     var_default = copy.deepcopy(entity)
-    var_default["identifier"] = var_default["identifier"] + "_var_email"
+    var_default["identifier"] = fake.uuid4()  # Generate a new UUID
     return var_default, {
         "variation_type": "no_change", 
         "field_name": "email",
