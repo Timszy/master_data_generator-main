@@ -106,6 +106,15 @@ def generate_organization_name(country_code):
         return fake.company() + " Tervisekeskus"
     else:
         return fake.company() + " Healthcare"
+    
+
+def generate_organization(organization_name, address, contact_point):
+    return {
+        "identifier": fake.uuid4(),
+        "healthcareOrganizationName": organization_name,
+        "address": address["identifier"],
+        "contactPoint": contact_point["identifier"]
+    }
 
 def generate_contact_point(entity_type, country_code="NL", organization_name=None, department_name=None):
     """
@@ -159,28 +168,6 @@ def generate_contact_point(entity_type, country_code="NL", organization_name=Non
     return contact_point
 
 
-addresses = []
-healthcare_organization = []
-contact_points = []
-for _ in range(10):
-    country_code = random.choice(["NL", "AT", "EE"])
-    address = generate_address(country_code)
-    addresses.append(address)
-
-    organization_name = generate_organization_name(country_code)
-
-    # Generate contact point for organization
-    contact_point = generate_contact_point("organization", country_code, organization_name)
-    contact_points.append(contact_point)
-    
-    healthcare_organization.append({
-        "identifier": fake.uuid4(),
-        "healthcareOrganizationName": organization_name,
-        "address": address["identifier"],
-        "contactPoint": contact_point["identifier"]
-    })
-
-service_department = []
 # Predefined list of medical department names
 medical_departments = [
     "Anesthesia",
@@ -225,6 +212,41 @@ medical_departments = [
     "Toxicologic",
     "Urologic"
 ]
+
+def generate_service_department(organization):
+    """
+    Generate a single service department for a healthcare organization
+    
+    Parameters:
+        organization: Dictionary containing the healthcare organization data
+    
+    Returns:
+        A dictionary containing the service department data
+    """
+    # Find the organization's address identifier
+    org_address_id = organization["address"]
+    org_country = next((a["country"] for a in addresses if a["identifier"] == org_address_id), "NL")
+    
+    # Select a department name
+    department_name = random.choice(medical_departments)
+    
+    # Generate a related address for the department
+    dept_address = generate_related_address(org_address_id, org_country)
+    addresses.append(dept_address)  # Add this new address to our addresses list
+    
+    # Generate contact point for department
+    contact_point = generate_contact_point("department", org_country, organization["healthcareOrganizationName"], department_name)
+    contact_points.append(contact_point)
+
+    department = {
+        "identifier": fake.uuid4(),
+        "serviceDepartmentName": department_name,
+        "address": dept_address["identifier"],  # Use the new related address
+        "isPartOf": organization["identifier"],
+        "contactPoint": contact_point["identifier"]
+    }
+    
+    return department
 
 # Create a dictionary to map departments to relevant job titles
 department_job_titles = {
@@ -271,6 +293,74 @@ department_job_titles = {
     "Urologic": ["Urologist", "Urology Nurse", "Urodynamics Technician"]
 }
 
+
+def generate_healthcare_personnel(organization, department):
+    """
+    Generate a single healthcare personnel record with associated person record
+    
+    Parameters:
+        organization: Dictionary containing the healthcare organization data
+        department: Dictionary containing the service department data
+    
+    Returns:
+        Tuple of (person_dict, personnel_dict) - the created person and personnel records
+    """
+    department_name = department["serviceDepartmentName"]
+    
+    # Select an appropriate job title based on the department
+    job_titles = department_job_titles.get(department_name, ["Healthcare Specialist", "Medical Professional"])
+    job_title = random.choice(job_titles)
+    
+    person_name = fake.name()
+    email_local_part = person_name.lower().replace(" ", "").replace(".", "").replace("'", "")
+    email_address = f"{email_local_part}@healthcare.org"
+
+    # Create person record
+    person = {
+        "identifier": fake.uuid4(),
+        "personName": person_name,
+        "birthDate": fake.date_of_birth(minimum_age=25, maximum_age=65).isoformat(),
+        "gender": random.choice(["Male", "Female", "Other"]),
+        "knowsLanguage": random.choice(["nl", "de", "et"])
+    }
+
+    # Create personnel record
+    personnel = {
+        "identifier": person["identifier"],
+        "institution": organization["identifier"],
+        "department": department["identifier"],
+        "jobTitle": job_title,
+        "email": email_address
+    }
+    
+    return person, personnel
+#################################################################################################################
+#################################################################################################################
+###### Start of data generation ######
+#################################################################################################################
+#################################################################################################################
+addresses = []
+healthcare_organization = []
+contact_points = []
+for _ in range(10):
+    country_code = random.choice(["NL", "AT", "EE"])
+    address = generate_address(country_code)
+    addresses.append(address)
+
+    organization_name = generate_organization_name(country_code)
+
+    # Generate contact point for organization
+    contact_point = generate_contact_point("organization", country_code, organization_name)
+    contact_points.append(contact_point)
+    organization = generate_organization(organization_name, address, contact_point)
+    healthcare_organization.append(organization)
+
+service_department = []
+
+
+
+
+
 # Dictionary to store the departments by organization
 org_departments = {}
 
@@ -278,27 +368,8 @@ org_departments = {}
 for org in healthcare_organization:
     org_departments[org["identifier"]] = []
     # Find the organization's address identifier
-    org_address_id = org["address"]
-    org_country = next((a["country"] for a in addresses if a["identifier"] == org_address_id), "NL")
-    
     for _ in range(random.randint(3, 5)):  # Each org has 3-5 departments
-        department_name = random.choice(medical_departments)
-        
-        # Generate a related address for the department
-        dept_address = generate_related_address(org_address_id, org_country)
-        addresses.append(dept_address)  # Add this new address to our addresses list
-        
-        # Generate contact point for department
-        contact_point = generate_contact_point("department", org_country, org["healthcareOrganizationName"], department_name)
-        contact_points.append(contact_point)
-
-        department = {
-            "identifier": fake.uuid4(),
-            "serviceDepartmentName": department_name,
-            "address": dept_address["identifier"],  # Use the new related address
-            "isPartOf": org["identifier"],
-            "contactPoint": contact_point["identifier"]
-        }
+        department = generate_service_department(org)
         service_department.append(department)
         org_departments[org["identifier"]].append(department)
 
@@ -322,32 +393,8 @@ for org in healthcare_organization:
         
         # Add exactly 2 personnel to each department first
         for _ in range(2):
-            # Select an appropriate job title based on the department
-            job_titles = department_job_titles.get(department_name, ["Healthcare Specialist", "Medical Professional"])
-            job_title = random.choice(job_titles)
-            
-            person_name = fake.name()
-            email_local_part = person_name.lower().replace(" ", "").replace(".", "").replace("'", "")
-            email_address = f"{email_local_part}@healthcare.org"
-
-            # Create person record
-            person = {
-                "identifier": fake.uuid4(),
-                "personName": person_name,
-                "birthDate": fake.date_of_birth(minimum_age=25, maximum_age=65).isoformat(),
-                "gender": random.choice(["Male", "Female", "Other"]),
-                "knowsLanguage": random.choice(["nl", "de", "et"])
-            }
+            person, personnel = generate_healthcare_personnel(org, department)
             persons.append(person)
-
-            # Create personnel record
-            personnel = {
-                "identifier": person["identifier"],
-                "institution": org["identifier"],
-                "department": department["identifier"],
-                "jobTitle": job_title,
-                "email": email_address
-            }
             healthcare_personnel.append(personnel)
             current_personnel_count += 1
     
@@ -357,31 +404,9 @@ for org in healthcare_organization:
         department = random.choice(org_departments[org["identifier"]])
         department_name = department["serviceDepartmentName"]
         
-        # Select job title and create person/personnel records (same as above)
-        job_titles = department_job_titles.get(department_name, ["Healthcare Specialist", "Medical Professional"])
-        job_title = random.choice(job_titles)
-        
-        person_name = fake.name()
-        email_local_part = person_name.lower().replace(" ", "").replace(".", "").replace("'", "")
-        email_address = f"{email_local_part}@healthcare.org"
-
-        person = {
-            "identifier": fake.uuid4(),
-            "personName": person_name,
-            "birthDate": fake.date_of_birth(minimum_age=25, maximum_age=65).isoformat(),
-            "gender": random.choice(["Male", "Female", "Other"]),
-            "knowsLanguage": random.choice(["nl", "de", "et"])
-        }
+        person, personnel = generate_healthcare_personnel(org, department)
         persons.append(person)
-
-        personnel = {
-            "identifier": person["identifier"],
-            "institution": org["identifier"],
-            "department": department["identifier"],
-            "jobTitle": job_title,
-            "email": email_address
-        }
-        healthcare_personnel.append(personnel)
+        healthcare_personnel.append(personnel)       
         current_personnel_count += 1
 
 
@@ -392,6 +417,11 @@ store_table_as_csv(service_department, 'ServiceDepartment.csv')
 store_table_as_csv(contact_points, 'ContactPoint.csv')
 store_table_as_csv(healthcare_personnel, 'HealthcarePersonnel.csv')
 store_table_as_csv(persons, 'Person.csv')
+
+
+#################################################################################################################
+####################################################Original Data stored#########################################
+
 
 # Apply variations with explicit entity type registration
 dupe_addresses = introduce_variations(addresses, address_variation, variation_rate=0.2, entity_type='Address')

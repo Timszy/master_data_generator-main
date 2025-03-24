@@ -333,7 +333,7 @@ def organization_name_variation(organization):
         capitals = [c for c in main_name if c.isupper()]
         abbreviation = ''.join(capitals) + suffix
         var["healthcareOrganizationName"] = abbreviation
-        var["identifier"] = var["identifier"] + "_var1"
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
         return var, {
             "variation_type": "name_abbreviation", 
             "field_name": "healthcareOrganizationName",
@@ -380,7 +380,7 @@ def organization_name_variation(organization):
             new_name = main_name.replace(word_to_change, changed_word, 1) + suffix
             
             var["healthcareOrganizationName"] = new_name
-            var["identifier"] = var["identifier"] + "_var2"
+            var["identifier"] = fake.uuid4()  # Generate a new UUID
             return var, {
                 "variation_type": "name_typo", 
                 "field_name": "healthcareOrganizationName",
@@ -498,7 +498,7 @@ def department_name_variation(department):
     # If no variations are possible, return with no changes
     if not possible_variations:
         default_var = copy.deepcopy(department)
-        default_var["identifier"] = default_var["identifier"] + "_var_default"
+        default_var["identifier"] = fake.uuid4()  # Generate a new UUID
         return default_var, {
             "variation_type": "no_change", 
             "field_name": "department",
@@ -561,7 +561,7 @@ def department_name_variation(department):
         for full, abbr in abbreviations.items():
             if full in dept_name:
                 var["serviceDepartmentName"] = dept_name.replace(full, abbr)
-                var["identifier"] = var["identifier"] + "_var1"
+                var["identifier"] = fake.uuid4()  # Generate a new UUID
                 return var, {
                     "variation_type": "department_abbreviation", 
                     "field_name": "serviceDepartmentName",
@@ -620,7 +620,7 @@ def department_name_variation(department):
         
         if dept_name in alternatives:
             var["serviceDepartmentName"] = alternatives[dept_name]
-            var["identifier"] = var["identifier"] + "_var2"
+            var["identifier"] = fake.uuid4()  # Generate a new UUID
             return var, {
                 "variation_type": "alternative_naming", 
                 "field_name": "serviceDepartmentName",
