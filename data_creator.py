@@ -342,6 +342,9 @@ def generate_healthcare_personnel(organization, department):
 addresses = []
 healthcare_organization = []
 contact_points = []
+service_department = []
+healthcare_personnel = []
+persons = []
 for _ in range(10):
     country_code = random.choice(["NL", "AT", "EE"])
     address = generate_address(country_code)
@@ -355,15 +358,8 @@ for _ in range(10):
     organization = generate_organization(organization_name, address, contact_point)
     healthcare_organization.append(organization)
 
-service_department = []
-
-
-
-
-
 # Dictionary to store the departments by organization
 org_departments = {}
-
 # Generate data for ServiceDepartment and organize by institution
 for org in healthcare_organization:
     org_departments[org["identifier"]] = []
@@ -372,10 +368,6 @@ for org in healthcare_organization:
         department = generate_service_department(org)
         service_department.append(department)
         org_departments[org["identifier"]].append(department)
-
-# Generate data for HealthcarePersonnel and Person
-healthcare_personnel = []
-persons = []
 
 # Generate personnel for each organization
 for org in healthcare_organization:
