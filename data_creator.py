@@ -1,6 +1,5 @@
 from faker import Faker
 import random
-from variation_helpers import introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation
 from helpers import store_table_as_csv
 
 
@@ -345,7 +344,7 @@ contact_points = []
 service_department = []
 healthcare_personnel = []
 persons = []
-for _ in range(10):
+for _ in range(50):
     country_code = random.choice(["NL", "AT", "EE"])
     address = generate_address(country_code)
     addresses.append(address)
@@ -364,7 +363,7 @@ org_departments = {}
 for org in healthcare_organization:
     org_departments[org["identifier"]] = []
     # Find the organization's address identifier
-    for _ in range(random.randint(3, 5)):  # Each org has 3-5 departments
+    for _ in range(random.randint(5, 10)):  # Each org has 5-10 departments
         department = generate_service_department(org)
         service_department.append(department)
         org_departments[org["identifier"]].append(department)
@@ -376,7 +375,7 @@ for org in healthcare_organization:
         continue
         
     # Define target personnel count for this organization
-    target_total_personnel = random.randint(10, 20)
+    target_total_personnel = random.randint(15, 40)  # Each org has 15-40 personnel
     current_personnel_count = 0
     
     # First ensure all departments have at least 2 personnel
@@ -414,7 +413,7 @@ store_table_as_csv(persons, 'Person.csv')
 #################################################################################################################
 ####################################################Original Data stored#########################################
 
-
+from variation_helpers import introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation
 # Apply variations with explicit entity type registration
 dupe_addresses = introduce_variations(addresses, address_variation, variation_rate=0.2, entity_type='Address')
 dupe_healthcare_organization = introduce_variations(healthcare_organization, organization_name_variation, variation_rate=0.2, entity_type='HealthcareOrganization')

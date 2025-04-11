@@ -3,6 +3,8 @@ import copy
 import re
 from datetime import datetime, timedelta
 from faker import Faker
+from deep_translator import GoogleTranslator
+import pandas as pd
 
 # Variation rate
 variation_rate_default = 0.2
@@ -390,6 +392,7 @@ def organization_name_variation(organization):
 
 ###3 department name variations
 def department_name_variation(department):
+    contact_point_df = pd.read_csv("testdata/contact_point.csv")
     """Generate variations of a department name with balanced distribution"""
     possible_variations = []
     
@@ -494,6 +497,7 @@ def department_name_variation(department):
         # Check if name has an alternative
         if dept_name in alternatives:
             possible_variations.append("alternative_naming")
+            possible_variations.append("translation")
     
     # If no variations are possible, return with no changes
     if not possible_variations:
@@ -627,6 +631,25 @@ def department_name_variation(department):
                 "original_value": original_name,
                 "varied_value": var["serviceDepartmentName"]
             }
+    # Translation variation
+    if selected_variation == "translation":
+        var = copy.deepcopy(department)
+        original_name = var["serviceDepartmentName"]
+        contactidentifier = var["identifier"]
+        contact_point = contact_point_df[contact_point_df["identifier"] == contactidentifier]
+        tranlation_language = contact_point["availableLanguage"]
+        language = tranlation_language.str.strip('[]').str.split(',').str[0]
+        translator = GoogleTranslator(source='en', target=language)
+        translated_name = translator.translate(original_name)
+        var["serviceDepartmentName"] = translated_name
+        var["identifier"] = fake.uuid4()
+        return var, {
+            "variation_type": "translation", 
+            "field_name": "serviceDepartmentName",
+            "original_value": original_name,
+            "varied_value": var["serviceDepartmentName"]
+        }
+
 
 def email_variation(entity):
     """Generate variations of email addresses with balanced distribution"""

@@ -1,49 +1,433 @@
 identifier,contactType,phone,email,availableLanguage,fax
-23a7711a-8133-4876-b7eb-dcd9e87a1613,Patient Services,321-794-8924x1157,FaulknerHoward@healthcare.org,"['de', 'en']",(259)938-7784x08016
-1beb3711-7d41-4602-aece-328bff7b118e,Administrative,384-818-5839x8947,West@healthcare.org,['de'],493-242-3209x47112
-b341facd-ff0a-40f1-a425-799aa905d750,Administrative,(315)591-7953x304,Bryan@healthcare.org,"['de', 'en']",(325)260-1230x989
-efdd35f8-0fa3-4266-8cfd-ba9bba26d851,Administrative,0869 141314,Robbins@healthcare.org,"['nl', 'en']",+3162-0870916
-aa6524ab-713b-4e05-abe2-136898c75205,Media Relations,+31(0)07 6984564,Peterson@healthcare.org,['nl'],+31(0)807 150842
-313b32b7-9836-4189-8063-e42f14aa451c,Billing,001-852-233-7696x069,HughesPerry@healthcare.org,"['et', 'en']",(271)242-7878
-6ae04d52-adb3-48cb-b315-8c0c66dd7794,Administrative,403-300-8913x19344,Monroe@healthcare.org,"['de', 'en']",661.204.7142x8512
-6f790959-a3e0-4b3b-b56b-0715e7180322,Media Relations,(782)736-9402x245,Ali@healthcare.org,['de'],001-815-490-0422x945
-564ae909-7958-4e69-bb2e-1b82e89dc815,General Inquiries,+31171-760452,EvansRodriguez@healthcare.org,"['nl', 'en']",+31(0)96 1113306
-31234efe-6e64-4043-aaa5-0f4ec6f00933,Media Relations,+3111-0873176,Richardson@healthcare.org,"['nl', 'en']",0303-921376
-ade7cef3-7ed2-4c2f-856f-3d95e0ae1a1b,Referrals,677-438-9305x55082,FaulknerHoward.Nursing@dept.healthcare.org,['de'],(294)971-1801x3204
-adb6da35-1734-426c-92e9-4e89089b30a0,Staff,291.263.4896x76993,FaulknerHoward.Podiatric@dept.healthcare.org,['de'],001-824-289-4517x4466
-b799ae8e-9a1a-4d6f-9d02-e100e3d48408,Information,225-360-9767,FaulknerHoward.Diet@dept.healthcare.org,['de'],920.309.9251x8536
-208a393e-d960-4f85-89df-7e444bdffa7d,Appointments,(241)283-0675x3751,FaulknerHoward.Otolaryngologic@dept.healthcare.org,['de'],640.389.9331x8868
-725c2675-ca95-41e4-87dc-02b1f45da406,Staff,(460)275-4151x15055,West.Renal@dept.healthcare.org,"['de', 'en']",251.692.3031
-35475c5e-f76d-4e6e-8726-d44a215203c7,Information,(657)444-8529x118,West.Public@dept.healthcare.org,"['de', 'en']",(422)235-8332x4560
-5ac4b6c7-a310-44dd-8c4b-91fe6c148fc6,Emergency,837-758-0660,West.Optometric@dept.healthcare.org,['de'],435.947.1214x189
-1624d318-a326-42e8-a1ab-17c0766229cc,Referrals,434.807.9703x4148,West.Pharmacy@dept.healthcare.org,"['de', 'en']",001-271-673-8640x140
-09135087-15d3-4ca9-986c-c8d5322f1499,Appointments,344-885-1832,West.Optometric@dept.healthcare.org,['de'],648-929-8381x6864
-79009c61-a1d2-4ebc-9aa3-892a4c88b9d8,Information,001-263-577-8570x7427,Bryan.Speech@dept.healthcare.org,"['de', 'en']",2577608116
-75fd3537-6f1b-4d07-9aff-71ae30f2c485,Appointments,001-456-525-6627x285,Bryan.Cardiovascular@dept.healthcare.org,['de'],(975)566-7633
-9c5c11eb-3baa-47f9-ac62-3ac3ad7027cf,Emergency,991-984-5670x8869,Bryan.Dermatology@dept.healthcare.org,['de'],273-454-0002x504
-51abf5e5-cb77-4e24-95eb-3a3de2014a45,Information,+31875-408035,Robbins.Respiratory@dept.healthcare.org,['nl'],+31385 334448
-eaca3811-0c26-45d9-b02d-c88ab97fb3bb,Emergency,+31(0)77-7111312,Robbins.Primary@dept.healthcare.org,['nl'],+31(0)37-9168602
-4bf0ae53-b608-4c97-b380-dcfcc9fe6036,Emergency,(0897)-844301,Robbins.Oncologic@dept.healthcare.org,"['nl', 'en']",+3126 3340886
-d4f0d65d-bd68-47b6-b8b8-0611483c1a4e,Appointments,(018) 4535749,Robbins.Physiotherapy@dept.healthcare.org,['nl'],+31(0)20 8855902
-f8247e70-b219-4ff3-846a-c0d691ca9f9e,Referrals,(0323) 659927,Peterson.Neurologic@dept.healthcare.org,['nl'],+3190 8957740
-b4134208-66df-4b1e-9ab3-cc27232f8c5b,Referrals,(0546) 030535,Peterson.Genetic@dept.healthcare.org,"['nl', 'en']",(0345)-240598
-d22a3a62-1109-4978-93a0-81a6a7647989,Staff,056 2376254,Peterson.Pulmonary@dept.healthcare.org,"['nl', 'en']",+31(0)56 6064887
-b3191702-bb80-498d-970d-a545839137a6,Staff,+31(0)153 230282,Peterson.Infectious@dept.healthcare.org,"['nl', 'en']",+31691 972990
-298b7e5d-5b16-44ad-81e7-74de3c740119,Information,001-665-247-6048x4870,HughesPerry.Infectious@dept.healthcare.org,"['et', 'en']",661.565.7004x049
-960da788-3e1e-465d-acad-bb86f16f1487,Staff,+1-685-722-5090x92554,HughesPerry.Rheumatologic@dept.healthcare.org,"['et', 'en']",969.662.0290x7250
-cbf1f93c-a1d3-4772-8101-1c5bf110397a,Emergency,+1-696-664-4406,HughesPerry.Diet@dept.healthcare.org,['et'],+1-488-855-3620
-a0b87e45-5abe-4113-a183-2fdb31cb5e8e,Information,001-570-939-3426x197,HughesPerry.Psychiatric@dept.healthcare.org,"['et', 'en']",313.627.1664x46595
-d2928f4b-e151-4a0d-b275-16ea63a6aae9,Information,2978592945,Monroe.Physiotherapy@dept.healthcare.org,"['de', 'en']",982.201.9550x1318
-2462c274-abbf-46c7-a80a-ee2a466bd06f,Appointments,+1-226-848-0222x708,Monroe.Radiography@dept.healthcare.org,"['de', 'en']",(659)711-8243
-95e38180-a1ee-491a-89e1-c3b0271f2772,Emergency,(980)451-3793,Monroe.Emergency@dept.healthcare.org,"['de', 'en']",001-352-878-0818x501
-20068c1c-bbd7-43b3-aebe-d37d05d156b6,Appointments,2594306046,Monroe.Pharmacy@dept.healthcare.org,['de'],(816)407-5994x497
-a747795e-b0c9-42af-9db3-1510675d0855,Staff,8576877108,Ali.Hematologic@dept.healthcare.org,"['de', 'en']",4816155170
-540988e7-9fed-4060-af23-d4afe0ff58a5,Emergency,5767033452,Ali.Genetic@dept.healthcare.org,['de'],226.475.9269
-ecf150e6-c6f1-49c7-8c15-a57509c64c1d,Appointments,799-522-6066,Ali.Optometric@dept.healthcare.org,"['de', 'en']",(758)338-6126
-ff7acd86-409b-4c5b-95e8-b89c11ab249d,Referrals,0858-099734,EvansRodriguez.Public@dept.healthcare.org,['nl'],095 6180260
-eb1d1061-9717-4a6e-a8b4-d5b9693d993c,Information,081-5525780,EvansRodriguez.Infectious@dept.healthcare.org,"['nl', 'en']",(0429) 546048
-93a25c9b-6e3a-42d7-87fe-6a4e2a6f1e47,Appointments,+31(0)711-688222,EvansRodriguez.Hematologic@dept.healthcare.org,['nl'],(0230) 827594
-25033a3e-b1f5-47d0-887b-4cca54f02dc4,Referrals,+31(0)843-656784,Richardson.Respiratory@dept.healthcare.org,['nl'],+31(0)61-2209981
-e4751694-1d8a-41a9-82af-33820938ad77,Staff,+3175-1759473,Richardson.Pharmacy@dept.healthcare.org,['nl'],+31(0)88 1820286
-edf2a720-6003-4713-aa8f-d23d0dbc321b,Referrals,+31965 387079,Richardson.Nursing@dept.healthcare.org,['nl'],+3148 7867423
-3aca43f2-7b77-4bf2-83f9-8cbd179d221d,Emergency,+3142 5120298,Richardson.Dentistry@dept.healthcare.org,"['nl', 'en']",(0006) 897178
+23a7711a-8133-4876-b7eb-dcd9e87a1613,Administrative,021-9489241,FaulknerHoward@healthcare.org,"['nl', 'en']",+31578 156593
+ded733e8-b421-4aeb-9340-97cabaf3897a,Patient Services,+31393 328711,Smith@healthcare.org,"['nl', 'en']",+31871-484185
+adc0da7a-16fe-4aa0-91af-923d79fdef7c,Patient Services,001-622-901-8684x83396,Johnson@healthcare.org,"['de', 'en']",351.559.1795x3304
+1ea45cd6-9371-471f-9480-865f9b38fe80,General Inquiries,+31(0)151-090321,Guzman@healthcare.org,['nl'],(030)-0869141
+eb21a3f6-e6fd-48e8-969c-91c278601602,Administrative,001-323-902-2584,GonzalezHoward@healthcare.org,['et'],+1-920-376-9845x64280
+14aa451c-a69c-4b85-9432-f8db6a174c1c,Administrative,8932523376,Nash@healthcare.org,"['et', 'en']",(296)202-7142x7878
+6ae04d52-adb3-48cb-b315-8c0c66dd7794,Patient Services,+31030-089131,Monroe@healthcare.org,"['nl', 'en']",(0442) 176104
+f24dfdd8-5091-4bdc-8ef0-66d44279b14d,Billing,(690)297-7658x236,Williams@healthcare.org,"['de', 'en']",(224)255-5159
+d5e73e3f-6736-47d9-8d7b-d307122411e6,Media Relations,846-211-8775x51717,Parker@healthcare.org,"['et', 'en']",252-329-6111x3306
+b3b68b57-da54-4267-9d13-8266d26d5396,Administrative,2875317643,Waters@healthcare.org,['de'],+1-421-837-6582x197
+bf3df0bb-f66a-4168-b4a1-ca795718ada2,General Inquiries,+31508-249269,Daniels@healthcare.org,['nl'],071-1801320
+fd938adc-99a2-4cb1-8202-387b849b8a44,Patient Services,563-248-9676,Shaw@healthcare.org,"['de', 'en']",+1-802-248-9451x74466
+775e0ec3-9c9d-43f3-8901-8aee69407be7,Media Relations,(770)517-2009x9251,Love@healthcare.org,"['et', 'en']",(671)309-7951x9426
+f1dd50bf-06d2-4d7c-a6ac-9d8a4160ff92,Media Relations,899.333.1886x84126,Jones@healthcare.org,"['de', 'en']",861-216-2076
+98ba0f0e-120d-4126-9da5-3b38d1aa6c5e,Administrative,+31(0)303 104509,BaileySmith@healthcare.org,"['nl', 'en']",(022) 7175420
+82221345-50de-4292-b90a-9016cdec85da,Administrative,(032) 4560290,Parker@healthcare.org,['nl'],+31(0)112-648629
+f3cc9d8a-4b16-48e4-9f20-f4063438b4e4,Patient Services,(012)-1418927,HaydenValenzuela@healthcare.org,['nl'],+31(0)266-237582
+8b92c247-4d18-4103-a100-ed14fa92cd28,General Inquiries,+31(0)671 738640,SmithEvans@healthcare.org,"['nl', 'en']",+3140 0468967
+116e8a64-29de-4984-8312-77fdeb83af16,General Inquiries,(644)982-9838x16864,WilsonVillarreal@healthcare.org,"['de', 'en']",(692)721-1669x728
+9f032cdc-e328-46d3-8d6a-78b07eda9ab9,Billing,805.276.0811,Wallace@healthcare.org,"['de', 'en']",(301)890-4432x943
+638d521a-fbc5-4e92-8a12-09ad596305b3,General Inquiries,+31(0)76-3373906,AndersonLozano@healthcare.org,"['nl', 'en']",031 2502394
+b440ffe0-4137-40e2-bd7d-e1f57460d20d,Administrative,335.840.0025x0402,Blevins@healthcare.org,"['de', 'en']",+1-739-968-3735x91915
+df39ccaa-580c-49fc-bb69-e69041300879,Administrative,001-930-948-1077x706,Daniel@healthcare.org,['et'],811.813.1263x791
+8397d412-7118-4b71-8707-e77b4bf0ae53,Patient Services,+1-578-544-3019x126,Lam@healthcare.org,"['et', 'en']",608-586-0164x1953
+a2834536-95de-4d6e-9df2-e07353f04099,Administrative,9265228123,Pacheco@healthcare.org,['et'],323.265.9927
+b4134208-66df-4b1e-9ab3-cc27232f8c5b,Billing,(0546) 030535,Castillo@healthcare.org,"['nl', 'en']",(0345)-240598
+ec071cf1-e476-48ec-a2c7-1d046c32faff,Administrative,(0762) 542566,Murphy@healthcare.org,['nl'],0648 870916
+c9a57cd1-be28-48c5-ab39-5c4ee575ae93,Media Relations,+1-782-816-9197x29904,Wright@healthcare.org,['et'],7074154273
+afd4fc7b-ef20-4346-832f-b3088d56206d,General Inquiries,076 1657004,MaddenMejia@healthcare.org,['nl'],049 4388564
+5cfa38b1-5836-48ee-b3ca-5f6427fa8b8a,General Inquiries,045-7696202,Richards@healthcare.org,['nl'],072 5074931
+6dbf859c-037d-4752-88f3-531c4fb7c3bb,Administrative,001-844-788-8553x62082,Hogan@healthcare.org,"['de', 'en']",908.269.3058x235
+30331476-f53f-43dd-99b5-3b7fb47a5dce,Patient Services,(771)366-4465,ShieldsJacobson@healthcare.org,['de'],707-404-3666x6097
+789a2829-8a66-4359-abe0-a1771c5e1698,General Inquiries,4508562462,WardJones@healthcare.org,['de'],780-322-2708x0862
+09e1c3b0-271f-4772-8d7f-7ba572e6316e,General Inquiries,+1-492-780-5137x9378,Walls@healthcare.org,"['de', 'en']",+1-727-980-8185x0116
+4fae667b-b2e7-4e77-8fe1-cedfa5387901,Media Relations,(609)925-1607x5994,BlackwellLee@healthcare.org,"['et', 'en']",(420)874-3615x11050
+1880fa4b-840f-4b0b-a5e3-27af071dade6,Administrative,255-217-0284,GibbsGarrison@healthcare.org,['et'],(852)282-2223x9507
+63d0fccd-afdb-4e0b-8171-6f1d956a2f20,General Inquiries,001-422-400-5800x019,Taylor@healthcare.org,"['et', 'en']",+1-360-466-9532x58386
+e291f5e1-469f-4269-bf7a-cd86409b3c5b,Media Relations,258.409.9734x09561,SandersPerkins@healthcare.org,['et'],001-760-966-6179x722
+2d492ca2-41f4-417d-b514-1524e08c28eb,Administrative,+31460-486064,MccoyMolina@healthcare.org,"['nl', 'en']",+31(0)352-219520
+d1a8d7b0-22b3-4e34-867a-4ac9079be4e5,Billing,(059)-4516425,Hernandez@healthcare.org,"['nl', 'en']",+31826-843656
+83719849-fb52-44d9-9a66-d48da4f0d9c2,Administrative,+3149 2610015,Rodriguez@healthcare.org,['nl'],(051)-7594732
+96625aa1-056b-465f-839d-dd7467af36d9,Media Relations,+31(0)627 906196,Ortiz@healthcare.org,['nl'],+31387-079148
+68f49b51-f3fa-4613-90ed-41f464aba3f6,Media Relations,+31473 142512,Bryant@healthcare.org,['nl'],029 8300689
+5ad8712d-7ee1-42a3-824b-fe48398071b1,Patient Services,951.714.9635x62343,Perez@healthcare.org,"['de', 'en']",669-721-6587x3556
+6382f3b5-f9ad-48c5-a247-b40dae5ceb3d,Media Relations,(0879)-936847,Lopez@healthcare.org,['nl'],(058) 0175636
+1dd26234-2131-44bd-8127-5a6388da091b,General Inquiries,+1-493-517-3089x618,Diaz@healthcare.org,['de'],666.270.6360
+3503c56e-6100-4dbd-a2ca-9fe8a8aa7d13,Patient Services,001-953-368-8181,Garcia@healthcare.org,['et'],777.527.8526x46198
+70df67b9-3a6f-46fa-a418-13ef799fde33,General Inquiries,057-9281348,Jordan@healthcare.org,"['nl', 'en']",+3102 5059276
+952b750d-9830-449d-99ef-bb41b66b6b0b,Patient Services,(529)279-3970x37958,Lopez@healthcare.org,['de'],8026379318
+27e08e2f-c06b-4d38-9d01-0478c110412c,Media Relations,(878)535-0063x1699,Stewart@healthcare.org,['de'],+1-202-587-4688x1197
+833cf90f-f555-4628-9d15-3fb4968051b7,Staff,+3127-4197436,FaulknerHoward.Obstetric@dept.healthcare.org,['nl'],+31(0)853-941025
+ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,Appointments,+31(0)201 630446,FaulknerHoward.Infectious@dept.healthcare.org,"['nl', 'en']",+3154 5938805
+f48ef9a8-6aeb-4a32-8fad-725d9d0b6f5e,Appointments,+31491 819270,FaulknerHoward.Emergency@dept.healthcare.org,"['nl', 'en']",(051) 8323639
+20e30a4d-fbce-4cd0-9050-f32cd4062cce,Emergency,0801-545019,FaulknerHoward.Emergency@dept.healthcare.org,['nl'],0412 438857
+080638c9-4967-49fb-b2e0-2961ac73189c,Information,0041 558403,FaulknerHoward.Infectious@dept.healthcare.org,['nl'],+31(0)490 664934
+623a35ae-7a31-427c-8ed4-dd7cb4ca0142,Staff,0314 122705,Smith.Psychiatric@dept.healthcare.org,"['nl', 'en']",+31(0)18-3744667
+8d3ac4b9-2fb0-4074-a532-3fd3c9f35bf8,Staff,0802-362382,Smith.Oncologic@dept.healthcare.org,['nl'],+31(0)38 4073062
+14ed05bd-e4d0-4ebe-9335-914ce62ce6a3,Staff,0367 465641,Smith.Speech@dept.healthcare.org,"['nl', 'en']",+31(0)93 3008173
+4c1f59df-f6b4-460b-9466-c7725df5672b,Appointments,0207-396574,Smith.Musculoskeletal@dept.healthcare.org,['nl'],(0274)-559669
+98ecdbc6-cec7-490b-a3e8-6d638278e1e5,Appointments,(054)-6478034,Smith.Endocrine@dept.healthcare.org,['nl'],(0103)-914032
+2adfd824-edae-4c39-aa9e-062a9b89bf0d,Staff,036-7551961,Smith.Anesthesia@dept.healthcare.org,['nl'],0209 845363
+6fa68010-0ddd-49b7-80b4-25aae7eb533c,Emergency,028 1645930,Smith.Otolaryngologic@dept.healthcare.org,['nl'],+31254-779541
+205bf9e7-c42b-43fa-ab4d-e9deec7b009c,Appointments,+3191 2741644,Smith.Renal@dept.healthcare.org,"['nl', 'en']",+3158 8100902
+39a11816-fc7a-4d95-bfdf-8a9e9446d493,Information,6368009628,Johnson.Endocrine@dept.healthcare.org,['de'],(980)678-2823x9219
+d527b331-240e-46c1-85cf-255f278db4f6,Appointments,001-682-915-0525x91153,Johnson.Renal@dept.healthcare.org,"['de', 'en']",877-388-1157x66878
+aa0cc327-1daa-42fc-90b1-5e3da5005582,Appointments,784-994-5769,Johnson.Hematologic@dept.healthcare.org,"['de', 'en']",353.780.6558x03917
+7baf204d-7c6d-44a8-84ee-50715745ef5a,Staff,001-960-537-5207x82649,Johnson.Nursing@dept.healthcare.org,"['de', 'en']",7798929759
+3de674fe-f66b-42a9-8142-452b361c57ab,Referrals,+1-795-573-9592,Johnson.Renal@dept.healthcare.org,"['de', 'en']",(548)428-9177
+681e5658-d813-470f-9a9c-60b533b887d3,Emergency,800-733-9287x14847,Johnson.Genetic@dept.healthcare.org,"['de', 'en']",+1-960-710-5249x87486
+188417d8-fe9f-4ff6-98bc-2c7ad112460c,Staff,001-430-501-4196,Johnson.Pharmacy@dept.healthcare.org,['de'],442-629-3223x474
+45568d6d-bdc5-4588-90ab-9ea4c15f47ca,Referrals,294-893-0239,Johnson.Surgical@dept.healthcare.org,"['de', 'en']",(927)780-8532
+49262a13-37c6-4f46-8860-95c2f812b022,Information,+1-461-926-1918,Johnson.Plastic@dept.healthcare.org,"['de', 'en']",(764)883-2147
+08e7a744-a7f3-430f-a6e5-e2da91b92f8b,Information,097-8963736,Guzman.Plastic@dept.healthcare.org,['nl'],+31186 187203
+83615006-1981-40d4-9bf9-a793ecb9cb39,Staff,+31(0)938 989696,Guzman.Otolaryngologic@dept.healthcare.org,['nl'],0790-553037
+bcee7fb1-543c-41b5-a466-18914a3eacf0,Emergency,019-1759913,Guzman.Otolaryngologic@dept.healthcare.org,"['nl', 'en']",+31(0)630 742852
+650f1375-60fc-41e2-bcd6-35ccb9c4abb6,Emergency,027 1428397,Guzman.Radiography@dept.healthcare.org,"['nl', 'en']",+3129-2964312
+19db1d7b-1938-4096-ad3d-ffdfa5bb2389,Staff,(038)-0091749,Guzman.Midwifery@dept.healthcare.org,['nl'],0862-319827
+9ee08eef-978f-42cb-923a-817dcf86e88e,Referrals,+31(0)11 4149794,Guzman.Respiratory@dept.healthcare.org,['nl'],+31(0)01-2705546
+73f67b09-3687-42c0-85dc-1819df6316b9,Information,304-969-8825x98634,GonzalezHoward.Anesthesia@dept.healthcare.org,['et'],+1-643-844-1527x0670
+43c5f2d3-7888-4792-a155-8ec67c1ba84f,Appointments,662.797.4203x54106,GonzalezHoward.Nursing@dept.healthcare.org,"['et', 'en']",+1-835-862-1357x725
+64afbf49-3cc9-49a9-bae1-a24ea792b2b4,Emergency,+1-216-404-9244x8185,GonzalezHoward.Laboratory@dept.healthcare.org,"['et', 'en']",9156573359
+4d1df659-c736-4166-8042-e02f1d732251,Appointments,918-494-0312,GonzalezHoward.Dermatology@dept.healthcare.org,['et'],(274)327-9086
+6ceb1865-2fc3-49b9-9e36-6dc5d641ba41,Information,+1-709-669-3458x5774,GonzalezHoward.Diet@dept.healthcare.org,['et'],001-922-437-5057x94301
+030c98e8-5e24-48fa-b0dc-4769e08aec96,Emergency,893.617.2188,GonzalezHoward.Anesthesia@dept.healthcare.org,['et'],616.808.7503
+a3efb3de-c2f2-4fc1-b210-5ccda51e0bde,Emergency,001-634-976-8064x72666,GonzalezHoward.Surgical@dept.healthcare.org,['et'],+1-954-969-2506
+c696ebab-11b2-432e-a093-4e387f42af90,Emergency,829-403-2086,GonzalezHoward.Cardiovascular@dept.healthcare.org,['et'],667-648-0272x1174
+746c8933-eee6-4c71-ae16-6b743841ed43,Information,+1-648-236-1600x1504,GonzalezHoward.Anesthesia@dept.healthcare.org,['et'],4092029271
+b7b61710-793c-4d79-9d79-3750148e9fb9,Staff,282.581.2568x218,GonzalezHoward.Hematologic@dept.healthcare.org,['et'],665-585-8986
+bd966783-41ff-4f63-a4a3-b63500513063,Emergency,+1-732-521-7724x42025,Nash.Community@dept.healthcare.org,['et'],+1-318-672-4531x9356
+28c432ff-ccbc-4cbc-8743-9bed4529f10d,Information,304-415-6043x245,Nash.Infectious@dept.healthcare.org,['et'],439.799.1640x4009
+f6b1557e-55b2-4dc6-b634-dbae9e7be7ad,Referrals,(551)906-5273x690,Nash.Infectious@dept.healthcare.org,"['et', 'en']",(462)326-6734x12904
+50abc451-9af1-4456-8034-dca41eb62178,Appointments,644-869-8078x836,Nash.Physiotherapy@dept.healthcare.org,['et'],001-900-968-1400x7685
+c9cf17ba-2a51-41ea-98ee-c8cc381dce21,Referrals,+1-572-275-7274x758,Nash.Community@dept.healthcare.org,['et'],(384)768-9142x822
+5b53cd42-4d6e-458b-94b9-2ea4421f4828,Referrals,(675)605-1191,Nash.Gynecologic@dept.healthcare.org,"['et', 'en']",001-852-607-6631
+125b65b1-4483-4f58-b12b-ccf8c55f2b17,Referrals,(975)454-7532,Nash.Respiratory@dept.healthcare.org,['et'],001-353-772-1899x752
+4d6bbd5d-a64b-42d5-a889-ea843070e155,Appointments,+1-322-882-7318x4106,Nash.Physiotherapy@dept.healthcare.org,['et'],372.320.1216x914
+42c9e740-6757-4f74-8efa-d840a5946453,Information,(821)638-5715,Nash.Pharmacy@dept.healthcare.org,['et'],302.752.7331x276
+e6c22011-7b2f-44a1-9b45-d35da3328206,Staff,0409-924388,Monroe.Podiatric@dept.healthcare.org,"['nl', 'en']",+3147 2107888
+06ab5a91-d83d-424b-bcd8-d4e4b8d056c1,Appointments,(020)-1802105,Monroe.Geriatric@dept.healthcare.org,['nl'],031-0325689
+2749913f-6a37-4851-82c1-f0b0bce77742,Emergency,(0192) 544758,Monroe.Hematologic@dept.healthcare.org,"['nl', 'en']",+31(0)75-4847856
+db3d977b-d3d6-4412-bd60-bb3ebd45242f,Appointments,+31(0)273 293148,Monroe.Podiatric@dept.healthcare.org,"['nl', 'en']",+31(0)92 7173621
+a5660feb-35b9-46bd-901d-169d25ab3477,Referrals,+3151-1672598,Monroe.Plastic@dept.healthcare.org,"['nl', 'en']",(0939) 979412
+b5e2d9ff-fcb0-407f-b212-78352b4d0a93,Referrals,+31811-600356,Monroe.Infectious@dept.healthcare.org,['nl'],(056) 9151797
+9ed03a7e-cfc8-4b4e-8ab6-8ee401975d43,Appointments,+31(0)28 9571647,Monroe.Toxicologic@dept.healthcare.org,"['nl', 'en']",006-0712454
+93df0c5a-f3af-4368-adab-bbf4d9f415ff,Emergency,+31(0)16 8782652,Monroe.Gynecologic@dept.healthcare.org,['nl'],+3192-1131373
+6ef93741-721e-4596-9fa1-084f4fc076bf,Staff,(070) 8965395,Monroe.Rheumatologic@dept.healthcare.org,"['nl', 'en']",022-4315624
+3ffdd31f-91c7-4e1d-ad35-8ffc13addef2,Referrals,+31357 891229,Monroe.Oncologic@dept.healthcare.org,['nl'],074 3807100
+cec5aed2-8b9d-4bd6-988c-f5ba5f695b4e,Information,8957483940,Williams.Emergency@dept.healthcare.org,['de'],254-251-4925
+92a90fd2-b0a3-4f75-aced-e02f0114a577,Staff,381.200.1266x923,Williams.Neurologic@dept.healthcare.org,['de'],5667426056
+1e82b4bb-3335-419c-8922-4fa0365d3eed,Staff,955-442-2964x0619,Williams.Pharmacy@dept.healthcare.org,['de'],(536)862-8795x0983
+a33c8dc3-f69c-47e2-9e81-d10221968b62,Emergency,692.886.4052x08379,Williams.Gynecologic@dept.healthcare.org,"['de', 'en']",001-303-794-3514x75404
+f61d103d-f860-4014-ab3c-1658aa3042f9,Appointments,(360)380-8614x384,Williams.Obstetric@dept.healthcare.org,"['de', 'en']",568.352.2144x27438
+81b377bd-59ea-469a-a09c-93ded12ea61b,Staff,(417)667-5947,Williams.Primary@dept.healthcare.org,"['de', 'en']",5616792116
+a7486875-29bd-4604-bed2-7848c6950d85,Emergency,+1-411-789-2457x8362,Williams.Oncologic@dept.healthcare.org,"['de', 'en']",(305)321-8593
+83204469-4249-4187-a76b-94a1ecd2742d,Appointments,001-653-795-4172x017,Williams.Physiotherapy@dept.healthcare.org,['de'],870-655-3555x630
+326e1983-f6bd-46ac-8ab5-07018e6b81a3,Staff,001-553-491-3654x01746,Parker.Primary@dept.healthcare.org,['et'],001-970-620-2901x5033
+0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,Staff,+1-781-599-6776x098,Parker.Renal@dept.healthcare.org,"['et', 'en']",(994)584-6980
+725964c4-73c4-4ceb-8467-81798383818f,Emergency,794-351-6501,Parker.Hematologic@dept.healthcare.org,['et'],+1-239-900-0471
+c2324d72-03d0-4575-94bb-58bd4e8b1b51,Referrals,001-999-641-5126,Parker.Geriatric@dept.healthcare.org,"['et', 'en']",(449)232-8774x711
+81190840-8a64-44fd-8b58-46c879e32aa0,Referrals,654-695-1507x9259,Parker.Radiography@dept.healthcare.org,"['et', 'en']",207.723.5310x6769
+231e58b0-1acd-4824-83ab-4db80e45aea5,Information,9047689415,Parker.Radiography@dept.healthcare.org,['et'],553-308-3780x650
+f421e7e0-5c56-4c5c-89d2-30412c05fec3,Appointments,+1-245-243-6001x29592,Parker.Rheumatologic@dept.healthcare.org,"['et', 'en']",+1-829-821-2282
+5ef70581-af71-44ae-ad1c-4859931e0d80,Staff,(416)335-9423x829,Parker.Public@dept.healthcare.org,"['et', 'en']",899-889-1925x47472
+d1bfe226-5a11-491c-a997-c463de8d4a69,Staff,(563)232-9796,Waters.Public@dept.healthcare.org,"['de', 'en']",(820)276-9106x493
+4f5a41c7-0fa0-4b35-a7b1-13deedeeefbd,Information,(825)518-9729,Waters.Surgical@dept.healthcare.org,['de'],001-224-907-5758x349
+cbce125b-da1c-4162-b87e-3cae01b62820,Referrals,+1-962-449-8326x975,Waters.Hematologic@dept.healthcare.org,"['de', 'en']",6968654247
+86d26605-33d6-4c61-a8f8-a67abdf76a13,Appointments,461-244-2234x2253,Waters.Radiography@dept.healthcare.org,['de'],724-394-4204
+cd1fe22d-965d-4317-ab5e-68c2e3d86d14,Appointments,416.261.9485,Waters.Public@dept.healthcare.org,"['de', 'en']",8263505589
+35331bc5-5abd-452e-a300-47d0085d7943,Appointments,(891)563-5112x43236,Waters.Radiography@dept.healthcare.org,"['de', 'en']",708.746.3819
+53ec7d88-1994-49c4-8995-e98cc82dd858,Referrals,519-441-3491x16725,Waters.Psychiatric@dept.healthcare.org,"['de', 'en']",520.890.7788
+7a9f3f59-c92c-463c-8309-28ae79dac846,Information,(0729) 396564,Daniels.Podiatric@dept.healthcare.org,['nl'],+31(0)229-871395
+6d2b0123-08f2-4c96-90a7-76b05c3e5d9b,Referrals,0980 006947,Daniels.Genetic@dept.healthcare.org,"['nl', 'en']",+31086-164050
+08cf9fa6-8a68-417b-811e-95c392a55f24,Staff,(0996) 411212,Daniels.Surgical@dept.healthcare.org,['nl'],(037) 9463088
+df539ccb-6f1a-4171-a7ca-44921e51f22a,Appointments,(064)-9380862,Daniels.Dermatology@dept.healthcare.org,"['nl', 'en']",(092)-0469779
+4dc0500f-b917-431e-b683-c8ecd34f0013,Staff,(086) 4465531,Daniels.Pharmacy@dept.healthcare.org,['nl'],043-1368253
+2aa8ac45-fc22-453f-98c4-07a8adfd429f,Referrals,+3184 4066309,Daniels.Dermatology@dept.healthcare.org,['nl'],+31(0)06 6566047
+550a89db-b99c-48da-9c01-6a1ee64c8980,Staff,+31(0)28-4731429,Daniels.Primary@dept.healthcare.org,['nl'],(0320) 074480
+ad8c71a6-f3c4-42c5-86af-1de6503b4bfa,Emergency,(0834)-606772,Daniels.Community@dept.healthcare.org,"['nl', 'en']",(0188) 183865
+cd62fd36-d5f2-437e-95dc-506c99d8adaf,Information,+31(0)17 0754620,Daniels.Dermatology@dept.healthcare.org,['nl'],+31(0)26 3498900
+217718ac-faca-4a80-9fd9-8507fe828c9b,Referrals,+31781 122563,Daniels.Diet@dept.healthcare.org,"['nl', 'en']",0554-808161
+08b2ace5-f544-412b-8fb5-f417de2c4c68,Emergency,(264)542-1978x593,Shaw.Pathology@dept.healthcare.org,"['de', 'en']",286.728.8034x834
+b0fca11e-8cec-413e-afb3-dafa6d9ed7ae,Appointments,7214563468,Shaw.Obstetric@dept.healthcare.org,['de'],001-215-930-6645x3839
+c02e3a7a-a151-4f1e-ac39-4ce765b8e1b0,Staff,9298440934,Shaw.Obstetric@dept.healthcare.org,['de'],295-317-5399
+df1b925e-6f66-4e87-9a4c-2227abac92b4,Referrals,473.278.6872,Shaw.Nursing@dept.healthcare.org,"['de', 'en']",871.265.2199x57937
+b89b1625-4a8b-4c5c-b8c6-5085119c21c4,Emergency,485.979.1436x757,Shaw.Pulmonary@dept.healthcare.org,"['de', 'en']",(914)993-9284x120
+f7d3664b-c53b-4776-ac58-d6d23fa8122d,Information,+1-210-367-9314x0279,Shaw.Toxicologic@dept.healthcare.org,['de'],2422723338
+66ce1549-dd05-4c7a-b479-b31a3a763594,Appointments,001-540-674-1821x55838,Shaw.Rheumatologic@dept.healthcare.org,['de'],332.725.1146x68482
+bb87c961-fa17-4092-929c-8ac4bf28b0fb,Information,330-800-0351x14470,Shaw.Diet@dept.healthcare.org,"['de', 'en']",744.799.1281
+3872e121-55e0-437c-bd49-0adf234877e3,Emergency,516.358.1229,Shaw.Midwifery@dept.healthcare.org,"['de', 'en']",986-505-3799x3781
+21fa3d49-3d30-4185-9fbb-63036c10e433,Referrals,(266)784-3316x323,Love.Nursing@dept.healthcare.org,['et'],(711)698-9052x2576
+5a344fd7-a134-49ce-bb73-ca968a5dd636,Appointments,510-225-5314x59017,Love.Pharmacy@dept.healthcare.org,['et'],671.631.3393x550
+74a70ca2-a8f7-4e91-a532-687eb173a40a,Information,385.805.0177x0380,Love.Hematologic@dept.healthcare.org,['et'],262-279-9496
+7c16b60a-e17c-480b-b87d-13e282519225,Appointments,(947)659-9812x9077,Love.Cardiovascular@dept.healthcare.org,['et'],(730)505-6739x90839
+658f520c-d22a-4fa4-9e9f-c1a4eeb8ded2,Appointments,(868)771-4655,Love.Dermatology@dept.healthcare.org,"['et', 'en']",001-864-503-7531x50663
+28ef1f7c-347c-4539-95ea-9628ee845e1d,Appointments,296.454.2387,Love.Obstetric@dept.healthcare.org,['et'],491.404.7438x8254
+a6fee832-6b63-419e-83bd-e688439983f1,Emergency,(670)657-5057x57118,Jones.Pediatric@dept.healthcare.org,['de'],+1-765-271-5768x068
+31d8a17a-8953-4c2a-8cc5-c21e83ce4772,Emergency,+1-283-918-6180x455,Jones.Neurologic@dept.healthcare.org,['de'],+1-528-690-9996x47498
+262894d1-5371-4d59-b77f-d039924ab4e2,Staff,963-639-9362,Jones.Psychiatric@dept.healthcare.org,"['de', 'en']",+1-911-843-0051x744
+799f0f96-9efd-4a59-a546-9b21e4fce1fd,Appointments,+1-696-285-4822x121,Jones.Physiotherapy@dept.healthcare.org,"['de', 'en']",001-538-856-8518x970
+a4cf0bc0-a184-42ec-ac2f-3164763f5917,Staff,+1-699-248-8751x05572,Jones.Pharmacy@dept.healthcare.org,"['de', 'en']",372-574-8229
+1cd0a2e8-ec46-4a3a-ba00-ea4959853c7c,Emergency,(979)398-1999x74058,Jones.Gastroenterologic@dept.healthcare.org,"['de', 'en']",+1-884-719-5092x42573
+50fb1ee4-9346-412a-882e-7612bd9cafb7,Staff,(567)332-7030x70212,Jones.Cardiovascular@dept.healthcare.org,['de'],+1-916-238-0262x16583
+94a2fc1a-7535-4a9c-afe2-3b7f412222e8,Emergency,+31(0)449 993542,BaileySmith.Infectious@dept.healthcare.org,['nl'],(025)-3329676
+317bf366-aa6a-4e7c-939b-63574e3ad80f,Staff,0976 673415,BaileySmith.Podiatric@dept.healthcare.org,['nl'],(065)-9001997
+ca169cf4-50f6-4fc7-aa96-3dc8c05f4b53,Staff,0065-333509,BaileySmith.Dentistry@dept.healthcare.org,"['nl', 'en']",+3101 3591864
+ce920ea9-1fd4-4997-b13a-56f22e82322e,Staff,+31921-464321,BaileySmith.Primary@dept.healthcare.org,['nl'],(034) 4012874
+1a4e08cf-7ee1-40e5-9f99-5992d34e976f,Referrals,+3168-2069929,BaileySmith.Primary@dept.healthcare.org,['nl'],+31(0)658 833539
+d386458c-5341-46e3-874a-f7dc29c4a8b3,Referrals,(018)-9649823,BaileySmith.Musculoskeletal@dept.healthcare.org,['nl'],0713 749440
+fff4f1fe-0e01-4113-95f3-3777263c3221,Information,0411-139905,Parker.Plastic@dept.healthcare.org,['nl'],+31997-089764
+c535693e-f62b-49e4-a30a-3df1449e832a,Appointments,(0429) 064300,Parker.Dentistry@dept.healthcare.org,['nl'],+31(0)79 2395468
+3bbfc867-4155-470d-90b8-9776cb77c423,Staff,058-4467116,Parker.Emergency@dept.healthcare.org,['nl'],(0234) 587796
+05ad33fb-ea43-4e3e-9516-5c121af7f96e,Information,013 8658117,Parker.Public@dept.healthcare.org,"['nl', 'en']",077-0488759
+489594ed-08dc-4d4a-ad92-540e3a0a23a6,Emergency,+3165 6529672,Parker.Cardiovascular@dept.healthcare.org,"['nl', 'en']",+31(0)23-0577154
+522afb96-bf5b-42b1-bcaf-b86a88192f8a,Emergency,+31(0)48 1033582,Parker.Gastroenterologic@dept.healthcare.org,"['nl', 'en']",+3153-4380644
+f0bed3ed-9fe7-4515-9021-a5a7968cd0f1,Information,022-9707948,Parker.Respiratory@dept.healthcare.org,"['nl', 'en']",(051) 3322487
+37c9f06d-fdc7-4b19-86f2-38d863a081a2,Information,+3147-2667639,Parker.Pharmacy@dept.healthcare.org,['nl'],049 8079069
+64426c12-d8ea-45db-8c9a-e79cb55dc17a,Emergency,+3166 5332976,HaydenValenzuela.Genetic@dept.healthcare.org,['nl'],+31782-914791
+5cffd512-e030-4963-914f-17c1c4bd259f,Referrals,(001)-2244232,HaydenValenzuela.Anesthesia@dept.healthcare.org,"['nl', 'en']",+3158-3390838
+84185d2d-1ef4-4ec6-ba22-0bdef08275f0,Emergency,(0694)-511237,HaydenValenzuela.Geriatric@dept.healthcare.org,['nl'],+31(0)07 2872032
+e33a8123-67ac-4755-a2af-96924d735a46,Information,+31795 956110,HaydenValenzuela.Surgical@dept.healthcare.org,"['nl', 'en']",+31(0)895 301814
+fbfa7549-13ee-4ee8-950e-18400e60f583,Referrals,059 2049493,HaydenValenzuela.Plastic@dept.healthcare.org,['nl'],+31833-297621
+f654f453-a5c2-4dc2-8f8c-01c4f23c7052,Information,(0062) 512382,HaydenValenzuela.Plastic@dept.healthcare.org,['nl'],(049)-0778286
+9cae80b8-4669-4f55-855c-64dde47810a6,Emergency,+31(0)233-969822,HaydenValenzuela.Dentistry@dept.healthcare.org,['nl'],031 9039110
+82c7ce62-1f61-4ff9-a361-1515cb562026,Appointments,+31010-440215,HaydenValenzuela.Primary@dept.healthcare.org,"['nl', 'en']",+3142-7633116
+275ab60d-7b1e-4ff7-8476-d9681803b6e7,Information,(0590) 188424,HaydenValenzuela.Primary@dept.healthcare.org,"['nl', 'en']",+31616-048469
+3922c73e-84d7-41e2-a0c5-f3291ea2d7d4,Emergency,(0846) 477996,HaydenValenzuela.Toxicologic@dept.healthcare.org,"['nl', 'en']",(0303) 524308
+87e8b9a7-1116-4820-a76d-4b32212178c7,Appointments,+3110 1269407,SmithEvans.Emergency@dept.healthcare.org,['nl'],+3139 9880320
+8cff3e99-1e8e-4d52-aab9-c1851af0ed28,Referrals,+31(0)720 904314,SmithEvans.Respiratory@dept.healthcare.org,"['nl', 'en']",0773-498674
+901355e7-a6fe-434f-a6bd-a493a18b020e,Referrals,(008) 1065335,SmithEvans.Oncologic@dept.healthcare.org,['nl'],+31(0)10-7644694
+fa17cbeb-6f9f-41b3-9605-e8bc77abb7f8,Information,(0605) 867996,SmithEvans.Endocrine@dept.healthcare.org,"['nl', 'en']",0991-242898
+cabd877d-48be-4890-9a9f-454686003bbc,Staff,(0098) 416565,SmithEvans.Anesthesia@dept.healthcare.org,['nl'],+31(0)350-019861
+e3677779-cd45-4722-bf9e-c8b457b0757b,Information,001-444-626-9639x1347,WilsonVillarreal.Optometric@dept.healthcare.org,['de'],(240)603-5517
+94690522-f0c8-492f-9d09-4f37bfdee880,Emergency,+1-621-412-6418,WilsonVillarreal.Optometric@dept.healthcare.org,['de'],001-676-835-4452x431
+ca2b0d8d-22f0-49bc-8934-fe22440c4ed5,Staff,6574494520,WilsonVillarreal.Diet@dept.healthcare.org,['de'],8775167107
+91539f8f-5036-48d0-b37a-b5fd791dc0c4,Staff,411-411-3671x9708,WilsonVillarreal.Urologic@dept.healthcare.org,"['de', 'en']",001-968-352-5237x62152
+35152cba-ec4f-46ab-aa07-cfddee9cee1f,Appointments,(678)604-6914x5886,WilsonVillarreal.Rheumatologic@dept.healthcare.org,['de'],273-747-0301
+6b2f694a-426a-40b8-9c97-16dfc45181ec,Information,(498)449-7632x74219,WilsonVillarreal.Psychiatric@dept.healthcare.org,"['de', 'en']",244-615-1031x958
+0992ced0-d3db-47b8-ae0f-cc0df36ff7ce,Referrals,7038107143,WilsonVillarreal.Genetic@dept.healthcare.org,['de'],(238)889-2763
+d3901a57-e545-4672-a955-c5439ccb8846,Appointments,(996)364-3669x683,WilsonVillarreal.Community@dept.healthcare.org,['de'],6973805557
+4dadbfb0-08b4-416f-b0a4-07e9923e267e,Appointments,(741)389-0023x16299,WilsonVillarreal.Oncologic@dept.healthcare.org,"['de', 'en']",437.991.8387
+d33f87bb-6e8a-41a0-b7a1-71716721f589,Staff,292.460.8083x895,Wallace.Musculoskeletal@dept.healthcare.org,"['de', 'en']",881-532-6531
+e15100df-b36f-4e30-8c05-e70346a1faed,Appointments,(753)233-6264x3205,Wallace.Dermatology@dept.healthcare.org,"['de', 'en']",437-420-2835x7638
+61e09678-91bc-4727-ad36-118533d44b08,Referrals,270.768.8147,Wallace.Endocrine@dept.healthcare.org,['de'],207.322.9575x0139
+6437f920-3b10-463a-b138-90278c286cd4,Appointments,677-407-3033,Wallace.Pharmacy@dept.healthcare.org,['de'],379-966-2001
+8b646701-85cf-4c93-b9ff-4246adc8b698,Appointments,001-751-454-0400x6507,Wallace.Diet@dept.healthcare.org,"['de', 'en']",428.599.2477
+59c21586-320c-4721-a4d6-635e02456240,Referrals,001-330-804-2907x459,Wallace.Oncologic@dept.healthcare.org,['de'],256-256-5538x473
+c9295016-0642-42b0-a84f-540ff0eaa3c6,Emergency,(784)326-4940,Wallace.Psychiatric@dept.healthcare.org,['de'],001-655-285-9383
+60f65ad0-8a8f-4951-9b5f-50ee583796ce,Information,956-364-3814x15728,Wallace.Toxicologic@dept.healthcare.org,"['de', 'en']",732-914-5805x802
+eb6b10ac-51de-4246-9df4-43de44bffcf4,Emergency,0890 963774,AndersonLozano.Primary@dept.healthcare.org,['nl'],+31(0)603 361141
+dc3cdafc-5e49-460a-8909-6b5ef28f30c0,Appointments,+31834 383413,AndersonLozano.Pediatric@dept.healthcare.org,['nl'],(031)-9509423
+821096d4-cad7-4b0b-82ab-36a75dff74f4,Referrals,+31(0)71 3757964,AndersonLozano.Urologic@dept.healthcare.org,['nl'],+31(0)07 4019058
+98c5c7d9-8702-45b3-982a-4726428353fd,Appointments,+31252-151456,AndersonLozano.Musculoskeletal@dept.healthcare.org,"['nl', 'en']",+3159 2684452
+74686320-8c47-4ae1-859f-e6378db5bc77,Information,+31(0)72 7785980,AndersonLozano.Optometric@dept.healthcare.org,['nl'],(0215) 676986
+bc851c14-9804-4d60-9991-aa3ad0b5e858,Information,+3199-3896529,AndersonLozano.Surgical@dept.healthcare.org,['nl'],(0816)-645795
+b43d4820-d50f-48d0-a172-8b6ffacff0be,Information,+3129-8298733,AndersonLozano.Cardiovascular@dept.healthcare.org,['nl'],+31(0)72-0984481
+9469d522-7b59-4d5e-8175-de4b79010563,Staff,+31768-490113,AndersonLozano.Surgical@dept.healthcare.org,['nl'],(0345) 828633
+c2ef4084-ce86-494b-9d46-3576b07607d1,Appointments,+1-714-726-6775x923,Blevins.Physiotherapy@dept.healthcare.org,"['de', 'en']",+1-629-866-5586x271
+00285474-d00d-46ea-9dc0-a98f4ad9ef2e,Information,6932855518,Blevins.Speech@dept.healthcare.org,"['de', 'en']",(701)585-1942
+adc7bc54-42b3-4a4b-b11e-02d4015a50ba,Appointments,251-475-8661,Blevins.Hematologic@dept.healthcare.org,['de'],(665)300-9252x74975
+e3b9c7bd-9c1f-4b59-bf33-296d5f7e494a,Referrals,813.664.2069x59729,Blevins.Pathology@dept.healthcare.org,"['de', 'en']",884.359.5699
+df333f14-b69d-40da-80f4-c7a47db4aa2c,Information,001-873-412-2452x0998,Blevins.Anesthesia@dept.healthcare.org,['de'],(970)647-5469x6816
+4ed0cd4d-5850-45c2-a0a2-2b16cf1e6ccf,Appointments,001-672-383-4172,Blevins.Neurologic@dept.healthcare.org,"['de', 'en']",(858)579-0892
+f0740b85-0ab7-45a4-a1e5-d4398b3d69b7,Appointments,(494)832-8158x3386,Blevins.Pharmacy@dept.healthcare.org,['de'],001-204-541-0744x50609
+157245a6-50d2-498b-bdef-65bfa46d6bca,Staff,+1-522-783-7899x1698,Blevins.Geriatric@dept.healthcare.org,['de'],286-271-9061x548
+14ab54b4-c114-497f-acee-452fde13865c,Staff,2154766755,Blevins.Respiratory@dept.healthcare.org,"['de', 'en']",718.952.6507x692
+e2631aac-3d8a-4858-b0e8-6f99fbf2a7a3,Appointments,001-849-491-0700x20723,Daniel.Pulmonary@dept.healthcare.org,['et'],+1-903-228-0312x8036
+76e294c4-31a5-4210-92fd-d31232b4d46d,Referrals,8566162698,Daniel.Surgical@dept.healthcare.org,['et'],(268)948-1615
+d20a3b50-3ad2-4d09-9cd5-09a0e78824f5,Appointments,544.466.4420,Daniel.Infectious@dept.healthcare.org,"['et', 'en']",+1-273-388-7709x870
+a2b7b418-2448-4239-935a-f022c914e4e5,Emergency,+1-534-599-7442x4386,Daniel.Optometric@dept.healthcare.org,['et'],+1-908-624-9534x30891
+42ac906f-c743-4edb-b9a3-e7d2c8dc9079,Appointments,984-959-4005x165,Daniel.Surgical@dept.healthcare.org,"['et', 'en']",001-658-622-0693x123
+91abd31a-a8c5-479e-89f4-8eaad57afab9,Emergency,871.274.3660,Lam.Pharmacy@dept.healthcare.org,['et'],(417)435-0278x7680
+785f60a7-3766-4856-8b97-14b05ca5042e,Staff,+1-419-534-4037,Lam.Surgical@dept.healthcare.org,['et'],(300)575-8600x802
+e3fb2022-73eb-484b-ab28-9138e6a44bed,Information,571.558.6979,Lam.Respiratory@dept.healthcare.org,['et'],646-276-2449
+a8c700b5-7379-44cc-9db9-14ebb6d8d3a5,Referrals,304.894.3298x4481,Lam.Oncologic@dept.healthcare.org,['et'],(681)359-4467x7666
+4cde0dae-b6a0-47da-86a2-84e8fb4fd6c2,Referrals,5502003531,Lam.Plastic@dept.healthcare.org,['et'],399.925.8846
+86b2c2d8-35f0-4ec5-8420-41ca0030f3fb,Staff,001-582-769-7973,Lam.Surgical@dept.healthcare.org,['et'],295.286.8464x4791
+d1ee6a0c-7f28-4b0e-9333-bd70ac73e119,Staff,958.859.9003,Pacheco.Pulmonary@dept.healthcare.org,['et'],544.491.0411x3895
+7c091f35-6231-40c9-9d60-2c19cbf714ad,Referrals,(625)670-8345x9326,Pacheco.Geriatric@dept.healthcare.org,"['et', 'en']",868-751-4539
+6ee62716-408a-4f7d-90de-afaa1ce64f08,Appointments,4419963853,Pacheco.Plastic@dept.healthcare.org,['et'],586-418-2817
+ccfcd80e-dac7-4563-92dd-9cc48fe286b1,Emergency,323.377.0614x3963,Pacheco.Diet@dept.healthcare.org,['et'],263-840-1583
+b51dc1de-b157-41b8-aa36-d940e65d79f1,Staff,+1-441-365-4598x13366,Pacheco.Genetic@dept.healthcare.org,['et'],001-833-346-4600x6640
+c948aff1-182e-4a8e-bcf2-ffb924a6485f,Referrals,390-563-3301,Pacheco.Respiratory@dept.healthcare.org,['et'],001-837-758-5590x66697
+8fc929bd-a5bf-41ad-acac-7eaaa9ed0751,Appointments,+1-306-553-0652,Pacheco.Neurologic@dept.healthcare.org,['et'],001-556-655-2393x6169
+15ed9d8a-5948-4633-aed3-dea2f3f9fd86,Appointments,(055) 3058154,Castillo.Pediatric@dept.healthcare.org,"['nl', 'en']",0142 744181
+137e21d5-189c-4ffc-9c91-b762b04eb32e,Referrals,+31(0)925 248743,Castillo.Otolaryngologic@dept.healthcare.org,"['nl', 'en']",0435 367540
+5662d87b-7fe5-473f-9b7a-4ea3ea9f3eb8,Emergency,+31342 040014,Castillo.Renal@dept.healthcare.org,['nl'],0566-298196
+64029517-2a9e-4868-83f2-636e72050a31,Appointments,+31(0)963 228133,Castillo.Toxicologic@dept.healthcare.org,"['nl', 'en']",+3144-7789054
+81e210ec-a57c-4826-891f-7bd63d85cd44,Information,(006) 1983141,Castillo.Laboratory@dept.healthcare.org,['nl'],+31(0)617-104257
+afbd57df-4612-4549-93a0-88622732acd6,Staff,0241 788363,Castillo.Genetic@dept.healthcare.org,['nl'],(0805)-164991
+e630f8e3-286f-493d-af2d-d8f01d192eec,Emergency,+31481-825622,Murphy.Dentistry@dept.healthcare.org,"['nl', 'en']",054 3347084
+51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,Staff,(0714)-163115,Murphy.Surgical@dept.healthcare.org,"['nl', 'en']",+31666 357058
+322515a5-3a89-491e-b7b9-387b677bd216,Appointments,+31752-042438,Murphy.Neurologic@dept.healthcare.org,['nl'],+31(0)167-766103
+0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,Staff,+31(0)00 9244496,Murphy.Rheumatologic@dept.healthcare.org,"['nl', 'en']",(0110) 438805
+a0e33935-f515-49fd-b68b-604992edb418,Referrals,(0997)-391880,Murphy.Physiotherapy@dept.healthcare.org,"['nl', 'en']",006 9673050
+07d9fab3-fccd-4ab0-b13b-40ac30cceeb3,Referrals,+31(0)68 3502676,Murphy.Dentistry@dept.healthcare.org,"['nl', 'en']",+3164 0432692
+8aa97d3f-bd63-47b3-9595-7c157d3e3711,Appointments,+3181 7857028,Murphy.Rheumatologic@dept.healthcare.org,"['nl', 'en']",+31(0)73 7264807
+4d668807-a68f-4bb3-8cb6-cfc37e49eb8d,Information,+3117 6632510,Murphy.Urologic@dept.healthcare.org,['nl'],0351-238604
+c24d532f-ca10-425a-912a-21749d270596,Information,+3131 6999065,Murphy.Gynecologic@dept.healthcare.org,"['nl', 'en']",+31(0)078-457040
+1df5f725-d31b-4f93-aa73-fc45df3fe737,Staff,5829212688,Wright.Obstetric@dept.healthcare.org,['et'],633.914.2906x4488
+46e7fd7d-b311-439c-a9d1-b180f4c14233,Emergency,001-562-848-4908x4827,Wright.Oncologic@dept.healthcare.org,['et'],+1-703-249-4197x2941
+5cf7f2d5-067c-4e85-ad63-565fe1c7087e,Emergency,001-919-495-9527x198,Wright.Cardiovascular@dept.healthcare.org,['et'],001-476-678-4736x5076
+56b69aea-ad2f-4073-bdeb-9011bbd09a1c,Staff,001-545-371-0054x6936,Wright.Cardiovascular@dept.healthcare.org,['et'],001-414-790-6456
+3d115920-dfe6-4c51-b1a2-61d82da2f193,Referrals,617.520.9250,Wright.Psychiatric@dept.healthcare.org,['et'],(718)257-9199
+a2a4cdea-3df4-4066-8907-a963cf627de6,Referrals,738-908-7080x012,Wright.Surgical@dept.healthcare.org,"['et', 'en']",281.962.8725x7217
+08db1e3e-915c-4259-bab2-d8ab2818e27a,Appointments,+3106 5515679,MaddenMejia.Pediatric@dept.healthcare.org,"['nl', 'en']",+3103 1270768
+1d697cd0-0662-43bd-98d6-1ed43f78ee36,Emergency,+31095 351525,MaddenMejia.Podiatric@dept.healthcare.org,['nl'],(090) 8871929
+e05d9b49-d9ae-43c5-b4cd-19b058e9282f,Information,+31349-645907,MaddenMejia.Emergency@dept.healthcare.org,['nl'],024-3074701
+486f43d9-1980-4a38-98cc-46b14151c48b,Emergency,+31(0)82 9766638,MaddenMejia.Pulmonary@dept.healthcare.org,"['nl', 'en']",+31165 476656
+d75d9659-2079-45e3-9329-393d9d73cbef,Appointments,091 6304341,MaddenMejia.Laboratory@dept.healthcare.org,['nl'],+31(0)641-034801
+111af0c6-76be-4137-b8d0-b720e2dc6a77,Emergency,0725 665729,MaddenMejia.Laboratory@dept.healthcare.org,"['nl', 'en']",0363 148194
+2a4f1798-ae72-4f3e-8ee7-9c5a55fd0bb8,Referrals,+31(0)903 140326,MaddenMejia.Surgical@dept.healthcare.org,['nl'],+31(0)51-7916790
+748d738b-196e-4e26-95e6-58812bae5e56,Emergency,0422 623162,MaddenMejia.Cardiovascular@dept.healthcare.org,"['nl', 'en']",(0275) 991060
+cd6a2e6a-0851-4281-98d2-7bc2fa5601db,Staff,(086) 1918194,Richards.Speech@dept.healthcare.org,['nl'],060 9866153
+3af52271-702e-435a-9436-ff9744d548ce,Information,+31(0)67 1446188,Richards.Musculoskeletal@dept.healthcare.org,"['nl', 'en']",+31(0)591-124379
+7a81db5e-92c5-4f2e-8161-7be93cdcb82e,Referrals,+31(0)730 517627,Richards.Laboratory@dept.healthcare.org,"['nl', 'en']",007 3398360
+7f73b70e-ca2d-4546-890b-a17915222401,Referrals,(013) 8724198,Richards.Gynecologic@dept.healthcare.org,"['nl', 'en']",050 4291856
+1900baae-0511-4a02-8018-b89fcb7a7f7a,Emergency,+31(0)893-956754,Richards.Public@dept.healthcare.org,"['nl', 'en']",+31(0)716-843322
+e2d42608-5a01-4401-93f2-3d687164775d,Information,(050) 2315623,Richards.Public@dept.healthcare.org,['nl'],+31695 495260
+e16a2f5e-764b-4afe-b58d-c25f39a4d24a,Referrals,+31568-559314,Richards.Rheumatologic@dept.healthcare.org,"['nl', 'en']",020-3547221
+4c9ed1b8-9532-45da-9372-9728a9914652,Staff,+31(0)123-856928,Richards.Psychiatric@dept.healthcare.org,"['nl', 'en']",059-6864590
+42227fd2-e5da-4e12-a106-867b65fbd916,Staff,(034)-4338530,Richards.Cardiovascular@dept.healthcare.org,['nl'],049-7848665
+0399923f-f869-419a-a8da-b234f24870b6,Information,001-351-974-3576x7045,Hogan.Renal@dept.healthcare.org,['de'],994-893-9391x35403
+5304ca7f-598e-44e7-bc31-5be33269871d,Appointments,316-581-8634x2232,Hogan.Psychiatric@dept.healthcare.org,['de'],340-481-6499x5116
+15328479-7ca0-44f3-afb6-9b0ffc2960d6,Information,(741)517-7479,Hogan.Obstetric@dept.healthcare.org,['de'],727-706-1230x778
+dba83ae0-17d2-4f1c-94de-e0459dd68ce9,Staff,(475)929-8671,Hogan.Psychiatric@dept.healthcare.org,"['de', 'en']",(816)247-0858
+99d8bfd3-70cf-4745-b2ce-48784975c699,Referrals,840.571.2210x3603,Hogan.Renal@dept.healthcare.org,['de'],883-448-8983
+eb687a5e-cfd6-46bb-ba2f-30811914c4d0,Information,297.459.6003x818,Hogan.Public@dept.healthcare.org,"['de', 'en']",(253)303-4212x510
+8d9aa040-3570-43ee-b626-1b4783f18b76,Staff,+1-822-694-2249x0332,Hogan.Oncologic@dept.healthcare.org,['de'],383-202-2360x9716
+d3fd1719-b4aa-4dca-8f53-483845846caa,Staff,8959695355,Hogan.Plastic@dept.healthcare.org,['de'],575.596.6326
+304ec17f-35c4-4ff7-9ea9-1fe149f35d6b,Information,814.380.1024,Hogan.Laboratory@dept.healthcare.org,['de'],(737)902-8499x24308
+9071e14d-f4f2-4a8e-b2fa-638061870c98,Referrals,4728644849,Hogan.Surgical@dept.healthcare.org,"['de', 'en']",419.405.7431x78298
+ce5000d3-ea6d-4565-b810-2725952a4ff5,Emergency,(227)406-2398x16089,ShieldsJacobson.Gynecologic@dept.healthcare.org,['de'],274.448.8719x00395
+d00d9045-5782-49df-9b9c-f89fa85b4692,Appointments,+1-449-957-8360x55613,ShieldsJacobson.Hematologic@dept.healthcare.org,"['de', 'en']",+1-674-785-8203
+35640c72-bae8-42c8-84d1-a82e64486f70,Information,481.551.0922x02224,ShieldsJacobson.Pathology@dept.healthcare.org,"['de', 'en']",001-490-792-5568
+d7fbbb2c-be22-4337-a844-a59ec246065a,Information,+1-557-743-0760x4381,ShieldsJacobson.Hematologic@dept.healthcare.org,"['de', 'en']",324.315.2991
+ba0e272b-83f5-4af8-8d27-71da9d9656fd,Staff,785-396-9637x01107,ShieldsJacobson.Dermatology@dept.healthcare.org,['de'],+1-541-412-3380x71337
+4e988ff0-cad0-4800-8909-625abc78f9bc,Emergency,452.422.4494x843,ShieldsJacobson.Emergency@dept.healthcare.org,"['de', 'en']",8075272155
+47534335-0703-45f1-9b4f-54586523923a,Referrals,831.632.6711,ShieldsJacobson.Diet@dept.healthcare.org,"['de', 'en']",001-484-599-8767
+db812ade-2d49-4c80-a5ba-2571d6036419,Information,+1-708-838-2196x2254,ShieldsJacobson.Pulmonary@dept.healthcare.org,"['de', 'en']",442.589.9613
+2fc0f1f7-f337-4a38-b814-041d98dd12df,Staff,+1-238-201-8986x045,WardJones.Rheumatologic@dept.healthcare.org,['de'],766.436.9526x4551
+36aef2f8-29ff-4621-a041-c0e92512e9a3,Staff,273-236-2068,WardJones.Anesthesia@dept.healthcare.org,"['de', 'en']",972-699-7024
+3a3c6203-8520-4295-855d-36aa5f069f91,Information,4174678494,WardJones.Pharmacy@dept.healthcare.org,"['de', 'en']",+1-302-724-0596x62026
+3c066552-2e49-4493-bc83-153ed11c91f7,Emergency,5533789849,WardJones.Gastroenterologic@dept.healthcare.org,"['de', 'en']",843.728.0417
+de9ac8b8-640b-4b28-8322-b4ff856df911,Information,823-832-5863,WardJones.Pharmacy@dept.healthcare.org,"['de', 'en']",353-444-5201x67335
+e81807cd-80a1-419c-a19b-6dd7b46c54a5,Information,9515409047,WardJones.Dermatology@dept.healthcare.org,"['de', 'en']",5564861161
+13d1ab6d-097b-4105-ae3c-763d29974088,Referrals,(331)636-7006x4319,WardJones.Gastroenterologic@dept.healthcare.org,['de'],876-253-8650
+3911f9d7-af1b-4f0f-bb2d-92c2f13819c6,Appointments,(693)648-5769x50019,WardJones.Cardiovascular@dept.healthcare.org,['de'],(782)976-6494x04525
+e8cf8812-2c57-4318-bba5-54379008ada3,Staff,(300)272-3837x79626,Walls.Pharmacy@dept.healthcare.org,['de'],+1-554-388-5265
+a27f0e23-2afc-4b18-95b5-7021ff744ba7,Appointments,001-716-886-1662x616,Walls.Laboratory@dept.healthcare.org,"['de', 'en']",(753)268-6313
+ade2cc44-29f6-43bb-b8e0-81d5e5d3fd8b,Staff,001-583-621-6272,Walls.Public@dept.healthcare.org,"['de', 'en']",001-362-920-2311x4572
+68bf06b1-2822-4647-8016-2ad0079720d1,Emergency,001-687-421-8847x869,Walls.Midwifery@dept.healthcare.org,"['de', 'en']",986-360-4809x8430
+ca2e255f-ec5a-45f4-9cc6-bc683e2d31cf,Information,741.239.5265x14451,Walls.Hematologic@dept.healthcare.org,"['de', 'en']",001-284-477-1770
+ceec7e2d-bbdf-42a2-843f-bf37589d431a,Appointments,+1-688-498-6270x936,BlackwellLee.Community@dept.healthcare.org,['et'],(770)477-1089x52557
+a8b3d59e-ae59-4b71-a4e7-fafb804999ab,Referrals,287.321.2615x9305,BlackwellLee.Cardiovascular@dept.healthcare.org,"['et', 'en']",485.785.0864x59611
+6397f7f5-d5cc-49f6-87b0-c749cb1e869a,Information,(263)842-1849,BlackwellLee.Pulmonary@dept.healthcare.org,['et'],(613)925-1237x58747
+66d3e728-3973-4c23-a1c1-d9753dad9e7d,Emergency,865-795-0772x5345,BlackwellLee.Urologic@dept.healthcare.org,['et'],547-587-9561x004
+b9bdf50e-f463-438f-8db9-0cef7586fe0d,Emergency,(806)400-8538x826,BlackwellLee.Midwifery@dept.healthcare.org,['et'],(342)623-2936x9880
+031d0b58-10ab-4ce4-b9a9-749ac95845ed,Appointments,210-503-2361x49826,BlackwellLee.Emergency@dept.healthcare.org,['et'],(770)725-5657
+67e08976-90ec-43c3-8550-027e0c1fe665,Emergency,273-906-6706x366,GibbsGarrison.Toxicologic@dept.healthcare.org,['et'],421.611.5101
+7f296803-80fc-4bc0-91bc-f542a0fa5f1a,Information,911-863-4824,GibbsGarrison.Anesthesia@dept.healthcare.org,['et'],679.376.0258
+e904c349-d6b3-44ad-bad0-baf2b1ace8f1,Referrals,480.201.8032x905,GibbsGarrison.Gastroenterologic@dept.healthcare.org,"['et', 'en']",595-218-2885
+f43ab914-68db-4eba-bada-c4a85c22c91e,Information,001-421-538-3728x11720,GibbsGarrison.Oncologic@dept.healthcare.org,"['et', 'en']",943-579-5421x608
+34cf3d5d-5117-4e9b-9fa7-039676716ac7,Emergency,001-400-735-5387x55229,GibbsGarrison.Dentistry@dept.healthcare.org,['et'],265.865.5500
+ca3f4bd9-9ced-4191-bd88-90c41e59a2d9,Appointments,7773464666,GibbsGarrison.Physiotherapy@dept.healthcare.org,"['et', 'en']",804.541.9697x58884
+c5550816-4fd6-4274-9f9e-4255e6f87c17,Information,+1-333-496-2310x191,GibbsGarrison.Obstetric@dept.healthcare.org,"['et', 'en']",940.592.6219x4499
+761fa15a-a262-4f4d-9b32-3b5c91bd3fdf,Referrals,001-839-393-8196,Taylor.Optometric@dept.healthcare.org,['et'],(781)460-2210x676
+049abf9d-5cc9-4822-8d37-35939d486bf1,Staff,(510)349-8519,Taylor.Plastic@dept.healthcare.org,"['et', 'en']",001-877-373-0834x535
+a7be5443-8010-42b8-ab2f-ead91dfe8d40,Staff,695.974.0396x549,Taylor.Speech@dept.healthcare.org,['et'],536.564.6953x13720
+e1a8fc40-fa2b-4c87-beb8-c8396e16208a,Referrals,+1-629-222-1108x4830,Taylor.Pathology@dept.healthcare.org,"['et', 'en']",001-240-642-4694
+f81255fb-4d0e-4725-b837-0ac908c61717,Appointments,+1-690-821-3732,Taylor.Gastroenterologic@dept.healthcare.org,"['et', 'en']",2246707684
+8faa953f-9fe9-41a9-9d52-d37eba39c558,Referrals,+1-355-295-5299,Taylor.Urologic@dept.healthcare.org,['et'],001-960-279-3866x46395
+e059cb33-a79b-4d1e-9ebf-8378667ee8a0,Information,965.209.7518x80491,Taylor.Genetic@dept.healthcare.org,"['et', 'en']",001-888-533-5780x00466
+9e9d3b77-ba34-4580-ada0-a0af0ffd10c7,Appointments,7732152274,Taylor.Optometric@dept.healthcare.org,['et'],337-967-9706
+b81b7f03-fb0a-4705-8e9a-a076faac8f76,Referrals,+1-931-564-6303x1095,Taylor.Laboratory@dept.healthcare.org,"['et', 'en']",304-322-9403x40494
+0215785d-c5af-4829-b143-f50ca25a2423,Information,(386)983-6262,Taylor.Genetic@dept.healthcare.org,"['et', 'en']",(788)694-2009x966
+c402bb0e-b2f9-404b-9e28-00bec0f2b58b,Emergency,4958583935,SandersPerkins.Radiography@dept.healthcare.org,['et'],267-436-7694
+7cfe9b4d-2a31-4a24-877e-32499935948d,Emergency,+1-851-653-0940,SandersPerkins.Rheumatologic@dept.healthcare.org,['et'],001-858-315-1880
+8623ee6d-7222-49dc-b01e-0a8db8f8c77d,Information,899.863.0304x48675,SandersPerkins.Surgical@dept.healthcare.org,['et'],867-547-3094
+2ab65b1d-aa56-41a2-82b1-863cf7564319,Staff,+1-689-989-3837,SandersPerkins.Neurologic@dept.healthcare.org,"['et', 'en']",913.788.3538
+6c414b3b-b7b9-45a8-9a46-cb397766f556,Appointments,(399)381-6941x404,SandersPerkins.Primary@dept.healthcare.org,"['et', 'en']",472.963.5745
+645101b8-6354-4195-8402-5665d065db94,Information,+1-503-955-6654,SandersPerkins.Pediatric@dept.healthcare.org,['et'],449-452-9004x20169
+a5660ca1-af6b-4d12-8f38-f1af93caf93b,Information,960.949.7755,SandersPerkins.Dentistry@dept.healthcare.org,['et'],+1-214-291-4018
+0c2c994d-650e-43fd-aac4-efcbf826db7e,Emergency,(579)993-4894,SandersPerkins.Toxicologic@dept.healthcare.org,['et'],(359)576-2881x867
+b01de5e6-04b4-4598-811d-9ac8948fa23c,Information,066-5403463,MccoyMolina.Genetic@dept.healthcare.org,"['nl', 'en']",+31502 750881
+03b160ea-eb1e-4e48-9dce-ca8827cdf6d1,Emergency,+31(0)53-8458597,MccoyMolina.Infectious@dept.healthcare.org,['nl'],+31(0)07 4353759
+b2540830-a45f-49d9-92a9-71e671cd9bb7,Appointments,+31881-182949,MccoyMolina.Midwifery@dept.healthcare.org,"['nl', 'en']",(041)-1235238
+88ba469c-af36-4055-a429-a8172c39222f,Information,(0336)-022410,MccoyMolina.Speech@dept.healthcare.org,['nl'],0600-023304
+72a98ae2-f76f-4688-a288-58991010e768,Appointments,+3105-2623378,MccoyMolina.Gastroenterologic@dept.healthcare.org,['nl'],087-0786846
+05eb09ba-a028-4d1e-a595-04cada6b236d,Appointments,020-9382705,MccoyMolina.Neurologic@dept.healthcare.org,['nl'],073-8569571
+4a9007ca-67a1-4225-84e8-8209f7edf89b,Staff,+3119-8890137,MccoyMolina.Midwifery@dept.healthcare.org,"['nl', 'en']",0693 345051
+9d26336c-ab95-444b-a524-43a5eea99a27,Information,(018)-7485499,MccoyMolina.Anesthesia@dept.healthcare.org,['nl'],(007) 5672781
+4cb4ac37-8987-423e-8743-0c8111417413,Appointments,+31(0)537 241251,Hernandez.Urologic@dept.healthcare.org,['nl'],0800-710580
+a9e80538-880b-4ff9-b4b7-d61da17256a8,Emergency,0355 282607,Hernandez.Speech@dept.healthcare.org,['nl'],+3197 9502428
+1fe43d64-aace-4c9a-9c59-8fa1f543be48,Appointments,+31(0)57-8951507,Hernandez.Radiography@dept.healthcare.org,['nl'],+3148-2416181
+0fc54496-74ab-4658-80d1-e139b8cd969b,Information,(0770) 128596,Hernandez.Physiotherapy@dept.healthcare.org,['nl'],0298-055424
+c5bbb959-40a2-4403-bbb8-e582b9196453,Referrals,+31(0)098-612611,Hernandez.Radiography@dept.healthcare.org,"['nl', 'en']",(0642) 472634
+17b54b40-0838-41f3-9845-54286f7a08bc,Referrals,+3183-8357371,Hernandez.Physiotherapy@dept.healthcare.org,['nl'],(0556) 738281
+5dcd25b7-5d6f-4712-b681-93daab19f6b2,Emergency,(0159) 214310,Hernandez.Community@dept.healthcare.org,"['nl', 'en']",+31(0)85-9628240
+5b4b062b-d8b7-4829-ab46-a2ca3f102262,Referrals,+31(0)252 685556,Hernandez.Community@dept.healthcare.org,"['nl', 'en']",+31(0)76 2752900
+91b2dc2c-b261-42e2-b2d9-a36e2174cdce,Emergency,(0480) 608876,Rodriguez.Infectious@dept.healthcare.org,"['nl', 'en']",(015) 9539387
+11c20620-2464-4d5d-a9f9-2bc9b6210bda,Information,094-7282995,Rodriguez.Otolaryngologic@dept.healthcare.org,['nl'],086-8757897
+2471781c-3479-417b-a501-fa4c324c4c8d,Emergency,(087) 8523966,Rodriguez.Gynecologic@dept.healthcare.org,['nl'],+31386-913549
+45b066d9-6eae-4cf6-a691-16b5e135edda,Emergency,+31(0)82-2690734,Rodriguez.Primary@dept.healthcare.org,['nl'],023-1631643
+8395bd69-89a8-4c0d-acfe-54b3293ac00d,Staff,+31(0)660 804555,Rodriguez.Musculoskeletal@dept.healthcare.org,['nl'],+31345 422932
+fcd18e4e-55a6-4cc0-8c5f-152bdb9fc99f,Staff,+3139 0240389,Rodriguez.Oncologic@dept.healthcare.org,['nl'],0102 079224
+dcfe2264-4184-40a2-8bb7-74c05431cb7a,Referrals,(022)-8471175,Rodriguez.Public@dept.healthcare.org,['nl'],024-5145560
+350e68a6-f10e-4820-9346-6d5fa39d63e0,Emergency,+31(0)73 5600367,Rodriguez.Optometric@dept.healthcare.org,['nl'],(053) 5494642
+298d3ce5-3d29-4f96-9650-2edbe29d10d6,Staff,+31959-990671,Rodriguez.Public@dept.healthcare.org,"['nl', 'en']",+31(0)70 3838275
+d876ba3e-fae4-4de8-9da2-c90ce0cebd21,Staff,(0285)-885986,Ortiz.Anesthesia@dept.healthcare.org,"['nl', 'en']",+3125 7367809
+74bdbf67-b5ed-47eb-b5d3-27e0ab368a8f,Appointments,+31(0)73 0304080,Ortiz.Obstetric@dept.healthcare.org,"['nl', 'en']",+3183-7831543
+93bde818-b96f-4439-a680-621fbe701c41,Appointments,0891 657064,Ortiz.Geriatric@dept.healthcare.org,['nl'],+31(0)237-012847
+6189bcb1-d583-4609-a077-72f58af4354b,Information,+31462-676434,Ortiz.Respiratory@dept.healthcare.org,"['nl', 'en']",(0020) 568238
+c26b8d54-23fe-4872-a3d5-ef9e980832ad,Appointments,+31(0)935 798757,Ortiz.Oncologic@dept.healthcare.org,"['nl', 'en']",+3124-3580732
+183291be-6852-4a8b-94d0-e75789e5e7a9,Emergency,+31(0)87 4359196,Ortiz.Community@dept.healthcare.org,"['nl', 'en']",017 9726149
+12dab1f0-1221-4277-bff0-3906327e2dd2,Information,0375-319572,Ortiz.Midwifery@dept.healthcare.org,['nl'],+31893-725313
+3b725f5e-a99b-439d-935c-c0729d0d0080,Referrals,(0747) 863436,Bryant.Hematologic@dept.healthcare.org,['nl'],+31216 510026
+4e61b69c-a0a6-4db5-90c5-75503e7bf4d9,Staff,+3130-6247264,Bryant.Midwifery@dept.healthcare.org,"['nl', 'en']",+31994 222606
+eb5f0e5f-c791-4e1b-abc5-71948f5da783,Information,+3149-7701848,Bryant.Diet@dept.healthcare.org,"['nl', 'en']",047 7230705
+2ee6df1f-5d0b-4467-aa94-a70ca4153921,Staff,+31029 294382,Bryant.Genetic@dept.healthcare.org,['nl'],0300-619853
+93aabc3c-cdd1-4e41-92f0-64fd5358447c,Referrals,(044) 5709845,Bryant.Obstetric@dept.healthcare.org,['nl'],+3183-0690249
+6b26807d-506e-4048-b0a7-28e1f33c5682,Staff,961.372.8881x0840,Perez.Neurologic@dept.healthcare.org,['de'],(912)403-0218x796
+8fc08350-ac49-48bd-982c-fb2c0152eb6d,Information,+1-703-960-2024x5307,Perez.Optometric@dept.healthcare.org,"['de', 'en']",001-393-285-5452
+efc29ebc-f00e-42c9-9dfe-89a98cdd88dd,Staff,(442)494-4056x752,Perez.Pathology@dept.healthcare.org,['de'],(233)418-9927x84129
+aa6dc853-0219-43d2-92d3-fb9bb6319fec,Referrals,001-613-400-5307x083,Perez.Rheumatologic@dept.healthcare.org,['de'],643-270-0994x75665
+03b5cdd7-b367-4684-ad76-fa6341761cbe,Referrals,387-448-9943,Perez.Radiography@dept.healthcare.org,['de'],+1-229-402-1919x84876
+060c062e-86b3-48f8-bd92-2f27954e1d4b,Appointments,+1-366-325-1313x5622,Perez.Laboratory@dept.healthcare.org,"['de', 'en']",605.817.1681x3158
+df0bc03b-14c5-449c-b317-e30b66c25709,Appointments,(252)889-0516,Perez.Rheumatologic@dept.healthcare.org,"['de', 'en']",+1-828-217-3540x7600
+562f2346-b094-44ab-b679-18a3be3abbfa,Information,(374)615-7838,Perez.Dentistry@dept.healthcare.org,"['de', 'en']",001-331-670-0431x647
+3c6a6a5a-3e28-4876-be51-0c30a8836813,Referrals,(075)-8925370,Lopez.Optometric@dept.healthcare.org,"['nl', 'en']",+31990-050788
+45aff4b8-86b0-47a5-bfa7-fa9d0477e5c6,Staff,0030 504796,Lopez.Urologic@dept.healthcare.org,['nl'],0907-468776
+0e71af64-f01b-4b96-b9b7-7be65968b4b7,Appointments,+3190 5258846,Lopez.Anesthesia@dept.healthcare.org,['nl'],(0770)-816098
+34505cda-560a-47ee-9808-1af8d75d5644,Referrals,(099) 0088858,Lopez.Pediatric@dept.healthcare.org,"['nl', 'en']",+31(0)876 888326
+b89b8426-3e14-4c00-85e1-f98d39be3773,Appointments,+31718-982847,Lopez.Primary@dept.healthcare.org,"['nl', 'en']",(054)-6529755
+540b1efd-d4ef-444d-ab66-ba26343bb934,Referrals,+31(0)900 890068,Lopez.Surgical@dept.healthcare.org,['nl'],+31(0)37-8106275
+2755ece7-785c-436c-915e-52fef4c84997,Appointments,+31(0)71-1310812,Lopez.Obstetric@dept.healthcare.org,['nl'],+3103 1112138
+b253fedb-54e6-4545-b306-3ec4040bce15,Emergency,(0751) 775083,Lopez.Laboratory@dept.healthcare.org,"['nl', 'en']",+31372 178001
+34edf9c1-3aa6-4d08-9134-c04f52bbcf37,Referrals,0969-583319,Lopez.Dentistry@dept.healthcare.org,['nl'],+31(0)499 755735
+8be59b06-1716-4a8d-88a9-59857801de4d,Emergency,452-589-0565,Diaz.Urologic@dept.healthcare.org,['de'],001-409-287-2963x894
+13bd70c5-e24c-4866-9e7d-0d3a02e6112a,Appointments,+1-732-398-5472x45534,Diaz.Rheumatologic@dept.healthcare.org,['de'],3689877939
+1f5409f2-0ae8-48cc-86d0-db988d035321,Appointments,328-720-1338x88778,Diaz.Emergency@dept.healthcare.org,"['de', 'en']",953-671-1172
+a0010156-0aa7-48af-92de-4d01bd350f16,Emergency,7448737893,Diaz.Surgical@dept.healthcare.org,['de'],668.592.1936
+5cf8a17e-ec34-4245-b4cf-a45ec491075c,Referrals,(422)564-9205x0475,Diaz.Respiratory@dept.healthcare.org,['de'],+1-310-530-7956x71113
+5ac0407b-8f06-41a1-8d9e-cdf129ebdc72,Staff,(715)360-6655x56556,Diaz.Gynecologic@dept.healthcare.org,['de'],+1-688-581-9861x31414
+a979ed66-1a86-4241-9827-e58dc4eda72b,Information,913-943-5943x9188,Diaz.Midwifery@dept.healthcare.org,['de'],(626)816-6103x758
+be179438-78f9-4d38-b7d5-66dfe25b4e33,Appointments,8848004821,Garcia.Anesthesia@dept.healthcare.org,"['et', 'en']",663-734-1462x22924
+a4dc6da8-3f97-4c46-a104-1e62e238ffdf,Referrals,510-755-9302x7587,Garcia.Psychiatric@dept.healthcare.org,['et'],241-994-1289
+22943a6e-a460-4295-a04a-250de9152332,Staff,+1-937-365-9718x98513,Garcia.Podiatric@dept.healthcare.org,['et'],2704273126
+d986ee5f-2655-43bd-8547-8d5fedda6196,Emergency,524-747-8005x6909,Garcia.Otolaryngologic@dept.healthcare.org,['et'],758.484.1912
+abae20c5-0a18-4db1-8f0d-3e4e1a6b157e,Appointments,887-705-9914,Garcia.Otolaryngologic@dept.healthcare.org,"['et', 'en']",001-792-912-4405
+611bd7a9-eee6-4611-9022-f3701d749571,Staff,+1-837-416-7309,Garcia.Laboratory@dept.healthcare.org,"['et', 'en']",395.853.4091x57024
+cd62806a-bead-460c-822e-4505f3812799,Referrals,(703)479-1093x9298,Garcia.Nursing@dept.healthcare.org,['et'],001-830-978-9785x9571
+ce2c4bb1-edd1-49b1-8233-2ab2d80657fd,Emergency,830-394-4595x3324,Garcia.Infectious@dept.healthcare.org,"['et', 'en']",962-274-0850
+3a973a26-543b-4330-a4ab-14a870a77e14,Staff,(298)740-3464,Garcia.Plastic@dept.healthcare.org,"['et', 'en']",471.371.8593
+9d092255-1497-4c91-b9c6-0d7c2066baa4,Appointments,9993708167,Garcia.Public@dept.healthcare.org,['et'],(937)908-7547x8095
+8531f831-e8bc-4885-bdc4-1fb4eb995bd7,Emergency,+31(0)23 8062458,Jordan.Plastic@dept.healthcare.org,['nl'],(0388) 139392
+59642281-2295-4871-bfed-71e57c1330cf,Staff,+3161 8919953,Jordan.Renal@dept.healthcare.org,"['nl', 'en']",(010) 0465100
+cd2e8c57-a5dc-410c-9167-ebfd43c2d8fb,Appointments,068 2140139,Jordan.Obstetric@dept.healthcare.org,['nl'],+31(0)071 515506
+37093a44-cd5a-4c44-ae2b-d0448c65fc7a,Information,+31(0)677 778590,Jordan.Neurologic@dept.healthcare.org,['nl'],+31(0)22 8087596
+1db1da26-42e5-42da-b527-351219cc9acc,Appointments,024 9820020,Jordan.Laboratory@dept.healthcare.org,"['nl', 'en']",+3107 5004460
+7b379aa7-d7b6-4517-bda4-3c35cd25cf4d,Referrals,0771-625963,Jordan.Neurologic@dept.healthcare.org,"['nl', 'en']",+3150-7384010
+01f3fa0f-c501-4c5b-a7bf-d28e8664a162,Appointments,0970 682930,Jordan.Rheumatologic@dept.healthcare.org,['nl'],+31973 654480
+ac61dc84-10a6-4338-a46f-ffd48094c50f,Emergency,+3141-2243890,Jordan.Endocrine@dept.healthcare.org,['nl'],+31(0)815-225985
+e31f5b35-242b-4c85-889a-96ee2bd3cd8f,Staff,3333811778,Lopez.Endocrine@dept.healthcare.org,['de'],001-566-292-2396
+19a14af2-15e0-41f2-907f-88de0fe8b3f2,Referrals,654-421-5099x63625,Lopez.Obstetric@dept.healthcare.org,['de'],323.303.3837x25660
+141c7bda-3578-47cd-9cbf-26cb9082bfd1,Emergency,6013030717,Lopez.Oncologic@dept.healthcare.org,"['de', 'en']",922-656-0053x878
+623ae7d8-4cc3-4606-b187-9eb87d453d9e,Staff,695.588.1376x68944,Lopez.Midwifery@dept.healthcare.org,"['de', 'en']",5434557439
+202e46fe-a456-4258-9567-e6642de357a9,Emergency,234.986.7631x08595,Lopez.Radiography@dept.healthcare.org,['de'],(494)393-7992x3995
+a7184318-72cb-489e-8e2b-2abc11e7af27,Appointments,338-579-8784x836,Stewart.Psychiatric@dept.healthcare.org,"['de', 'en']",403.315.5496x537
+3ce8207b-17f3-4b88-b4f4-4dd92f35ddf6,Staff,+1-954-880-2021x9035,Stewart.Pharmacy@dept.healthcare.org,"['de', 'en']",+1-474-524-7779x34889
+47e83a90-6810-4ec9-9aee-b5708db6df71,Referrals,+1-726-700-4852x497,Stewart.Infectious@dept.healthcare.org,"['de', 'en']",+1-386-696-1223
+66b6b51b-266e-465d-9b1e-82daee62255e,Information,393-475-9648x0005,Stewart.Gynecologic@dept.healthcare.org,['de'],001-540-640-6601x6843
+20ad7e5d-bab2-4c00-9163-a64195c2e674,Staff,906-482-4054,Stewart.Nursing@dept.healthcare.org,['de'],349-582-8740
