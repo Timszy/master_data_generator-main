@@ -392,7 +392,7 @@ def organization_name_variation(organization):
 
 ###3 department name variations
 def department_name_variation(department):
-    contact_point_df = pd.read_csv("testdata/contact_point.csv")
+    contact_point_df = pd.read_csv("testdata/ContactPoint.csv")
     """Generate variations of a department name with balanced distribution"""
     possible_variations = []
     
@@ -635,11 +635,19 @@ def department_name_variation(department):
     if selected_variation == "translation":
         var = copy.deepcopy(department)
         original_name = var["serviceDepartmentName"]
-        contactidentifier = var["identifier"]
+        contactidentifier = var["contactPoint"]
         contact_point = contact_point_df[contact_point_df["identifier"] == contactidentifier]
         tranlation_language = contact_point["availableLanguage"]
         language = tranlation_language.str.strip('[]').str.split(',').str[0]
-        translator = GoogleTranslator(source='en', target=language)
+        str_language = language.iloc[0].strip("'")
+        language_map = {
+                        "nl": "dutch",
+                        "de": "german",
+                        "et": "estonian",
+                        "en": "english"
+                    }
+        language_code = language_map.get(str_language.lower(), "english")
+        translator = GoogleTranslator(source="english", target=language_code)
         translated_name = translator.translate(original_name)
         var["serviceDepartmentName"] = translated_name
         var["identifier"] = fake.uuid4()
@@ -793,7 +801,7 @@ def export_duplicate_registry(filename='duplicate_registry.csv'):
     """
     import csv
     
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filename, 'w', newline='',encoding='utf-8') as csvfile:
         fieldnames = ['original_id', 'duplicate_id', 'entity_type', 'variation_type', 
                      'field_name', 'original_value', 'varied_value']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
