@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from faker import Faker
 from deep_translator import GoogleTranslator
 import pandas as pd
-
+# main file for introducing variations to entities in a dataset
 # Variation rate
 variation_rate_default = 0.2
 
@@ -63,7 +63,7 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
 # Updated address_variation function with balanced variation application
 fake = Faker()
 
-def address_variation(address):
+def address_variation(address, noise_severity = "low"):
     """Generate variations of an address with balanced distribution"""
     possible_variations = []
 
@@ -158,7 +158,7 @@ def address_variation(address):
     
 
 ##### Person name variations
-def person_variation(person):
+def person_variation(person, noise_severity = "low"):
     """Generate variations of a person with balanced distribution"""
     possible_variations = []
     
@@ -283,7 +283,7 @@ def person_variation(person):
         }
 
 #### Organization name variations
-def organization_name_variation(organization):
+def organization_name_variation(organization, noise_severity = "low"):
     """Generate variations of an organization name with balanced distribution"""
     possible_variations = []
     
@@ -391,8 +391,8 @@ def organization_name_variation(organization):
             }
 
 ###3 department name variations
-def department_name_variation(department):
-    contact_point_df = pd.read_csv("testdata/ContactPoint.csv")
+def department_name_variation(department, noise_severity = "low"):
+    contact_point_df = pd.read_csv("Data_source/Baseline/ContactPoint.csv")
     """Generate variations of a department name with balanced distribution"""
     possible_variations = []
     
@@ -659,7 +659,7 @@ def department_name_variation(department):
         }
 
 
-def email_variation(entity):
+def email_variation(entity, noise_severity = "low"):
     """Generate variations of email addresses with balanced distribution"""
     possible_variations = []
     

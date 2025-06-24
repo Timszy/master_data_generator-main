@@ -1,11 +1,25 @@
 from faker import Faker
 import random
-from helpers import store_table_as_csv
+import csv
 
-
+# This script generates synthetic healthcare data for testing purposes.
+# It creates addresses, healthcare organizations, service departments, contact points, healthcare personnel, and persons
 # Initialize Faker
 fake = Faker()
 Faker.seed(0)
+
+
+
+# Function to store table data as CSV
+def store_table_as_csv(data, filename):
+    fieldnames = data[0].keys()
+    with open(f"testdata/{filename}", 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in data:
+            writer.writerow(row)
+
+    print(f'{filename} stored with {len(data)} records')
 
 def generate_address(country_code):
     """

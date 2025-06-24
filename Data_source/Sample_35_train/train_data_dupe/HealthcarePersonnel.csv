@@ -1,0 +1,914 @@
+identifier,institution,department,jobTitle,email
+7e7705d3-a68d-4e57-a2e7-55f1917f4656,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,833cf90f-f555-4628-9d15-3fb4968051b7,Obstetric Nurse,shavwngreen@healthcare.org
+dcc2ed23-60b2-4a54-8ad3-fbe322df6e88,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,833cf90f-f555-4628-9d15-3fb4968051b7,Midwife,taylorrios@healthcare.org
+3b05b06c-1180-4ecd-be2e-d34626f2a89c,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,f64e8f4a-ef89-42e7-aa17-06669b6e83a9,Podiatrist,alexandriajones@healthcare.org
+164914a3-e76e-4bfa-acb6-e1d742efdc4e,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,f64e8f4a-ef89-42e7-aa17-06669b6e83a9,Foot Care Nurse,josuhabarnett@healthcare.org
+4f84b7ab-c3ea-4d9a-9fbf-a73814cc6552,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,ca687a98-f48e-49a8-aaeb-5a328fad725d,Poison Control Specialist,sheilajonhson@healthcare.org
+7f5c2eba-a415-464d-80e8-b721e93cafd5,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,ca687a98-f48e-49a8-aaeb-5a328fad725d,Poison Control Specialist,jordanloppez@healthcare.org
+9685530e-1cfd-4932-aee8-348808666f5c,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,8fa41d22-46dd-40ac-a0e3-0a4dfbcefcd0,Medical Assistant,chasesnydder@healthcare.org
+876bd565-31f7-4087-997b-fa21f17fcac6,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,8fa41d22-46dd-40ac-a0e3-0a4dfbcefcd0,Primary Care Nurse,ronniegibseon@healthcare.org
+2b8cab45-863d-4e77-8781-58fa1cd8b947,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,080638c9-4967-49fb-b2e0-2961ac73189c,Arthritis Specialist,linadcain@healthcare.org
+d12b4c73-2d9a-473b-8449-cef272fe1f34,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,080638c9-4967-49fb-b2e0-2961ac73189c,Arthritis Specialist,robinjohnon@healthcare.org
+f2742890-7f58-460f-ba1a-e4a21847d98c,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,b4ca0142-3b23-4fd8-8d20-f686854df9b6,Communication Disorders Specialist,karejackson@healthcare.org
+fc4384c8-2c54-4c1f-b88b-ed70aaced96b,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,b4ca0142-3b23-4fd8-8d20-f686854df9b6,Speech Pathologist,msallisopnknightdvm@healthcare.org
+873fe512-6c3e-4eee-b0b0-cf280e7d44ea,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,080638c9-4967-49fb-b2e0-2961ac73189c,Rheumatologist,jamiegrififth@healthcare.org
+4b74467b-1fae-4462-b002-a16282e99ae8,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,b4ca0142-3b23-4fd8-8d20-f686854df9b6,Speech Pathologist,timothyfrenchphd@healthcare.org
+a3f7e9e2-613d-4964-9371-ef9174d095c0,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,b4ca0142-3b23-4fd8-8d20-f686854df9b6,Speech Therapist,sandrasandoavl@healthcare.org
+9b3d65bb-84eb-41d0-92fa-a00c899b1bbd,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,f64e8f4a-ef89-42e7-aa17-06669b6e83a9,Foot Care Nurse,davidharison@healthcare.org
+44af5e4e-49df-4b05-ac06-a0e4c13ac19c,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,833cf90f-f555-4628-9d15-3fb4968051b7,Doula,stpehenmiller@healthcare.org
+a15482f1-86da-4cc7-b40a-e73e2396d300,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,080638c9-4967-49fb-b2e0-2961ac73189c,Arthritis Specialist,lorettatorres@healthcare.org
+8e4983da-f15e-41b7-b87f-21712fb18acf,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,f64e8f4a-ef89-42e7-aa17-06669b6e83a9,Foot Care Nurse,astinwade@healthcare.org
+800c0122-7271-464d-a3db-0a4f30cd8192,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,833cf90f-f555-4628-9d15-3fb4968051b7,Obstetric Nurse,ashleytyleer@healthcare.org
+8b80f9cf-8583-4155-992d-1a55e69a39cb,6d15bdd9-73d7-41e4-b7fc-c7b887f931eb,ca687a98-f48e-49a8-aaeb-5a328fad725d,Poison Control Specialist,caatherineramirez@healthcare.org
+4b47fdea-418c-4516-9133-3f7fa8da94b7,bed1343f-3209-412f-8e77-05b84d36818c,b8c5ee78-d214-4218-9d3b-8d933b8ddd5b,Medical Laboratory Scientist,kevincoper@healthcare.org
+c92253b4-ff14-424e-bb43-9ca64bac499b,bed1343f-3209-412f-8e77-05b84d36818c,b8c5ee78-d214-4218-9d3b-8d933b8ddd5b,Pathologist,karenmitchell@healthcare.org
+fdd120be-2ef2-4442-9e8b-57add9b7a574,bed1343f-3209-412f-8e77-05b84d36818c,65739938-a96e-4bf4-9865-23b8f9154865,Women's Health Nurse,michdaelpetersen@healthcare.org
+c12bea93-d2d5-4854-8ccf-1a90cccafc02,bed1343f-3209-412f-8e77-05b84d36818c,65739938-a96e-4bf4-9865-23b8f9154865,Obstetrics Technician,graceadms@healthcare.org
+86edb4c1-52a8-4227-b8bf-bdad95523786,bed1343f-3209-412f-8e77-05b84d36818c,4bc01de3-d197-4561-b9b6-8b9523aa9e67,Anesthesiologist,pamelabowzers@healthcare.org
+711e56a2-7c6f-4d67-bc46-5404842d3032,bed1343f-3209-412f-8e77-05b84d36818c,4bc01de3-d197-4561-b9b6-8b9523aa9e67,Anesthesiology Nurse,johnpindea@healthcare.org
+4c9ba4c8-0d87-44a1-baa4-8fb0c6528c1a,bed1343f-3209-412f-8e77-05b84d36818c,0044c690-f17a-4c84-8b3d-7ee7fa9f941a,Podiatrist,davidbakcer@healthcare.org
+d757590b-6239-4d0a-818b-3dc6b1efb68c,bed1343f-3209-412f-8e77-05b84d36818c,0044c690-f17a-4c84-8b3d-7ee7fa9f941a,Foot Care Nurse,brittneyiros@healthcare.org
+5123f079-d511-4d69-9f7f-efb3518e76b3,bed1343f-3209-412f-8e77-05b84d36818c,2dc6c2ac-cbae-4e93-af39-c04551bb91c1,ENT Specialist,cdoymitchell@healthcare.org
+6db29ca7-7c07-4e8d-a6dd-069105867044,bed1343f-3209-412f-8e77-05b84d36818c,2dc6c2ac-cbae-4e93-af39-c04551bb91c1,Audiologist,tonyorgers@healthcare.org
+a37e32cf-65b9-4b12-9923-e286597a023b,bed1343f-3209-412f-8e77-05b84d36818c,b8c5ee78-d214-4218-9d3b-8d933b8ddd5b,Lab Technician,terryhofman@healthcare.org
+79916c39-89e1-4709-b14c-e3e89473d9cb,bed1343f-3209-412f-8e77-05b84d36818c,65739938-a96e-4bf4-9865-23b8f9154865,Obstetrics Technician,hannahmilvler@healthcare.org
+ca5f8e18-13cf-4ff0-a2e2-472009abafc2,bed1343f-3209-412f-8e77-05b84d36818c,0044c690-f17a-4c84-8b3d-7ee7fa9f941a,Podiatrist,sarahmyers@healthcare.org
+b30441b8-ee6e-472b-ae2a-6329ef626eeb,bed1343f-3209-412f-8e77-05b84d36818c,4bc01de3-d197-4561-b9b6-8b9523aa9e67,Anesthesiologist,ronniejames@healthcare.org
+ac1761a6-f2ba-4efa-908c-6e8993f3f894,bed1343f-3209-412f-8e77-05b84d36818c,b8c5ee78-d214-4218-9d3b-8d933b8ddd5b,Pathologist,caitliwright@healthcare.org
+d19c03fe-0f2b-40fb-9a95-b968dc75442d,bed1343f-3209-412f-8e77-05b84d36818c,4bc01de3-d197-4561-b9b6-8b9523aa9e67,Anesthesiology Nurse,cherylwebb@healthcare.org
+c91bb505-1db1-4434-90e7-6696fe9f63c4,bed1343f-3209-412f-8e77-05b84d36818c,0044c690-f17a-4c84-8b3d-7ee7fa9f941a,Orthotic Specialist,susanwilliams@healthcare.org
+7009c2ef-6116-43a5-b386-c69af5661e60,bed1343f-3209-412f-8e77-05b84d36818c,b8c5ee78-d214-4218-9d3b-8d933b8ddd5b,Pathologist,codystelphenson@healthcare.org
+92c2e33d-c749-4fc1-8296-2f6b41f48373,bed1343f-3209-412f-8e77-05b84d36818c,4bc01de3-d197-4561-b9b6-8b9523aa9e67,Anesthesiology Nurse,sabrinabrwn@healthcare.org
+a3aeba65-4682-4d91-9b47-a401252d0388,446e14bc-8a69-41d4-b519-b2e2df5daf95,9b83a437-28b7-405b-abc2-ded76bd8e65f,Nutrition Counselor,shariramiirez@healthcare.org
+bb26f8b7-608b-48b2-afe8-17463fefd93f,446e14bc-8a69-41d4-b519-b2e2df5daf95,9b83a437-28b7-405b-abc2-ded76bd8e65f,Diet Technician,patrickiamitchell@healthcare.org
+297c67e1-dd60-45a2-b9c9-ab5d69772f14,446e14bc-8a69-41d4-b519-b2e2df5daf95,eb6b96ec-ea3a-4bf3-a994-6c6d3590a2e5,Rheumatology Nurse,michellegarcia@healthcare.org
+00ead1b1-0930-4d79-adb6-05456142e5c6,446e14bc-8a69-41d4-b519-b2e2df5daf95,eb6b96ec-ea3a-4bf3-a994-6c6d3590a2e5,Rheumatology Nurse,bafrbarawest@healthcare.org
+5979f344-9c02-4428-aa16-aba09724350f,446e14bc-8a69-41d4-b519-b2e2df5daf95,c5cf255f-278d-44f6-88df-480ea3b4e529,Genetic Counselor,sandraahall@healthcare.org
+6e8ac21c-61cf-483a-99b2-96702d260aee,446e14bc-8a69-41d4-b519-b2e2df5daf95,c5cf255f-278d-44f6-88df-480ea3b4e529,Geneticist,chrylschmitt@healthcare.org
+162c58a8-6a31-4cef-aa9e-a8ff7d94c43e,446e14bc-8a69-41d4-b519-b2e2df5daf95,6250e9f9-08d1-4e63-a7e8-aeae24a703e3,Lung Function Technician,alllisonlee@healthcare.org
+70575e5e-2eb6-46ce-964e-17f169a28183,446e14bc-8a69-41d4-b519-b2e2df5daf95,6250e9f9-08d1-4e63-a7e8-aeae24a703e3,Lung Function Technician,janettherring@healthcare.org
+52cb92e3-a38b-433f-ad39-939e566c168d,446e14bc-8a69-41d4-b519-b2e2df5daf95,f146b080-0a2c-46a9-9bd3-839291e54b3a,Community Outreach Specialist,victorjwilson@healthcare.org
+e207bc79-577a-4321-a361-7d33ddfb0f0e,446e14bc-8a69-41d4-b519-b2e2df5daf95,f146b080-0a2c-46a9-9bd3-839291e54b3a,Public Health Officer,davihill@healthcare.org
+e22b2d43-50dc-4123-a232-829b964d3545,446e14bc-8a69-41d4-b519-b2e2df5daf95,4b9368d9-6188-4ea0-9e5e-cd0a3cbafcaa,Public Health Nurse,johnhughes@healthcare.org
+2ea913d7-4423-401b-acdc-b7f926069587,446e14bc-8a69-41d4-b519-b2e2df5daf95,4b9368d9-6188-4ea0-9e5e-cd0a3cbafcaa,Public Health Nurse,anthonyshelton@healthcare.org
+4a4d5e1b-b18e-46ad-992c-0e67ba94eb5a,446e14bc-8a69-41d4-b519-b2e2df5daf95,bb1a48e2-50b9-4e51-a81e-5658d813a70f,Anesthesiology Nurse,jessicacole@healthcare.org
+b5a4d06c-2b5f-4980-9675-01e6ecb2b9b2,446e14bc-8a69-41d4-b519-b2e2df5daf95,bb1a48e2-50b9-4e51-a81e-5658d813a70f,Anesthesiology Nurse,dramberallen@healthcare.org
+e3e40e19-0bbb-4ea0-89f3-8184a8b64625,446e14bc-8a69-41d4-b519-b2e2df5daf95,18711121-c9e8-460c-8a8f-541d052ba051,Community Outreach Specialist,heidibenson@healthcare.org
+360c3355-f47b-4ae2-b5ca-1da7e4b4a601,446e14bc-8a69-41d4-b519-b2e2df5daf95,18711121-c9e8-460c-8a8f-541d052ba051,Community Outreach Specialist,jameshapmton@healthcare.org
+a8da2c35-1e46-4191-981c-dfbece21f82c,446e14bc-8a69-41d4-b519-b2e2df5daf95,d0ab9ea4-c15f-47ca-a04e-6817ad982a08,Respiratory Therapist,kleseysmith@healthcare.org
+961e0a01-1c69-4635-8eed-afd977fa5849,446e14bc-8a69-41d4-b519-b2e2df5daf95,d0ab9ea4-c15f-47ca-a04e-6817ad982a08,Respiratory Therapist,dannnyruiz@healthcare.org
+b7f66a45-023e-498e-ae56-62075bab436c,446e14bc-8a69-41d4-b519-b2e2df5daf95,10c313bd-6478-4399-8d68-2a6149262a13,Urology Nurse,micehllemeyers@healthcare.org
+637f846d-39ee-4c42-be3b-6024e3aad180,446e14bc-8a69-41d4-b519-b2e2df5daf95,10c313bd-6478-4399-8d68-2a6149262a13,Urologist,stephnmathis@healthcare.org
+f4471cd7-1230-4805-a917-633c7b232fe2,446e14bc-8a69-41d4-b519-b2e2df5daf95,18711121-c9e8-460c-8a8f-541d052ba051,Epidemiologist,kevinkaufmn@healthcare.org
+984e9293-088a-4d04-b5be-9a9c4f7cf451,446e14bc-8a69-41d4-b519-b2e2df5daf95,f146b080-0a2c-46a9-9bd3-839291e54b3a,Public Health Officer,erinwoosd@healthcare.org
+7ee2dd17-611b-4383-91ca-8d827af9eec4,446e14bc-8a69-41d4-b519-b2e2df5daf95,eb6b96ec-ea3a-4bf3-a994-6c6d3590a2e5,Rheumatologist,martinwarxren@healthcare.org
+4f840a3d-9f45-4fb3-9de1-d8e9d1575250,446e14bc-8a69-41d4-b519-b2e2df5daf95,bb1a48e2-50b9-4e51-a81e-5658d813a70f,Anesthesiology Assistant,terehsarodriguez@healthcare.org
+4b325672-1470-4fd0-b68c-b042a3637efa,446e14bc-8a69-41d4-b519-b2e2df5daf95,18711121-c9e8-460c-8a8f-541d052ba051,Community Outreach Specialist,lisaedwairds@healthcare.org
+77584cf0-dc25-4afd-8e12-980843b1279b,446e14bc-8a69-41d4-b519-b2e2df5daf95,18711121-c9e8-460c-8a8f-541d052ba051,Public Health Officer,joseclark@healthcare.org
+f74d7354-d37b-402d-bdc0-e7bdbd286959,446e14bc-8a69-41d4-b519-b2e2df5daf95,eb6b96ec-ea3a-4bf3-a994-6c6d3590a2e5,Arthritis Specialist,geogreboyd@healthcare.org
+49157704-7dba-40db-891b-755b4b5ac2ed,446e14bc-8a69-41d4-b519-b2e2df5daf95,9b83a437-28b7-405b-abc2-ded76bd8e65f,Nutritionist,cynthiamorales@healthcare.org
+552427a4-9f37-4da7-9a0d-e9f3d765cd17,446e14bc-8a69-41d4-b519-b2e2df5daf95,10c313bd-6478-4399-8d68-2a6149262a13,Urologist,joshhuaflynn@healthcare.org
+ab1841a1-5f73-4082-8cd8-59f551fcf403,bbeba19d-6f0b-417f-8437-117d02cd697e,ed6fe79b-8c56-4b92-8f32-2470a2334974,Obstetric Nurse,danawilliams@healthcare.org
+49820d81-11b6-44b4-b535-25ccca8a369e,bbeba19d-6f0b-417f-8437-117d02cd697e,ed6fe79b-8c56-4b92-8f32-2470a2334974,Obstetric Nurse,alexanderaderson@healthcare.org
+a641005c-4552-4963-a36a-57048ceb53b9,bbeba19d-6f0b-417f-8437-117d02cd697e,7cbb1bcc-ef38-4237-99a0-f532d2197d93,GI Technician,micheeljones@healthcare.org
+b0efd843-3bdd-4426-a8f5-26d15b283fd8,bbeba19d-6f0b-417f-8437-117d02cd697e,7cbb1bcc-ef38-4237-99a0-f532d2197d93,Gastroenterologist,randyrce@healthcare.org
+2c0c9705-8b61-4084-98de-552bc963d65c,bbeba19d-6f0b-417f-8437-117d02cd697e,2709483a-176f-4018-b186-46ce90e49461,Pharmacist,davdistone@healthcare.org
+d6e9a501-6841-44b0-bae2-40be6982a261,bbeba19d-6f0b-417f-8437-117d02cd697e,2709483a-176f-4018-b186-46ce90e49461,Clinical Pharmacologist,gairycarter@healthcare.org
+d7863280-a51f-47ec-9b98-2d32de52e9cd,bbeba19d-6f0b-417f-8437-117d02cd697e,1da11d7a-a281-4ecd-b084-486f52268c27,Gynecologist,aslheyle@healthcare.org
+43abf900-ac74-499c-8c9e-c5e395e2f243,bbeba19d-6f0b-417f-8437-117d02cd697e,1da11d7a-a281-4ecd-b084-486f52268c27,Obstetrics Technician,donaldjcakson@healthcare.org
+f4e7efed-b702-4c59-8c56-cc86057b814e,bbeba19d-6f0b-417f-8437-117d02cd697e,d296e670-f35f-4a3e-ad38-505b5e8a511b,Nurse Practitioner,lisamyers@healthcare.org
+8213b7fc-2abe-4591-95f3-5283b760d410,bbeba19d-6f0b-417f-8437-117d02cd697e,d296e670-f35f-4a3e-ad38-505b5e8a511b,Nurse Practitioner,courtneylyos@healthcare.org
+a9dbe07d-2753-4459-934e-7405ec6b7a9d,bbeba19d-6f0b-417f-8437-117d02cd697e,5d7ee6e3-58bd-4490-926c-34f8f6b1557e,Anesthesiologist,patrickmarhall@healthcare.org
+9a29204a-b600-43d7-ba6e-75ff3e6d6320,bbeba19d-6f0b-417f-8437-117d02cd697e,5d7ee6e3-58bd-4490-926c-34f8f6b1557e,Anesthesiologist,vickiehill@healthcare.org
+28a2aa6d-380a-4b88-95f6-9d76b426ef2b,bbeba19d-6f0b-417f-8437-117d02cd697e,2f40d4ef-bfb5-43c2-bd16-2e6fe93cef4b,Neurologist,katherinerodriguze@healthcare.org
+5380edaa-2644-4ddc-a94a-2919b0972a2c,bbeba19d-6f0b-417f-8437-117d02cd697e,2f40d4ef-bfb5-43c2-bd16-2e6fe93cef4b,Neurological Nurse,taramasn@healthcare.org
+d4fcd1a2-341e-492a-a421-935d753601ef,bbeba19d-6f0b-417f-8437-117d02cd697e,f3be0a6c-15ec-4910-8e38-34376a1c7817,Hematologist,williaamlutz@healthcare.org
+784fcadc-5a6b-4acc-80df-4e40a49340a0,bbeba19d-6f0b-417f-8437-117d02cd697e,f3be0a6c-15ec-4910-8e38-34376a1c7817,Hematology Nurse,drashleyparkdds@healthcare.org
+26116070-e178-43f4-8e19-de2aca706497,bbeba19d-6f0b-417f-8437-117d02cd697e,2709483a-176f-4018-b186-46ce90e49461,Pharmacist,williammtorres@healthcare.org
+91075a59-c8d2-4c6d-9d05-79e8e9df9ded,bbeba19d-6f0b-417f-8437-117d02cd697e,2709483a-176f-4018-b186-46ce90e49461,Pharmacy Technician,davridbuckley@healthcare.org
+cf71dbc1-5254-454c-9c65-3ebfd1c5d4b4,bbeba19d-6f0b-417f-8437-117d02cd697e,d296e670-f35f-4a3e-ad38-505b5e8a511b,Licensed Practical Nurse,lisajohnsxon@healthcare.org
+6d43b1ca-672c-4ec9-9d8a-0afa33707bc0,bbeba19d-6f0b-417f-8437-117d02cd697e,7cbb1bcc-ef38-4237-99a0-f532d2197d93,GI Technician,marthajimeneez@healthcare.org
+64fc0332-e509-4c9f-99b8-77875dffcb09,bbeba19d-6f0b-417f-8437-117d02cd697e,d296e670-f35f-4a3e-ad38-505b5e8a511b,Registered Nurse,sadndrabrown@healthcare.org
+398be4f7-ff5a-42be-bac2-424dc7e48ae1,bbeba19d-6f0b-417f-8437-117d02cd697e,5d7ee6e3-58bd-4490-926c-34f8f6b1557e,Anesthesiology Nurse,nichlaswood@healthcare.org
+c9d49b11-4f5d-4501-b30f-d56a8655e41e,bbeba19d-6f0b-417f-8437-117d02cd697e,2709483a-176f-4018-b186-46ce90e49461,Pharmacy Technician,setevenhunt@healthcare.org
+c9ee0eb6-034f-4073-974e-98a4f9a6c0cc,bbeba19d-6f0b-417f-8437-117d02cd697e,ed6fe79b-8c56-4b92-8f32-2470a2334974,Midwife,linadknight@healthcare.org
+e582675d-c8b2-4aa3-be09-d4383708d906,bbeba19d-6f0b-417f-8437-117d02cd697e,f3be0a6c-15ec-4910-8e38-34376a1c7817,Blood Bank Technologist,morganjoones@healthcare.org
+535bf5f2-90a9-47ce-8cb3-3b3b6c788e9f,bbeba19d-6f0b-417f-8437-117d02cd697e,5d7ee6e3-58bd-4490-926c-34f8f6b1557e,Anesthesiology Assistant,jamiemoore@healthcare.org
+6ff5bfdb-b9ba-44d6-be05-e38890ec0321,bbeba19d-6f0b-417f-8437-117d02cd697e,2f40d4ef-bfb5-43c2-bd16-2e6fe93cef4b,Neurosurgeon,kylemanniing@healthcare.org
+a6c12d26-04a4-4589-9c37-88682a90e4d8,bbeba19d-6f0b-417f-8437-117d02cd697e,d296e670-f35f-4a3e-ad38-505b5e8a511b,Registered Nurse,justinjones@healthcare.org
+dbf522bd-90e3-44cd-b5ef-9a07e407a14c,bbeba19d-6f0b-417f-8437-117d02cd697e,ed6fe79b-8c56-4b92-8f32-2470a2334974,Obstetric Nurse,jampesball@healthcare.org
+f7f63a49-dac1-4eef-831c-f18d372bb953,bbeba19d-6f0b-417f-8437-117d02cd697e,2709483a-176f-4018-b186-46ce90e49461,Pharmacy Technician,cariolmiller@healthcare.org
+1f88df57-a60c-494e-8df7-1ba295391077,bbeba19d-6f0b-417f-8437-117d02cd697e,1da11d7a-a281-4ecd-b084-486f52268c27,Women's Health Nurse,jennifferbrooks@healthcare.org
+743ede29-3677-4959-a311-f6fba8e84bb2,bbeba19d-6f0b-417f-8437-117d02cd697e,d296e670-f35f-4a3e-ad38-505b5e8a511b,Licensed Practical Nurse,robertroobertson@healthcare.org
+10b94fb2-207f-46c8-842e-b95c1f538d6c,6e9fe384-b713-4b6a-95b6-466df1e7d14b,4388938a-82bc-4728-ac20-74955c5b6d49,Midwife,andrprice@healthcare.org
+7b0c832a-bfe1-4020-87d4-30f51ba63971,6e9fe384-b713-4b6a-95b6-466df1e7d14b,4388938a-82bc-4728-ac20-74955c5b6d49,Midwife,erikahill@healthcare.org
+98dec23f-dc4c-4a82-9966-a40c0ed04908,6e9fe384-b713-4b6a-95b6-466df1e7d14b,ff09ff3a-4eef-4333-a849-4a7e4e72d338,Doula,joshuaharirs@healthcare.org
+ca21257c-85c0-496e-b297-d56805d5312a,6e9fe384-b713-4b6a-95b6-466df1e7d14b,ff09ff3a-4eef-4333-a849-4a7e4e72d338,Doula,cvourtneyjohnson@healthcare.org
+48e8eeb3-f139-4176-8d9c-097f514864e5,6e9fe384-b713-4b6a-95b6-466df1e7d14b,29c5de2a-50ec-47bf-a933-312316653367,Orthopedic Nurse,roycampbell@healthcare.org
+8951ecf4-9413-4679-8470-558b669667a0,6e9fe384-b713-4b6a-95b6-466df1e7d14b,29c5de2a-50ec-47bf-a933-312316653367,Orthopedic Surgeon,aprilcoleman@healthcare.org
+305834cd-d93b-46d6-8e9c-82e149095fcd,6e9fe384-b713-4b6a-95b6-466df1e7d14b,67706bef-d5be-4022-9ea7-0756a1d577a4,Speech Therapist,savananhmann@healthcare.org
+b08c11df-df38-491e-82bc-0fd53225b1ac,6e9fe384-b713-4b6a-95b6-466df1e7d14b,67706bef-d5be-4022-9ea7-0756a1d577a4,Speech Pathologist,thomasfisher@healthcare.org
+f90acc31-3856-4429-928e-75e79f5c4315,6e9fe384-b713-4b6a-95b6-466df1e7d14b,1eff1078-3985-477f-8069-f48d5c5815b0,Dentist,justinnelsn@healthcare.org
+a90d06be-571e-4fcc-bce1-d18ed539b03a,6e9fe384-b713-4b6a-95b6-466df1e7d14b,1eff1078-3985-477f-8069-f48d5c5815b0,Orthodontist,pamelagordon@healthcare.org
+714443f0-7ab0-4163-8c24-515b63cc0e79,6e9fe384-b713-4b6a-95b6-466df1e7d14b,567ffb07-cbc9-4874-9bb3-aa4c5147a3fa,Audiologist,camreonbullock@healthcare.org
+1141944a-ab3d-4c47-93e3-b0dd1cd08660,6e9fe384-b713-4b6a-95b6-466df1e7d14b,567ffb07-cbc9-4874-9bb3-aa4c5147a3fa,ENT Specialist,carklfisher@healthcare.org
+1a584243-98cd-4121-9fc9-7fd9bfdb8787,6e9fe384-b713-4b6a-95b6-466df1e7d14b,02c1f0b0-bce7-4742-b228-0d9ae2cd8130,General Practitioner,tracybbrown@healthcare.org
+d73aeaf4-947b-4f91-8825-d572b444ae66,6e9fe384-b713-4b6a-95b6-466df1e7d14b,02c1f0b0-bce7-4742-b228-0d9ae2cd8130,General Practitioner,karenwalker@healthcare.org
+7606aa6e-4291-4be1-aa14-6870c0d22e28,6e9fe384-b713-4b6a-95b6-466df1e7d14b,4388938a-82bc-4728-ac20-74955c5b6d49,Obstetric Nurse,coreeyowens@healthcare.org
+ad82a30b-c78a-43db-a3a4-2f843ffeaee3,6e9fe384-b713-4b6a-95b6-466df1e7d14b,1eff1078-3985-477f-8069-f48d5c5815b0,Dental Hygienist,jabnetbyrd@healthcare.org
+bc3e2e1c-1baa-4459-9818-297b91919ed0,6e9fe384-b713-4b6a-95b6-466df1e7d14b,29c5de2a-50ec-47bf-a933-312316653367,Orthopedic Nurse,ashleyory@healthcare.org
+e83bf7cf-6f68-4ad4-8dfd-8e4b42da3167,6e9fe384-b713-4b6a-95b6-466df1e7d14b,02c1f0b0-bce7-4742-b228-0d9ae2cd8130,Primary Care Nurse,billhamiilton@healthcare.org
+5cca8dcb-c471-44c0-b60c-0fdbf4131910,6e9fe384-b713-4b6a-95b6-466df1e7d14b,4388938a-82bc-4728-ac20-74955c5b6d49,Obstetric Nurse,melissagoemz@healthcare.org
+0b7c42be-679f-4e32-9e19-f909627e0cb1,6e9fe384-b713-4b6a-95b6-466df1e7d14b,29c5de2a-50ec-47bf-a933-312316653367,Physical Therapist,mrsethbcook@healthcare.org
+b795a95f-540f-4de4-b9d8-6177ac07d8f7,6e9fe384-b713-4b6a-95b6-466df1e7d14b,ff09ff3a-4eef-4333-a849-4a7e4e72d338,Midwife,johnjohnnson@healthcare.org
+0c2f2870-304b-4bc5-9e94-277872d28ebc,6e9fe384-b713-4b6a-95b6-466df1e7d14b,67706bef-d5be-4022-9ea7-0756a1d577a4,Communication Disorders Specialist,michaelgfrank@healthcare.org
+5c0abe54-88f3-44fe-99e8-46de9ebb970a,6e9fe384-b713-4b6a-95b6-466df1e7d14b,ff09ff3a-4eef-4333-a849-4a7e4e72d338,Midwife,gregooryrowe@healthcare.org
+0acb21d6-65ad-4412-8e8a-992e782d73eb,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,80aaf97e-454b-47c1-ae87-4f00de906481,Midwife,donaldharrisson@healthcare.org
+69d57452-8421-4532-8490-56e38c50322c,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,80aaf97e-454b-47c1-ae87-4f00de906481,Obstetric Nurse,brendpaarks@healthcare.org
+a7b3f656-5408-43b4-8860-e9d3e7750bf2,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,d6fdf516-6b1a-47c6-a3ed-6d79186f4ef1,GI Technician,stephanieuprice@healthcare.org
+7bae3359-2233-4290-84b8-1f3ab992ad1e,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,d6fdf516-6b1a-47c6-a3ed-6d79186f4ef1,GI Technician,mrsannerihcardson@healthcare.org
+5bab8d66-e43a-44c9-81b4-8ac790394636,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,46ad6171-8f72-428c-96fc-a750fa679a04,Poison Control Specialist,glendascott@healthcare.org
+64d08e35-67ee-4d40-b36f-f415ccdb3f33,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,46ad6171-8f72-428c-96fc-a750fa679a04,Toxicologist,ripchardbutler@healthcare.org
+5a983a34-5c50-414e-9938-ce4bcefe3ebb,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,830d98ee-c1c3-4b57-9d56-dae36bd2623a,Communication Disorders Specialist,jennifrbarker@healthcare.org
+958eff3c-06f6-49cc-963b-eafa1857f88d,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,830d98ee-c1c3-4b57-9d56-dae36bd2623a,Speech Therapist,dianestickland@healthcare.org
+1e23d3fd-be8b-468c-a22e-4a905dbe19b4,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,900e7701-f888-432e-b45a-6a8736e11fc9,Emergency Medical Technician,miichealperez@healthcare.org
+3fa1f172-d170-4808-9c09-d6857b1ebd88,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,900e7701-f888-432e-b45a-6a8736e11fc9,Emergency Medical Technician,amadnadaniels@healthcare.org
+8c92033e-571c-40cf-ab86-dd3b98db8205,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c413e9ba-28db-4021-a56a-3078cf7d511b,GI Technician,mrslindsayshafffer@healthcare.org
+81ea0f62-d82e-4a57-ad1d-57570d609762,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c413e9ba-28db-4021-a56a-3078cf7d511b,GI Nurse,michaelgratn@healthcare.org
+fe6efb71-5b62-4f79-9acf-c6c34e058fbe,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,d219c778-5891-4706-843b-5096d39e4b11,Radiation Therapist,oliviahannson@healthcare.org
+69cd5593-7945-4a77-a5af-18fe957cfd4a,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,d219c778-5891-4706-843b-5096d39e4b11,Oncology Nurse,rachelrbertson@healthcare.org
+8f68dbde-78d6-4521-8e9c-6a48697176b4,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,06bba00e-615a-4c4a-979d-92bc2bd11b15,Community Outreach Specialist,susanwashingtkon@healthcare.org
+7dccdd8a-e182-4f30-9700-87065545be19,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,06bba00e-615a-4c4a-979d-92bc2bd11b15,Public Health Officer,timothhuerta@healthcare.org
+391b65d9-9c20-4603-a91b-7d99ac3af8ba,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,8f6262db-20f4-4aaf-a31c-3308c3007cb1,Obstetrics Technician,jasmuinecannon@healthcare.org
+1fb76fbf-0629-4e00-b1dc-f35f8275a50c,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,8f6262db-20f4-4aaf-a31c-3308c3007cb1,Obstetrics Technician,donnaboyyd@healthcare.org
+8d173232-78e0-40b0-ae97-59cd2a0f0b4c,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c78e0f48-4522-4c79-9cf5-2508aac487b1,Dentist,joshuaryant@healthcare.org
+dddd34c1-ce4f-44a9-888f-21b35a120c8f,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c78e0f48-4522-4c79-9cf5-2508aac487b1,Dentist,amykellly@healthcare.org
+720e1c4e-f9e4-4668-ba17-9bcdce106690,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,900e7701-f888-432e-b45a-6a8736e11fc9,Emergency Physician,charplesking@healthcare.org
+d17207b3-f0f2-40a3-9e0f-84a4b08bfeef,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c413e9ba-28db-4021-a56a-3078cf7d511b,GI Technician,donaldgzuman@healthcare.org
+5e809498-e610-4c85-9a0e-c51e63bb8f86,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,46ad6171-8f72-428c-96fc-a750fa679a04,Poison Control Specialist,kathenrineevans@healthcare.org
+8e408268-1e56-409a-8017-0b2876bb095e,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,830d98ee-c1c3-4b57-9d56-dae36bd2623a,Communication Disorders Specialist,vicikdonaldson@healthcare.org
+f2ce0ee1-5944-4bac-8f82-4ecab90f0b68,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c78e0f48-4522-4c79-9cf5-2508aac487b1,Dental Assistant,rogerwolf@healthcare.org
+57daac36-8193-4712-9e07-e5a813eddf1e,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,d219c778-5891-4706-843b-5096d39e4b11,Radiation Therapist,micahelleowens@healthcare.org
+ece17448-28ed-4aae-9057-077907f91ef4,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,830d98ee-c1c3-4b57-9d56-dae36bd2623a,Communication Disorders Specialist,melissaonrris@healthcare.org
+e122228a-a8b4-4922-bbca-3fcb6da8d58e,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,c413e9ba-28db-4021-a56a-3078cf7d511b,GI Nurse,jessecrater@healthcare.org
+b688808b-4ebc-4cc4-9828-ef5c9c290a7a,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,80aaf97e-454b-47c1-ae87-4f00de906481,Doula,brandonthompson@healthcare.org
+bba65084-78bf-45c2-84cb-63b970f1148e,58a6ea0b-9820-40aa-9ec5-e7ff30affa63,80aaf97e-454b-47c1-ae87-4f00de906481,Obstetric Nurse,emilyfreeman@healthcare.org
+becec056-9d0a-4ca4-81d4-3c595f876cb3,65ed857a-7d39-4b12-994a-27e4aafc021d,83c39b81-e8f3-40a8-9b76-1752463b76af,Endocrine Nurse,rogermeyres@healthcare.org
+170ea1be-e379-45e3-8018-1bc0994699bd,65ed857a-7d39-4b12-994a-27e4aafc021d,83c39b81-e8f3-40a8-9b76-1752463b76af,Endocrinologist,connoryoung@healthcare.org
+f74ac285-fb70-4ace-aad8-79c8bf1ed9bc,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Nurse,kennethharmon@healthcare.org
+8c156464-2126-47ef-85aa-c092fd08ad5f,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,Gastroenterologist,karenmays@healthcare.org
+604edcb1-6aaf-4268-9c3b-00868a3538b5,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Orthopedic Surgeon,randyycarter@healthcare.org
+45b653a1-8034-493c-9be6-987172494c6f,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Orthopedic Surgeon,lynnweeaver@healthcare.org
+3980c53b-ff74-4970-9823-7529297445a3,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Toxicologist,shlleyburns@healthcare.org
+0b67e0c5-879e-47e5-9667-876aa397d665,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,kxellymorgan@healthcare.org
+fe2a6bca-cbdb-4ce8-8ed3-dd832fae42ea,65ed857a-7d39-4b12-994a-27e4aafc021d,5822d645-49c8-4564-9e86-f6aa04cb5e62,Cardiovascular Surgeon,roserivera@healthcare.org
+6ccce08d-69ae-461d-b9a1-3aa114bd5f0e,65ed857a-7d39-4b12-994a-27e4aafc021d,5822d645-49c8-4564-9e86-f6aa04cb5e62,Cardiac Nurse,sophbiaharrell@healthcare.org
+d72d1ca2-a258-4c57-b503-1624e995be67,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,Gastroenterologist,davidmiller@healthcare.org
+62e8d6f6-009f-4d87-997a-bbe0cf0d5600,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Technician,sarahmcdanil@healthcare.org
+f6dab52e-1629-4cbf-bbe4-0469e4a7d136,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,codyylloyd@healthcare.org
+8fffeb8f-cd2d-4313-89eb-163d9c584c89,65ed857a-7d39-4b12-994a-27e4aafc021d,5822d645-49c8-4564-9e86-f6aa04cb5e62,EKG Technician,kristinnichlos@healthcare.org
+8eca6b4f-7a4e-461c-af1f-76b820454ac1,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,soyasawyer@healthcare.org
+f23b38cc-e592-4aad-8e72-8490129f4bfa,65ed857a-7d39-4b12-994a-27e4aafc021d,5822d645-49c8-4564-9e86-f6aa04cb5e62,EKG Technician,bnejaminayers@healthcare.org
+f8f8a02d-ed4e-4ac9-bc94-6d2bc0c509b5,65ed857a-7d39-4b12-994a-27e4aafc021d,83c39b81-e8f3-40a8-9b76-1752463b76af,Endocrine Nurse,anndesampson@healthcare.org
+fc14f839-e5b1-4aec-99fe-9c05698c8bc1,65ed857a-7d39-4b12-994a-27e4aafc021d,83c39b81-e8f3-40a8-9b76-1752463b76af,Endocrinologist,lidnapittman@healthcare.org
+7c315feb-ecda-422b-9290-1fd8f40b960c,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,agelawood@healthcare.org
+9eaee007-cda4-4219-91de-69ff3f81bdda,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Orthopedic Surgeon,caroilneharris@healthcare.org
+bab681ec-d2ad-40d5-ad30-2246b1ecdd31,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,cassandrahernndez@healthcare.org
+f458f53d-3fba-4fb6-8b6e-4afd4f2bfeab,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,gregoryholmes@healthcare.org
+7b9155ca-2961-44f6-b89a-a3e9694a7ecc,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Technician,georgmeorrow@healthcare.org
+cb5065d3-3da6-411c-92d3-d9d213563303,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Orthopedic Nurse,ashlekemp@healthcare.org
+4422fb85-483e-4e02-ae58-783d0c037df3,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Orthopedic Surgeon,alyssawilliams@healthcare.org
+9b60bde4-622a-49dd-ad4a-a3b3dc876372,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Physical Therapist,frankagtuirre@healthcare.org
+be787f97-4c96-4616-a39b-e014b165b8ec,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Technician,elizzabethchan@healthcare.org
+14c5259c-8b4e-42c3-87c0-7e8f1d92e1e0,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Nurse,markknight@healthcare.org
+1418dd27-a37e-4f83-8614-7cc862abfaee,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Toxicologist,wiliambailey@healthcare.org
+eda268a9-88b0-4aa8-97cc-4decef9919a8,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Poison Control Specialist,christophherharris@healthcare.org
+87c593e8-f975-4549-93a9-087d15c6c4b7,65ed857a-7d39-4b12-994a-27e4aafc021d,83c39b81-e8f3-40a8-9b76-1752463b76af,Endocrinologist,mrjbamesmccann@healthcare.org
+4d069bdf-d509-45df-90b9-f4bf2db844f2,65ed857a-7d39-4b12-994a-27e4aafc021d,758eff25-033f-492f-ad9d-81e70685e760,Orthopedic Nurse,danwsmith@healthcare.org
+3cd23142-2bc9-4ed6-87db-61c2f642134d,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Nurse,johnnyflres@healthcare.org
+c3b125df-59a1-43f2-a9a1-400c6effc514,65ed857a-7d39-4b12-994a-27e4aafc021d,f755b463-5c34-4e94-8040-0fe8c68b1f6e,GI Nurse,kristamaddoox@healthcare.org
+21f9b871-c2d4-43cd-be32-6905fdc3eb19,65ed857a-7d39-4b12-994a-27e4aafc021d,d1fd07da-07b5-4f89-be6d-8be48fb91db8,Environmental Health Officer,stevensmith@healthcare.org
+ee63de8e-72c7-4743-bf01-76e6b766c947,2d82b465-6161-4cf9-847c-e12e20b9cdb7,18ef618f-5c42-4088-ab28-d7d6651bf718,Psychiatrist,juliegoknzalez@healthcare.org
+5d904563-132d-40ad-887e-f95af8711643,2d82b465-6161-4cf9-847c-e12e20b9cdb7,18ef618f-5c42-4088-ab28-d7d6651bf718,Mental Health Nurse,gilbertsmartin@healthcare.org
+b6d9995d-a2fc-407d-aeec-ea9966a2d3a7,2d82b465-6161-4cf9-847c-e12e20b9cdb7,9d02e44c-b5e5-425d-9efa-351400c99f27,Epidemiologist,misskarenstokes@healthcare.org
+ef88312c-1700-4554-9d80-dbad21cb0f8d,2d82b465-6161-4cf9-847c-e12e20b9cdb7,9d02e44c-b5e5-425d-9efa-351400c99f27,Epidemiologist,jennfiervelazquez@healthcare.org
+575bb01f-0e84-4163-a8a6-be24f6da9018,2d82b465-6161-4cf9-847c-e12e20b9cdb7,34fef750-4570-4961-a32d-7ed8b2192894,Doula,jennifeerpaul@healthcare.org
+457da0f9-a14d-44cc-bb7c-07098b825288,2d82b465-6161-4cf9-847c-e12e20b9cdb7,34fef750-4570-4961-a32d-7ed8b2192894,Midwife,amandawagnr@healthcare.org
+e72ed26b-490f-4d88-b6b3-6838322c0303,2d82b465-6161-4cf9-847c-e12e20b9cdb7,3db9237c-9939-469d-bf12-d62ab5a19983,Nephrologist,mrnawthanjacobsmd@healthcare.org
+aa4c2345-425d-4fe0-8755-ccddd13773e3,2d82b465-6161-4cf9-847c-e12e20b9cdb7,3db9237c-9939-469d-bf12-d62ab5a19983,Nephrologist,claudiawatkiins@healthcare.org
+84564e60-3e75-42bd-9a5e-669d404781d9,2d82b465-6161-4cf9-847c-e12e20b9cdb7,b6a49911-5597-48f5-82b4-2bf869e5ab7b,Surgical Nurse,taracopeland@healthcare.org
+59fed9b2-8ef9-45fa-a5ed-8b0c9041406f,2d82b465-6161-4cf9-847c-e12e20b9cdb7,b6a49911-5597-48f5-82b4-2bf869e5ab7b,Surgical Technologist,dawnanderson@healthcare.org
+f466cbb8-8225-4cb2-8157-d4072359a8e3,2d82b465-6161-4cf9-847c-e12e20b9cdb7,316bef00-8dc7-4e48-9e29-3bd91ae3b638,Medical Assistant,tylreschroeder@healthcare.org
+eb6a26dd-a282-4852-ade6-bdd7e6a2dea3,2d82b465-6161-4cf9-847c-e12e20b9cdb7,316bef00-8dc7-4e48-9e29-3bd91ae3b638,Primary Care Nurse,andrewudnn@healthcare.org
+b727e669-a584-48f3-81a3-401d776bc59c,2d82b465-6161-4cf9-847c-e12e20b9cdb7,3bc4b9f8-8263-4a78-8050-87bdff555ae5,Gynecologist,andreamiller@healthcare.org
+11375359-ec26-4eb7-b72d-37eccbecc4f0,2d82b465-6161-4cf9-847c-e12e20b9cdb7,3bc4b9f8-8263-4a78-8050-87bdff555ae5,Women's Health Nurse,debroahmiller@healthcare.org
+d657b027-ee6b-4947-8781-da905a7639f8,2d82b465-6161-4cf9-847c-e12e20b9cdb7,9f890d09-37ac-4d7d-bf5c-7c2dde74ae04,Pulmonologist,danielarold@healthcare.org
+0674a48e-7b99-4876-8983-50882f9de0a2,2d82b465-6161-4cf9-847c-e12e20b9cdb7,9f890d09-37ac-4d7d-bf5c-7c2dde74ae04,Respiratory Therapist,carolebster@healthcare.org
+13be62e1-e5c6-4016-9f9b-51edfbdd4ca1,2d82b465-6161-4cf9-847c-e12e20b9cdb7,f81721d5-de90-479d-b231-468b4e3a4082,Orthotic Specialist,steveenjones@healthcare.org
+ac86aee1-df6f-44bf-a247-3d2400e9a2d8,2d82b465-6161-4cf9-847c-e12e20b9cdb7,f81721d5-de90-479d-b231-468b4e3a4082,Podiatrist,michellemarotinez@healthcare.org
+dcb7c6f6-b7a2-43e6-8aaf-633edffd863d,2d82b465-6161-4cf9-847c-e12e20b9cdb7,8a68c17b-c11e-45c3-92a5-5f24d592d2ca,Anesthesiology Nurse,meganosorne@healthcare.org
+033a9c38-29b1-43a3-a3a8-4f02e2c8e9d4,2d82b465-6161-4cf9-847c-e12e20b9cdb7,8a68c17b-c11e-45c3-92a5-5f24d592d2ca,Anesthesiology Nurse,joshuasmth@healthcare.org
+c7afda14-d671-4777-a0e6-2b390b4e4578,2d82b465-6161-4cf9-847c-e12e20b9cdb7,3db9237c-9939-469d-bf12-d62ab5a19983,Renal Dietitian,williamgarcai@healthcare.org
+f6699517-8b64-4fc4-910e-5d40cfa6e49e,2d82b465-6161-4cf9-847c-e12e20b9cdb7,18ef618f-5c42-4088-ab28-d7d6651bf718,Psychologist,mhadelinemoran@healthcare.org
+d955056b-73bf-49e1-9eba-1ab68103cc0f,2d82b465-6161-4cf9-847c-e12e20b9cdb7,b6a49911-5597-48f5-82b4-2bf869e5ab7b,Anesthesia Assistant,meredithsmith@healthcare.org
+0c814f09-15bb-42d2-8b65-d9adb597db76,2d82b465-6161-4cf9-847c-e12e20b9cdb7,18ef618f-5c42-4088-ab28-d7d6651bf718,Psychologist,danieclcamacho@healthcare.org
+4eab9fbd-c6be-48bb-8a3d-f7caf5c4a0be,2d82b465-6161-4cf9-847c-e12e20b9cdb7,b6a49911-5597-48f5-82b4-2bf869e5ab7b,Anesthesia Assistant,amdycoffey@healthcare.org
+7585fe25-6742-416d-8c8b-60443cf063c4,2d82b465-6161-4cf9-847c-e12e20b9cdb7,f81721d5-de90-479d-b231-468b4e3a4082,Podiatrist,stephaniehutchinseon@healthcare.org
+6210986c-2bb0-49de-a2cc-452cefccf32e,2d82b465-6161-4cf9-847c-e12e20b9cdb7,b6a49911-5597-48f5-82b4-2bf869e5ab7b,Anesthesia Assistant,aliciawagvner@healthcare.org
+b08b719b-1e6c-4434-b7a9-d79614e36b4c,2d82b465-6161-4cf9-847c-e12e20b9cdb7,18ef618f-5c42-4088-ab28-d7d6651bf718,Therapist,lindseyarnold@healthcare.org
+a108e736-7837-4f16-b47d-30e8733868d6,2d82b465-6161-4cf9-847c-e12e20b9cdb7,3db9237c-9939-469d-bf12-d62ab5a19983,Renal Dietitian,shaunjones@healthcare.org
+8a84f9e2-1d50-4896-b227-6b60878b7ea0,2d82b465-6161-4cf9-847c-e12e20b9cdb7,9f890d09-37ac-4d7d-bf5c-7c2dde74ae04,Pulmonologist,kennethgoomez@healthcare.org
+3b432229-a4d7-449b-9033-dea3973d4870,2d82b465-6161-4cf9-847c-e12e20b9cdb7,f81721d5-de90-479d-b231-468b4e3a4082,Orthotic Specialist,vicotriajones@healthcare.org
+948f9213-b62f-4ca3-9532-08158c72cc2c,2d82b465-6161-4cf9-847c-e12e20b9cdb7,8a68c17b-c11e-45c3-92a5-5f24d592d2ca,Anesthesiologist,jennnifermiller@healthcare.org
+bb429993-704f-4120-b27d-0ba466911606,f2c3d0af-e219-4865-8269-93ef69921bda,7da9c122-ac2f-4716-9f53-9ccb6f1ad171,Urodynamics Technician,jasondavis@healthcare.org
+80e68cfb-8f35-4b02-9f79-b98edf89ff7a,f2c3d0af-e219-4865-8269-93ef69921bda,7da9c122-ac2f-4716-9f53-9ccb6f1ad171,Urologist,mrrbertholmes@healthcare.org
+1a3675bc-ddcf-4842-bfd4-71139c7b0e09,f2c3d0af-e219-4865-8269-93ef69921bda,c9bad80d-4ac0-455b-85ba-13ab6f311406,Gynecologist,micelecook@healthcare.org
+3419f7a1-7144-4417-a3d3-7050a2445a27,f2c3d0af-e219-4865-8269-93ef69921bda,c9bad80d-4ac0-455b-85ba-13ab6f311406,Women's Health Nurse,maknichols@healthcare.org
+34574d56-ea05-4e0f-8eb5-a04478095edc,f2c3d0af-e219-4865-8269-93ef69921bda,32e9933d-649e-4f3a-a3e7-66b702352cfc,Sleep Technician,kennethmiller@healthcare.org
+a0df7c7b-11c7-42ca-a5dd-f692365dfbd2,f2c3d0af-e219-4865-8269-93ef69921bda,32e9933d-649e-4f3a-a3e7-66b702352cfc,Sleep Technician,rachelffrost@healthcare.org
+53c10012-3574-43e1-acaf-3623c359d5fe,f2c3d0af-e219-4865-8269-93ef69921bda,3f162267-318f-4ba9-9ec8-c47825a65b8f,Urology Nurse,jessicaclakr@healthcare.org
+a694a4e0-1e48-43db-a249-c23afc20cf4d,f2c3d0af-e219-4865-8269-93ef69921bda,3f162267-318f-4ba9-9ec8-c47825a65b8f,Urology Nurse,holymunoz@healthcare.org
+c4f2ff46-d4c3-4f1d-9ae0-16c24efd9104,f2c3d0af-e219-4865-8269-93ef69921bda,1c28d995-a180-41c2-b756-9b04d5bd5a0b,Arthritis Specialist,noahmcdanel@healthcare.org
+ecfc4450-8e09-45fa-8e01-20e9eb7449d6,f2c3d0af-e219-4865-8269-93ef69921bda,1c28d995-a180-41c2-b756-9b04d5bd5a0b,Rheumatology Nurse,peterjones@healthcare.org
+623ef2b3-847a-40e6-b16f-3af991c35d90,f2c3d0af-e219-4865-8269-93ef69921bda,882debde-f346-432e-9aee-be004cfbe8d1,Dental Assistant,kimberlyyjones@healthcare.org
+05c474ae-b54f-490d-9837-8a1cbc3fd002,f2c3d0af-e219-4865-8269-93ef69921bda,882debde-f346-432e-9aee-be004cfbe8d1,Dental Hygienist,kimberlyhill@healthcare.org
+0073ee67-5867-415d-874c-d3f12a6f9c5d,f2c3d0af-e219-4865-8269-93ef69921bda,bd5c59e0-dfe2-4e40-81f4-b82f4100c20e,Primary Care Nurse,cindymoina@healthcare.org
+b650672d-61f5-48c6-a591-c847f340eac0,f2c3d0af-e219-4865-8269-93ef69921bda,bd5c59e0-dfe2-4e40-81f4-b82f4100c20e,Medical Assistant,jroemiller@healthcare.org
+dccfd9fd-68b2-402d-bd3c-ccc4301a5246,f2c3d0af-e219-4865-8269-93ef69921bda,ccf196bb-e9f5-43ab-9046-4be1eb4d4085,Anesthesiologist,gnayork@healthcare.org
+7c86e205-72d3-41a1-a845-61ad74e6f96a,f2c3d0af-e219-4865-8269-93ef69921bda,ccf196bb-e9f5-43ab-9046-4be1eb4d4085,Anesthesiology Nurse,justinfrancis@healthcare.org
+bbdebe7e-100f-4021-99dc-5448a20d51fd,f2c3d0af-e219-4865-8269-93ef69921bda,8cec313e-6fb3-4afa-ad9e-d7ae0acb56bb,Surgical Technologist,gregoreyllison@healthcare.org
+08cac6a7-31e8-45bb-8655-1ae368b52437,f2c3d0af-e219-4865-8269-93ef69921bda,8cec313e-6fb3-4afa-ad9e-d7ae0acb56bb,Anesthesia Assistant,matthewbnoble@healthcare.org
+947bd292-d8ec-4c5d-9f67-6e9abb3bb3e9,f2c3d0af-e219-4865-8269-93ef69921bda,882debde-f346-432e-9aee-be004cfbe8d1,Orthodontist,dianaphillips@healthcare.org
+77b6d7ee-b7c3-40df-be42-1cbfebf31d51,f2c3d0af-e219-4865-8269-93ef69921bda,1c28d995-a180-41c2-b756-9b04d5bd5a0b,Rheumatology Nurse,sherrycowan@healthcare.org
+7583e5b1-b5ea-4699-9924-cd41bea6a4e8,f2c3d0af-e219-4865-8269-93ef69921bda,c9bad80d-4ac0-455b-85ba-13ab6f311406,Gynecologist,sharonriivas@healthcare.org
+b52637ff-a28c-4e78-8379-5e6643969a29,f2c3d0af-e219-4865-8269-93ef69921bda,7da9c122-ac2f-4716-9f53-9ccb6f1ad171,Urology Nurse,christiinecole@healthcare.org
+24c57c5d-afd2-4185-8048-2dd3b505556f,f2c3d0af-e219-4865-8269-93ef69921bda,3f162267-318f-4ba9-9ec8-c47825a65b8f,Urologist,wyattmiller@healthcare.org
+1fcb2020-c159-41e1-9567-53c2dfda2f5e,03edf113-fca6-42fb-bf5c-57fdf62da401,7acbf932-e154-419d-bc39-c32a72916b34,Rheumatologist,adambedll@healthcare.org
+29b2f77e-7c03-4600-8775-7d0b91de024a,03edf113-fca6-42fb-bf5c-57fdf62da401,7acbf932-e154-419d-bc39-c32a72916b34,Rheumatology Nurse,zachayroconnell@healthcare.org
+31945376-05ae-413e-b3e8-71bc36df4faf,03edf113-fca6-42fb-bf5c-57fdf62da401,e2809a49-7d65-4308-8903-086fceecf0c4,Nutrition Counselor,willliambrown@healthcare.org
+687d734b-cb59-4d63-bdf6-3df040f4baa5,03edf113-fca6-42fb-bf5c-57fdf62da401,e2809a49-7d65-4308-8903-086fceecf0c4,Dietitian,kennethrobbins@healthcare.org
+4cd99ae2-578d-4e2e-aacb-9a20492b3d5a,03edf113-fca6-42fb-bf5c-57fdf62da401,1319d512-4c46-49dd-a290-f0f53500c00f,GI Nurse,keithlivingstoon@healthcare.org
+da7944f9-0bce-4a63-9f2d-8f9188c277a0,03edf113-fca6-42fb-bf5c-57fdf62da401,1319d512-4c46-49dd-a290-f0f53500c00f,GI Technician,thomasgarcia@healthcare.org
+c52fc367-6cd8-4224-8676-86e46f28060c,03edf113-fca6-42fb-bf5c-57fdf62da401,6747424e-52db-4c19-861a-423b2f5a1402,Endocrine Nurse,kaencohen@healthcare.org
+09c4b28e-5771-4aa0-a926-478ab55cd2c5,03edf113-fca6-42fb-bf5c-57fdf62da401,6747424e-52db-4c19-861a-423b2f5a1402,Endocrine Nurse,sanhdrasmith@healthcare.org
+ec8f81eb-3233-40e7-bcea-d7e81a1bfde0,03edf113-fca6-42fb-bf5c-57fdf62da401,adc446f7-58b7-40fb-9c8b-9032fd88a54b,Epidemiologist,kimberlymills@healthcare.org
+c05e7fd3-2629-4f35-a42e-6e0f1b988819,03edf113-fca6-42fb-bf5c-57fdf62da401,adc446f7-58b7-40fb-9c8b-9032fd88a54b,Infectious Disease Specialist,anthonyibarra@healthcare.org
+c95675bf-da18-4729-b3dd-557145a86145,03edf113-fca6-42fb-bf5c-57fdf62da401,bab2331e-af79-4372-b397-2e0a0d10f74b,Toxicologist,jessicajacobson@healthcare.org
+080df2f2-adba-40f0-85de-de156ef91066,03edf113-fca6-42fb-bf5c-57fdf62da401,bab2331e-af79-4372-b397-2e0a0d10f74b,Toxicologist,cherylrodgrs@healthcare.org
+1702dede-bb88-4050-8a97-05fca4b837a3,03edf113-fca6-42fb-bf5c-57fdf62da401,dde16baa-6199-44e4-95b6-731c3566e2f5,Surgeon,christopherstewatr@healthcare.org
+8306834b-0719-4d0f-b072-b6452d0ed406,03edf113-fca6-42fb-bf5c-57fdf62da401,dde16baa-6199-44e4-95b6-731c3566e2f5,Surgeon,judywilliams@healthcare.org
+623c3393-4f3c-4b92-bce5-400e4bd6df49,03edf113-fca6-42fb-bf5c-57fdf62da401,1319d512-4c46-49dd-a290-f0f53500c00f,GI Nurse,willieesrada@healthcare.org
+8cc9a1b8-ad7f-4b06-a026-373f462347c5,03edf113-fca6-42fb-bf5c-57fdf62da401,adc446f7-58b7-40fb-9c8b-9032fd88a54b,Epidemiologist,toddneplson@healthcare.org
+65d312e3-b7ed-4bfa-aefc-78ed4bcea16c,03edf113-fca6-42fb-bf5c-57fdf62da401,7acbf932-e154-419d-bc39-c32a72916b34,Rheumatology Nurse,lauralaee@healthcare.org
+d6155991-fe12-4493-9fbc-1eaaf0dcba9a,03edf113-fca6-42fb-bf5c-57fdf62da401,bab2331e-af79-4372-b397-2e0a0d10f74b,Toxicologist,jooshuaroberts@healthcare.org
+bc81bf8c-7a8b-42b5-becd-376351418099,03edf113-fca6-42fb-bf5c-57fdf62da401,dde16baa-6199-44e4-95b6-731c3566e2f5,Surgical Nurse,melindaalee@healthcare.org
+2ad40ca5-b6c4-40dc-86e9-5bdb0268240c,03edf113-fca6-42fb-bf5c-57fdf62da401,7acbf932-e154-419d-bc39-c32a72916b34,Rheumatologist,lisastutton@healthcare.org
+fe0eec04-b5c6-4f54-8f28-b6acb028cbeb,03edf113-fca6-42fb-bf5c-57fdf62da401,7acbf932-e154-419d-bc39-c32a72916b34,Rheumatologist,krisstinataylor@healthcare.org
+4ff7cbec-11cc-4835-a21d-515657761b97,03edf113-fca6-42fb-bf5c-57fdf62da401,e2809a49-7d65-4308-8903-086fceecf0c4,Nutrition Counselor,marykennnedy@healthcare.org
+fe30c33e-3e99-4a2e-be0c-f8ad534e1041,03edf113-fca6-42fb-bf5c-57fdf62da401,adc446f7-58b7-40fb-9c8b-9032fd88a54b,Infectious Disease Specialist,terzesaclayton@healthcare.org
+cfd11f58-7af9-41a3-b0c8-e241e44075ba,03edf113-fca6-42fb-bf5c-57fdf62da401,e2809a49-7d65-4308-8903-086fceecf0c4,Dietitian,brianwrright@healthcare.org
+0353cbf6-7e06-457b-8eae-d0a843fafeb4,03edf113-fca6-42fb-bf5c-57fdf62da401,6747424e-52db-4c19-861a-423b2f5a1402,Diabetes Educator,marbyutler@healthcare.org
+1293a510-270f-4789-8016-bdf9b45c97ff,03edf113-fca6-42fb-bf5c-57fdf62da401,adc446f7-58b7-40fb-9c8b-9032fd88a54b,Infectious Disease Specialist,brookealazar@healthcare.org
+8c1e45f1-6b5f-4094-8668-2c0964d4b644,03edf113-fca6-42fb-bf5c-57fdf62da401,adc446f7-58b7-40fb-9c8b-9032fd88a54b,Infection Control Nurse,warrenmcfarlnad@healthcare.org
+f6093598-3a4f-4fe0-a339-a4913ebc48f3,03edf113-fca6-42fb-bf5c-57fdf62da401,6747424e-52db-4c19-861a-423b2f5a1402,Endocrinologist,robertlogan@healthcare.org
+8334bee3-fe2b-4397-b356-7ff28590eb44,03edf113-fca6-42fb-bf5c-57fdf62da401,dde16baa-6199-44e4-95b6-731c3566e2f5,Surgical Nurse,nicholasvhays@healthcare.org
+8866c7e0-b5df-41ce-8175-ee6b3bb2a66e,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,263d0400-88ac-467d-8446-6000cc4c1717,Skin Care Specialist,timothyphillips@healthcare.org
+3307c489-0418-4d9b-9265-61cc88a4a444,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,263d0400-88ac-467d-8446-6000cc4c1717,Dermatology Nurse,jenniferweahver@healthcare.org
+4e54a8f4-6c6f-4164-9075-fc31e92d488e,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,a184a2ec-2c2f-4164-b63f-59177e4ab70a,Midwife,whitnyeevans@healthcare.org
+432baec8-f3fd-4876-baa5-e5ad61fbe91f,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,a184a2ec-2c2f-4164-b63f-59177e4ab70a,Doula,hunterstanotn@healthcare.org
+f6c7ae5e-6586-45c5-b874-2fcf184b89c2,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,94108cad-9a92-445a-bbfd-e251b808097d,Orthopedic Nurse,heazthercannon@healthcare.org
+b4d2c1b7-5e83-499e-bc18-8957a7121bd1,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,94108cad-9a92-445a-bbfd-e251b808097d,Orthopedic Surgeon,larastephens@healthcare.org
+404ff7f4-719b-44c6-83bc-ebc1c7ac96e9,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,28dff27a-30c6-4647-ba5d-92dc6db8b178,Radiologist,jermainedavvis@healthcare.org
+69f7f91e-154d-4b99-9e1f-4a4ae80228a0,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,28dff27a-30c6-4647-ba5d-92dc6db8b178,Radiologist,sarawaltker@healthcare.org
+13e2f4f1-b02f-4d36-b018-72dd43e2027f,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,412222e8-2e10-41a5-af9f-0c0bf15a4acc,Speech Therapist,jamesdavzis@healthcare.org
+c378dba6-c540-424e-aae3-fda494df8bfb,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,412222e8-2e10-41a5-af9f-0c0bf15a4acc,Communication Disorders Specialist,jposhuameyers@healthcare.org
+90517c20-23f6-46e8-a2de-f34bb41105a2,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,4e3ad80f-e90d-44fb-a986-fd223619551e,Podiatrist,mkiefrench@healthcare.org
+b341ae9e-ce87-4b85-9a05-1a57332f5c16,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,4e3ad80f-e90d-44fb-a986-fd223619551e,Podiatrist,matthewgamble@healthcare.org
+1b01c3f9-22c4-4e34-87dc-166a76a2d7ae,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,412222e8-2e10-41a5-af9f-0c0bf15a4acc,Speech Pathologist,samnthajackson@healthcare.org
+444e6c1d-b4c8-4181-9318-6c0f8157656d,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,263d0400-88ac-467d-8446-6000cc4c1717,Dermatology Nurse,amnadajenkins@healthcare.org
+186db91f-bddc-48f7-b143-5f196a3c6e15,d5d5e1ee-5c4d-4d9b-ac21-3da43b8f8c9e,263d0400-88ac-467d-8446-6000cc4c1717,Skin Care Specialist,rebeccaperze@healthcare.org
+99d62c56-c915-4a4a-8763-207e8623d7ae,28c633ae-a876-4aea-bc32-cffe7acbe65f,1af459df-b60b-4aff-9fea-730f0483bea6,Cardiologist,heatherslulivan@healthcare.org
+38fe6620-125a-4a84-80f8-7f4a5462180a,28c633ae-a876-4aea-bc32-cffe7acbe65f,1af459df-b60b-4aff-9fea-730f0483bea6,EKG Technician,michaelwashington@healthcare.org
+980b63c6-c9fe-4889-93c9-993226dc19b1,28c633ae-a876-4aea-bc32-cffe7acbe65f,e22c145d-7fcd-40ad-bb1f-a28c8b4b7ac1,Respiratory Therapist,nancywggins@healthcare.org
+d06f8984-ca23-4bbd-beda-496ab996a807,28c633ae-a876-4aea-bc32-cffe7acbe65f,e22c145d-7fcd-40ad-bb1f-a28c8b4b7ac1,Respiratory Therapist,loripery@healthcare.org
+06e079e8-7f38-4bf5-b2b1-8a3dc178caa4,28c633ae-a876-4aea-bc32-cffe7acbe65f,0cc45f9a-ed9e-4e72-a37d-7380d0264783,Cardiac Nurse,mikaylanelson@healthcare.org
+fa001cc3-0ad5-4528-b5b7-a6a2813fb679,28c633ae-a876-4aea-bc32-cffe7acbe65f,0cc45f9a-ed9e-4e72-a37d-7380d0264783,Cardiovascular Surgeon,nancyclolins@healthcare.org
+733da771-f551-40df-96eb-a1126376da9c,28c633ae-a876-4aea-bc32-cffe7acbe65f,41bc7237-fff4-41fe-8e01-111315f33777,Optometrist,riickydiaz@healthcare.org
+77345179-d6af-494b-b395-f28c85138798,28c633ae-a876-4aea-bc32-cffe7acbe65f,41bc7237-fff4-41fe-8e01-111315f33777,Optician,brandongraham@healthcare.org
+335278b8-5e9e-456d-893b-dd244e1fbceb,28c633ae-a876-4aea-bc32-cffe7acbe65f,3f73c96b-41f9-4476-bf05-837ad197a115,Oncologist,heidmiills@healthcare.org
+11405e36-d02c-4be8-8a85-e8cb059615de,28c633ae-a876-4aea-bc32-cffe7acbe65f,3f73c96b-41f9-4476-bf05-837ad197a115,Radiation Therapist,justinmmendez@healthcare.org
+2845ad18-a24a-4071-a307-d12f5eff6d83,28c633ae-a876-4aea-bc32-cffe7acbe65f,a695714f-5f1b-4fff-9c6a-136e46312749,School Nurse,aliicamurphy@healthcare.org
+66100e20-78b5-48c0-85d0-8dfb2a1d6cbe,28c633ae-a876-4aea-bc32-cffe7acbe65f,a695714f-5f1b-4fff-9c6a-136e46312749,School Nurse,colleexnsutton@healthcare.org
+8a06c20f-8763-4592-bf81-9090f7e38a9d,28c633ae-a876-4aea-bc32-cffe7acbe65f,f5fddc69-3d8b-4235-910f-8f667311274d,Anesthesiology Assistant,aamndasuarez@healthcare.org
+0babb763-ac0c-49af-abd7-18cd6b0e2942,28c633ae-a876-4aea-bc32-cffe7acbe65f,f5fddc69-3d8b-4235-910f-8f667311274d,Anesthesiologist,bradlymiles@healthcare.org
+6ba93bc3-e3d6-487b-97a4-936040ef6063,28c633ae-a876-4aea-bc32-cffe7acbe65f,80d8241f-4e4b-41a1-ae21-e8f7defe6dfc,Urologist,luaslarson@healthcare.org
+8a34a709-d3a8-4705-bc5c-a505f670840c,28c633ae-a876-4aea-bc32-cffe7acbe65f,80d8241f-4e4b-41a1-ae21-e8f7defe6dfc,Urodynamics Technician,stephenmruphy@healthcare.org
+7ac68513-b849-4fa6-88fc-7e34907295cd,28c633ae-a876-4aea-bc32-cffe7acbe65f,80d8241f-4e4b-41a1-ae21-e8f7defe6dfc,Urology Nurse,oliviacamron@healthcare.org
+ff74a548-b839-4e73-a1b9-35986fffaf70,28c633ae-a876-4aea-bc32-cffe7acbe65f,3f73c96b-41f9-4476-bf05-837ad197a115,Oncology Nurse,danniellevine@healthcare.org
+14ff468b-0517-489a-ba12-6e575318b163,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,842aab1f-f7e9-435b-9701-c3d37f796c6b,ER Nurse,amandaramirez@healthcare.org
+a2d1c8d7-2a44-455c-a444-6d0d6e07f824,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,842aab1f-f7e9-435b-9701-c3d37f796c6b,Emergency Physician,kevinfernandez@healthcare.org
+d982b096-7eba-4185-9555-955c4cd2a295,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,4e9fd040-b468-48d3-beab-9dfd514ae2ef,Public Health Nurse,brianvazqeuz@healthcare.org
+fe1a8d19-e0df-4489-9b40-5b441be0aae6,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,4e9fd040-b468-48d3-beab-9dfd514ae2ef,Health Educator,danielleemiller@healthcare.org
+160f8613-afaa-4a9c-9377-7611b9cf7e61,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,8a73d028-68a0-4ddb-a338-b9cd6f64d5df,Psychiatrist,arixanagardner@healthcare.org
+5f058ead-3ef3-4261-b93c-39776caa16cf,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,8a73d028-68a0-4ddb-a338-b9cd6f64d5df,Therapist,jnniferbarry@healthcare.org
+a3968f6f-ead8-4565-a8c9-826c65784f4a,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,df0540c5-43a5-4a63-b006-9215929b5ca4,Gerontology Nurse,abigailthornton@healthcare.org
+51859f71-1497-4082-8bf0-8a1df751cb38,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,df0540c5-43a5-4a63-b006-9215929b5ca4,Elderly Care Specialist,carolineroerts@healthcare.org
+9558889d-a2e9-41e1-8223-8da99148b086,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,984af46c-381c-4e32-b1b3-8bddf7c69c10,Hematologist,austinbray@healthcare.org
+9561fc23-f2d9-4285-b520-45cd441bf43c,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,984af46c-381c-4e32-b1b3-8bddf7c69c10,Hematology Nurse,aprilsmith@healthcare.org
+948749fe-aa6f-497c-a653-56926e282025,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a0d83360-2781-4704-9457-3a6962034dbf,Cosmetic Surgery Nurse,michalsmithjr@healthcare.org
+9181e60d-5042-4ec0-adfa-96feda9c5d05,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a0d83360-2781-4704-9457-3a6962034dbf,Plastic Surgeon,thomasmmurphy@healthcare.org
+0d1d12de-7190-4a50-9b28-5f52c3a5263e,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a78a25da-23a4-4649-81ea-e059679b205f,ENT Specialist,tnyawarner@healthcare.org
+f3cadae5-8d37-46f7-a23c-ca6af1358eb9,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a78a25da-23a4-4649-81ea-e059679b205f,Audiologist,melissacampos@healthcare.org
+b4d628f5-a458-43f2-8567-335d217c7bc5,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,3839db4d-a0b0-4ea7-960b-a7be6a2496d8,Dental Hygienist,alxisperkins@healthcare.org
+3ecad037-4549-44f3-8d1b-0fb391dd5707,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,3839db4d-a0b0-4ea7-960b-a7be6a2496d8,Orthodontist,robetrmorgan@healthcare.org
+e1154cd8-8a9b-4fb2-abf7-87610f4eae03,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a03cf061-a8a7-43da-b059-1d22555c03bf,Medical Assistant,tiothyvargas@healthcare.org
+af46f213-f371-4856-8613-182026206545,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a03cf061-a8a7-43da-b059-1d22555c03bf,Family Physician,alxeandramiller@healthcare.org
+773a216a-520b-4110-8c15-a99fb088392e,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,3ef1b23b-e15e-487a-bb1a-b1d26a2edd95,Lung Function Technician,jessiacscott@healthcare.org
+c092a247-f486-44a2-b74f-0e8d6ca927e6,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,3ef1b23b-e15e-487a-bb1a-b1d26a2edd95,Respiratory Therapist,richadrmartinez@healthcare.org
+9ddd7d1e-0706-4ef5-a564-835ee00dbd78,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,8a73d028-68a0-4ddb-a338-b9cd6f64d5df,Psychologist,donnahill@healthcare.org
+d0c53223-8229-48e2-9b20-7802177149f2,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,8a73d028-68a0-4ddb-a338-b9cd6f64d5df,Therapist,tonikign@healthcare.org
+51340bf0-4268-4133-9a3a-437a90e91592,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a03cf061-a8a7-43da-b059-1d22555c03bf,Family Physician,thoamscruz@healthcare.org
+fdab6a84-5675-442c-b9fd-9eda548ccd89,9cc401ee-5847-4b4e-bd6c-6ab1e984ed6a,a0d83360-2781-4704-9457-3a6962034dbf,Reconstructive Specialist,brandonpage@healthcare.org
+1a9b0e3b-7587-4f78-94c4-6e37eb384db4,e80e418d-23f7-4b86-819a-e04ca95cb522,b61c14e4-aa74-4b72-810b-d9bde2ce792c,Lab Technician,lisawmorales@healthcare.org
+04656413-f7d6-4c21-8a59-8a277d016f86,e80e418d-23f7-4b86-819a-e04ca95cb522,b61c14e4-aa74-4b72-810b-d9bde2ce792c,Pathologist,angelapattersno@healthcare.org
+49ad8d61-fb58-4ce9-821b-8967666c2bd9,e80e418d-23f7-4b86-819a-e04ca95cb522,a83c4c08-69c1-42c9-b2f3-3d7ab41156a6,Environmental Health Officer,jessicbamorales@healthcare.org
+a32bd1ea-c4c2-4571-a1b9-169db437593a,e80e418d-23f7-4b86-819a-e04ca95cb522,a83c4c08-69c1-42c9-b2f3-3d7ab41156a6,Environmental Health Officer,shannonfiguroa@healthcare.org
+6e026235-26d2-4b14-800a-93e022b79d23,e80e418d-23f7-4b86-819a-e04ca95cb522,86dd3b65-673b-45c0-8740-516000f840fe,Pathologist,justinlopez@healthcare.org
+668cacf2-8f45-4fcc-bddc-e16ba73fe3ae,e80e418d-23f7-4b86-819a-e04ca95cb522,86dd3b65-673b-45c0-8740-516000f840fe,Pathologist,danieelholmes@healthcare.org
+d4dda09c-9e73-483f-88bb-a19e9db724ba,e80e418d-23f7-4b86-819a-e04ca95cb522,4f118ed8-3a08-493c-b271-dcf60071ec94,Psychologist,lisanuez@healthcare.org
+a00edaa6-1723-4af4-a3e9-b7712f2fd930,e80e418d-23f7-4b86-819a-e04ca95cb522,4f118ed8-3a08-493c-b271-dcf60071ec94,Therapist,gregoryjhnson@healthcare.org
+e452177f-4ac4-46e8-a7a2-7b32661110b9,e80e418d-23f7-4b86-819a-e04ca95cb522,ec1f7385-bcf9-4d2c-8485-1fc23e8650df,General Practitioner,viictoriamoon@healthcare.org
+833b190b-5f19-451e-9c0b-b15eb4dd16ad,e80e418d-23f7-4b86-819a-e04ca95cb522,ec1f7385-bcf9-4d2c-8485-1fc23e8650df,Family Physician,jacquelinehammilton@healthcare.org
+01dc1264-0f87-4699-b753-fb4b26fabc80,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,Cardiac Nurse,cyynthiamoon@healthcare.org
+0b24cae1-821d-4306-b30e-69e91845e6cf,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,EKG Technician,elizabethmartinez@healthcare.org
+21faaad3-d2a7-432b-9d96-afbb783b61c0,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Dietitian,angelagadner@healthcare.org
+5d75b1b3-f95d-4049-99fb-e9c9ee440a23,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Dietitian,ercalamb@healthcare.org
+c355913c-d5e0-43bb-9a0d-c9f6ebe25ab5,e80e418d-23f7-4b86-819a-e04ca95cb522,86dd3b65-673b-45c0-8740-516000f840fe,Pathologist,yolandatylor@healthcare.org
+409a6992-7e85-47c0-a217-ccba7d2726b5,e80e418d-23f7-4b86-819a-e04ca95cb522,a83c4c08-69c1-42c9-b2f3-3d7ab41156a6,Environmental Health Officer,rogbertmoreno@healthcare.org
+c56e659a-3ae0-4b2d-98ad-5b8a34fb93e1,e80e418d-23f7-4b86-819a-e04ca95cb522,b61c14e4-aa74-4b72-810b-d9bde2ce792c,Pathologist,gregoryferqnandez@healthcare.org
+bc09a216-7eb0-4d94-be75-0cc33d5867ce,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,Cardiologist,roeswells@healthcare.org
+2c511bf0-fdd8-460e-b719-dcf0a296cc16,e80e418d-23f7-4b86-819a-e04ca95cb522,4f118ed8-3a08-493c-b271-dcf60071ec94,Mental Health Nurse,donaldmorris@healthcare.org
+d166825b-7052-43a9-93bd-047c56c42d2f,e80e418d-23f7-4b86-819a-e04ca95cb522,ec1f7385-bcf9-4d2c-8485-1fc23e8650df,Medical Assistant,christopheorlsen@healthcare.org
+0952a7d1-33ef-4feb-8704-45d314e132d5,e80e418d-23f7-4b86-819a-e04ca95cb522,b61c14e4-aa74-4b72-810b-d9bde2ce792c,Pathologist,colleecooper@healthcare.org
+b5fe94bd-6c20-4d66-94a3-facfb78883c9,e80e418d-23f7-4b86-819a-e04ca95cb522,b61c14e4-aa74-4b72-810b-d9bde2ce792c,Pathologist,danpaaul@healthcare.org
+84ac36a3-f0fa-44a8-a951-4186510d4cae,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Nutritionist,jackbishp@healthcare.org
+4cf38878-2f69-4005-b1ae-1831b85314b2,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,Cardiac Nurse,patriciabautista@healthcare.org
+1566823f-862c-4d4b-abfe-b277210e36d2,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,Cardiologist,lisammoore@healthcare.org
+1e33a7b9-f571-4c0c-ba3e-2cb114cfc73d,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,EKG Technician,jennybaileey@healthcare.org
+05a54baf-bce1-4216-938f-0bbe5bf2c8a4,e80e418d-23f7-4b86-819a-e04ca95cb522,574b411a-66cf-452f-92b1-791a4538abaa,Cardiac Nurse,matthewajackson@healthcare.org
+069069e0-f31f-4199-9842-c35aff42f093,e80e418d-23f7-4b86-819a-e04ca95cb522,a83c4c08-69c1-42c9-b2f3-3d7ab41156a6,Toxicologist,johnnlewis@healthcare.org
+e5d8f295-b2a5-47aa-8e6d-03211812a8ef,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Nutrition Counselor,lukefalukner@healthcare.org
+d79d0895-e556-4625-a1d1-919dd5c5e709,e80e418d-23f7-4b86-819a-e04ca95cb522,ec1f7385-bcf9-4d2c-8485-1fc23e8650df,Primary Care Nurse,shhellyburgess@healthcare.org
+145ecd24-f67a-4e53-96df-3c590baaecc5,e80e418d-23f7-4b86-819a-e04ca95cb522,ec1f7385-bcf9-4d2c-8485-1fc23e8650df,Primary Care Nurse,dianamurrray@healthcare.org
+2bd3578a-69c0-4355-8ce6-12b7826e2a1c,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Nutrition Counselor,peterwset@healthcare.org
+99b62ba9-2e30-46b0-8888-7fa407a816cf,e80e418d-23f7-4b86-819a-e04ca95cb522,4f118ed8-3a08-493c-b271-dcf60071ec94,Psychologist,seanevans@healthcare.org
+cb8d353c-9a78-4907-baaa-0cbbb4f8b067,e80e418d-23f7-4b86-819a-e04ca95cb522,4f118ed8-3a08-493c-b271-dcf60071ec94,Psychologist,jillcastro@healthcare.org
+43121f39-fe9b-4c3e-a878-f5bd8827c0a8,e80e418d-23f7-4b86-819a-e04ca95cb522,86dd3b65-673b-45c0-8740-516000f840fe,Lab Technician,howardhmilton@healthcare.org
+f949517e-a715-4245-ae5d-9140283106cc,e80e418d-23f7-4b86-819a-e04ca95cb522,4f118ed8-3a08-493c-b271-dcf60071ec94,Mental Health Nurse,debrbarown@healthcare.org
+29a59d9c-cf25-4450-bafd-1c86090d3b96,e80e418d-23f7-4b86-819a-e04ca95cb522,b61c14e4-aa74-4b72-810b-d9bde2ce792c,Lab Technician,micchaelbentley@healthcare.org
+911a2323-3e77-4d5b-a08c-ea52223bed87,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Dietitian,caarlanderson@healthcare.org
+34d94405-cf47-44e9-bd2c-9901dab1912e,e80e418d-23f7-4b86-819a-e04ca95cb522,86dd3b65-673b-45c0-8740-516000f840fe,Pathologist,stevenbooen@healthcare.org
+c798183f-8534-450c-93bf-dfff6661cf6d,e80e418d-23f7-4b86-819a-e04ca95cb522,57fb7373-af22-4c7a-9dee-acba905d811c,Nutritionist,eugenefernandez@healthcare.org
+bbb1cb16-de76-4c2f-a799-f55f396c7e89,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,ddb2f3da-e955-48be-b59b-f9c4d625e7c4,Gastroenterologist,christinegomez@healthcare.org
+8bf56dfd-c5d7-4183-894d-de112e32c5a2,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,ddb2f3da-e955-48be-b59b-f9c4d625e7c4,GI Technician,jasonholmmes@healthcare.org
+0ca80689-130d-4a6d-af31-28a1ee544e67,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,00750c4d-9bb0-46a2-a50f-48e5c5412b14,Dental Assistant,anthonyhernandez@healthcare.org
+da14774f-45a3-4244-8417-cbe6900a883f,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,00750c4d-9bb0-46a2-a50f-48e5c5412b14,Dentist,dergekhawkins@healthcare.org
+d9d30ef5-2ea1-44a4-9f17-b73db0515220,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,f060f172-a84a-4aff-bfe8-1b4c86814d6b,Emergency Medical Technician,briianclayton@healthcare.org
+9ab2afc0-d01a-4fa3-b297-608f0b75429b,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,f060f172-a84a-4aff-bfe8-1b4c86814d6b,Emergency Medical Technician,kennethstewart@healthcare.org
+6546859a-d029-4585-bea0-b286463ba187,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,cad7ab0b-c2ab-46a7-9dff-74f4987695b0,Obstetrician,ashleycnuningham@healthcare.org
+7a17adb9-1b8f-4842-9216-8971260dd4da,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,cad7ab0b-c2ab-46a7-9dff-74f4987695b0,Obstetrician,carlachurch@healthcare.org
+863ba85c-c0f4-4c10-b937-fb02b389c33f,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,d3b2b828-56d8-40a3-98c5-c7d98702c5b3,Pulmonary Function Technologist,larrpyharvey@healthcare.org
+2c67730f-691d-4e4b-ae5d-00125ae9489c,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,d3b2b828-56d8-40a3-98c5-c7d98702c5b3,Respiratory Therapist,josephvillanueva@healthcare.org
+ff766a77-808e-483b-83a0-61c130ce458c,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,8db5bc77-341b-4ada-a013-ba3e6d96a044,Diabetes Educator,kimbelryclark@healthcare.org
+b2a6da07-e0d9-4473-89ef-616713470fff,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,8db5bc77-341b-4ada-a013-ba3e6d96a044,Endocrinologist,nioclemoran@healthcare.org
+5606ff27-e6fb-45b2-8636-52daf5b2a080,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,c68323a9-762a-44bb-9991-2bedf9fcb988,Physical Therapist,ericcfox@healthcare.org
+45dfc172-bc45-4789-aa3c-8aac4226b943,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,c68323a9-762a-44bb-9991-2bedf9fcb988,Orthopedic Nurse,gabrielahicks@healthcare.org
+8f440aad-6bbc-4b1f-8c25-210582916e73,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,c327e42d-2d2d-46c9-b115-f5f47bf2363d,Emergency Medical Technician,jessicbarooks@healthcare.org
+8b7ea330-3fbb-4bee-9635-953bd4999926,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,c327e42d-2d2d-46c9-b115-f5f47bf2363d,Emergency Physician,jennfiergoodman@healthcare.org
+acec4df8-5209-4252-8c45-a59cef7aa7c6,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,b7b3aa30-e3d9-46bf-8a1e-e9386d384bd8,EEG Technician,karenbailley@healthcare.org
+dab5d8ad-4ea4-4663-980e-88e6038bc835,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,b7b3aa30-e3d9-46bf-8a1e-e9386d384bd8,Neurosurgeon,danielmercao@healthcare.org
+3a8ac603-8c65-4c75-9b33-15fe0cfc79c6,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,798246e6-66f4-4cdb-8ee9-bb102e1fee2b,Rheumatology Nurse,bonniewililamson@healthcare.org
+3334c2bb-f7e5-4c47-925d-f943b85a232f,bf0cf207-1279-45f3-86d1-4d86bfc4fb8b,798246e6-66f4-4cdb-8ee9-bb102e1fee2b,Rheumatologist,samuelbroown@healthcare.org
+ddbf4888-2c35-4b31-9af3-cb29918e6f88,3fbbc287-b6a4-4959-b775-830d0ccbab44,b032378f-a6d7-4654-9460-68abe01ce89d,Dental Hygienist,regnanelson@healthcare.org
+dea0bb20-6931-4057-8921-4da8dec4bd56,3fbbc287-b6a4-4959-b775-830d0ccbab44,b032378f-a6d7-4654-9460-68abe01ce89d,Orthodontist,mogranlewis@healthcare.org
+0371377d-5eeb-4030-a51c-abd92646ea1a,3fbbc287-b6a4-4959-b775-830d0ccbab44,9713e4d3-cb1c-4c43-9389-6d5fe051d913,Health Educator,elizmabethfox@healthcare.org
+68a48616-332d-442d-8b8c-27d14c10846b,3fbbc287-b6a4-4959-b775-830d0ccbab44,9713e4d3-cb1c-4c43-9389-6d5fe051d913,Public Health Nurse,tammmythomas@healthcare.org
+1877a873-8e61-437e-b6c5-8e2d9a8c7913,3fbbc287-b6a4-4959-b775-830d0ccbab44,ea76264d-d236-453d-a460-37c0ec5e9c01,Dental Assistant,russeljenkins@healthcare.org
+54122141-57e6-4154-a4e1-a9d2fa4c4d61,3fbbc287-b6a4-4959-b775-830d0ccbab44,ea76264d-d236-453d-a460-37c0ec5e9c01,Dental Assistant,garydwason@healthcare.org
+511b9498-e802-4604-92ac-a46dbef3e9b7,3fbbc287-b6a4-4959-b775-830d0ccbab44,62133ac2-fd3c-4dcd-8acc-0bf0fb9faa0b,Gastroenterologist,travisyoung@healthcare.org
+e415adbd-001c-4f75-a288-e8eb126c2ac9,3fbbc287-b6a4-4959-b775-830d0ccbab44,62133ac2-fd3c-4dcd-8acc-0bf0fb9faa0b,GI Nurse,jeenniferdavis@healthcare.org
+057d1e4f-0348-4821-970f-b1efdc0b143d,3fbbc287-b6a4-4959-b775-830d0ccbab44,f9a31bd2-3fee-4277-bf90-c4b98e87e850,Dentist,michealmartin@healthcare.org
+3d84cfce-a916-4e17-ac47-38a2fe98c1d8,3fbbc287-b6a4-4959-b775-830d0ccbab44,f9a31bd2-3fee-4277-bf90-c4b98e87e850,Dental Assistant,kahterineberry@healthcare.org
+79984075-b26c-4d1c-8b0b-7c8e3923ab3b,3fbbc287-b6a4-4959-b775-830d0ccbab44,be7bf2ce-781a-468d-ab6e-3034f5217b7b,Public Health Nurse,williaalvarado@healthcare.org
+dc437ea9-10e5-4a90-a4e4-4e33d94f9f84,3fbbc287-b6a4-4959-b775-830d0ccbab44,be7bf2ce-781a-468d-ab6e-3034f5217b7b,Community Health Worker,kimberlysatevens@healthcare.org
+e500039a-ac1e-49fa-9b60-de9ad2b08fb0,3fbbc287-b6a4-4959-b775-830d0ccbab44,942371e1-ed79-4d00-ba38-2a53b4273b04,Epidemiologist,erinstawfford@healthcare.org
+8ed44dec-5547-403a-aa7b-7d915860aef6,3fbbc287-b6a4-4959-b775-830d0ccbab44,942371e1-ed79-4d00-ba38-2a53b4273b04,Epidemiologist,darrenwag@healthcare.org
+96538fef-8de5-4ace-9ee2-2c6f87c4e666,3fbbc287-b6a4-4959-b775-830d0ccbab44,a7d01786-3078-4287-958b-ac20b07f037e,Oncologist,tonyarodrguez@healthcare.org
+d82371f5-4724-41de-8216-6cfc037ec40d,3fbbc287-b6a4-4959-b775-830d0ccbab44,a7d01786-3078-4287-958b-ac20b07f037e,Oncology Nurse,vanessakelly@healthcare.org
+4e9eea4a-ad48-4d46-a748-1666ac321463,3fbbc287-b6a4-4959-b775-830d0ccbab44,2ded524b-a057-4678-9572-45a650d2b98b,GI Nurse,ginarodirguez@healthcare.org
+b3e9f3ab-756a-4829-ae78-2a3081fac704,3fbbc287-b6a4-4959-b775-830d0ccbab44,2ded524b-a057-4678-9572-45a650d2b98b,Gastroenterologist,abigailelliott@healthcare.org
+3819d91d-5223-402e-aff3-0367098f6824,3fbbc287-b6a4-4959-b775-830d0ccbab44,08e5af8e-f3b0-4ae2-94f7-e1c684ea82e3,Diabetes Educator,robetrhall@healthcare.org
+fb59c0ee-a4bf-4d0c-a093-4e2d0cdf1a67,3fbbc287-b6a4-4959-b775-830d0ccbab44,08e5af8e-f3b0-4ae2-94f7-e1c684ea82e3,Endocrinologist,josephtrevnio@healthcare.org
+00d31a00-56b8-459f-b704-af09aebc37ff,c3b3ca0f-4d11-4824-bd09-b8be499da362,c5e3f8d4-384c-4b4d-93f9-0ad6ad19aca3,Neurosurgeon,crystalanathony@healthcare.org
+a8273348-147c-4641-be16-1b0acfeb9c43,c3b3ca0f-4d11-4824-bd09-b8be499da362,c5e3f8d4-384c-4b4d-93f9-0ad6ad19aca3,Neurologist,ashleycarter@healthcare.org
+f5d6fdcf-1fda-4a85-a9fb-78f7e7760946,c3b3ca0f-4d11-4824-bd09-b8be499da362,f4bcff43-a34a-4853-87bf-d56566aae204,Orthodontist,alecjgraves@healthcare.org
+15b114b8-c269-4e50-89e8-c439c79faa9f,c3b3ca0f-4d11-4824-bd09-b8be499da362,f4bcff43-a34a-4853-87bf-d56566aae204,Dental Assistant,jasonymolina@healthcare.org
+9e15c641-e016-4586-999e-7a579ce0ed60,c3b3ca0f-4d11-4824-bd09-b8be499da362,d6b5059a-6a6f-4a87-8980-a520eff16463,Rehabilitation Specialist,tonypoewll@healthcare.org
+e0702322-a4e4-431f-a2be-9fc08a2e9563,c3b3ca0f-4d11-4824-bd09-b8be499da362,d6b5059a-6a6f-4a87-8980-a520eff16463,Physiotherapist,stacyjhonson@healthcare.org
+89525324-829b-4ddf-a190-4454ef6c3a52,c3b3ca0f-4d11-4824-bd09-b8be499da362,78c0aefd-8d10-4ac4-a87c-35ff9ca41b58,General Practitioner,josphthompson@healthcare.org
+db51333e-1fd4-4985-b894-a5a3171a59ca,c3b3ca0f-4d11-4824-bd09-b8be499da362,78c0aefd-8d10-4ac4-a87c-35ff9ca41b58,Family Physician,staceymaxweell@healthcare.org
+cee11356-5e15-4ee4-8f4a-213c2b216667,c3b3ca0f-4d11-4824-bd09-b8be499da362,133df6e9-b5b3-4718-9a7c-c3b3860c7c6d,Surgical Nurse,wenydavis@healthcare.org
+4cfca5d6-6547-46d4-b0fe-9bbc906131a7,c3b3ca0f-4d11-4824-bd09-b8be499da362,133df6e9-b5b3-4718-9a7c-c3b3860c7c6d,Anesthesia Assistant,amyane@healthcare.org
+3e56fa91-1153-4b88-952a-ba81175734f7,c3b3ca0f-4d11-4824-bd09-b8be499da362,4218e573-b8f4-4657-98d8-3675770ba616,Mental Health Nurse,elizabethandersen@healthcare.org
+c46a1b13-ded0-4548-a836-ae360fd7c9b7,c3b3ca0f-4d11-4824-bd09-b8be499da362,4218e573-b8f4-4657-98d8-3675770ba616,Therapist,valerieekramer@healthcare.org
+13d8e6bf-891f-4fb2-bfd6-8bf883229808,c3b3ca0f-4d11-4824-bd09-b8be499da362,c0f7cb46-7d9c-404f-b886-c62eccf9ebd4,Surgical Technologist,sharronthompson@healthcare.org
+8534a3e1-7ae9-4350-a8e1-0a26f56099d1,c3b3ca0f-4d11-4824-bd09-b8be499da362,c0f7cb46-7d9c-404f-b886-c62eccf9ebd4,Anesthesia Assistant,andrephillips@healthcare.org
+391219fb-f741-47a4-9082-bf1b20a40650,c3b3ca0f-4d11-4824-bd09-b8be499da362,8dcde1b3-c8b7-4f16-ade3-b5be7cfc61cc,Diabetes Educator,juiesanchez@healthcare.org
+5ea23fec-3b92-4f44-a1bd-3dbbcab8971a,c3b3ca0f-4d11-4824-bd09-b8be499da362,8dcde1b3-c8b7-4f16-ade3-b5be7cfc61cc,Endocrine Nurse,marpkowell@healthcare.org
+9e2721f5-b8ed-4c50-8ace-0e5ad3ed85e2,c3b3ca0f-4d11-4824-bd09-b8be499da362,8dcde1b3-c8b7-4f16-ade3-b5be7cfc61cc,Endocrinologist,matthuewkaufman@healthcare.org
+c1574622-be64-4fa7-a0b5-9fe6727223ca,c3b3ca0f-4d11-4824-bd09-b8be499da362,133df6e9-b5b3-4718-9a7c-c3b3860c7c6d,Anesthesia Assistant,courtnxeymiller@healthcare.org
+ea573ba6-f19b-40b8-a465-e2a1d727a1d8,c3b3ca0f-4d11-4824-bd09-b8be499da362,8dcde1b3-c8b7-4f16-ade3-b5be7cfc61cc,Endocrinologist,cameeronroberts@healthcare.org
+60f61b3f-c290-4ef2-967c-012d63f4c10b,c3b3ca0f-4d11-4824-bd09-b8be499da362,4218e573-b8f4-4657-98d8-3675770ba616,Mental Health Nurse,dnnanicholson@healthcare.org
+05fed769-24b2-498b-a137-3d2666203481,c3b3ca0f-4d11-4824-bd09-b8be499da362,c5e3f8d4-384c-4b4d-93f9-0ad6ad19aca3,Neurologist,michellebrrera@healthcare.org
+9d20e7fe-b05c-442f-b9f6-dcc7fc1e62e9,c3b3ca0f-4d11-4824-bd09-b8be499da362,c5e3f8d4-384c-4b4d-93f9-0ad6ad19aca3,Neurosurgeon,seanfihser@healthcare.org
+d917e0ed-c852-41b0-9b53-c23c8769243b,c3b3ca0f-4d11-4824-bd09-b8be499da362,c0f7cb46-7d9c-404f-b886-c62eccf9ebd4,Surgical Technologist,daawnlee@healthcare.org
+038e34b9-0c73-4aa9-b071-02c185eec83c,c3b3ca0f-4d11-4824-bd09-b8be499da362,8dcde1b3-c8b7-4f16-ade3-b5be7cfc61cc,Endocrinologist,daovidclark@healthcare.org
+bf3fd313-79a4-4bd4-9886-6f5658b921fb,c3b3ca0f-4d11-4824-bd09-b8be499da362,78c0aefd-8d10-4ac4-a87c-35ff9ca41b58,Primary Care Nurse,michuaeljohnston@healthcare.org
+00c7aa0e-e95a-4cfe-b39b-f49b15052150,c3b3ca0f-4d11-4824-bd09-b8be499da362,8dcde1b3-c8b7-4f16-ade3-b5be7cfc61cc,Endocrinologist,tyroneegarcia@healthcare.org
+6d498f27-bb7c-4fb8-8e46-a531967614f7,c3b3ca0f-4d11-4824-bd09-b8be499da362,d6b5059a-6a6f-4a87-8980-a520eff16463,Physical Therapy Assistant,brrandiduncan@healthcare.org
+202c300a-fd2f-42a5-8ab3-9a230d4d949e,c3b3ca0f-4d11-4824-bd09-b8be499da362,133df6e9-b5b3-4718-9a7c-c3b3860c7c6d,Surgical Nurse,markbuishop@healthcare.org
+70c13c0f-312c-4359-9f9b-7ae5cfbc3b34,c3b3ca0f-4d11-4824-bd09-b8be499da362,f4bcff43-a34a-4853-87bf-d56566aae204,Orthodontist,susanbush@healthcare.org
+d50c21a7-9d31-4cf0-9700-0ecf7e418170,d60a9741-c5aa-48f0-a990-7703970a2493,430851aa-9a92-4722-afc5-9651dd35632a,GI Technician,snadramartin@healthcare.org
+96a4dab4-ff81-4a0b-a93a-c28d3f49041a,d60a9741-c5aa-48f0-a990-7703970a2493,430851aa-9a92-4722-afc5-9651dd35632a,GI Technician,dianaohnson@healthcare.org
+4e318459-0977-40b4-8948-a4e9b179bd95,d60a9741-c5aa-48f0-a990-7703970a2493,da11d2c9-43e6-4d9b-9e7e-0170a4819363,Obstetrics Technician,elizabethmartinez@healthcare.org
+2e9f5c3b-448a-4fca-bc89-39bbab1c6b1c,d60a9741-c5aa-48f0-a990-7703970a2493,da11d2c9-43e6-4d9b-9e7e-0170a4819363,Obstetrics Technician,douglasjesnen@healthcare.org
+1c633d5c-98f1-4e7d-a3d7-8de59d644030,d60a9741-c5aa-48f0-a990-7703970a2493,d8919c61-34f3-46ae-930d-a9ec33b76e26,Urologist,sabrinaeed@healthcare.org
+11033cb0-be1b-491e-b74d-4dde5f4e4865,d60a9741-c5aa-48f0-a990-7703970a2493,d8919c61-34f3-46ae-930d-a9ec33b76e26,Urology Nurse,lukemarrtinezmd@healthcare.org
+40eac1c9-d1ad-484c-98ae-9acef6587c1e,d60a9741-c5aa-48f0-a990-7703970a2493,33fd21eb-7dab-4e71-9961-edfa905888bf,Epidemiologist,rachelbishop@healthcare.org
+82a530f3-6f0f-431e-bd4a-1b5e0834a470,d60a9741-c5aa-48f0-a990-7703970a2493,33fd21eb-7dab-4e71-9961-edfa905888bf,Infection Control Nurse,kesithanderson@healthcare.org
+10a91a79-1e47-4379-aabb-1b481833ddf7,d60a9741-c5aa-48f0-a990-7703970a2493,9e875edb-9718-4387-a6e5-8cbc54a969fc,Neonatal Nurse,lisahernanez@healthcare.org
+e33c1ddf-18c6-4291-a14e-e1dca47589f5,d60a9741-c5aa-48f0-a990-7703970a2493,9e875edb-9718-4387-a6e5-8cbc54a969fc,Labor & Delivery Nurse,melissaoiver@healthcare.org
+7003da0f-04b6-4224-9903-2a0db893cdd4,d60a9741-c5aa-48f0-a990-7703970a2493,51eec456-2ca1-440a-a2d9-ae837c091f35,Obstetrics Technician,douglasandrdae@healthcare.org
+b50f41d4-686d-467b-b5d7-83966b69fdbc,d60a9741-c5aa-48f0-a990-7703970a2493,51eec456-2ca1-440a-a2d9-ae837c091f35,Women's Health Nurse,gabrielleking@healthcare.org
+467f3992-e3c2-4dc4-a19c-c6f13e2d5b63,d60a9741-c5aa-48f0-a990-7703970a2493,0d73f559-6ee6-4716-808a-ef7d90deafaa,Doula,henrygonazlez@healthcare.org
+eed4fb23-b2bd-4e95-8efe-1bbe4219ea10,d60a9741-c5aa-48f0-a990-7703970a2493,0d73f559-6ee6-4716-808a-ef7d90deafaa,Doula,williamshepherd@healthcare.org
+b484b36d-d0e0-4055-8cc1-9d4cf20384ba,d60a9741-c5aa-48f0-a990-7703970a2493,0d73f559-6ee6-4716-808a-ef7d90deafaa,Obstetric Nurse,travissalazar@healthcare.org
+699e734d-080f-457f-8ae3-497b70c8510c,d60a9741-c5aa-48f0-a990-7703970a2493,da11d2c9-43e6-4d9b-9e7e-0170a4819363,Obstetrics Technician,geordgecastaneda@healthcare.org
+b1d070f8-38db-46bd-bb0b-0407d9a4e5c2,d60a9741-c5aa-48f0-a990-7703970a2493,51eec456-2ca1-440a-a2d9-ae837c091f35,Women's Health Nurse,kathrynoonnell@healthcare.org
+750ce1b0-4ad1-4695-91e0-d7c6843e5c4d,d60a9741-c5aa-48f0-a990-7703970a2493,da11d2c9-43e6-4d9b-9e7e-0170a4819363,Gynecologist,danillejackson@healthcare.org
+813bf0fc-c5c5-45e6-80ec-d4a332fb12a7,d60a9741-c5aa-48f0-a990-7703970a2493,33fd21eb-7dab-4e71-9961-edfa905888bf,Infectious Disease Specialist,trravisdavis@healthcare.org
+ba09781f-fa18-4aa2-bfcf-289df1361043,d60a9741-c5aa-48f0-a990-7703970a2493,0d73f559-6ee6-4716-808a-ef7d90deafaa,Obstetric Nurse,curtisanderosn@healthcare.org
+0e42629f-af9c-47b6-a6bb-6b649d209e83,d60a9741-c5aa-48f0-a990-7703970a2493,9e875edb-9718-4387-a6e5-8cbc54a969fc,Labor & Delivery Nurse,aarornoberts@healthcare.org
+0665c8c0-2dfa-453f-a57e-39eef7d8b975,d60a9741-c5aa-48f0-a990-7703970a2493,9e875edb-9718-4387-a6e5-8cbc54a969fc,Obstetrician,michaeelmelton@healthcare.org
+96fbfafe-ede6-4908-be6b-961af349c47e,d60a9741-c5aa-48f0-a990-7703970a2493,d8919c61-34f3-46ae-930d-a9ec33b76e26,Urology Nurse,meganfeernandez@healthcare.org
+74a89ad7-a5f9-4259-84f7-f54c59eb4eaa,d60a9741-c5aa-48f0-a990-7703970a2493,da11d2c9-43e6-4d9b-9e7e-0170a4819363,Obstetrics Technician,anndreaclark@healthcare.org
+f1841ec2-999e-477b-8571-61eea7e8cc09,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fe3da524-1873-482b-bbb2-fcac8f1df6fc,Arthritis Specialist,sccottkent@healthcare.org
+da180f4e-f962-4abb-8ec5-6917f2eac550,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fe3da524-1873-482b-bbb2-fcac8f1df6fc,Rheumatology Nurse,tracyfischher@healthcare.org
+2d7b6bce-9cd9-4ca2-950c-777383e39ee0,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,56220722-8cf6-4636-811b-74f7b5dc436b,Health Educator,stephnegross@healthcare.org
+9fd5b15e-7b55-406c-81bf-e977ff89f18d,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,56220722-8cf6-4636-811b-74f7b5dc436b,Public Health Nurse,zacharellis@healthcare.org
+41d5448f-fce5-45f2-b95e-75c8a996c731,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,ede37398-57c2-4aee-ad7e-8c632d2674be,Pathologist,jasonarmstroong@healthcare.org
+0ddff19a-ffa3-40a5-807e-2068361de8a7,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,ede37398-57c2-4aee-ad7e-8c632d2674be,Cytotechnologist,shhannonmonroe@healthcare.org
+852ec559-01a5-4412-b040-d270010116f9,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,506dec11-c8bb-4a21-9d5d-3b9bd4f75de6,Psychiatrist,valeiechavez@healthcare.org
+c1114401-bd57-48a4-89ec-d995854351c3,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,506dec11-c8bb-4a21-9d5d-3b9bd4f75de6,Psychologist,sharonpeters@healthcare.org
+39ce38c5-4454-45e5-ac8b-f831deaa93d1,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,9543cfd8-edf5-4d02-9a44-df106074662f,GI Technician,stephaniepugh@healthcare.org
+6e48474a-9353-490c-a085-577d5e447efd,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,9543cfd8-edf5-4d02-9a44-df106074662f,GI Nurse,hannahlove@healthcare.org
+afade94c-a42c-4544-9793-3cbc28688da3,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fc5a3263-52b5-4adc-9c59-e4a50a06c335,Cosmetic Surgery Nurse,dongaldanderson@healthcare.org
+3e395212-ebf3-439a-b501-852a9b26c583,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fc5a3263-52b5-4adc-9c59-e4a50a06c335,Plastic Surgeon,daidcollins@healthcare.org
+febb775c-fbe1-48dd-80fd-4a4a174d4f0f,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,773cb93d-5e78-4c79-988f-5ad0fe757f70,General Practitioner,stephhencummings@healthcare.org
+843220df-3b2f-4ac2-9cf7-5183b15bfe9e,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,773cb93d-5e78-4c79-988f-5ad0fe757f70,Primary Care Nurse,phillbipgross@healthcare.org
+1271397f-14a8-4eac-a560-795dfe97ee1d,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,baee673d-042b-465b-a0eb-eb1498a9c933,Speech Therapist,alfrdesmith@healthcare.org
+ea96700a-bcdd-4a30-9c95-231a20cdfa8f,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,baee673d-042b-465b-a0eb-eb1498a9c933,Communication Disorders Specialist,duoglasboyd@healthcare.org
+882dcd04-802e-4b6a-b1d7-b345eb6c4304,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,b075b085-0b52-4748-af57-b8f6e335d539,Respiratory Therapist,micchaelhahn@healthcare.org
+02c3a1af-a51a-4cb8-9b87-c00b9bb5ff3e,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,b075b085-0b52-4748-af57-b8f6e335d539,Respiratory Therapist,johhntanner@healthcare.org
+ae55e515-6f34-48ca-9167-3765677fab82,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,748f2247-dda6-4b0b-bcee-b65e93e315fd,Obstetrician,melvingreene@healthcare.org
+1a0e180d-e1d9-400f-a001-8e7395e38126,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,748f2247-dda6-4b0b-bcee-b65e93e315fd,Neonatal Nurse,douglsrasmussen@healthcare.org
+5136dbcf-9f9e-435b-9f74-accb0d3c0043,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,ede37398-57c2-4aee-ad7e-8c632d2674be,Pathologist,charleneduncan@healthcare.org
+be2bff4e-2475-48bd-8ac7-5752319a311e,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,b075b085-0b52-4748-af57-b8f6e335d539,Respiratory Therapist,joeparker@healthcare.org
+2334b606-85f4-4670-950a-d04dc905eda2,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,56220722-8cf6-4636-811b-74f7b5dc436b,Public Health Nurse,brandybard@healthcare.org
+245e78b4-4783-46a5-9460-db4b924d4c22,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,ede37398-57c2-4aee-ad7e-8c632d2674be,Histology Technician,genncordova@healthcare.org
+e0f7b93b-150b-4418-a2f4-05f0631dd5b4,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,56220722-8cf6-4636-811b-74f7b5dc436b,Public Health Nurse,catherinemcmahon@healthcare.org
+f820797b-a20b-4278-9e8d-934451e6b73a,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fe3da524-1873-482b-bbb2-fcac8f1df6fc,Rheumatologist,markboywen@healthcare.org
+1cfb9077-49af-451a-ac93-e2e04e768985,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fc5a3263-52b5-4adc-9c59-e4a50a06c335,Plastic Surgeon,saraahjames@healthcare.org
+138cee46-65a7-49e0-97aa-fd0f5a3bf46b,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,ede37398-57c2-4aee-ad7e-8c632d2674be,Cytotechnologist,taylorlee@healthcare.org
+603be834-51d2-4309-8fb6-c057ad57082c,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fc5a3263-52b5-4adc-9c59-e4a50a06c335,Reconstructive Specialist,daivdle@healthcare.org
+cd35f79a-327e-41fc-99b9-4fd73fc58f1d,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,9543cfd8-edf5-4d02-9a44-df106074662f,GI Technician,joedean@healthcare.org
+5a526887-36df-49d0-a6dd-b7075df036d9,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,506dec11-c8bb-4a21-9d5d-3b9bd4f75de6,Therapist,sethwpalter@healthcare.org
+003b24d1-fe40-4d2d-8c79-409ce21178af,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fc5a3263-52b5-4adc-9c59-e4a50a06c335,Cosmetic Surgery Nurse,jenniferraay@healthcare.org
+ea4e6625-3e60-474c-bf2b-f8fd163b96a3,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,b075b085-0b52-4748-af57-b8f6e335d539,Lung Function Technician,brandiacevvedo@healthcare.org
+e126f66e-82be-4982-ba56-db95e3eb1833,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,b075b085-0b52-4748-af57-b8f6e335d539,Lung Function Technician,calvibnarr@healthcare.org
+298755cd-ba93-48e4-919f-600c2e65914f,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,ede37398-57c2-4aee-ad7e-8c632d2674be,Cytotechnologist,claduiaperez@healthcare.org
+374a3850-add2-41fe-bb7b-3a3f7254c3c1,c5ae10dc-80cc-4c37-af7a-0de0bd5c1f07,fc5a3263-52b5-4adc-9c59-e4a50a06c335,Plastic Surgeon,msloriikng@healthcare.org
+291c6c48-0274-4df6-bd7b-533921abbce8,9962b130-fc59-4954-9d85-6f439b709c3b,62edc378-ba8f-467e-99bc-bfa64fe97f7b,Dermatologist,joannceoleman@healthcare.org
+526aaad2-6556-4eec-90ee-2a9218fe39d5,9962b130-fc59-4954-9d85-6f439b709c3b,62edc378-ba8f-467e-99bc-bfa64fe97f7b,Skin Care Specialist,karamartiez@healthcare.org
+26e2929f-58e9-4f10-9753-9f3c483c7894,9962b130-fc59-4954-9d85-6f439b709c3b,77aa0409-e7d6-45cc-8d1e-460c9ab97caa,Emergency Medical Technician,robertcolseman@healthcare.org
+b0214f70-c57a-4fc4-9e4f-e1776655bea9,9962b130-fc59-4954-9d85-6f439b709c3b,77aa0409-e7d6-45cc-8d1e-460c9ab97caa,Trauma Surgeon,brianrgoers@healthcare.org
+c0ac9549-4311-465d-834b-dd13c8a23f42,9962b130-fc59-4954-9d85-6f439b709c3b,748d738b-196e-4e26-95e6-58812bae5e56,Urology Nurse,melaniecmgee@healthcare.org
+7cf75353-cab0-4d8d-9a85-eaf5c14aa4af,9962b130-fc59-4954-9d85-6f439b709c3b,748d738b-196e-4e26-95e6-58812bae5e56,Urology Nurse,katherinehuunt@healthcare.org
+2d55ff5a-6af8-4166-8848-dc2c3dfc4279,9962b130-fc59-4954-9d85-6f439b709c3b,ed834f16-93e5-43e4-8719-7bf163694ce2,Orthotic Specialist,darrenmyres@healthcare.org
+3cd79786-26bc-496b-947a-aed609d518b1,9962b130-fc59-4954-9d85-6f439b709c3b,ed834f16-93e5-43e4-8719-7bf163694ce2,Foot Care Nurse,josestout@healthcare.org
+670f2d54-f5b5-48d2-9914-709282c2e529,9962b130-fc59-4954-9d85-6f439b709c3b,253b6e44-1916-40e3-9800-201a9cc6d351,Poison Control Specialist,douglaslu@healthcare.org
+e954a159-4e86-4521-b8ef-2f8ddec5e507,9962b130-fc59-4954-9d85-6f439b709c3b,253b6e44-1916-40e3-9800-201a9cc6d351,Toxicologist,pameplatucker@healthcare.org
+02b576d6-b30e-40f7-9556-5740d8e51095,9962b130-fc59-4954-9d85-6f439b709c3b,8a5c4874-9fc3-4fc8-9847-0ea1392047e8,Endocrinologist,marthayyang@healthcare.org
+c6c94942-bb49-4fe4-91dc-967a443b0e7f,9962b130-fc59-4954-9d85-6f439b709c3b,8a5c4874-9fc3-4fc8-9847-0ea1392047e8,Endocrine Nurse,theresahouston@healthcare.org
+3ceba7bd-14ad-4412-b22c-0a16d1396312,9962b130-fc59-4954-9d85-6f439b709c3b,ea04c35d-232a-4bb1-87e9-17260a51f913,Community Health Worker,cliffosrdblair@healthcare.org
+ecea8450-3f69-47b5-8cd8-04aa175bedfd,9962b130-fc59-4954-9d85-6f439b709c3b,ea04c35d-232a-4bb1-87e9-17260a51f913,Community Health Worker,sarahsmith@healthcare.org
+92a7a04c-d9c8-4aea-bc16-5d422cae07f9,9962b130-fc59-4954-9d85-6f439b709c3b,40b7dbc2-e82a-4d22-b46b-456ac40c8da3,Genetic Counselor,howardmorrais@healthcare.org
+2f7f07a4-ce85-4e22-aadd-03612ba65aac,9962b130-fc59-4954-9d85-6f439b709c3b,40b7dbc2-e82a-4d22-b46b-456ac40c8da3,Genetic Counselor,keiithharper@healthcare.org
+c016d719-0f16-4228-b01d-539b8f25b013,9962b130-fc59-4954-9d85-6f439b709c3b,bda3235a-e16a-4f5e-b64b-3afeb58dc25f,Toxicologist,teresasmtih@healthcare.org
+30048c01-7814-429a-8fb7-3253d2b05e58,9962b130-fc59-4954-9d85-6f439b709c3b,bda3235a-e16a-4f5e-b64b-3afeb58dc25f,Environmental Health Officer,antonomoore@healthcare.org
+ac136433-7d5b-4530-98b6-60f7c1fc5989,9962b130-fc59-4954-9d85-6f439b709c3b,d383ef52-9d14-43a5-a49f-86975fd00911,Pharmacy Technician,michelletorrees@healthcare.org
+033eb7ba-669b-4104-be7e-6b39fd44c192,9962b130-fc59-4954-9d85-6f439b709c3b,d383ef52-9d14-43a5-a49f-86975fd00911,Pharmacy Technician,amandasith@healthcare.org
+286b16f9-ad03-4a92-94d3-8d9f2fa93f9a,b68759b5-08bc-442f-8985-1257b6f7d9b7,1fa62862-5ae3-4a0e-ab25-0adbf2bb3e42,Speech Therapist,johnnywilliamsdds@healthcare.org
+3bc84178-123d-49db-afd8-526fc81f7da4,b68759b5-08bc-442f-8985-1257b6f7d9b7,1fa62862-5ae3-4a0e-ab25-0adbf2bb3e42,Speech Pathologist,ronladprice@healthcare.org
+cbdd900c-8eaf-44f5-84ea-f819d3acb6e6,b68759b5-08bc-442f-8985-1257b6f7d9b7,020636cd-ce6e-490f-8257-1472561bbb47,Nurse Manager,justinngueyn@healthcare.org
+ebabb308-46ac-4781-957f-5947b66ee2f7,b68759b5-08bc-442f-8985-1257b6f7d9b7,020636cd-ce6e-490f-8257-1472561bbb47,Nurse Practitioner,derirckcoleman@healthcare.org
+42019bdc-c156-4945-adbf-5535b04a5d3b,b68759b5-08bc-442f-8985-1257b6f7d9b7,c988e413-9d23-40bb-9d1e-f2754897a1d0,Physical Therapist,mshollyfernadez@healthcare.org
+65afdf38-8268-4970-975d-7dc989a01a52,b68759b5-08bc-442f-8985-1257b6f7d9b7,c988e413-9d23-40bb-9d1e-f2754897a1d0,Orthopedic Nurse,rkichardmullins@healthcare.org
+0ad318e4-60aa-4f22-9ea6-0fcdcd887fd4,b68759b5-08bc-442f-8985-1257b6f7d9b7,02114533-d9d1-4b49-9391-e92479cbdc6c,Toxicologist,williescottjr@healthcare.org
+3a3ec5c2-432d-4fed-bcf7-1756590ddf76,b68759b5-08bc-442f-8985-1257b6f7d9b7,02114533-d9d1-4b49-9391-e92479cbdc6c,Poison Control Specialist,davdibaird@healthcare.org
+dae4d4bb-e0f1-4bf9-9641-9f9a01300503,b68759b5-08bc-442f-8985-1257b6f7d9b7,fa4619f2-0a8f-4a80-aa61-5a6e815aea9d,Skin Care Specialist,kaylafster@healthcare.org
+dcf6250f-8bfa-4e59-8099-5a01a695f709,b68759b5-08bc-442f-8985-1257b6f7d9b7,fa4619f2-0a8f-4a80-aa61-5a6e815aea9d,Dermatologist,mariawilliams@healthcare.org
+3b573b76-55b5-4c99-922b-d1c4bccb7096,b68759b5-08bc-442f-8985-1257b6f7d9b7,9b73f94e-83ff-4b81-88c9-a3a5fa3c27b8,Dialysis Nurse,asleyhubbard@healthcare.org
+2d528cf4-0ce6-4d9e-bfd8-3876561b25eb,b68759b5-08bc-442f-8985-1257b6f7d9b7,9b73f94e-83ff-4b81-88c9-a3a5fa3c27b8,Dialysis Nurse,jamesxrobinson@healthcare.org
+c777560c-675c-4cb4-8aea-1a076b0ff175,b68759b5-08bc-442f-8985-1257b6f7d9b7,35ea89b3-dc07-48eb-b475-0c52f9f602db,Surgeon,daniehlenry@healthcare.org
+dd737f78-83d2-46a3-be84-8083a75989fd,b68759b5-08bc-442f-8985-1257b6f7d9b7,35ea89b3-dc07-48eb-b475-0c52f9f602db,Surgeon,tammmyharris@healthcare.org
+fdd3992b-5794-40a8-94d5-8b650f63769c,b68759b5-08bc-442f-8985-1257b6f7d9b7,2c650537-b5ca-4a87-b6b1-b2ccd55bcf68,Neonatal Nurse,kristtenpeterson@healthcare.org
+8aea7695-6cb2-46a6-8146-31c83d8d2148,b68759b5-08bc-442f-8985-1257b6f7d9b7,2c650537-b5ca-4a87-b6b1-b2ccd55bcf68,Neonatal Nurse,tonnyawalker@healthcare.org
+80f430fd-f47a-4e3a-906a-4a1b4b98ea5b,b68759b5-08bc-442f-8985-1257b6f7d9b7,30347c71-558f-4def-985a-955b67f69d5b,Elderly Care Specialist,scottmoer@healthcare.org
+25d51cb1-077e-4c85-a148-ae76d7902f49,b68759b5-08bc-442f-8985-1257b6f7d9b7,30347c71-558f-4def-985a-955b67f69d5b,Gerontology Nurse,ddebrameyers@healthcare.org
+e135bde6-adc6-4df0-b8da-99e3c97ad573,b68759b5-08bc-442f-8985-1257b6f7d9b7,020636cd-ce6e-490f-8257-1472561bbb47,Registered Nurse,jerrygarrcia@healthcare.org
+c52ab171-0f95-41b6-90fa-583ff326aed7,b68759b5-08bc-442f-8985-1257b6f7d9b7,fa4619f2-0a8f-4a80-aa61-5a6e815aea9d,Skin Care Specialist,heatherfraizer@healthcare.org
+39946a8b-7940-499c-9e6a-6ae6e4f02ad7,b68759b5-08bc-442f-8985-1257b6f7d9b7,02114533-d9d1-4b49-9391-e92479cbdc6c,Toxicologist,christophergoodiwn@healthcare.org
+6a6324a9-239b-4eda-a5e3-dc7519671d49,b68759b5-08bc-442f-8985-1257b6f7d9b7,2c650537-b5ca-4a87-b6b1-b2ccd55bcf68,Obstetrician,annettemueadows@healthcare.org
+68168fea-adca-47c8-a130-7bec061f5cf6,b68759b5-08bc-442f-8985-1257b6f7d9b7,02114533-d9d1-4b49-9391-e92479cbdc6c,Poison Control Specialist,adamefrnandez@healthcare.org
+a4c86561-58ad-4e08-9e6b-12b607b6ebad,b68759b5-08bc-442f-8985-1257b6f7d9b7,9b73f94e-83ff-4b81-88c9-a3a5fa3c27b8,Renal Dietitian,davidmartinez@healthcare.org
+305de058-aba1-4902-ae1e-8bee907b5936,b68759b5-08bc-442f-8985-1257b6f7d9b7,35ea89b3-dc07-48eb-b475-0c52f9f602db,Surgical Nurse,matthewbarnett@healthcare.org
+c1c22ca6-02bf-48f0-ba02-496cc1a1d83c,b68759b5-08bc-442f-8985-1257b6f7d9b7,c988e413-9d23-40bb-9d1e-f2754897a1d0,Orthopedic Nurse,ernestsims@healthcare.org
+51dc2613-8752-4955-b9a4-19ccf53bdf0a,b68759b5-08bc-442f-8985-1257b6f7d9b7,1fa62862-5ae3-4a0e-ab25-0adbf2bb3e42,Speech Pathologist,anathonyturner@healthcare.org
+7f12a192-2a48-4ea1-8d88-610dd6755fd3,b68759b5-08bc-442f-8985-1257b6f7d9b7,c988e413-9d23-40bb-9d1e-f2754897a1d0,Orthopedic Surgeon,lisxaedwards@healthcare.org
+3c33c839-6cce-47d2-8f79-029af0181b13,b68759b5-08bc-442f-8985-1257b6f7d9b7,30347c71-558f-4def-985a-955b67f69d5b,Gerontology Nurse,kevinreeves@healthcare.org
+8e23445a-b33c-4a2c-8f47-ffe97ffa7dc2,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,fa53b5a7-63d8-4cb1-b2fa-5cfb0b3ea071,Morgue Attendant,rcahelchan@healthcare.org
+30986e5b-be10-488c-b393-5c74193b09ee,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,fa53b5a7-63d8-4cb1-b2fa-5cfb0b3ea071,Morgue Attendant,kylehowell@healthcare.org
+6a5b1fc4-c58a-41c6-af8e-767779a20c16,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,d95629ac-11f0-4316-8b70-fda7777964a0,Pediatrician,allenthombpson@healthcare.org
+c8a262c0-1234-4e79-a3a5-4c0bf359afa1,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,d95629ac-11f0-4316-8b70-fda7777964a0,Pediatric Nurse,carlydikcerson@healthcare.org
+fe9b1cc6-2189-4472-ab65-c846f1bb67f3,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,cad0e800-8909-425a-bc78-f9bcab652a72,Obstetric Nurse,johnarelllano@healthcare.org
+95229688-bfa7-42db-9a69-81c74ea55384,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,cad0e800-8909-425a-bc78-f9bcab652a72,Doula,allrisonjohnson@healthcare.org
+67f0715e-993f-426b-ac69-35e33eb9a0d3,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,38e850a1-ed59-451a-8753-43350703c5f1,Hematology Nurse,jeffreygraeen@healthcare.org
+a359e764-ebd1-46e1-b0bd-780c3c232bb9,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,38e850a1-ed59-451a-8753-43350703c5f1,Blood Bank Technologist,larryohlmes@healthcare.org
+509eaae6-8696-4c63-96a4-3c88f8f20134,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,0d64cd61-a376-4512-9b81-2ade2d49ec80,Speech Pathologist,darlenmiller@healthcare.org
+f7dc9aab-8cf5-45e9-ba16-e628f25b8c73,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,0d64cd61-a376-4512-9b81-2ade2d49ec80,Communication Disorders Specialist,leonnardconley@healthcare.org
+70a90ba8-0014-42cf-9a4b-7b86ff91c1ad,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,9c65836e-8e9a-4a56-a6aa-e560a18df6f5,Dermatologist,catherinemorales@healthcare.org
+8682df88-0eda-46eb-9b21-aa27aab3260f,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,9c65836e-8e9a-4a56-a6aa-e560a18df6f5,Skin Care Specialist,susanramer@healthcare.org
+5931d458-61ec-41ad-b9bc-d1ed67dda41d,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,1c30ebae-36ae-42f8-a9ff-46216041c0e9,Infectious Disease Specialist,mcsvictoriasanders@healthcare.org
+cb3619bc-b95b-4c86-92c8-0311e808c42a,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,1c30ebae-36ae-42f8-a9ff-46216041c0e9,Epidemiologist,robertsmth@healthcare.org
+d043d4a0-5316-4035-86d6-692ee644783c,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,cad0e800-8909-425a-bc78-f9bcab652a72,Obstetric Nurse,haannahwalsh@healthcare.org
+d0c6754b-b092-4a36-a8d5-6c88c437cb92,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,9c65836e-8e9a-4a56-a6aa-e560a18df6f5,Dermatologist,merceddesrobles@healthcare.org
+222c0295-32f8-422d-a2da-db93620be6d8,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,9c65836e-8e9a-4a56-a6aa-e560a18df6f5,Dermatology Nurse,aaronrbown@healthcare.org
+3f22e605-dcce-4f23-a5be-887783b95755,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,1c30ebae-36ae-42f8-a9ff-46216041c0e9,Infectious Disease Specialist,chrwistinabarnes@healthcare.org
+8948a6bf-555b-4337-b0e1-f91de453ef2c,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,9c65836e-8e9a-4a56-a6aa-e560a18df6f5,Skin Care Specialist,ashleyschneider@healthcare.org
+54f98ba6-3c40-4b00-abb5-cabdd43e9c85,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,fa53b5a7-63d8-4cb1-b2fa-5cfb0b3ea071,Pathologist,markhzarris@healthcare.org
+e7a59537-96cc-41e9-8c19-c50febf6682d,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,d95629ac-11f0-4316-8b70-fda7777964a0,Pediatrician,jodifoxldds@healthcare.org
+6ce066c6-a090-4fed-a698-d365864465ec,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,38e850a1-ed59-451a-8753-43350703c5f1,Hematologist,mellindawilson@healthcare.org
+26beaf57-063b-41c0-bb86-f1315ed092a2,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,38e850a1-ed59-451a-8753-43350703c5f1,Hematologist,jennfierjohnson@healthcare.org
+a02c2e1c-e900-4624-82bc-f1bfabe4c411,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,0d64cd61-a376-4512-9b81-2ade2d49ec80,Speech Therapist,michaelmeadows@healthcare.org
+77398d75-dcb4-41c0-befd-fcaee15ca09a,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,cad0e800-8909-425a-bc78-f9bcab652a72,Doula,bradleyharrell@healthcare.org
+a4802a08-76d4-47c0-a3d0-af534dae3e96,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,9c65836e-8e9a-4a56-a6aa-e560a18df6f5,Dermatology Nurse,ashleyschneideer@healthcare.org
+2c86e7b4-8c1a-45c6-a053-de82bce27915,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,1c30ebae-36ae-42f8-a9ff-46216041c0e9,Epidemiologist,ryanjohzns@healthcare.org
+e75d08ff-1ddf-467f-a2a3-2e883d5e95b9,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,fa53b5a7-63d8-4cb1-b2fa-5cfb0b3ea071,Cytotechnologist,stephanniejoseph@healthcare.org
+87069bc3-a666-4bb1-bd8a-49177e1b6541,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,0d64cd61-a376-4512-9b81-2ade2d49ec80,Speech Therapist,jjessicawalker@healthcare.org
+81a7ce04-3df0-40fb-b668-94b081a0d265,0ed24aff-ca2e-4ad6-b2db-33d3fac7980b,cad0e800-8909-425a-bc78-f9bcab652a72,Doula,dannieljohnson@healthcare.org
+fb4176f1-0511-42db-8018-e1ab29b08809,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,Family Physician,erinfilynn@healthcare.org
+29064014-c5bf-4592-b305-89d782dd1469,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,Medical Assistant,michaelking@healthcare.org
+ec76e9b4-ad65-461a-abd1-dbde6d085c45,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Physiotherapist,paulbrar@healthcare.org
+1a4af6e8-35e2-4b40-9f8e-f390602172b5,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Rehabilitation Specialist,gracemyeer@healthcare.org
+11fb8760-0945-463f-bab4-b85034632348,1d5725e9-35f4-4844-88bf-161f745f5512,70b3b8d1-15dd-431a-b9e4-4e0e3fab9169,Hematologist,richardbcek@healthcare.org
+15803b2e-dd58-4ae0-b8ed-01cb3ce5b477,1d5725e9-35f4-4844-88bf-161f745f5512,70b3b8d1-15dd-431a-b9e4-4e0e3fab9169,Blood Bank Technologist,amyhulrey@healthcare.org
+13b71e73-da1b-48dd-92fb-5c9469eae4e5,1d5725e9-35f4-4844-88bf-161f745f5512,53719155-ec2b-4b43-b38a-67ee20a43d4b,Optician,jessejohnson@healthcare.org
+a7c10090-e7d2-4f8e-8152-f311aed3774a,1d5725e9-35f4-4844-88bf-161f745f5512,53719155-ec2b-4b43-b38a-67ee20a43d4b,Optometrist,elizabethrodriuez@healthcare.org
+c3ff57e5-44ca-4f53-8915-f22272f7d6cf,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,troywinters@healthcare.org
+ba0ccacc-1910-4976-97f6-334639e75c24,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Respiratory Therapist,mqelaniebrandtdds@healthcare.org
+3dda7f77-55e3-44b4-a1ec-b5cabac3e479,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Respiratory Therapist,melissamsley@healthcare.org
+551aaea8-1a70-4015-b27c-9b524a9307a8,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,adamsmith@healthcare.org
+468c5c89-a5cb-4443-8b5b-b8054651cebf,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Physiotherapist,kathleenespioza@healthcare.org
+8afc4f7e-29e1-43c1-8797-cf3b4c24c3ee,1d5725e9-35f4-4844-88bf-161f745f5512,70b3b8d1-15dd-431a-b9e4-4e0e3fab9169,Hematology Nurse,melissarobets@healthcare.org
+03a855a8-aa65-4d23-8aa5-c0fe18d11365,1d5725e9-35f4-4844-88bf-161f745f5512,70b3b8d1-15dd-431a-b9e4-4e0e3fab9169,Hematology Nurse,taylowragner@healthcare.org
+8955009c-79d1-47f0-841a-732b8c4dbdf9,1d5725e9-35f4-4844-88bf-161f745f5512,53719155-ec2b-4b43-b38a-67ee20a43d4b,Vision Therapist,jasonmercer@healthcare.org
+7f83afc7-0408-4976-b9b1-e6ad86d56821,1d5725e9-35f4-4844-88bf-161f745f5512,53719155-ec2b-4b43-b38a-67ee20a43d4b,Optician,cindyyscott@healthcare.org
+aff118ba-4e0a-4582-a52a-73c75d21370e,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,markuhnt@healthcare.org
+d60c63ff-cbe9-4cda-abd0-7f0d37bad17a,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,General Practitioner,kerryrodriguze@healthcare.org
+ffed16a7-b176-4cc6-8d0f-f102f6945a7c,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Physical Therapy Assistant,elizbaethbaker@healthcare.org
+ab048b75-e36b-46b2-8d0d-688d6858c6ba,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,christophrmullins@healthcare.org
+75acf751-f972-4e2d-a968-6b502cb345c1,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,Primary Care Nurse,rbeeccaschmidt@healthcare.org
+09adaafb-eb6a-46ed-998f-0f8cddb10e43,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,General Practitioner,melissasstephens@healthcare.org
+4f834a93-a7fc-4459-ae3a-8c023049c185,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Rehabilitation Specialist,jadebdurgess@healthcare.org
+ce253db3-98ca-48fb-83dd-fc11cc1fdaed,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,benjminshepard@healthcare.org
+a43ae66f-bc10-4abb-b3e3-52bf94b34379,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,General Practitioner,jeffreyhpam@healthcare.org
+79a824e7-60a9-4997-ab3d-ec7e2c0d2f40,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,justincampell@healthcare.org
+36617d42-9954-4609-bf50-1dba215d6b09,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Physiotherapist,nathanielsmth@healthcare.org
+960370c3-5c77-43a2-9e2c-2eb309ba854f,1d5725e9-35f4-4844-88bf-161f745f5512,70b3b8d1-15dd-431a-b9e4-4e0e3fab9169,Blood Bank Technologist,waynewliliams@healthcare.org
+d91a7dfa-6860-4f45-b259-66e17f07209e,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,Medical Assistant,stedphaniesingh@healthcare.org
+7ccb417b-a885-4f02-9916-012c86df8c5c,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,Primary Care Nurse,stephenhamgmond@healthcare.org
+10962f17-1565-4d56-9cc0-18565d220fe9,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Respiratory Therapist,kylwhitaker@healthcare.org
+323382e4-e2a0-4234-9925-35c584ea7b46,1d5725e9-35f4-4844-88bf-161f745f5512,7d3eea80-c6ef-4bff-b6cf-bac7c21dce78,Rehabilitation Specialist,michaellindzsey@healthcare.org
+b479b2c7-97a4-4744-8b90-424514d86aa4,1d5725e9-35f4-4844-88bf-161f745f5512,70b3b8d1-15dd-431a-b9e4-4e0e3fab9169,Hematology Nurse,robertharris@healthcare.org
+8d8e626e-a316-4087-8cb1-f5696500413c,1d5725e9-35f4-4844-88bf-161f745f5512,53719155-ec2b-4b43-b38a-67ee20a43d4b,Optician,johvargas@healthcare.org
+bd9c5d4c-6a50-45c5-8dbe-4c6b2ede54da,1d5725e9-35f4-4844-88bf-161f745f5512,a140dda0-4958-4271-baed-3ef10251d8d8,General Practitioner,michellecoarter@healthcare.org
+3ddc2852-29ed-4329-ade0-66be05a7ceba,1d5725e9-35f4-4844-88bf-161f745f5512,6fdb2d54-7d0d-4cc6-ba38-dc112f9c79b1,Pulmonary Function Technologist,lisaperrez@healthcare.org
+6d888009-de41-4155-8ffc-e35dde611620,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,b7bce3ef-85f7-4731-86d8-0cc2f7b2d73a,Women's Health Nurse,victoriabarker@healthcare.org
+baed934e-d001-4f8d-bf02-30b494a56097,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,b7bce3ef-85f7-4731-86d8-0cc2f7b2d73a,Gynecologist,tammyalln@healthcare.org
+e5c48a78-bbfe-434b-96bb-f100358c9b68,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,f00a5cc4-6996-4ee7-b691-23bfc07dcd7d,EKG Technician,tracyjohnjson@healthcare.org
+3d7bb583-8a6f-4754-a043-f3da5f17d61e,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,f00a5cc4-6996-4ee7-b691-23bfc07dcd7d,Cardiologist,edwardcontkreras@healthcare.org
+711737e6-f3e1-45d9-b554-442bba02e2c2,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1a47b4a9-ffb4-4662-944d-b1d2243974b8,Rheumatologist,avmyodom@healthcare.org
+fb541b83-0df0-4ee2-a244-397ba5431e77,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1a47b4a9-ffb4-4662-944d-b1d2243974b8,Arthritis Specialist,mayjones@healthcare.org
+201ea14b-e835-445b-a314-13d53148fa6f,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1f0d3601-2ce4-4400-89bf-1bd23aaadbe6,Clinical Genetics Specialist,keithpeerez@healthcare.org
+bcb00ff7-ce17-4c94-a462-9a14c048fccf,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1f0d3601-2ce4-4400-89bf-1bd23aaadbe6,Genetic Counselor,stveendyer@healthcare.org
+b6003e9a-33ce-4ee3-b453-46d0f5b18846,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,39739c23-a1c1-4975-bdad-9e7df71ba9fa,Nutritionist,eriicnewton@healthcare.org
+7c52cad8-fe10-4463-b13a-16b8f85ff3bc,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,39739c23-a1c1-4975-bdad-9e7df71ba9fa,Nutritionist,juliahill@healthcare.org
+e686141c-f8c6-4466-a6fd-ee51d50b947b,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,39739c23-a1c1-4975-bdad-9e7df71ba9fa,Nutritionist,mayhess@healthcare.org
+08ee3c99-a4fe-4aea-ab00-9ff8ebb21111,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,f00a5cc4-6996-4ee7-b691-23bfc07dcd7d,Cardiovascular Surgeon,sarahhadry@healthcare.org
+a7d5aaab-b7a4-4dca-a505-87774fb0bc3c,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,39739c23-a1c1-4975-bdad-9e7df71ba9fa,Nutritionist,mariazgreer@healthcare.org
+a8f36824-73b9-45dc-ac90-60e5fb7ef828,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,b7bce3ef-85f7-4731-86d8-0cc2f7b2d73a,Gynecologist,mattehwwilliams@healthcare.org
+34cd01eb-21b6-4045-9fe9-6ef0052dc7bf,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1a47b4a9-ffb4-4662-944d-b1d2243974b8,Arthritis Specialist,dedstinybradley@healthcare.org
+10f41737-1db3-4f8a-a8d6-ed73c9a58c32,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,f00a5cc4-6996-4ee7-b691-23bfc07dcd7d,EKG Technician,michaelagner@healthcare.org
+bc736c96-1c3d-4363-b9eb-6ae8bab58d08,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1f0d3601-2ce4-4400-89bf-1bd23aaadbe6,Clinical Genetics Specialist,donaldggarcia@healthcare.org
+dd4b1c00-1ba8-43eb-a877-3c181c358ff2,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,f00a5cc4-6996-4ee7-b691-23bfc07dcd7d,EKG Technician,roberdtsanchez@healthcare.org
+0dcb2521-ef5c-47e4-8d71-fd37433b67f9,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1a47b4a9-ffb4-4662-944d-b1d2243974b8,Arthritis Specialist,matthewarcher@healthcare.org
+2b71e196-8980-45d3-96e7-117dece0c084,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1a47b4a9-ffb4-4662-944d-b1d2243974b8,Rheumatology Nurse,nicholecraey@healthcare.org
+9dce7ecd-c034-4e6b-a19c-b608ee5569a0,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,39739c23-a1c1-4975-bdad-9e7df71ba9fa,Dietitian,michaeltayolr@healthcare.org
+cc0a986b-d792-4afe-9c78-e1d5ca99990c,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,b7bce3ef-85f7-4731-86d8-0cc2f7b2d73a,Obstetrics Technician,elizzabetholiver@healthcare.org
+07aa79b1-15c9-45d2-8b19-328f6f78fb23,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,b7bce3ef-85f7-4731-86d8-0cc2f7b2d73a,Gynecologist,hollygracia@healthcare.org
+d0fc5ae9-46be-4f12-bd97-74681765d31a,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1f0d3601-2ce4-4400-89bf-1bd23aaadbe6,Geneticist,russselljohnston@healthcare.org
+ba390235-1daa-4335-bcb8-69572161a6ae,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,1f0d3601-2ce4-4400-89bf-1bd23aaadbe6,Geneticist,brandonnmartin@healthcare.org
+5fad8b0c-788b-4c47-b06a-e97cf2e93432,bb219a2c-a62b-4cdc-8b6e-8d6a287a8ae2,f00a5cc4-6996-4ee7-b691-23bfc07dcd7d,Cardiologist,dianaelis@healthcare.org
+79cbfa94-eff0-4b8e-a8f0-56a13d008164,8e6cac67-53a6-4725-af4b-f70c02a4668a,186d2d98-2d9e-4af6-9805-008b256ab331,Medical Laboratory Scientist,peetrmiller@healthcare.org
+79174e4e-b481-4118-840d-98d2969b7043,8e6cac67-53a6-4725-af4b-f70c02a4668a,186d2d98-2d9e-4af6-9805-008b256ab331,Lab Technician,gabrielslevine@healthcare.org
+a4e45a05-38fa-4d6e-b9bb-0c2235e357b0,8e6cac67-53a6-4725-af4b-f70c02a4668a,9f41e692-662a-408f-b1d1-9cf1d71a0279,Morgue Attendant,jeremiahughes@healthcare.org
+8c5ea0d2-c4cf-4f4c-90cb-eafdadf9d676,8e6cac67-53a6-4725-af4b-f70c02a4668a,9f41e692-662a-408f-b1d1-9cf1d71a0279,Pathologist,benjaimnwilliams@healthcare.org
+e71fc4f9-4e1f-4862-aa1f-39fa5e263fda,8e6cac67-53a6-4725-af4b-f70c02a4668a,68516ee8-e3e9-4978-980f-caede244055d,Dentist,karenunderowod@healthcare.org
+e4660bce-ee50-4921-ba23-a005e6ad361d,8e6cac67-53a6-4725-af4b-f70c02a4668a,68516ee8-e3e9-4978-980f-caede244055d,Orthodontist,jasonvncent@healthcare.org
+19df2fe6-ab6d-436c-b4bf-0ee096d34773,8e6cac67-53a6-4725-af4b-f70c02a4668a,69005272-0cd7-480d-ae3c-3cfa3cdacb1c,Infectious Disease Specialist,crystalhunter@healthcare.org
+6697802f-a33b-42a4-acab-b1ab97e2c6f3,8e6cac67-53a6-4725-af4b-f70c02a4668a,69005272-0cd7-480d-ae3c-3cfa3cdacb1c,Infectious Disease Specialist,margaretlmewis@healthcare.org
+9492e652-1dd0-4cb6-b0eb-10736b42ce96,8e6cac67-53a6-4725-af4b-f70c02a4668a,80fccbc0-91bc-4542-a0fa-5f1ac4ac8e97,Medical Assistant,michelleramibrez@healthcare.org
+d0e60832-18a5-434f-ad73-ab8ffc46bc7d,8e6cac67-53a6-4725-af4b-f70c02a4668a,80fccbc0-91bc-4542-a0fa-5f1ac4ac8e97,Primary Care Nurse,mathtewrodriguez@healthcare.org
+95e35053-e0d4-4e80-a490-ed73605683c6,8e6cac67-53a6-4725-af4b-f70c02a4668a,e5eec1bc-481f-4a4c-afdc-95845b9ffd56,Pathologist,drdannybyrdmd@healthcare.org
+d648c4a4-4981-4ff5-a0ce-3be5c32e9d8f,8e6cac67-53a6-4725-af4b-f70c02a4668a,e5eec1bc-481f-4a4c-afdc-95845b9ffd56,Pathologist,larrymmartin@healthcare.org
+23815593-2364-4873-8a38-df8e89401815,8e6cac67-53a6-4725-af4b-f70c02a4668a,badac4a8-5c22-491e-8b4c-b911f461b6ac,Respiratory Therapist,timothyiller@healthcare.org
+dacac596-4cb0-4031-9ff2-7feb0e85ae99,8e6cac67-53a6-4725-af4b-f70c02a4668a,badac4a8-5c22-491e-8b4c-b911f461b6ac,Respiratory Therapist,jessicahudson@healthcare.org
+bda9d3bb-5f5c-41ed-a9bc-773ba6ec30cf,8e6cac67-53a6-4725-af4b-f70c02a4668a,badac4a8-5c22-491e-8b4c-b911f461b6ac,Lung Function Technician,elijahking@healthcare.org
+0a4edf78-883b-4710-89f2-78d8c2b566b3,8e6cac67-53a6-4725-af4b-f70c02a4668a,69005272-0cd7-480d-ae3c-3cfa3cdacb1c,Infectious Disease Specialist,johanmiller@healthcare.org
+41d99636-11b8-4de4-af4c-9bf1642b10d8,8e6cac67-53a6-4725-af4b-f70c02a4668a,69005272-0cd7-480d-ae3c-3cfa3cdacb1c,Infectious Disease Specialist,jenniferjuaarez@healthcare.org
+7c137d92-2687-4d6e-b520-1e6a7c9c52d9,8e6cac67-53a6-4725-af4b-f70c02a4668a,68516ee8-e3e9-4978-980f-caede244055d,Dental Hygienist,markroberrts@healthcare.org
+830cc4e1-0b1b-46cd-be7e-365a11e26e3e,8e6cac67-53a6-4725-af4b-f70c02a4668a,80fccbc0-91bc-4542-a0fa-5f1ac4ac8e97,Primary Care Nurse,laurracook@healthcare.org
+54a8566a-519a-44b0-b672-17f3f0096c26,8e6cac67-53a6-4725-af4b-f70c02a4668a,badac4a8-5c22-491e-8b4c-b911f461b6ac,Pulmonologist,elizabethhroy@healthcare.org
+551b1f33-656b-4810-8b5c-77cf676e9df5,8e6cac67-53a6-4725-af4b-f70c02a4668a,69005272-0cd7-480d-ae3c-3cfa3cdacb1c,Infectious Disease Specialist,chhristinafoster@healthcare.org
+45d86592-aac4-4af2-afac-9f9c8760eb1b,8e6cac67-53a6-4725-af4b-f70c02a4668a,186d2d98-2d9e-4af6-9805-008b256ab331,Pathologist,hannhagallegos@healthcare.org
+0720fa4c-fe69-4552-94e0-969835d302e7,8e6cac67-53a6-4725-af4b-f70c02a4668a,68516ee8-e3e9-4978-980f-caede244055d,Orthodontist,ronaldmadodx@healthcare.org
+e4942e98-5e93-409e-a62c-c2df05db865a,8e6cac67-53a6-4725-af4b-f70c02a4668a,186d2d98-2d9e-4af6-9805-008b256ab331,Lab Technician,marystanley@healthcare.org
+16a1eef1-d54a-49af-9f0a-e4b2fc381c2d,8e6cac67-53a6-4725-af4b-f70c02a4668a,186d2d98-2d9e-4af6-9805-008b256ab331,Medical Laboratory Scientist,adaamyu@healthcare.org
+d36b9008-184b-4811-9203-bcddc81f5527,8e6cac67-53a6-4725-af4b-f70c02a4668a,9f41e692-662a-408f-b1d1-9cf1d71a0279,Histology Technician,ptamelajackson@healthcare.org
+ed085d4c-278d-4208-a065-0b10d81e1385,8e6cac67-53a6-4725-af4b-f70c02a4668a,e5eec1bc-481f-4a4c-afdc-95845b9ffd56,Pathologist,brandysandersmd@healthcare.org
+2ba1607d-f4e6-45d5-beec-b5a84ac13cdf,8e6cac67-53a6-4725-af4b-f70c02a4668a,80fccbc0-91bc-4542-a0fa-5f1ac4ac8e97,General Practitioner,eddiegren@healthcare.org
+5a1385c2-db5c-4ce8-b153-b3133bec0514,8e6cac67-53a6-4725-af4b-f70c02a4668a,69005272-0cd7-480d-ae3c-3cfa3cdacb1c,Epidemiologist,stephanikelly@healthcare.org
+40feb7c8-8f6a-4e45-9bdf-faee8a3859a8,8e6cac67-53a6-4725-af4b-f70c02a4668a,68516ee8-e3e9-4978-980f-caede244055d,Dentist,christoherclark@healthcare.org
+f61e1445-e362-4973-84df-51d35ec1a0b8,8e6cac67-53a6-4725-af4b-f70c02a4668a,68516ee8-e3e9-4978-980f-caede244055d,Dental Hygienist,brianyyoung@healthcare.org
+f8abe7a6-30a2-4743-9583-fd634045c0a5,8e6cac67-53a6-4725-af4b-f70c02a4668a,80fccbc0-91bc-4542-a0fa-5f1ac4ac8e97,General Practitioner,acnamiller@healthcare.org
+d974cff7-1923-41e6-bd6f-1065292acf9a,8e6cac67-53a6-4725-af4b-f70c02a4668a,9f41e692-662a-408f-b1d1-9cf1d71a0279,Cytotechnologist,rickoybruce@healthcare.org
+0ccf44d0-3f71-4f66-9161-a53ddc65e864,8e6cac67-53a6-4725-af4b-f70c02a4668a,186d2d98-2d9e-4af6-9805-008b256ab331,Pathologist,angellgrahammd@healthcare.org
+0468f700-66ac-45c7-8e95-0f4a02e81fe5,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,17c067c4-6555-4e8e-a860-58f30a443046,Community Health Worker,deannasmih@healthcare.org
+70339e24-a006-41ae-a04f-87d1f6860453,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,17c067c4-6555-4e8e-a860-58f30a443046,Health Educator,melisagreen@healthcare.org
+07ccc978-a269-4538-b252-97251744ed23,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,94a5e027-ddd5-417e-b20e-f63ff0ae75be,Hematology Nurse,michelleliiu@healthcare.org
+77e581f0-2c11-4e39-9113-d9876235b991,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,94a5e027-ddd5-417e-b20e-f63ff0ae75be,Blood Bank Technologist,edwardpattmerson@healthcare.org
+45b06192-4900-477c-9632-a2155bfccb17,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,15754246-e7db-4858-bc2e-a7ff788adb38,Lab Technician,markrgant@healthcare.org
+ddf4f10d-67ac-4851-b407-862d5eaafde1,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,15754246-e7db-4858-bc2e-a7ff788adb38,Medical Laboratory Scientist,jameslitlte@healthcare.org
+4faa3b09-24b5-45c9-b1d5-f4166475c390,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,7bb50502-9698-4dcf-bb37-62f79e74bde9,Infectious Disease Specialist,scottterrell@healthcare.org
+78e493ea-4432-4857-8da4-ba64d3cb82a0,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,7bb50502-9698-4dcf-bb37-62f79e74bde9,Epidemiologist,jekssicasteele@healthcare.org
+99f94ff8-5273-4ef6-8418-5f38dc4277ad,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,6ad71e4f-b9b4-482e-bf23-2de8e289b52d,Pathologist,courtneyybaldwin@healthcare.org
+ac2ffe67-e4f5-4ab3-ada2-8cd83a022465,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,6ad71e4f-b9b4-482e-bf23-2de8e289b52d,Pathologist,jennaraymodn@healthcare.org
+572ea700-e627-4cc9-b36c-7413f274c47b,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,e9d08d3b-398e-47a5-8d29-28a357867969,Public Health Nurse,dwsaynerodriguez@healthcare.org
+52ed32bb-44f4-4635-b336-627682351a47,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,e9d08d3b-398e-47a5-8d29-28a357867969,Health Educator,joshuasetrada@healthcare.org
+34615668-7e64-4e72-9565-ffce6d0cdd1b,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,d4e36136-ab80-4901-a24d-0a036f7c9e47,GI Nurse,joncanon@healthcare.org
+c38286f4-9559-4bce-8501-5bc7fe5c915d,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,d4e36136-ab80-4901-a24d-0a036f7c9e47,GI Nurse,hannahjennnings@healthcare.org
+94afedc9-305f-41aa-a4c4-929ff83bdb23,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,30c4b834-8dcf-481d-849d-215d8180017d,Pediatrician,christianhernandez@healthcare.org
+7fac4000-4f7f-465b-a9d7-700313e16356,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,30c4b834-8dcf-481d-849d-215d8180017d,School Nurse,tarasanchez@healthcare.org
+6b2199a2-2433-4a26-a79b-fb8eafc7ed3c,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,e95ae987-f1cb-466e-832a-b1b44f43e091,Orthopedic Surgeon,matthejenkins@healthcare.org
+038db19f-e01d-4a5b-b265-c0d21b8e17d7,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,e95ae987-f1cb-466e-832a-b1b44f43e091,Orthopedic Surgeon,mariahscott@healthcare.org
+960e89f1-0ed8-42ca-b246-25c2b60728a9,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,b6aa9141-c097-4b3b-8017-76229a5b623b,Vision Therapist,joserphstevenson@healthcare.org
+b2e27e07-1c5c-46d8-a5e0-f178de71c4dc,f9d695a6-9a17-4a75-8cf9-a741cd333cbe,b6aa9141-c097-4b3b-8017-76229a5b623b,Vision Therapist,tanyamalnoe@healthcare.org
+dd54502b-70c0-4c58-8517-d51ed43d15bc,7cddf260-a26c-4dd7-9f7b-013a8e823195,ede334bf-5986-4017-9fed-740455de290d,Anesthesiology Assistant,janicefuller@healthcare.org
+4968c82a-ee01-412a-8bc2-48b123e8cd45,7cddf260-a26c-4dd7-9f7b-013a8e823195,ede334bf-5986-4017-9fed-740455de290d,Anesthesiologist,angelicathompson@healthcare.org
+d4fe0b72-936f-4b0b-940f-f0f23e4d4e6c,7cddf260-a26c-4dd7-9f7b-013a8e823195,3b251899-215d-472f-8b25-2c5a357d7205,Urology Nurse,suzanneheernandez@healthcare.org
+b03c8f7e-5c7e-4459-97e4-395a0cd37176,7cddf260-a26c-4dd7-9f7b-013a8e823195,3b251899-215d-472f-8b25-2c5a357d7205,Urodynamics Technician,brandonrichardson@healthcare.org
+389b608d-dcc5-4594-b2a6-a4aded250fa5,7cddf260-a26c-4dd7-9f7b-013a8e823195,650eb3fd-6ac4-4fcb-b826-db7e041d3dee,Skin Care Specialist,erikscott@healthcare.org
+c5dd2c5d-b76d-4045-ba7a-b4217184b192,7cddf260-a26c-4dd7-9f7b-013a8e823195,650eb3fd-6ac4-4fcb-b826-db7e041d3dee,Skin Care Specialist,carllkong@healthcare.org
+704f90e7-8d2e-45f5-9af4-2cc23130b011,7cddf260-a26c-4dd7-9f7b-013a8e823195,4db7be08-bed6-4fe3-8918-c98db01de5e6,General Practitioner,tammydelgado@healthcare.org
+0c23af3d-27ee-4b27-8547-a46dad0ded80,7cddf260-a26c-4dd7-9f7b-013a8e823195,4db7be08-bed6-4fe3-8918-c98db01de5e6,General Practitioner,leealsh@healthcare.org
+d824bd99-b445-4455-94b5-69a879099424,7cddf260-a26c-4dd7-9f7b-013a8e823195,5c146299-4404-43fb-8e93-1f818eecedff,Health Educator,matthhewbeasley@healthcare.org
+eecd3768-46bd-4a1e-b1a3-f66e96aadc79,7cddf260-a26c-4dd7-9f7b-013a8e823195,5c146299-4404-43fb-8e93-1f818eecedff,Community Health Worker,travisrady@healthcare.org
+5856d6ec-1741-456d-9113-bdaaed59c0d6,7cddf260-a26c-4dd7-9f7b-013a8e823195,dad11351-e347-4ea4-955b-142032cf9513,Respiratory Therapist,kimhiwnes@healthcare.org
+bd971872-a7ec-49ed-9b13-191dc98b45e1,7cddf260-a26c-4dd7-9f7b-013a8e823195,dad11351-e347-4ea4-955b-142032cf9513,Lung Function Technician,louisrias@healthcare.org
+c4ab973e-8780-48d6-9fb8-f2f2095edd3c,7cddf260-a26c-4dd7-9f7b-013a8e823195,804de8e9-41f2-4da4-a376-4a660fc9d2de,Endocrinologist,miichaelhall@healthcare.org
+4ceae261-ce26-4f12-9599-3c923fe0f269,7cddf260-a26c-4dd7-9f7b-013a8e823195,804de8e9-41f2-4da4-a376-4a660fc9d2de,Endocrine Nurse,kevindion@healthcare.org
+742b8db1-90d6-49aa-963b-0f4b5cc7a209,7cddf260-a26c-4dd7-9f7b-013a8e823195,5c146299-4404-43fb-8e93-1f818eecedff,Health Educator,chrisophermccormick@healthcare.org
+0830312c-3184-488a-ac52-68acfe2a79b6,7cddf260-a26c-4dd7-9f7b-013a8e823195,650eb3fd-6ac4-4fcb-b826-db7e041d3dee,Dermatologist,traacyreed@healthcare.org
+a4176ff5-42b7-4d99-86c8-1cac8c7b2491,7cddf260-a26c-4dd7-9f7b-013a8e823195,dad11351-e347-4ea4-955b-142032cf9513,Pulmonologist,spherrifarley@healthcare.org
+c3867284-3ff3-4944-bcfc-2e66e4fc28bb,7cddf260-a26c-4dd7-9f7b-013a8e823195,5c146299-4404-43fb-8e93-1f818eecedff,Health Educator,allenmtthews@healthcare.org
+09c9c4c4-7f1a-41ca-936c-1faf29f5d886,7cddf260-a26c-4dd7-9f7b-013a8e823195,ede334bf-5986-4017-9fed-740455de290d,Anesthesiology Nurse,matthewwoods@healthcare.org
+44b80708-3362-4490-bd7d-ca79effe7857,07dc4d58-4e33-4133-866d-9d8929e17776,764534ae-c086-4c36-9b22-6d7d6e066b6c,Anesthesiology Nurse,jeremypaul@healthcare.org
+ffc92688-1977-4696-9257-9fb47e6c0e47,07dc4d58-4e33-4133-866d-9d8929e17776,764534ae-c086-4c36-9b22-6d7d6e066b6c,Anesthesiology Nurse,sandramosjes@healthcare.org
+a4a0db51-7da1-4f40-ab25-e2e04ee2053c,07dc4d58-4e33-4133-866d-9d8929e17776,ff3328d7-68a5-43b8-82a0-857397f98b95,Community Outreach Specialist,anthhonybates@healthcare.org
+9cea1fcb-11a5-4ed1-8fab-ae5443e9bccd,07dc4d58-4e33-4133-866d-9d8929e17776,ff3328d7-68a5-43b8-82a0-857397f98b95,Epidemiologist,davidmurphy@healthcare.org
+5233f389-a5be-4f42-afc3-018b79c153e5,07dc4d58-4e33-4133-866d-9d8929e17776,4c690a94-3850-45bc-a279-ae08bc97e528,Arthritis Specialist,martinlopez@healthcare.org
+2cb73a5a-7bf0-436c-a279-e754d96cc97b,07dc4d58-4e33-4133-866d-9d8929e17776,4c690a94-3850-45bc-a279-ae08bc97e528,Arthritis Specialist,mikaylaoslis@healthcare.org
+697b6a6f-adee-4539-be6b-d6db812cab39,07dc4d58-4e33-4133-866d-9d8929e17776,0d0da057-270a-4e47-b278-3dc3691712fc,Rheumatology Nurse,micheleswarnson@healthcare.org
+333a1db8-a101-4f12-bc62-582ad857f9cd,07dc4d58-4e33-4133-866d-9d8929e17776,0d0da057-270a-4e47-b278-3dc3691712fc,Rheumatology Nurse,christinelopez@healthcare.org
+1dd25411-e59b-4c40-bd47-f0dc455379f6,07dc4d58-4e33-4133-866d-9d8929e17776,e0d0289b-7ab1-45e3-9cfe-22644184d0a2,Therapist,nathanpope@healthcare.org
+f44105fa-c596-4bb2-aed0-e6f650ed684e,07dc4d58-4e33-4133-866d-9d8929e17776,e0d0289b-7ab1-45e3-9cfe-22644184d0a2,Mental Health Nurse,tarajohnspon@healthcare.org
+c5e60068-498d-4782-9608-dd8d0bde17f3,07dc4d58-4e33-4133-866d-9d8929e17776,a78450ee-56bd-422f-bf5c-c2aec6366ad2,Rheumatologist,vincentjolnes@healthcare.org
+1876dfb0-d121-48eb-9fae-94a3526d1660,07dc4d58-4e33-4133-866d-9d8929e17776,a78450ee-56bd-422f-bf5c-c2aec6366ad2,Arthritis Specialist,jaychawpman@healthcare.org
+725ffd8c-654f-4020-81b0-73f42e1e8728,07dc4d58-4e33-4133-866d-9d8929e17776,7cc3aee3-c448-4572-bff9-3376ba79395d,Surgical Technologist,richardnielsen@healthcare.org
+a76cc3f5-ef2a-4fbf-9e66-e07d25b5f9fc,07dc4d58-4e33-4133-866d-9d8929e17776,7cc3aee3-c448-4572-bff9-3376ba79395d,Surgical Nurse,suekelly@healthcare.org
+2ba244ab-5cce-4a6c-8109-03df1a85f38d,07dc4d58-4e33-4133-866d-9d8929e17776,82ca25dd-2a86-43f3-ab35-58d2a5e3c89f,Blood Bank Technologist,kaitlinwebb@healthcare.org
+b2daeb30-cdeb-4362-b758-238e76b532f4,07dc4d58-4e33-4133-866d-9d8929e17776,82ca25dd-2a86-43f3-ab35-58d2a5e3c89f,Hematology Nurse,klelybates@healthcare.org
+338e7220-ff37-4024-a331-c94b7183fd95,07dc4d58-4e33-4133-866d-9d8929e17776,82ca25dd-2a86-43f3-ab35-58d2a5e3c89f,Blood Bank Technologist,ebonyllee@healthcare.org
+46817715-7ffe-4dc1-b189-491546b01bd9,07dc4d58-4e33-4133-866d-9d8929e17776,764534ae-c086-4c36-9b22-6d7d6e066b6c,Anesthesiologist,ksatiebooth@healthcare.org
+93e89007-b79e-4335-87b0-b9ddbc42c8cc,07dc4d58-4e33-4133-866d-9d8929e17776,7cc3aee3-c448-4572-bff9-3376ba79395d,Surgical Technologist,marymccgee@healthcare.org
+77325805-e343-448e-93bd-8b430d19a891,07dc4d58-4e33-4133-866d-9d8929e17776,e0d0289b-7ab1-45e3-9cfe-22644184d0a2,Psychiatrist,angelajuarz@healthcare.org
+e12636ba-07f1-406e-8bbc-9b42f1478676,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,b96f1439-a680-421f-be70-1c41dee6baf8,Vision Therapist,angelaflynn@healthcare.org
+a5a6638b-3de9-4319-9e6b-a59967f46335,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,b96f1439-a680-421f-be70-1c41dee6baf8,Vision Therapist,susanocx@healthcare.org
+1c128018-598c-42c0-8947-24455035d6c8,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,6153cd45-f61c-4ded-a03a-04e25bc2bcc7,EEG Technician,shawncarson@healthcare.org
+6dca42d7-6bba-4d6a-9046-e7fe76b31d30,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,6153cd45-f61c-4ded-a03a-04e25bc2bcc7,Neurosurgeon,jonathannmacias@healthcare.org
+7ed225c1-8825-4bac-84e9-63205c8a817f,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,1934952f-6761-4457-9dfe-778a2c17d3e2,Child Life Specialist,drdaneilsharp@healthcare.org
+366037aa-cef8-4583-a36e-9f92eb7b9562,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,1934952f-6761-4457-9dfe-778a2c17d3e2,School Nurse,destinyjacozbson@healthcare.org
+c9135e17-45dd-403e-b7a8-046da9b7e8c6,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,9ad9c036-3280-41be-bd74-f38d93750668,Endocrine Nurse,julliaswanson@healthcare.org
+c7f930a1-4ccd-4aef-b067-e563a1a29f3a,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,9ad9c036-3280-41be-bd74-f38d93750668,Endocrine Nurse,steephenortiz@healthcare.org
+96438334-6492-49ab-a36f-f7a2fe187bf4,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,241241e4-e7e4-4f52-b4bd-fb0e07661109,Cytotechnologist,randallandejrson@healthcare.org
+28ff3943-2315-486b-95a5-a431c8b6ae42,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,241241e4-e7e4-4f52-b4bd-fb0e07661109,Pathologist,liindanguyen@healthcare.org
+bc9c4a6b-a204-4bb1-a334-f0c0ad95c36a,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,c1abdb85-2b7e-4e1e-bad5-2d4663d029f4,CT Scan Technician,sarahhgordon@healthcare.org
+41e6a748-9bdc-4494-b7c6-152442a185c0,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,c1abdb85-2b7e-4e1e-bad5-2d4663d029f4,CT Scan Technician,nathanamirez@healthcare.org
+bcaa3937-7c2c-4cb5-b3a3-eec422a74aae,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,2bbdea79-70dd-4ccf-bd4e-5a2047d2eaba,Midwife,hannahcurtis@healthcare.org
+1bbb3ecb-4ce0-4a73-a1b9-cd7683dba06f,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,2bbdea79-70dd-4ccf-bd4e-5a2047d2eaba,Obstetric Nurse,jamiessanders@healthcare.org
+6c6d2893-12a5-4de2-8945-5e26e93bd184,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,008cd7aa-0166-40b7-b02f-ee43ee908ba1,Poison Control Specialist,pamelasummers@healthcare.org
+3dd51ede-fd90-4a75-8f51-b103dd763e09,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,008cd7aa-0166-40b7-b02f-ee43ee908ba1,Toxicologist,zacharywilis@healthcare.org
+34a07fcb-dfa9-4f02-b744-f8debb1b3efc,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,9f0a1049-c061-42c6-a851-5c2f4b01ca70,Dermatologist,gabrrielawelchmd@healthcare.org
+8c6748e0-2dcc-44a6-a5c9-cbbdc951231b,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,9f0a1049-c061-42c6-a851-5c2f4b01ca70,Dermatology Nurse,sethorse@healthcare.org
+7e96bdb6-6e4f-4ad3-9e26-10f1fb54417b,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,2bbdea79-70dd-4ccf-bd4e-5a2047d2eaba,Midwife,lucaslbevins@healthcare.org
+e6fdea5f-4399-4b38-86e9-ead4227a5ef6,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,2bbdea79-70dd-4ccf-bd4e-5a2047d2eaba,Obstetric Nurse,kaitlynheebert@healthcare.org
+6ea60294-42f6-4663-be78-5f7a5bea0f6c,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,6153cd45-f61c-4ded-a03a-04e25bc2bcc7,Neurosurgeon,robeertmccallmd@healthcare.org
+2fa6ca52-2f0b-4467-a86b-45243c97beca,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,9ad9c036-3280-41be-bd74-f38d93750668,Endocrinologist,stevenrivra@healthcare.org
+18f708c5-6453-47f7-9428-893d31159c3f,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,6153cd45-f61c-4ded-a03a-04e25bc2bcc7,EEG Technician,lauraachambers@healthcare.org
+b2f51c95-ddda-4a25-a44f-7697466974aa,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,c1abdb85-2b7e-4e1e-bad5-2d4663d029f4,CT Scan Technician,kararaemirez@healthcare.org
+cb4ea733-ac8c-4903-87c9-30689dc637b4,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,b96f1439-a680-421f-be70-1c41dee6baf8,Vision Therapist,henrywillimas@healthcare.org
+12c0f97e-2794-4a20-8c83-2ee387e2c76e,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,241241e4-e7e4-4f52-b4bd-fb0e07661109,Histology Technician,kerricochran@healthcare.org
+dcc6ff84-8644-434e-b51c-e19dac379090,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,241241e4-e7e4-4f52-b4bd-fb0e07661109,Histology Technician,angelaturnre@healthcare.org
+73a319f1-6491-4912-b095-cff367d51e0d,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,c1abdb85-2b7e-4e1e-bad5-2d4663d029f4,MRI Technologist,jessricasmith@healthcare.org
+d7d7a819-1700-4a11-8700-1babcb9436de,23ea04d5-3fdd-44a9-aa5a-aeb43b8faff3,b96f1439-a680-421f-be70-1c41dee6baf8,Vision Therapist,victorhill@healthcare.org
+affb7aa0-f7bd-4226-b0d1-bbcc59e77c12,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,8f980c52-11fc-437a-ad7e-d291e19fc948,Rehabilitation Specialist,charllesowens@healthcare.org
+3e4c235b-48d3-4e0d-8805-ec2fad3468ec,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,8f980c52-11fc-437a-ad7e-d291e19fc948,Physical Therapy Assistant,jasonthompson@healthcare.org
+5225918f-52f0-49b7-a770-a5c9e6ba6669,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,edc8d3c0-1953-4cdc-965a-e82b24db4e0c,Toxicologist,lawrecneolson@healthcare.org
+f3bffcd3-1d07-4d87-b5b9-08bf5e0720cb,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,edc8d3c0-1953-4cdc-965a-e82b24db4e0c,Environmental Health Officer,amyschroeder@healthcare.org
+9a73c564-fc02-478c-a257-dc682faa7042,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,451262d4-cf6f-443a-aef4-633681977db8,Geriatrician,rebecccapalmer@healthcare.org
+268f9b98-2ace-48cc-bb79-7a02e4263b3c,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,451262d4-cf6f-443a-aef4-633681977db8,Elderly Care Specialist,victoriajohnsson@healthcare.org
+fb6f8a40-7d97-499c-837a-a0c7102f9e99,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,55474b26-224c-47be-97d5-cfdbbaebcab1,Geriatrician,lehshort@healthcare.org
+69faa50a-2e36-47e9-93aa-dacf4a60bbc6,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,55474b26-224c-47be-97d5-cfdbbaebcab1,Gerontology Nurse,timothyrobinson@healthcare.org
+eac4317b-5c0e-4450-beec-c09823c3b507,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,00e1fe1e-b901-4b7f-b230-b5339f6ed851,Dermatologist,sarahbarber@healthcare.org
+6ecbb3ba-02b8-4a6e-b1e3-957c9cc63be3,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,00e1fe1e-b901-4b7f-b230-b5339f6ed851,Dermatology Nurse,maryduncan@healthcare.org
+46b609b7-a872-41a1-a266-ae22992ed8fc,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,17d7d292-7cf0-485f-9284-fc455496e9ed,Rheumatologist,douglasing@healthcare.org
+47adff96-c4d0-41eb-8aec-166dbdd7f2e7,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,17d7d292-7cf0-485f-9284-fc455496e9ed,Rheumatologist,erricmunoz@healthcare.org
+371400b6-2ecd-44ee-8bfb-b54aba3e55cb,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Community Outreach Specialist,krystalhayes@healthcare.org
+d4a5e805-58cf-4526-a9e0-51ee7523aaf7,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Public Health Officer,samanthahazmilton@healthcare.org
+e06484ef-a448-49cc-af04-2a61b57848de,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,7a37a0a5-172e-48a5-b176-ee40b70b2faa,Radiologist,jamecochran@healthcare.org
+d2e3ce0f-3a06-4b5a-bea4-6333496da0a6,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,7a37a0a5-172e-48a5-b176-ee40b70b2faa,X-Ray Technician,rdoneysaunders@healthcare.org
+1d18d526-e39e-468f-9567-b83e2452c732,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,7a37a0a5-172e-48a5-b176-ee40b70b2faa,MRI Technologist,christophercharris@healthcare.org
+3070708d-35e1-4e74-b74a-4e7f4db2c6d5,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,8f980c52-11fc-437a-ad7e-d291e19fc948,Rehabilitation Specialist,deborahhmcintyre@healthcare.org
+6d8c846f-3195-43a3-839e-28a439377c35,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,00e1fe1e-b901-4b7f-b230-b5339f6ed851,Dermatology Nurse,chrisinefischer@healthcare.org
+3ad8a1f1-ec6c-402e-986c-7b5b2d0a8e96,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,edc8d3c0-1953-4cdc-965a-e82b24db4e0c,Poison Control Specialist,chrixstinamcgrath@healthcare.org
+b9487531-e14f-482e-8172-8cb7c7c255ba,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,17d7d292-7cf0-485f-9284-fc455496e9ed,Rheumatology Nurse,kellyzthomas@healthcare.org
+a981d47f-8e16-49ee-9f17-1ee0f983616d,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,55474b26-224c-47be-97d5-cfdbbaebcab1,Elderly Care Specialist,candicehernandez@healthcare.org
+d711f170-026d-49fd-ab10-16c64aa7dd31,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,00e1fe1e-b901-4b7f-b230-b5339f6ed851,Dermatology Nurse,paamelahorn@healthcare.org
+57d86c91-727f-4755-8cf1-6ed7f455d427,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Epidemiologist,coreymcdaniel@healthcare.org
+6b7a1c5d-dc57-4893-a338-c411c1204f06,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Epidemiologist,lisafostr@healthcare.org
+5f85f32f-d9ea-41e6-b2bd-e918fe2bc0bf,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Community Outreach Specialist,barbbarasimpson@healthcare.org
+7ff971be-c5d1-4260-b6e1-b4fabbf5b470,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,8f980c52-11fc-437a-ad7e-d291e19fc948,Physical Therapy Assistant,ronalwdalters@healthcare.org
+c5600f25-c2f0-4050-91e7-0f3eb17f3091,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,7a37a0a5-172e-48a5-b176-ee40b70b2faa,MRI Technologist,andewnorris@healthcare.org
+baeae927-60b9-42cb-8107-02297601eada,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Epidemiologist,colinnwilson@healthcare.org
+ca0b4830-2311-4fd2-9049-7635f1980889,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,17d7d292-7cf0-485f-9284-fc455496e9ed,Arthritis Specialist,colleenhubbard@healthcare.org
+dcce1947-0d09-4cb3-8768-0d2911445768,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,e1327810-206a-4fd3-a3a8-c488a4c99cae,Community Outreach Specialist,ethanjonesdds@healthcare.org
+b3fa8511-eb4c-44d4-b7ed-ed289b0621e8,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,451262d4-cf6f-443a-aef4-633681977db8,Geriatrician,georgebell@healthcare.org
+eeaae51b-873f-446e-b59a-e665d926b666,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,edc8d3c0-1953-4cdc-965a-e82b24db4e0c,Environmental Health Officer,thhomasstephens@healthcare.org
+0e835a50-3d6a-4792-8ebb-20a88f3562fe,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,00e1fe1e-b901-4b7f-b230-b5339f6ed851,Skin Care Specialist,leemoore@healthcare.org
+c45e75f7-213f-4fef-90d6-4c8cdde72df0,2ebb719d-c2a2-454a-ae3b-0ae9f13d4694,55474b26-224c-47be-97d5-cfdbbaebcab1,Geriatrician,kayelebrown@healthcare.org
+84d42d6a-d32d-4818-a834-0c8450f888a5,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,ef2a538e-d127-42f1-8f85-5031b6c7e6ce,Gastroenterologist,jessgicaherrera@healthcare.org
+76703f77-d0b3-435f-b4f4-05533c3b6051,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,ef2a538e-d127-42f1-8f85-5031b6c7e6ce,GI Nurse,sandragasrza@healthcare.org
+8450e9f2-bfce-4964-bc22-e010cb13653b,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b17be8d-e582-4a3e-8076-c85068e0cf1b,Speech Pathologist,debbiebrooks@healthcare.org
+c3884fd1-0873-4106-9307-1e0a0639c034,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b17be8d-e582-4a3e-8076-c85068e0cf1b,Speech Therapist,antoonioherring@healthcare.org
+03a83707-c8a7-4cfa-9446-462180cb2ba8,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,fe02894e-0ca0-45e2-8e43-aa3b6acc5515,Optician,crystalpwillis@healthcare.org
+e5caa8ae-5ce3-41ad-85d5-e3d0b515374e,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,fe02894e-0ca0-45e2-8e43-aa3b6acc5515,Ophthalmologist,raymondmcvgrathjr@healthcare.org
+2cf44e1d-1f2a-43aa-ad08-12f576f9c8ef,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,ba2728c5-54f9-48b7-9532-5cc0b89b8426,Respiratory Therapist,brtettaylor@healthcare.org
+2363cc73-5ad1-4907-8d80-32039d3d1815,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,ba2728c5-54f9-48b7-9532-5cc0b89b8426,Sleep Technician,angelarowe@healthcare.org
+23f601ee-f0eb-461d-96ab-4b88cfbbb8d9,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,c4fa262b-6f97-421b-8b21-72ba6240c38c,Urology Nurse,kimbberlyjones@healthcare.org
+34face9a-1791-4552-8861-61a3c1fe47d2,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,c4fa262b-6f97-421b-8b21-72ba6240c38c,Urologist,dianraoss@healthcare.org
+9278a21b-31a1-47c3-9aac-47bdde5bb932,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b116670-30d2-46c5-9616-69dbe23f0288,Optometrist,holllyprince@healthcare.org
+b289351f-5418-456c-bfa5-0e7cb69fd916,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b116670-30d2-46c5-9616-69dbe23f0288,Vision Therapist,deninsreilly@healthcare.org
+749b550a-9bb6-40d6-aa53-88cdb2483b7e,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,4ae40aa0-e9b6-483c-ae2f-d7655f0c44b8,Orthotic Specialist,pmaelatorres@healthcare.org
+89903d04-49f3-4420-9d93-1b6ee62ed78c,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,4ae40aa0-e9b6-483c-ae2f-d7655f0c44b8,Podiatrist,miichelledavis@healthcare.org
+befe4fac-915b-43d8-82fb-a8142daebd4e,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,1b05ce23-fe4b-4f1b-8be5-9b061716ea8d,Clinical Genetics Specialist,jenniferlopzedvm@healthcare.org
+17403b9f-5cac-4fba-88e5-c09f22711173,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,1b05ce23-fe4b-4f1b-8be5-9b061716ea8d,Geneticist,elizabetmhleonard@healthcare.org
+94ec115d-7c8e-4e89-9858-20e2de972930,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,a931a341-bbc8-422d-b3ce-4dc5f24ebcd0,Anesthesiology Assistant,richardfrazer@healthcare.org
+6dff5cfb-93b8-4b9f-9446-90bd165d41af,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,a931a341-bbc8-422d-b3ce-4dc5f24ebcd0,Anesthesiology Assistant,anthonyalxander@healthcare.org
+35f6283e-4284-4ccf-b72b-56ad39fed202,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,2cd078c2-acec-43f5-842f-a199200dcee4,Cardiologist,rebeccforbes@healthcare.org
+bd375d14-f9dc-4eb8-a99e-0dd486396e91,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,2cd078c2-acec-43f5-842f-a199200dcee4,Cardiovascular Surgeon,anthonybbentley@healthcare.org
+b29beb94-036e-46b0-a683-d17710a9654e,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,fe02894e-0ca0-45e2-8e43-aa3b6acc5515,Ophthalmologist,danielledleeon@healthcare.org
+103c31bb-bf4c-4efd-8ca1-dcd40f683061,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,ef2a538e-d127-42f1-8f85-5031b6c7e6ce,GI Nurse,tinaajohnson@healthcare.org
+05efeec2-eb94-4d25-a928-9a9e436f7ac0,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b17be8d-e582-4a3e-8076-c85068e0cf1b,Speech Therapist,andrearuiz@healthcare.org
+bf2d8b9c-c732-4ce8-a8d9-dd31b534cedb,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b17be8d-e582-4a3e-8076-c85068e0cf1b,Speech Pathologist,mrriobertaguilar@healthcare.org
+b767bd9b-ff44-4c3e-ad80-0ce326c66cca,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b17be8d-e582-4a3e-8076-c85068e0cf1b,Speech Pathologist,daividmadden@healthcare.org
+260e0995-9a6a-4421-9b2c-bc71d59bf173,f8c57f7e-db93-4a7b-96c6-3f06f9d52282,8b116670-30d2-46c5-9616-69dbe23f0288,Vision Therapist,jasonbrown@healthcare.org
+d0bb6a2c-7e03-493b-b575-15ee59c87e0f,27b0881c-c916-4dd1-b18d-693d1eb82b09,d1f22cad-309c-46d4-9734-7e13b017d2d8,Pulmonologist,shannoncatrer@healthcare.org
+d0f70ff5-e167-4241-ac80-5cc9c0bc07d9,27b0881c-c916-4dd1-b18d-693d1eb82b09,d1f22cad-309c-46d4-9734-7e13b017d2d8,Respiratory Therapist,courtnneywatson@healthcare.org
+a4b7cebe-8642-4e79-98c5-dbc795aca277,27b0881c-c916-4dd1-b18d-693d1eb82b09,f8b81678-5e02-439e-a4db-81cefd96f9f2,Audiologist,normnatucker@healthcare.org
+d4e44d94-2407-4214-80f8-1906466c4ecc,27b0881c-c916-4dd1-b18d-693d1eb82b09,f8b81678-5e02-439e-a4db-81cefd96f9f2,Audiologist,samanthatorers@healthcare.org
+5e40c8e3-b612-4b88-bcb5-190b89cf2991,27b0881c-c916-4dd1-b18d-693d1eb82b09,1a9374b1-16e1-4094-9f33-775310bbcbdb,Infection Control Nurse,meelissacastillo@healthcare.org
+26acb0ab-c5a4-487d-995f-9b89929b7fbd,27b0881c-c916-4dd1-b18d-693d1eb82b09,1a9374b1-16e1-4094-9f33-775310bbcbdb,Infectious Disease Specialist,jordanbaiiley@healthcare.org
+bc6b5dae-c7be-478d-a2ae-5fcb54e72a70,27b0881c-c916-4dd1-b18d-693d1eb82b09,b1ddf686-6e71-49aa-beff-be385bed2fe6,Community Outreach Specialist,heathergonzaelz@healthcare.org
+f38b27df-7072-48a5-8c1a-19a6825246bc,27b0881c-c916-4dd1-b18d-693d1eb82b09,b1ddf686-6e71-49aa-beff-be385bed2fe6,Epidemiologist,peterrichardosn@healthcare.org
+54583f19-88ad-464c-b99a-11650791e478,27b0881c-c916-4dd1-b18d-693d1eb82b09,a8f1fe2e-4ae8-427f-a271-ca569637e012,Elderly Care Specialist,codyhilll@healthcare.org
+aa47da9f-4019-49af-9816-b608d3474edf,27b0881c-c916-4dd1-b18d-693d1eb82b09,a8f1fe2e-4ae8-427f-a271-ca569637e012,Elderly Care Specialist,kylleharmon@healthcare.org
+a10e5903-7633-4a77-abc2-98b998c074f8,27b0881c-c916-4dd1-b18d-693d1eb82b09,e25b4e33-275c-491b-adca-c48b3e2cdb0f,Geriatrician,michhaelgarrett@healthcare.org
+19ed8db8-89c1-4871-a39b-62a38a394998,27b0881c-c916-4dd1-b18d-693d1eb82b09,e25b4e33-275c-491b-adca-c48b3e2cdb0f,Elderly Care Specialist,joshuabradleydds@healthcare.org
+ec9b0299-0041-4801-9ea3-88d4b450c1ac,27b0881c-c916-4dd1-b18d-693d1eb82b09,44038420-ad12-48bc-9130-75cf401295ec,Medical Laboratory Scientist,kimberlyhall@healthcare.org
+38a166b0-fcd8-4a5f-ad90-b71add557540,27b0881c-c916-4dd1-b18d-693d1eb82b09,44038420-ad12-48bc-9130-75cf401295ec,Pathologist,cynthiafoster@healthcare.org
+ec014683-bfb0-42c9-b352-eb7f667f3c1a,27b0881c-c916-4dd1-b18d-693d1eb82b09,d4dbd7e6-272b-4e06-9a54-b0194aefa36d,Endocrine Nurse,stehpanieevans@healthcare.org
+b7f790cc-77d0-42b9-99b7-d8eddaa8b43c,27b0881c-c916-4dd1-b18d-693d1eb82b09,d4dbd7e6-272b-4e06-9a54-b0194aefa36d,Endocrinologist,nicolebrowmd@healthcare.org
+2a65c52e-51ee-4cae-a154-606fd1a04212,27b0881c-c916-4dd1-b18d-693d1eb82b09,bf93dd05-04a2-402e-9daa-eafc773285da,Labor & Delivery Nurse,deborahbake@healthcare.org
+d8c7544c-d2de-430d-809d-78eca114c84d,27b0881c-c916-4dd1-b18d-693d1eb82b09,bf93dd05-04a2-402e-9daa-eafc773285da,Obstetrician,emilycopoer@healthcare.org
+5ae788a7-1ff0-4501-a280-b70b6fe2e12e,27b0881c-c916-4dd1-b18d-693d1eb82b09,aac45596-68c4-4e05-97f7-2032eed9253f,Labor & Delivery Nurse,tammyskiner@healthcare.org
+03c3cd12-22fe-4060-95b2-c3da5e1ca2e7,27b0881c-c916-4dd1-b18d-693d1eb82b09,aac45596-68c4-4e05-97f7-2032eed9253f,Neonatal Nurse,terrryfuentes@healthcare.org
+850090ea-461e-490e-b062-859bfe5cb282,264434e2-9340-42f2-b4cb-534b1c0ec8d5,431c4b46-2e06-4860-ba2a-6a18ae3eb39c,Elderly Care Specialist,jenniferlawreence@healthcare.org
+09644283-d910-4e7b-b25a-0094d91b0aef,264434e2-9340-42f2-b4cb-534b1c0ec8d5,431c4b46-2e06-4860-ba2a-6a18ae3eb39c,Gerontology Nurse,lisahorrton@healthcare.org
+009a3b87-91ca-484e-89d7-c2a36cdd12ce,264434e2-9340-42f2-b4cb-534b1c0ec8d5,afef558f-e049-4564-89ae-544509aabff9,Ophthalmologist,jessiicamiller@healthcare.org
+9e439550-5f90-40ac-a111-49bd5592ff17,264434e2-9340-42f2-b4cb-534b1c0ec8d5,afef558f-e049-4564-89ae-544509aabff9,Optician,edwardferrnandez@healthcare.org
+4c1bed7d-db09-44e1-9492-6bef0dc03ab4,264434e2-9340-42f2-b4cb-534b1c0ec8d5,63647b85-8f9d-4ea1-8648-38d213b6aee7,ER Nurse,elizabethjaicobs@healthcare.org
+26db2666-fd7d-4a1d-ade7-d498e723e6cf,264434e2-9340-42f2-b4cb-534b1c0ec8d5,63647b85-8f9d-4ea1-8648-38d213b6aee7,Emergency Medical Technician,kriystinawood@healthcare.org
+ee74a02d-e8d5-4597-87e1-6a677ca267db,264434e2-9340-42f2-b4cb-534b1c0ec8d5,521baeb5-4840-4d9d-812a-e3977d683437,Nutrition Counselor,stephaniepowelll@healthcare.org
+81105a3d-479a-437f-bc9b-045c351dce30,264434e2-9340-42f2-b4cb-534b1c0ec8d5,521baeb5-4840-4d9d-812a-e3977d683437,Dietitian,michaelaleln@healthcare.org
+10f16d79-8320-4f41-b65d-f5e303661bf3,264434e2-9340-42f2-b4cb-534b1c0ec8d5,cfccc992-429c-4571-bb37-9aa7d7b63517,MRI Technologist,robertvazquez@healthcare.org
+e3c95e93-0ff8-4121-a2dc-46de4f208e76,264434e2-9340-42f2-b4cb-534b1c0ec8d5,cfccc992-429c-4571-bb37-9aa7d7b63517,MRI Technologist,robrtmiller@healthcare.org
+ccc4d995-41e3-4c29-8656-035f794e587b,264434e2-9340-42f2-b4cb-534b1c0ec8d5,7814d41f-b570-4243-9ffc-1d15158052a5,Otolaryngologist,jillhays@healthcare.org
+0e20b3a7-2efc-4d3c-90e1-05b04b5b8414,264434e2-9340-42f2-b4cb-534b1c0ec8d5,7814d41f-b570-4243-9ffc-1d15158052a5,Otolaryngologist,aaronevine@healthcare.org
+97bc197e-a7d4-4d0b-96c5-4cc4e90672b0,264434e2-9340-42f2-b4cb-534b1c0ec8d5,85f713e8-975e-42e8-984d-4f682c6e3cd7,GI Technician,jacobbbell@healthcare.org
+9fe715e2-cc77-45c8-832b-05cbf490378a,264434e2-9340-42f2-b4cb-534b1c0ec8d5,85f713e8-975e-42e8-984d-4f682c6e3cd7,GI Technician,jamesadams@healthcare.org
+cbb3308c-0c2e-4762-8b29-25bef19e547b,264434e2-9340-42f2-b4cb-534b1c0ec8d5,747e0d94-7428-48a9-9225-8b399d2287c4,Hematology Nurse,rachelbrbown@healthcare.org
+6309ffa9-59a4-404c-b29e-97d6a4b01857,264434e2-9340-42f2-b4cb-534b1c0ec8d5,747e0d94-7428-48a9-9225-8b399d2287c4,Hematologist,keithepterson@healthcare.org
+c7c8ac2a-9bca-4583-bd04-dd05b060f777,264434e2-9340-42f2-b4cb-534b1c0ec8d5,0638d48f-472c-4d6d-8180-ca3e82b2cdd0,Nurse Manager,lindseyfrnklin@healthcare.org
+9100e01b-22dc-44e2-bf28-d3fdff5abb16,264434e2-9340-42f2-b4cb-534b1c0ec8d5,0638d48f-472c-4d6d-8180-ca3e82b2cdd0,Nurse Practitioner,mrdustinsantosjr@healthcare.org
+1e694e91-6eea-4413-b6c5-82c0ce303c0a,264434e2-9340-42f2-b4cb-534b1c0ec8d5,32655058-b1a5-4577-aff4-2452ae0f88a9,Anesthesiology Nurse,shirleymartinnez@healthcare.org
+a71064e1-890e-4d5a-b6cb-13c76642483c,264434e2-9340-42f2-b4cb-534b1c0ec8d5,32655058-b1a5-4577-aff4-2452ae0f88a9,Anesthesiology Nurse,lajwrencesmith@healthcare.org
+340bc073-b56b-4293-97db-3a849992bc25,264434e2-9340-42f2-b4cb-534b1c0ec8d5,0638d48f-472c-4d6d-8180-ca3e82b2cdd0,Licensed Practical Nurse,davidcopealnd@healthcare.org
+9e1ffd28-39a1-4c70-9e25-ef2d96850ddc,264434e2-9340-42f2-b4cb-534b1c0ec8d5,521baeb5-4840-4d9d-812a-e3977d683437,Dietitian,carlosjohnsn@healthcare.org
+e9033ae2-da99-4e8b-909a-06f97a206ac1,264434e2-9340-42f2-b4cb-534b1c0ec8d5,747e0d94-7428-48a9-9225-8b399d2287c4,Blood Bank Technologist,shaunthompsson@healthcare.org
+75619a9d-91ab-4677-a8d5-62ddf970ff0a,264434e2-9340-42f2-b4cb-534b1c0ec8d5,747e0d94-7428-48a9-9225-8b399d2287c4,Hematology Nurse,jeffreymore@healthcare.org
+d997a0b4-cd4d-4108-8ba6-9be9b3f1741a,815d7cbd-9aca-455e-829b-fda2a08ed015,4fd97aa2-8fed-4ae0-aedc-75786b62be24,Genetic Counselor,judithwilson@healthcare.org
+212e5870-ec5f-45df-92c2-3071bb4af6c2,815d7cbd-9aca-455e-829b-fda2a08ed015,4fd97aa2-8fed-4ae0-aedc-75786b62be24,Clinical Genetics Specialist,kylgeibson@healthcare.org
+cf9c509c-335d-400b-97b7-5158c5b58d91,815d7cbd-9aca-455e-829b-fda2a08ed015,9aedbbee-9a8e-4f1b-a846-506cb341712a,Epidemiologist,richardthommas@healthcare.org
+739d729d-174e-4188-9672-51da5b5660b8,815d7cbd-9aca-455e-829b-fda2a08ed015,9aedbbee-9a8e-4f1b-a846-506cb341712a,Community Outreach Specialist,timothystevneson@healthcare.org
+3deafd95-9614-4234-aa68-5dff5af66f45,815d7cbd-9aca-455e-829b-fda2a08ed015,2717b825-f9d8-4181-b717-91d53368d190,Cardiovascular Surgeon,christtopherbaker@healthcare.org
+cde69fec-fa25-4bf2-9768-20e8e429f132,815d7cbd-9aca-455e-829b-fda2a08ed015,2717b825-f9d8-4181-b717-91d53368d190,EKG Technician,michaevlharvey@healthcare.org
+962d737f-5618-4054-873d-c61f18365d0a,815d7cbd-9aca-455e-829b-fda2a08ed015,4e58cfdd-d17c-489e-b91f-c8ece49a8e3b,Audiologist,cynthivavargas@healthcare.org
+9f0fd808-7d8a-4862-b107-f5ab116aa6a1,815d7cbd-9aca-455e-829b-fda2a08ed015,4e58cfdd-d17c-489e-b91f-c8ece49a8e3b,Audiologist,shawnstnoe@healthcare.org
+ae5d0729-ec05-4aed-bf79-b9518ca9b57f,815d7cbd-9aca-455e-829b-fda2a08ed015,e2e1d570-9470-40f3-8f49-cceca8803eaf,Respiratory Therapist,destinyomore@healthcare.org
+f6e097b6-b4bf-47ad-8d60-a3b1e35a0a52,815d7cbd-9aca-455e-829b-fda2a08ed015,e2e1d570-9470-40f3-8f49-cceca8803eaf,Pulmonary Function Technologist,aelxanderhughes@healthcare.org
+b4281e42-d94d-42f6-8d2e-557c23e15979,815d7cbd-9aca-455e-829b-fda2a08ed015,8224a1c8-4f4f-418f-a6e6-c5d290e1dbbc,Psychologist,kathhyknapp@healthcare.org
+1b6a5c04-73a2-4d16-bfd7-e1f8db922746,815d7cbd-9aca-455e-829b-fda2a08ed015,8224a1c8-4f4f-418f-a6e6-c5d290e1dbbc,Therapist,emilyhensley@healthcare.org
+04052188-b969-4284-83ac-78e06e4bf4ef,815d7cbd-9aca-455e-829b-fda2a08ed015,6013f07d-e0c7-4d4a-86ab-c0edb6ad49b4,Morgue Attendant,pauadams@healthcare.org
+3ce7a211-ad1b-40d2-a55e-ac34740a0415,815d7cbd-9aca-455e-829b-fda2a08ed015,6013f07d-e0c7-4d4a-86ab-c0edb6ad49b4,Histology Technician,anntaucker@healthcare.org
+ce6a488e-c53c-4eca-9f81-00c819e3e114,815d7cbd-9aca-455e-829b-fda2a08ed015,0584ff81-c91b-4d00-b626-b81b7a12b6db,Emergency Physician,brianburon@healthcare.org
+b717c104-ba7a-459a-97cd-a8294677de99,815d7cbd-9aca-455e-829b-fda2a08ed015,0584ff81-c91b-4d00-b626-b81b7a12b6db,Emergency Physician,kathleenpham@healthcare.org
+9583cd6e-5cff-4873-9110-09773d59f2e0,815d7cbd-9aca-455e-829b-fda2a08ed015,6013f07d-e0c7-4d4a-86ab-c0edb6ad49b4,Pathologist,dusttinpena@healthcare.org
+cec7c510-75ec-404b-b9dc-a13ebb170bcf,815d7cbd-9aca-455e-829b-fda2a08ed015,4fd97aa2-8fed-4ae0-aedc-75786b62be24,Geneticist,nattaliebarr@healthcare.org
+3ea0089b-0106-43a9-ad12-70ad609e34fa,815d7cbd-9aca-455e-829b-fda2a08ed015,2717b825-f9d8-4181-b717-91d53368d190,EKG Technician,casveywerner@healthcare.org
+6bf67a3b-571e-4969-840b-feb6feb072fe,815d7cbd-9aca-455e-829b-fda2a08ed015,8224a1c8-4f4f-418f-a6e6-c5d290e1dbbc,Therapist,russellsilva@healthcare.org
+4acda24d-85ed-4831-a953-75046af45845,815d7cbd-9aca-455e-829b-fda2a08ed015,e2e1d570-9470-40f3-8f49-cceca8803eaf,Respiratory Therapist,michaelchng@healthcare.org
+498849f6-8279-4835-b3db-5b3e09579380,815d7cbd-9aca-455e-829b-fda2a08ed015,4e58cfdd-d17c-489e-b91f-c8ece49a8e3b,ENT Specialist,michaelshepard@healthcare.org
+c687bb44-78a5-40d7-a3b5-3d0d365c5545,815d7cbd-9aca-455e-829b-fda2a08ed015,9aedbbee-9a8e-4f1b-a846-506cb341712a,Public Health Officer,cheelseadavis@healthcare.org
+6f3a80fa-3d3f-43fe-8b22-be8b54076e89,815d7cbd-9aca-455e-829b-fda2a08ed015,4fd97aa2-8fed-4ae0-aedc-75786b62be24,Genetic Counselor,johnmcgurath@healthcare.org
+e22ba435-f441-405d-a057-58854222398e,815d7cbd-9aca-455e-829b-fda2a08ed015,2717b825-f9d8-4181-b717-91d53368d190,Cardiovascular Surgeon,laurenjjensen@healthcare.org
+c632d8be-e9c5-465c-a3a2-cf7212ce46b1,59cd79cd-f6e1-4384-9093-937288c54c29,4814566d-fe1b-46d2-96b6-0f77c6f10c5b,Cytotechnologist,laurascrhultz@healthcare.org
+87c26be2-2ec0-461b-aa66-af2bd027f8b3,59cd79cd-f6e1-4384-9093-937288c54c29,4814566d-fe1b-46d2-96b6-0f77c6f10c5b,Histology Technician,kimberlyporter@healthcare.org
+48a3792b-287f-4605-99c1-8d0b705de858,59cd79cd-f6e1-4384-9093-937288c54c29,d058470d-c76e-4eb2-8c96-d73523cf4f34,Rehabilitation Specialist,christopherbalck@healthcare.org
+e19d4134-c0b0-4ff4-bb16-216c479f7f2d,59cd79cd-f6e1-4384-9093-937288c54c29,d058470d-c76e-4eb2-8c96-d73523cf4f34,Physiotherapist,ericallexander@healthcare.org
+8444ffa0-70cc-46eb-a620-cdfaf299e4a1,59cd79cd-f6e1-4384-9093-937288c54c29,5dc87ea9-696f-4ee3-b8f2-0255472472be,Infection Control Nurse,erictrujillo@healthcare.org
+864aacb3-9977-4e72-b356-c2e82c1b3d78,59cd79cd-f6e1-4384-9093-937288c54c29,5dc87ea9-696f-4ee3-b8f2-0255472472be,Infection Control Nurse,rubemeyers@healthcare.org
+91bd44c8-808a-4fcb-a8bc-8c4c6c76381a,59cd79cd-f6e1-4384-9093-937288c54c29,0cd7a60f-57b8-45f5-8942-c6bfb85db720,Optometrist,erinwilson@healthcare.org
+b6243228-2f94-45a1-86e8-c4fd3d039cb0,59cd79cd-f6e1-4384-9093-937288c54c29,0cd7a60f-57b8-45f5-8942-c6bfb85db720,Optometrist,michaellambeert@healthcare.org
+a31641e6-da4f-40e1-9480-0c582326a860,59cd79cd-f6e1-4384-9093-937288c54c29,66bfc5f8-5cbe-4e7a-b4e0-da1e433fd7e1,Reconstructive Specialist,davidwright@healthcare.org
+d2232c34-6a33-4151-b5fc-9456fc3adb1a,59cd79cd-f6e1-4384-9093-937288c54c29,66bfc5f8-5cbe-4e7a-b4e0-da1e433fd7e1,Reconstructive Specialist,chasemiitchell@healthcare.org
+87cd4ee5-c2dc-4e44-bb77-6bcd4a3f5cd5,59cd79cd-f6e1-4384-9093-937288c54c29,005ad60d-d531-49f4-baa4-d9ec21f91a0a,Reconstructive Specialist,christophrecooper@healthcare.org
+19fc6e11-8445-4a15-a5a8-1247f7633293,59cd79cd-f6e1-4384-9093-937288c54c29,005ad60d-d531-49f4-baa4-d9ec21f91a0a,Cosmetic Surgery Nurse,mrakduran@healthcare.org
+bf6a7440-c806-4926-a572-b8fe43e04fd1,59cd79cd-f6e1-4384-9093-937288c54c29,c7acc052-8063-45bf-ab0d-3c47b74618f5,Poison Control Specialist,stephencunninghham@healthcare.org
+e753b840-78f3-405d-8ab3-1b9a1c2ce3ad,59cd79cd-f6e1-4384-9093-937288c54c29,c7acc052-8063-45bf-ab0d-3c47b74618f5,Toxicologist,aaronalters@healthcare.org
+4b4b52bb-59f1-4470-8604-8c891ec351c1,59cd79cd-f6e1-4384-9093-937288c54c29,7f47db51-ec2f-4b47-a4ea-80d0b32b084e,Diabetes Educator,josepstewart@healthcare.org
+635ce580-4b30-4835-a7ba-069eff0c7b05,59cd79cd-f6e1-4384-9093-937288c54c29,7f47db51-ec2f-4b47-a4ea-80d0b32b084e,Endocrinologist,amytsein@healthcare.org
+7fb53e51-d887-4e94-989b-61c0595a5215,59cd79cd-f6e1-4384-9093-937288c54c29,b39ab50f-5d45-4d08-a1aa-a7a124e595cf,Infectious Disease Specialist,conniewebr@healthcare.org
+17c4c2ee-3705-4a7e-b646-e1a123c147eb,59cd79cd-f6e1-4384-9093-937288c54c29,b39ab50f-5d45-4d08-a1aa-a7a124e595cf,Infection Control Nurse,jackgpibson@healthcare.org
+1db54512-bbcb-484b-9d52-80de5ebcd77a,59cd79cd-f6e1-4384-9093-937288c54c29,8ec0fb6d-8aa6-4ea2-8c4f-436b363c8c5f,Otolaryngologist,mattyhewross@healthcare.org
+1ab9658e-f17a-4244-9117-b577bb8a6cb1,59cd79cd-f6e1-4384-9093-937288c54c29,8ec0fb6d-8aa6-4ea2-8c4f-436b363c8c5f,Audiologist,rogemrarshall@healthcare.org
