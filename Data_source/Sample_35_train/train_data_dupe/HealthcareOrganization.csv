@@ -1,36 +1,36 @@
-identifier,healthcareOrganizationName,address,contactPoint
-ec340e0d-0ad1-4a5f-b51b-5855cb824360,Faulkner-Howard Zorg,79aad3b8-2ac6-42e3-a5bb-ce798a96becd,28c4ffda-8b5f-4747-b4ba-f17191d82cb8
-34511261-fa30-482d-9687-a3320260df01,"Garrett, Salazar and Clayton Tervisekeskus",d7492b7a-4356-47cf-bdcb-eb40ba62c6f1,07013c34-7400-4562-8de9-7160b8cd53b5
-e34baf5a-6fef-4ec2-8937-ba15806be254,"Gree, Jones and Shelton Tervisekeskus",2ce4d8bc-9924-4865-8f87-8bbb68c274bc,d890c2ed-4720-4e5b-a64e-4237a4c83a98
-c7e30f0e-ce47-46ab-bf85-c12d8e9e9fbc,"Nash, Anderson and Collis Zorg",3632251f-8078-43bb-add4-d46f0760519d,12a43b13-60fa-49b7-aa29-5fa05af5e563
-bfc71959-57d7-4b8a-beb0-1324f2f1edac,Lopez-Key Gesundheitszentrum,02724fb3-24d9-4303-96d1-40d44f3380c7,c90985b4-835f-4784-b077-047f1639b237
-1d2e9b66-aa03-4172-99c8-3ccb5eb9e8dc,WS Gesundheitszentrum,48a1f67d-4884-4020-90db-c5616c635ce1,3aaf28f0-6e3c-45f5-b456-6cbd569cd58c
-86e1a328-f8e7-4628-b612-39e48f1974ce,Brday Inc Tervisekeskus,6f61802a-e957-44e5-95ea-d7df232aaa31,75aa874b-e9fb-456d-bf5b-192c04fae42c
-3bcab91c-6fb0-4702-90bb-72fc94871a3c,GPLC Gesundheitszentrum,61675f42-5bac-4294-aa62-d843787cd1eb,1019e128-9d1d-49ee-a2be-dfd8161fafd7
-c1ab7dd4-cc3a-4592-9750-6db5643123e0,Santana-Shaw Zorg,609ade01-5af9-492f-996b-7704e3f71133,00739154-dadc-4e09-95a8-c292a2fbdaed
-68f0f906-3f1a-4236-82ea-ae9d7354778d,CHF Zorg,a30c679e-9df5-4c6d-93c3-40a2e3252fb2,4bf4f21c-92a0-474a-9861-b3369fec448d
-d5b51a11-ad19-4ae8-9598-fb740c20454d,SL Gesundheitszentrum,5671a3a6-9372-420a-a620-975b24d5a114,792bd747-7496-4c54-a237-13cec6dcb762
-14b04032-8f9a-41d5-87d4-583de570ee43,Caprter Group Tervisekeskus,9056f0af-1cd8-4014-925e-b7966adbb729,d24c6dc7-b1ee-4689-b4e0-65cf48a1bae7
-ebdc6e77-a546-432b-af24-01d48d4a7aef,RMS Zorg,2dfb4f80-dbaa-4598-a36a-d51b0af9ea70,c6d94d4e-6d14-4b72-bce9-a0b0055b4d05
-1c19bbfe-6026-4970-b98f-7f983ceccbab,MI Tervisekeskus,920b04b5-d48e-4169-b01f-e2a014075083,d40627b9-c959-43a0-9d57-205607770a69
-60db17ee-8cd6-405a-ab5a-51e7dbd657e1,PR Zorg,44de6f19-dcec-43df-8e88-cea9c292f73b,7ef3aaf4-6904-45e5-932e-41ad71d0ec1e
-2eae2e7d-2864-4f0c-b58a-f575878319c1,WW Zorg,48ace847-547e-49bf-819e-ef46e9283bb7,ad64151d-58fd-4c26-9a0e-ab983c3d581f
-54fc9e04-efb2-4751-89b1-b44dfc1390de,"Daniel, Turner and Balck Tervisekeskus",22a4ccaf-4e4e-46ce-bfd9-058b3348b7ef,8d446bc2-94bf-4dc6-a33a-a9ba1483e415
-1ab36c5e-455c-4d29-99d2-51262906bc2c,LBM Zorg,f81c7870-f564-4523-be58-ebf754b74092,1d984440-02f4-438c-a9a6-e0f39f43c5e8
-9dc1886a-b108-4723-9cc4-766fe4858e25,Sith Ltd Gesundheitszentrum,d07707af-5d2a-4feb-ba30-aca6b94cba12,4e1ec193-f478-4b5e-bf27-358576a51590
-d10e48a7-70c6-462b-b1e7-3aff7f4a50b5,Newxton Ltd Gesundheitszentrum,0a06f545-4a18-44f4-9077-fe3a01df3a60,87b5ba71-9892-4a4b-82a2-8fe8a7eaec2d
-00c9dcfa-097a-4830-a7e9-425e65d31a27,AVJ Tervisekeskus,69be69d4-6e2b-4651-b551-a5e646d02261,ecd7b878-dd00-48a2-8fe9-4bbdff70a083
-c11a9c3e-ce39-4617-bf42-ef70987f5186,LP Gesundheitszentrum,69623f48-b164-4f42-a509-afcfcb4b786b,e2bcc3ca-6e48-4d91-b751-0170054b8559
-6e8819c8-b6ed-441a-9a20-5a1680a46942,LM Tervisekeskus,716ada9f-122f-4e7a-925d-74452f94b6ef,e9e5c8c9-9bef-43ae-aa2d-c17ea3c48246
-f3da1a6f-1d92-44ee-bba3-801d6b814163,JPLC Gesundheitszentrum,7973b639-4b00-4b12-8239-38a66ceea62d,c5fd6877-adb8-44d2-8a0b-815b62554745
-9634d346-05f7-49b8-b5b3-e99fd04a8e6d,BB Zorg,afd8f113-c62d-493f-9b9b-e8e0af9f71ec,6bf20bad-2aa9-47f2-ba8c-194b679ed532
-b2b5737a-2d43-4f2c-a070-1cafa6a60a37,Gibbs-Reese Gesundheitszentrum,75a6b570-d51c-4a51-814a-6199463137f3,5543035c-1d8b-406e-90bd-7cfe7075d3f3
-114db188-7574-4030-963e-091b70895f54,CWT Gesundheitszentrum,ca0a64ea-a9ce-449f-8365-23542faef104,996817df-2530-4397-b36e-9802ff13e186
-9a4a31e7-4b41-4395-b4f6-6246dbf7ddea,AS Tervisekeskus,4c2ff8cb-39b1-4881-96d4-f0d52e6ef5ab,c6f80dc3-9d67-45b5-92d7-a7fe5d2107e7
-7e7aa336-8ece-4526-8eca-42036950fa94,Ree-dFry Gesundheitszentrum,6f9b6572-928c-4017-989c-15076d1ec327,d88d8826-3896-4a18-8e29-8a20aece6c5a
-ce1683a2-bb46-4bc1-a351-a0fb2bc75fff,"Gherrero, Kim and Sutton Gesundheitszentrum",0fc1fe05-9a2f-42be-a861-9f8e6b467421,bd9d3529-a2ca-4314-88e2-75cf152f3b9a
-ca6ffee4-92e1-48cf-85d1-6ba5ba6c495a,Baker and Sons Gesundheitszentrum,1aa18001-2c5e-4ee6-ad31-76920f081291,f4b72d99-bf18-40aa-a42e-4f41054880dd
-f0b25f54-eb88-48c3-b2b4-3dea1ffdde41,VT Zorg,6ed6e336-8fac-4c5c-9651-1405c643760f,04aab951-612a-48d4-81d2-4b14675c22ae
-6a970b2a-d76c-450c-b6d2-f182b0ee65cd,"Obrien, Gaines and Miller Gesundheitszentrum",c1fa3f88-9313-4834-9a3b-653946db5e72,12aec2e7-f66e-4b81-b7fa-1f6217ad3254
-f579cc38-7c2a-488d-b751-00f0895845ef,FPLC Tervisekeskus,70056120-1288-4b26-a947-0fb35465b5e9,3e8ae701-97f4-4c70-b68c-aaadb1982054
-32d5b0f2-a772-4ed3-8dba-54f01fd604b8,BGR Tervisekeskus,21a47526-1749-40e2-8b78-4f813aa730f9,f9c08f44-893b-4d79-bc5d-acb751bc50ac
+identifier,healthcareOrganizationName,address,contactPoint,changed
+696f4257-1c66-48bf-8abd-92829c689a7f,Faulkner-Howard Zorg,3640c91e-849f-44fb-afe9-fc49cb0c506c,f3b0fd8b-6ea3-4267-866f-f5b103c1cde7,
+b6401ffe-b8c9-4b7d-b8b8-397ee22be68a,GSC Tervisekeskus,7f3dcbcd-844a-4fd8-9e83-84ff972d6c30,0a969959-6ee2-445b-a577-91226c03c280,True
+092ea03e-0ec1-47a0-978e-2cfa66b2f3d1,"Gsreen, Jones and Shelton Tervisekeskus",cda5da71-9698-48de-9e67-572791001f76,7b35801d-5f1d-4881-814f-7b2826cb7f66,True
+5a5c9b06-e32b-446f-bdfe-ea889d7ea705,"Nash, Anderson and Collins Zorg",4e2ea4b7-c7ea-4383-85ee-81e7ae337ee1,ec295d94-7280-4949-96cb-88722b9b6839,True
+c324a380-8539-4354-91bb-a1f185c26815,LK Gesundheitszentrum,d410d8a6-0433-45b8-9d11-f5b4001454e7,3077b79f-2fed-443d-bfff-e9b1fb0aa9c2,True
+caff5af9-7626-41e6-92e6-b6702a3058b1,WS Gesundheitszentrum,ce889d34-48fa-4652-b1bd-f9b309d1135b,35107c0d-3286-48fd-b189-7de67cd0b662,True
+a992a9ef-7e9c-4181-9c73-c7977b191b6b,Brady Inc Tervisekeskus,24c30f52-8481-4dac-8bb0-2b6b334a6a19,20ae9100-9e10-4cd0-9ad3-631fb6bb17a0,
+5f74dd17-97af-4b79-abc0-47afc02a1b32,GPLC Gesundheitszentrum,01504319-4051-4a2b-b99f-ed1fddee4f4e,8f521948-9ece-4bbc-b578-8ea75a21fe0c,True
+7a9064b5-5c7a-4d9b-9c25-0dd91b0c4c7e,SS Zorg,4d7cee6d-2113-45ea-a603-39322993d856,4ef80402-43e5-4441-ad84-12323e4e2200,True
+4557ea27-82a8-490b-be3a-6c4948fe569f,"Cahan, Hale and Fisher Zorg",4ae71aab-b539-4359-b868-e61dcba917b5,af984c46-1b21-4507-ac1e-3f23f8f21d41,True
+430a4e6a-de7a-4836-819e-ac4957ae34c8,SL Gesundheitszentrum,9e21f5a6-b48d-45da-b8b5-28c025f0e1ca,3c9eaf67-5aae-4420-ba57-75aa00dd713b,True
+579c032c-3241-417e-b820-2bc4e4ac937d,Carter Groop Tervisekeskus,10f2a2ca-ce5f-4d0f-92ac-62a7a2300392,185b6504-3ef6-41e9-8ece-a9b9680ca490,True
+028dae09-7c29-49ac-bcd9-95ad9d76d09a,"Rigbs, Martinez and Stephenson Zorg",9c8de53a-5ccc-411f-b0de-9995b3bf3e21,92695059-97c9-4d08-b570-3d590bdc6bec,True
+330f82e2-01b2-4aa4-b07b-579cdcc1820c,Mathsi Inc Tervisekeskus,05a3d883-1cee-4216-86b1-8c4d77d717a2,e6575795-af14-43b5-a8f8-590ee88a28cd,True
+1741d071-600e-48e6-9080-0e1aa6728c35,Price-Robinson Zorg,4e747555-7c48-4286-b4bf-0e3f13821c9d,dc4574eb-2a47-4992-ae4d-51e1801e490e,
+8dea7f1a-48d8-493e-9a3e-2ff000e1e596,Williiams-Williams Zorg,1afa2c84-9734-43d0-91b1-9037508d294c,260870bc-5b84-444f-ba60-13b1761d019d,True
+d3d6e5ec-c6cc-4975-83d5-ab2439efd2c0,DTB Tervisekeskus,c33dc8fb-7526-4748-b91c-bc1b38d4a409,8b225526-5aa3-4dfd-a933-0af723b8f989,True
+8f86bddb-f827-44b0-a1ef-502067aad070,"Lam, Bishop and Mccormick Zorg",bc4500df-8523-4e86-b421-82bad6da888f,4d9ef176-c2df-404d-89a4-6ae41ddda768,
+1aa2305f-3955-4982-abba-baecc8db79b6,Smtih Ltd Gesundheitszentrum,2e138187-5556-403e-b5a3-0999e598e68d,69b45cff-b58c-4e7a-903b-e7cf5a995fc0,True
+6859761b-d413-4025-a1ec-0e8f4a593a97,NL Gesundheitszentrum,67755649-5174-402e-911e-8a17bc4ec57a,23b71f04-a1be-4e4b-b1bd-33f1616b05b6,True
+1d24e36d-825c-44d4-8ec4-6e4430b37cb4,"Arnold, Villa and Johnson Tervisekeskus",027ac2ba-204d-4101-b33d-0da1beaf26c5,c82033ce-8ab1-473a-9208-169f045d9547,
+c80f0395-0543-4e5e-8497-f55e5c0bbdc7,LP Gesundheitszentrum,3ed1798c-1c2d-4c7b-a186-bda0c48823fe,9a029f3b-ad58-4b3e-9ea7-2058059f7308,True
+23ae8a10-31f3-4834-9055-4f745557b546,Long-Martinz Tervisekeskus,6a390dfa-83e0-4316-9c06-90ef9580ba52,11997c8b-68e4-40c6-9235-282c88d866c7,True
+d49236da-62a4-4ef1-a261-9f77ffefb249,Johnson PLC Gesundheitszentrum,93ad153b-1897-4be3-a089-5b5f460cbc8c,2ebe2dfb-25b5-4dda-8274-2794539996f4,
+8bafdfe3-f438-472c-a454-7de0ac1a89f6,BB Zorg,7021c769-bd8d-4d27-9271-5b496b5360d1,069edec2-df8b-462c-8308-406366ff30f3,True
+b0354ab7-c8bb-4f77-8573-e8875f471320,GR Gesundheitszentrum,24cecb1a-7a96-4954-b5d9-471082010e51,7bed84e6-10cc-4808-9b49-94b86d154c3b,True
+e8278985-1465-486f-ae1d-28aa3f0f7d6c,"Coko, Wright and Taylor Gesundheitszentrum",d9bb1cb7-10cd-4ccd-afc2-a14fc62438d8,dbe249e0-3fa0-4b33-a532-3cbb47ba79b0,True
+2f05976a-f7db-4734-845e-98b195b7c83b,Austin and Sons Tervisekeskus,46ca2b99-5b83-4f7a-8610-268c87fa184b,d74d354b-8313-4b7f-8c35-3db0cd054846,
+7a439a39-8c54-4f39-a06e-f2756cd6c101,Reeld-Fry Gesundheitszentrum,156a6d0e-1c8a-46ad-b26e-2196a4a0e3a6,38b2dcff-98a0-4e99-9eb4-201d4407d8f2,True
+54f06410-351e-4040-a57d-b283f2724e7c,GKS Gesundheitszentrum,7ca80109-e92a-4d60-ab49-06741492e3b0,e6f8fa7c-a346-4da9-a6a3-3b8481878982,True
+6990ed24-7675-4902-97db-09868dfe161b,BS Gesundheitszentrum,fed175a7-fac7-4ae6-b9e7-995d53452349,daab1ce2-1e4b-41c8-ba43-e65a33b24ebd,True
+3bb94f5f-335b-45a0-995f-8086d6d242a3,VT Zorg,610ee7bb-7f2e-4085-8252-8f63b72dfc23,4c0d8f5b-04ac-45a2-9964-304597e06545,True
+2699c51b-e9c5-456a-ad3d-5293a09dc078,"Obrie, Gaines and Miller Gesundheitszentrum",f2c7c001-020a-4172-8cb0-5d4850339c44,492b8c93-f79c-4a14-b39c-deef78bfc599,True
+3c2f9c57-8924-4f0c-a58f-dca82964a24b,FPLC Tervisekeskus,e363e355-bc92-491e-b746-39b8be5e88dc,729f641e-23dc-41ca-ae8a-d57a78ec140e,True
+618a5b1f-efdd-4092-bde8-48351ca588c1,BGR Tervisekeskus,692dd979-8865-4f81-8f32-69bc75f4b9df,5ffda8ca-fd80-4189-9548-afac42694713,True

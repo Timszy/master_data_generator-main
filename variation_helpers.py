@@ -21,14 +21,11 @@ import uuid
 variation_id_cache = {}
 
 def generate_consistent_uuid(original_id, entity_type):
-    """Generate a consistent UUID based on original ID, entity type, and variation type"""
+    """Generate a consistent UUID based on original ID and entity type only"""
     cache_key = f"{original_id}_{entity_type}"
-    
     if cache_key not in variation_id_cache:
-        # Use uuid5 for deterministic UUID generation
         namespace = uuid.uuid5(uuid.NAMESPACE_DNS, original_id)
-        variation_id_cache[cache_key] = str(uuid.uuid5(namespace, f"{entity_type}"))
-    
+        variation_id_cache[cache_key] = str(uuid.uuid5(namespace, entity_type))
     return variation_id_cache[cache_key]
 
 def register_duplicate(original_id, duplicate_id, entity_type, variation_type, field_name, original_value, varied_value):
@@ -47,43 +44,68 @@ def register_duplicate(original_id, duplicate_id, entity_type, variation_type, f
 
 # Modified introduce_variations function
 # Modified introduce_variations function to handle inheritance
+# def introduce_variations(data_list, variation_function, variation_rate=variation_rate_default, entity_type=None):
+#     """
+#     Generate variations for a subset of items in data_list using the variation_function
+    
+#     Args:
+#         data_list: List of entities to potentially create variations for
+#         variation_function: Function that generates variations
+#         variation_rate: Percentage of entities to create variations for
+#         entity_type: Type name of the entity (e.g., "Address", "Person")
+#     """
+#     # Determine entity type - use provided entity_type or guess from function name
+    
+#     # Generate variations for only a subset of the items based on the variation_rate
+#     selected_indices = random.sample(range(len(data_list)), int(len(data_list) * variation_rate))
+#     variations = []
+    
+#     for index in selected_indices:
+#         original_item = data_list[index]
+#         varied_item, variation_info = variation_function(original_item)
+#         # Generate consistent UUID using parent entity type for inheritance
+#         if entity_type == "HealthcarePersonnel" or entity_type == "Person":
+#             consistent_uuid = generate_consistent_uuid(
+#             original_item["identifier"], 
+#             "Person",  # Use parent type here
+#             )
+#             varied_item["identifier"] = consistent_uuid 
+#         else:
+#             varied_item["identifier"] = fake.uuid4()  # Generate a new UUID if no parent type
+        
+#         # Override the UUID generated in the variation function
+        
+        
+#         variations.append(varied_item)
+#         register_duplicate(
+#             original_id=original_item["identifier"],
+#             duplicate_id=varied_item["identifier"],
+#             entity_type=entity_type,  # Keep original entity type for registry
+#             variation_type=variation_info["variation_type"],
+#             field_name=variation_info["field_name"],
+#             original_value=variation_info.get("original_value", ""),
+#             varied_value=variation_info.get("varied_value", "")
+#         )
+#     return data_list + variations
+
 def introduce_variations(data_list, variation_function, variation_rate=variation_rate_default, entity_type=None):
-    """
-    Generate variations for a subset of items in data_list using the variation_function
-    
-    Args:
-        data_list: List of entities to potentially create variations for
-        variation_function: Function that generates variations
-        variation_rate: Percentage of entities to create variations for
-        entity_type: Type name of the entity (e.g., "Address", "Person")
-    """
-    # Determine entity type - use provided entity_type or guess from function name
-    
-    # Generate variations for only a subset of the items based on the variation_rate
+    base_entity_type = entity_type or variation_function.__name__.replace("_variation", "")
+    parent_entity_type = "Person" if base_entity_type == "HealthcarePersonnel" else base_entity_type
     selected_indices = random.sample(range(len(data_list)), int(len(data_list) * variation_rate))
     variations = []
-    
     for index in selected_indices:
         original_item = data_list[index]
         varied_item, variation_info = variation_function(original_item)
-        # Generate consistent UUID using parent entity type for inheritance
-        if entity_type == "HealthcarePersonnel" or entity_type == "Person":
-            consistent_uuid = generate_consistent_uuid(
+        consistent_uuid = generate_consistent_uuid(
             original_item["identifier"], 
-            "Person",  # Use parent type here
-            )
-            varied_item["identifier"] = consistent_uuid 
-        else:
-            varied_item["identifier"] = fake.uuid4()  # Generate a new UUID if no parent type
-        
-        # Override the UUID generated in the variation function
-        
-        
+            parent_entity_type
+        )
+        varied_item["identifier"] = consistent_uuid
         variations.append(varied_item)
         register_duplicate(
             original_id=original_item["identifier"],
             duplicate_id=varied_item["identifier"],
-            entity_type=entity_type,  # Keep original entity type for registry
+            entity_type=base_entity_type,
             variation_type=variation_info["variation_type"],
             field_name=variation_info["field_name"],
             original_value=variation_info.get("original_value", ""),
