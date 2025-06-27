@@ -21,7 +21,8 @@ contact_points = pd.read_csv('Data_source/Sample_15_test/sample_data/ContactPoin
 ################## Feature Deletion ##################
 # Before introducing variations, we can delete certain fields for testing purposes.
 # Define which fields to delete for each entity type
-delete = "high"  # Set to "low" to delete fields before variations
+delete = "low"  # Set to "low" to delete fields before variations
+
 if delete == "low":
     fields_to_delete_map = {
         'Address': ['postalCode'],  # example fields
@@ -34,7 +35,7 @@ if delete =="high":
         'Address': ['text'],  # example fields
         'Person': ['personName'],
         'HealthcareOrganization': ['healthcareOrganizationName'],
-        'ServiceDepartment': ['departmentName'],
+        'ServiceDepartment': ['serviceDepartmentName'],
         'HealthcarePersonnel': ['jobTitle'],
         'ContactPoint': ['contactType'],
     }
@@ -42,6 +43,9 @@ if delete =="high":
 addresses = delete_literals(addresses, fields_to_delete_map.get('Address', []))
 persons = delete_literals(persons, fields_to_delete_map.get('Person', []))
 healthcare_organization = delete_literals(healthcare_organization, fields_to_delete_map.get('HealthcareOrganization', []))
+service_department = delete_literals(service_department, fields_to_delete_map.get('ServiceDepartment', []))
+healthcare_personnel = delete_literals(healthcare_personnel, fields_to_delete_map.get('HealthcarePersonnel', []))
+contact_points = delete_literals(contact_points, fields_to_delete_map.get('ContactPoint', []))
 
 # Save the structurally edited dataframes before introducing variations
 pd.DataFrame(addresses).to_csv(f'Data_source/Sample_15_test/sample_struct/Address_{delete}.csv', index=False)
