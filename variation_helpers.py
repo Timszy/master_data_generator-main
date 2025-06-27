@@ -42,60 +42,14 @@ def register_duplicate(original_id, duplicate_id, entity_type, variation_type, f
         'varied_value': varied_value
     })
 
-# Modified introduce_variations function
-# Modified introduce_variations function to handle inheritance
-# def introduce_variations(data_list, variation_function, variation_rate=variation_rate_default, entity_type=None):
-#     """
-#     Generate variations for a subset of items in data_list using the variation_function
-    
-#     Args:
-#         data_list: List of entities to potentially create variations for
-#         variation_function: Function that generates variations
-#         variation_rate: Percentage of entities to create variations for
-#         entity_type: Type name of the entity (e.g., "Address", "Person")
-#     """
-#     # Determine entity type - use provided entity_type or guess from function name
-    
-#     # Generate variations for only a subset of the items based on the variation_rate
-#     selected_indices = random.sample(range(len(data_list)), int(len(data_list) * variation_rate))
-#     variations = []
-    
-#     for index in selected_indices:
-#         original_item = data_list[index]
-#         varied_item, variation_info = variation_function(original_item)
-#         # Generate consistent UUID using parent entity type for inheritance
-#         if entity_type == "HealthcarePersonnel" or entity_type == "Person":
-#             consistent_uuid = generate_consistent_uuid(
-#             original_item["identifier"], 
-#             "Person",  # Use parent type here
-#             )
-#             varied_item["identifier"] = consistent_uuid 
-#         else:
-#             varied_item["identifier"] = fake.uuid4()  # Generate a new UUID if no parent type
-        
-#         # Override the UUID generated in the variation function
-        
-        
-#         variations.append(varied_item)
-#         register_duplicate(
-#             original_id=original_item["identifier"],
-#             duplicate_id=varied_item["identifier"],
-#             entity_type=entity_type,  # Keep original entity type for registry
-#             variation_type=variation_info["variation_type"],
-#             field_name=variation_info["field_name"],
-#             original_value=variation_info.get("original_value", ""),
-#             varied_value=variation_info.get("varied_value", "")
-#         )
-#     return data_list + variations
-
-def introduce_variations(data_list, variation_function, variation_rate=variation_rate_default, entity_type=None):
+def introduce_variations(data_list, variation_function, variation_rate=variation_rate_default, entity_type=None, noise="low"):
     base_entity_type = entity_type or variation_function.__name__.replace("_variation", "")
     parent_entity_type = "Person" if base_entity_type == "HealthcarePersonnel" else base_entity_type
     selected_indices = random.sample(range(len(data_list)), int(len(data_list) * variation_rate))
     variations = []
     for index in selected_indices:
         original_item = data_list[index]
-        varied_item, variation_info = variation_function(original_item)
+        varied_item, variation_info = variation_function(original_item, noise_severity=noise)
         consistent_uuid = generate_consistent_uuid(
             original_item["identifier"], 
             parent_entity_type
@@ -120,26 +74,36 @@ fake = Faker()
 def address_variation(address, noise_severity = "low"):
     """Generate variations of an address with balanced distribution"""
     possible_variations = []
+    if noise_severity == "high":
+        # If noise severity is high, allow all variations
+        if address.get("text"):
+            possible_variations.append("house_number_suffix")
+        if address.get("city") and len(address.get("city")) > 3:
+            possible_variations.append("city_typo")
+        if address.get("country") in ["NL", "AT", "EE"]:
+            possible_variations.append("country_expansion")
+        if address.get("postalCode"):
+            possible_variations.append("postal_format")
+        
 
-    if address.get("text"):
-        possible_variations.append("house_number_suffix")
-    if address.get("city") and len(address.get("city")) > 3:
-        possible_variations.append("city_typo")
-    if address.get("country") in ["NL", "AT", "EE"]:
-        possible_variations.append("country_expansion")
-    if address.get("postalCode"):
-        possible_variations.append("postal_format")
-
+    elif noise_severity == "low" or noise_severity == "medium":
+        if address.get("text"):
+            possible_variations.append("house_number_suffix")
+        if address.get("city") and len(address.get("city")) > 3:
+            possible_variations.append("city_typo")
+        if address.get("postalCode") and len(address.get("postalCode")) > 3:
+            possible_variations.append("postal_format")
+       
     if not possible_variations:
-        default_var = copy.deepcopy(address)
-        default_var["identifier"] = fake.uuid4()  # Generate a new UUID
-        return default_var, {
-            "variation_type": "no_change", 
-            "field_name": "address",
-            "original_value": str(address),
-            "varied_value": str(default_var)
-        }
-
+            default_var = copy.deepcopy(address)
+            default_var["identifier"] = fake.uuid4()  # Generate a new UUID
+            return default_var, {
+                "variation_type": "no_change", 
+                "field_name": "address",
+                "original_value": str(address),
+                "varied_value": str(default_var)
+            }
+ 
     selected_variation = random.choice(possible_variations)
 
     if selected_variation == "house_number_suffix":
@@ -215,33 +179,38 @@ def address_variation(address, noise_severity = "low"):
 def person_variation(person, noise_severity = "low"):
     """Generate variations of a person with balanced distribution"""
     possible_variations = []
+    if noise_severity == "high":
+        # If noise severity is high, allow all variations
+        if "personName" in person and len(person["personName"].split()) > 1:
+            possible_variations.append("name_swap")
+            possible_variations.append("abbreviated_first_name")
+        if "personName" in person and any(len(name) > 2 for name in person["personName"].split()):
+            possible_variations.append("name_typo")
+        if "knowsLanguage" in person and person["knowsLanguage"] in ["nl", "de", "et"]:
+            possible_variations.append("language_expansion")
+        if "birthDate" in person and len(person["birthDate"].split('-')) == 3:
+            possible_variations.append("date_format_variation")
     
     # Check what variations are possible based on available fields
-    names = person.get("personName", "").split()
-    if len(names) > 1:
-        possible_variations.append("name_swap")
-        possible_variations.append("abbreviated_first_name")
-    
-    if names and any(len(name) > 2 for name in names):
-        possible_variations.append("name_typo")
-    
-    if "knowsLanguage" in person and person["knowsLanguage"] in ["nl", "de", "et"]:
-        possible_variations.append("language_expansion")
-    
-    if "birthDate" in person and len(person["birthDate"].split('-')) == 3:
-        possible_variations.append("date_format_variation")
-    
-    # If no variations are possible, return with no changes
+
+    elif noise_severity == "low" or noise_severity == "medium":
+        if "personName" in person and len(person["personName"].split()) > 1:
+            possible_variations.append("name_swap")
+            possible_variations.append("abbreviated_first_name")
+        if "personName" in person and any(len(name) > 2 for name in person["personName"].split()):
+            possible_variations.append("name_typo")
+        if "birthDate" in person and len(person["birthDate"].split('-')) == 3:
+            possible_variations.append("date_format_variation")
+        
     if not possible_variations:
-        default_var = copy.deepcopy(person)
-        default_var["identifier"] = fake.uuid4()  # Generate a new UUID
-        return default_var, {
-            "variation_type": "no_change", 
-            "field_name": "person",
-            "original_value": str(person),
-            "varied_value": str(default_var)
-        }
-    
+            default_var = copy.deepcopy(person)
+            default_var["identifier"] = fake.uuid4()  # Generate a new UUID
+            return default_var, {
+                "variation_type": "no_change", 
+                "field_name": "person",
+                "original_value": str(person),
+                "varied_value": str(default_var)
+            }
     # Select a variation randomly from the possible ones
     selected_variation = random.choice(possible_variations)
     
@@ -341,20 +310,34 @@ def organization_name_variation(organization, noise_severity = "low"):
     """Generate variations of an organization name with balanced distribution"""
     possible_variations = []
     
-    # Check for possible variations
-    if "healthcareOrganizationName" in organization:
-        org_name = organization["healthcareOrganizationName"]
+    if noise_severity == "high" or noise_severity == "medium":
+        # If noise severity is high, allow all variations
+        if "healthcareOrganizationName" in organization: 
+            org_name = organization["healthcareOrganizationName"]
         
-        # Check if name can be abbreviated (has at least 2 capital letters)
-        capitals = [c for c in org_name if c.isupper()]
-        if len(capitals) >= 2:
-            possible_variations.append("name_abbreviation")
+    # Check if name can be abbreviated (has at least 2 capital letters)
+            capitals = [c for c in org_name if c.isupper()]
+            if len(capitals) >= 2:
+                possible_variations.append("name_abbreviation")
         
         # Check if name has words that are long enough for typos
-        words = org_name.split()
-        if any(len(word) > 3 for word in words):
-            possible_variations.append("name_typo")
-    
+            words = org_name.split()
+            if any(len(word) > 3 for word in words):
+                possible_variations.append("name_typo")
+            
+
+
+    if noise_severity == "low":
+        # If noise severity is low, allow only a subset of variations
+        if "healthcareOrganizationName" in organization:
+            org_name = organization["healthcareOrganizationName"]
+        
+            # Check if name has words that are long enough for typos
+            words = org_name.split()
+            if any(len(word) > 3 for word in words):
+                possible_variations.append("name_typo") 
+            
+   
     # If no variations are possible, return with no changes
     if not possible_variations:
         default_var = copy.deepcopy(organization)
@@ -545,14 +528,19 @@ def department_name_variation(department, noise_severity = "low"):
         # Check if the department name can be abbreviated
         for full, _ in abbreviations.items():
             if full in dept_name:
-                possible_variations.append("department_abbreviation")
+                if noise_severity == "high":
+                    possible_variations.append("department_abbreviation")        
                 break
                 
         # Check if name has an alternative
         if dept_name in alternatives:
-            possible_variations.append("alternative_naming")
-            possible_variations.append("translation")
-    
+            if noise_severity == "high":
+                possible_variations.append("alternative_naming")
+            if noise_severity == "medium" or noise_severity == 'high':
+                possible_variations.append("translation")
+
+        if noise_severity == "low" or noise_severity == "medium" or noise_severity == "high":
+            possible_variations.append("department_typo")
     # If no variations are possible, return with no changes
     if not possible_variations:
         default_var = copy.deepcopy(department)
@@ -711,36 +699,73 @@ def department_name_variation(department, noise_severity = "low"):
             "original_value": original_name,
             "varied_value": var["serviceDepartmentName"]
         }
+    # Variation 2: Introduce typos in the name
+    if selected_variation == "department_typo":
+        var = copy.deepcopy(department)
+        original_name = var["serviceDepartmentName"]
+        
+        word_to_change = var["serviceDepartmentName"]
+        word_chars = list(word_to_change)
+        pos = random.randint(1, len(word_chars) - 2)
+    
+        # Different types of typos
+        typo_type = random.choice(["swap", "missing", "extra", "substitute"])
+            
+        if typo_type == "swap" and pos < len(word_chars) - 1:
+            word_chars[pos], word_chars[pos+1] = word_chars[pos+1], word_chars[pos]
+        elif typo_type == "missing":
+            word_chars.pop(pos)
+        elif typo_type == "extra":
+            word_chars.insert(pos, random.choice("abcdefghijklmnopqrstuvwxyz"))
+        elif typo_type == "substitute":
+            word_chars[pos] = random.choice("abcdefghijklmnopqrstuvwxyz")
+            
+        changed_word = "".join(word_chars)
+            
+        var["healthcareOrganizationName"] = changed_word
+        var["identifier"] = fake.uuid4()  # Generate a new UUID
+        return var, {
+            "variation_type": "department_typo", 
+            "field_name": "serviceDepartmentName",
+            "original_value": original_name,
+            "varied_value": changed_word
+        }
 
 
 def email_variation(entity, noise_severity = "low"):
     """Generate variations of email addresses with balanced distribution"""
     possible_variations = []
     
+
+    if "contactType" in entity:
+        if noise_severity == "high" or noise_severity == "medium":
+           possible_variations.append("translation")
+       
     # Check for possible variations
     if "email" in entity:
         email = entity["email"]
         parts = email.split('@')
         
         if len(parts) == 2:
-            local, domain = parts
-            domain_parts = domain.split('.')
-            
-            # Check if local part is long enough for typo
-            if len(local) > 3:
-                possible_variations.append("email_typo")
+            if noise_severity == "high" or noise_severity == "medium" or noise_severity == "low":
+                local, domain = parts
+                domain_parts = domain.split('.')
                 
-            # Check if domain can be changed based on language
-            if len(domain_parts) >= 2:
-                if "availableLanguage" in entity and entity["availableLanguage"]:
-                    if (isinstance(entity["availableLanguage"], list) and 
-                        any(lang.lower() in ["nl", "de", "et"] for lang in entity["availableLanguage"])):
-                        possible_variations.append("email_domain_change_list")
-                    elif (isinstance(entity["availableLanguage"], str) and 
-                          entity["availableLanguage"].startswith("[") and
-                          any(lang.lower() in ["nl", "de", "et"] for lang in 
-                              [l.strip().strip("'\"") for l in entity["availableLanguage"].strip("[]").split(",")])):
-                        possible_variations.append("email_domain_change_str")
+                # Check if local part is long enough for typo
+                if len(local) > 3:
+                    possible_variations.append("email_typo")
+                    
+                # Check if domain can be changed based on language
+                if len(domain_parts) >= 2:
+                    if "availableLanguage" in entity and entity["availableLanguage"]:
+                        if (isinstance(entity["availableLanguage"], list) and 
+                            any(lang.lower() in ["nl", "de", "et"] for lang in entity["availableLanguage"])):
+                            possible_variations.append("email_domain_change_list")
+                        elif (isinstance(entity["availableLanguage"], str) and 
+                            entity["availableLanguage"].startswith("[") and
+                            any(lang.lower() in ["nl", "de", "et"] for lang in 
+                                [l.strip().strip("'\"") for l in entity["availableLanguage"].strip("[]").split(",")])):
+                            possible_variations.append("email_domain_change_str")
     
     # If no variations are possible, return with no changes
     if not possible_variations:
@@ -756,6 +781,31 @@ def email_variation(entity, noise_severity = "low"):
     # Select a variation randomly from the possible ones
     selected_variation = random.choice(possible_variations)
     
+    if selected_variation == "translation":
+        var = copy.deepcopy(entity)
+        contact_type = var["contactType"].lower()
+        tranlation_language = var["availableLanguage"]
+        language = tranlation_language.strip('[]').split(',')[0]
+        str_language = language.strip("'")
+        language_map = {
+                        "nl": "dutch",
+                        "de": "german",
+                        "et": "estonian",
+                        "en": "english"
+                    }
+        language_code = language_map.get(str_language.lower(), "english")
+        translator = GoogleTranslator(source="english", target=language_code)
+        translated_name = translator.translate(contact_type)
+        var['contactType'] = translated_name
+        var["identifier"] = fake.uuid4()
+        return var, {
+            "variation_type": "translation", 
+            "field_name": "ContactType",
+            "original_value": contact_type,
+            "varied_value": var["contactType"]
+        }
+
+
     # Email typo variation (before @)
     if selected_variation == "email_typo":
         var = copy.deepcopy(entity)
