@@ -69,6 +69,28 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
 
 #### Address variations
 # Updated address_variation function with balanced variation application
+
+def delete_literals(data_list, fields_to_delete):
+    """
+    Remove specified fields (literals) from each entity in the list.
+    Args:
+        data_list: List of dicts (entities)
+        fields_to_delete: List of field names to delete from each entity
+    Returns:
+        List of dicts with specified fields removed
+    """
+    new_list = []
+    for entity in data_list:
+        entity_copy = entity.copy()
+        for field in fields_to_delete:
+            if field in entity_copy:
+                entity_copy[field] = None
+        new_list.append(entity_copy)
+    return new_list
+
+
+
+
 fake = Faker()
 
 def address_variation(address, noise_severity = "low"):
@@ -800,7 +822,7 @@ def email_variation(entity, noise_severity = "low"):
         var["identifier"] = fake.uuid4()
         return var, {
             "variation_type": "translation", 
-            "field_name": "ContactType",
+            "field_name": "contactType",
             "original_value": contact_type,
             "varied_value": var["contactType"]
         }
