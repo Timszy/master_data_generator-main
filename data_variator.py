@@ -2,26 +2,26 @@ import pandas as pd
 from variation_helpers import delete_literals, introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation, export_duplicate_registry
 # When data already exists, we can introduce variations to existing records to create a more diverse dataset.
 # Load existing CSV files
-# addresses = pd.read_csv('Data_source/Sample_35_train/train_data/Address.csv').to_dict('records')
-# healthcare_organization = pd.read_csv('Data_source/Sample_35_train/train_data/HealthcareOrganization.csv').to_dict('records')
-# service_department = pd.read_csv('Data_source/Sample_35_train/train_data/ServiceDepartment.csv').to_dict('records')
-# persons = pd.read_csv('Data_source/Sample_35_train/train_data/Person.csv').to_dict('records') 
-# healthcare_personnel = pd.read_csv('Data_source/Sample_35_train/train_data/HealthcarePersonnel.csv').to_dict('records')
-# contact_points = pd.read_csv('Data_source/Sample_35_train/train_data/ContactPoint.csv').to_dict('records')
+addresses = pd.read_csv('Data_source/Sample_35_train/train_data/Address.csv').to_dict('records')
+healthcare_organization = pd.read_csv('Data_source/Sample_35_train/train_data/HealthcareOrganization.csv').to_dict('records')
+service_department = pd.read_csv('Data_source/Sample_35_train/train_data/ServiceDepartment.csv').to_dict('records')
+persons = pd.read_csv('Data_source/Sample_35_train/train_data/Person.csv').to_dict('records') 
+healthcare_personnel = pd.read_csv('Data_source/Sample_35_train/train_data/HealthcarePersonnel.csv').to_dict('records')
+contact_points = pd.read_csv('Data_source/Sample_35_train/train_data/ContactPoint.csv').to_dict('records')
 
-addresses = pd.read_csv('Data_source/Sample_15_test/sample_data/Address_s.csv').to_dict('records') 
-healthcare_organization = pd.read_csv('Data_source/Sample_15_test/sample_data/HealthcareOrganization_s.csv').to_dict('records')
-service_department = pd.read_csv('Data_source/Sample_15_test/sample_data/ServiceDepartment_s.csv').to_dict('records')
-persons = pd.read_csv('Data_source/Sample_15_test/sample_data/Person_s.csv').to_dict('records') 
-healthcare_personnel = pd.read_csv('Data_source/Sample_15_test/sample_data/HealthcarePersonnel_s.csv').to_dict('records')
-contact_points = pd.read_csv('Data_source/Sample_15_test/sample_data/ContactPoint_s.csv').to_dict('records')
+# addresses = pd.read_csv('Data_source/Sample_15_test/sample_data/Address_s.csv').to_dict('records') 
+# healthcare_organization = pd.read_csv('Data_source/Sample_15_test/sample_data/HealthcareOrganization_s.csv').to_dict('records')
+# service_department = pd.read_csv('Data_source/Sample_15_test/sample_data/ServiceDepartment_s.csv').to_dict('records')
+# persons = pd.read_csv('Data_source/Sample_15_test/sample_data/Person_s.csv').to_dict('records') 
+# healthcare_personnel = pd.read_csv('Data_source/Sample_15_test/sample_data/HealthcarePersonnel_s.csv').to_dict('records')
+# contact_points = pd.read_csv('Data_source/Sample_15_test/sample_data/ContactPoint_s.csv').to_dict('records')
 
 
 
 ################## Feature Deletion ##################
 # Before introducing variations, we can delete certain fields for testing purposes.
 # Define which fields to delete for each entity type
-delete = "low"  # Set to "low" to delete fields before variations
+delete = "high"  # Set to "low" to delete fields before variations
 
 if delete == "low":
     fields_to_delete_map = {
@@ -48,12 +48,12 @@ healthcare_personnel = delete_literals(healthcare_personnel, fields_to_delete_ma
 contact_points = delete_literals(contact_points, fields_to_delete_map.get('ContactPoint', []))
 
 # Save the structurally edited dataframes before introducing variations
-pd.DataFrame(addresses).to_csv(f'Data_source/Sample_15_test/sample_struct/Address_{delete}.csv', index=False)
-pd.DataFrame(healthcare_organization).to_csv(f'Data_source/Sample_15_test/sample_struct/HealthcareOrganization_{delete}.csv', index=False)
-pd.DataFrame(service_department).to_csv(f'Data_source/Sample_15_test/sample_struct/ServiceDepartment_{delete}.csv', index=False)
-pd.DataFrame(persons).to_csv(f'Data_source/Sample_15_test/sample_struct/Person_{delete}.csv', index=False)
-pd.DataFrame(healthcare_personnel).to_csv(f'Data_source/Sample_15_test/sample_struct/HealthcarePersonnel_{delete}.csv', index=False)
-pd.DataFrame(contact_points).to_csv(f'Data_source/Sample_15_test/sample_struct/ContactPoint_{delete}.csv', index=False)
+pd.DataFrame(addresses).to_csv(f'Data_source/Sample_35_train/train_struct/Address_{delete}.csv', index=False)
+pd.DataFrame(healthcare_organization).to_csv(f'Data_source/Sample_35_train/train_struct/HealthcareOrganization_{delete}.csv', index=False)
+pd.DataFrame(service_department).to_csv(f'Data_source/Sample_35_train/train_struct/ServiceDepartment_{delete}.csv', index=False)
+pd.DataFrame(persons).to_csv(f'Data_source/Sample_35_train/train_struct/Person_{delete}.csv', index=False)
+pd.DataFrame(healthcare_personnel).to_csv(f'Data_source/Sample_35_train/train_struct/HealthcarePersonnel_{delete}.csv', index=False)
+pd.DataFrame(contact_points).to_csv(f'Data_source/Sample_35_train/train_struct/ContactPoint_{delete}.csv', index=False)
 
 
 ##################

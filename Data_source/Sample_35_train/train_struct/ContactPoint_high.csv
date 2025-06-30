@@ -1,0 +1,322 @@
+identifier,contactType,phone,email,availableLanguage,fax,anchor
+6aec34db-0567-4adc-b163-72c9ae20cac6,,021-9489241,FaulknerHoward@healthcare.org,['nl'],+31578 156593,23a7711a-8133-4876-b7eb-dcd9e87a1613
+465c4bf0-dfe7-4cd8-af9e-3b709285108f,,339-733-2871,Garrett@healthcare.org,['et'],671.948.4185x83989,b421eaeb-5340-47ca-baf3-897a3e70f16a
+de73f2d2-7ae6-4563-b2dc-883f72c06c5f,,886-684-8339,Green@healthcare.org,['et'],275.615.9179x533,09e469e6-ec62-42c8-a648-ee38e07405eb
+340ea36d-bf99-4323-b9dd-85781d3677b9,,0935 233769,Nash@healthcare.org,"['nl', 'en']",+31(0)06-9602714,14aa451c-a69c-4b85-9432-f8db6a174c1c
+195b0842-008c-408b-8106-03d1ef1e951b,,(306)565-0300,LopezKey@healthcare.org,"['de', 'en']",393-244-2176,b9bdee2d-d663-449d-955e-18b1fa83ada4
+19f76b87-90ee-4eaa-9fa1-aa4168a15a08,,(690)297-7658x236,Williams@healthcare.org,"['de', 'en']",(224)255-5159,f24dfdd8-5091-4bdc-8ef0-66d44279b14d
+99944caf-8600-41c8-a483-73aefbab41e2,,547.779.3615x34926,Brady@healthcare.org,['et'],610-587-3176,8e751eb7-64d0-4913-991b-8adf0202861c
+5983f256-40ba-40d1-8937-904bdd03844b,,+1-768-275-7738x93055,Garcia@healthcare.org,"['de', 'en']",524.492.6947x11801,a36bcb01-67e9-4363-905c-053b25fdacbe
+f96719da-5ed0-41f3-80b2-10e37893c5ca,,+31634 896769,SantanaShaw@healthcare.org,"['nl', 'en']",(000) 2489451,ce1bb02a-cb4d-48d6-adb6-da351734a26c
+29e1c6f6-db75-47cc-934b-7aa3e22b8ff7,,+31(0)11-6116207,Chan@healthcare.org,['nl'],+31(0)60-7541511,6d0c62c3-254b-47ae-9d0a-b994f20b575d
+34d87b15-4bd9-4435-b77d-d9129db59b1d,,001-604-450-9322x7175,Smith@healthcare.org,['de'],4353574485,1f8941b6-e6a1-440b-b031-f4b9bb6b0095
+633cf2aa-5fb9-4cf7-89a7-ca73100f2eed,,4618126486,Carter@healthcare.org,"['et', 'en']",951-537-5806x6065,99e8c828-21da-432c-9c68-d4fd0bd7696f
+bd90e501-c920-41b9-97a8-61569593a40a,,+31(0)714-543910,Riggs@healthcare.org,['nl'],+31448 518321,86ae9d5c-65ff-4adc-81ae-f3f700109824
+5cb13f56-d951-4615-afbc-69f52c949595,,001-660-550-1904x4329,Mathis@healthcare.org,"['et', 'en']",467-956-2566,f305ee95-afb1-40f4-94d4-dad6ddfae808
+8292ebf9-e105-4e8a-8615-b5f3fc3effe1,,060 3125023,PriceRobinson@healthcare.org,"['nl', 'en']",091-8456708,9626d8c4-344a-4454-b0a6-1c5e707421d4
+71b94dd5-03a1-4f1e-a130-da080520fede,,+31(0)163 968373,WilliamsWilliams@healthcare.org,['nl'],+31919-155875,01d34690-a795-4c54-8a30-f7cd00fdec23
+a6e5b62b-897b-4deb-b2f2-156878116ec7,,001-930-948-1077x706,Daniel@healthcare.org,['et'],811.813.1263x791,df39ccaa-580c-49fc-bb69-e69041300879
+0f9af823-8f2f-448c-8698-ab013749d8d4,,(0844)-301912,Lam@healthcare.org,['nl'],+31(0)33-4088601,8397d412-7118-4b71-8707-e77b4bf0ae53
+1ab9dfc8-a8c4-468f-9bc3-2f2cf2735786,,+1-862-637-6254x25660,Smith@healthcare.org,['de'],+1-287-409-1662,584d3c02-0ff9-4318-922a-3a6211091978
+12e856cd-67cf-4b4b-ad47-d4ab18c2073f,,+1-219-972-9904x560,Newton@healthcare.org,"['de', 'en']",854-727-3852,6d5b7d50-1417-44f9-b7c1-44fb2b16ad04
+d683cb77-b235-4073-b7f9-e6d654adb2c2,,600.540.4943x8856,Arnold@healthcare.org,['et'],795-239-8522,58ba0bf3-675e-4c52-9eb9-5739b8acdd81
+e540ca04-d824-4730-8209-8de7a9868291,,429.565.7086x93058,LeePatton@healthcare.org,['de'],+1-557-903-9342x6197,c0037457-0184-4803-9840-fccb2446ecee
+a62c825d-88ff-4798-b9f0-52c32eb9e5d4,,(492)964-8022,LongMartinez@healthcare.org,['et'],001-408-608-6259x118,abbf66c7-680a-4e2a-866b-d06fa2b4d215
+96dccf41-1ece-4677-97ef-81048a1dec8c,,001-251-337-9378x25278,Johnson@healthcare.org,"['de', 'en']",350.411.6959x75685,e55e44b8-08a6-45b4-8321-0210a43c991d
+446010ca-28fb-465a-b7d3-4652a35d7602,,+31607 599449,BuckBurke@healthcare.org,"['nl', 'en']",(0620)-743615,eb1c3ba4-5b9e-42d0-ab0c-9fddb61b03e9
+5d838847-f37f-4126-bbc5-257c928af969,,7863408115,GibbsReese@healthcare.org,['de'],402.484.0065x2822,dba45b5e-1498-465b-b9fe-0a1b7efbe877
+56f8a486-e06e-46b7-a7b8-5cc1c3c571ad,,(869)551-6637,Cook@healthcare.org,['de'],(937)569-1448x5809,12b34a24-667f-4eeb-8889-832c37773772
+5874e070-3946-4d33-b966-40a43665c97f,,416-588-2223,Austin@healthcare.org,"['et', 'en']",8826759451,76a933cf-65fd-4f69-93a2-5c9b6e3a52d7
+b53fcf47-0757-4ff3-8930-87516aed87c4,,(612)420-9981x39981,ReedFry@healthcare.org,['de'],(910)501-5751x7594,fef06b04-68fc-442a-b6f2-59264e60678b
+beefc451-fd98-4893-adab-681d179fbb79,,(227)990-6196x5387,Guerrero@healthcare.org,"['de', 'en']",+1-714-487-8674x238,eb6ec9e0-225f-4457-9662-5aa1056b565f
+24f85b0e-611e-41a2-9c4b-cb40fe1a40aa,,820-929-8300,Baker@healthcare.org,"['de', 'en']",001-617-585-5103x374,5c05c1f3-241d-4e27-8bf4-1e101c622f82
+c3499544-f540-41b7-8438-d3fc36af4390,,(054)-6921658,ValenciaThomas@healthcare.org,['nl'],(035)-5645641,c6b7e7cb-be0d-44ed-b306-1611ef96a214
+2af3e6ed-842a-42c9-ad2b-897fe5014963,,+1-561-882-3366x706,Obrien@healthcare.org,"['de', 'en']",001-609-340-9555x72981,852d2ee5-0061-4d30-9907-3286329cd43a
+bdc6dd13-3c23-4a84-aba2-ccc40385da8b,,318.777.2785x2646,Fisher@healthcare.org,"['et', 'en']",873.957.6070,e93b4418-b170-41ed-9b04-0be38f41d3e4
+b58f095e-1550-4339-89e0-484ed649ad52,,+1-945-373-2585x7675,Bishop@healthcare.org,['et'],(231)226-7835,a54e6c8f-ecb3-477a-acef-5e55840658d1
+e4103089-c35a-46ae-a2af-54032c7a0174,,(046)-8811970,FaulknerHoward.Midwifery@dept.healthcare.org,"['nl', 'en']",(0695) 410390,a49999cf-87e5-4bbc-a2e9-e671ab341860
+094f374a-c4e5-439a-bc35-d315680ffbcc,,+31394-102599,FaulknerHoward.Podiatric@dept.healthcare.org,['nl'],(018)-7656016,6251d74d-61f9-4408-b833-0558fb2323e7
+72faca28-c4cb-46f8-af3b-3b331a25f1e9,,059-3880588,FaulknerHoward.Toxicologic@dept.healthcare.org,"['nl', 'en']",0270 452519,5804a881-1d8c-4a3b-a261-479043a061c4
+e80eac5d-c7b5-4e62-8e7f-9686f08c5eb4,,(051) 8323639,FaulknerHoward.Primary@dept.healthcare.org,['nl'],(0524)-583375,d733f669-852d-4585-88df-6b197c3ad037
+4ffe8465-70c1-489c-8570-76fed513a495,,0388-571688,FaulknerHoward.Rheumatologic@dept.healthcare.org,['nl'],+31(0)11-9752436,2a9e9a38-1d5a-474c-8da8-40fd4adb0798
+5d120dfc-5432-4d71-96d5-bfbcf6bda5f1,,(082) 4906649,FaulknerHoward.Speech@dept.healthcare.org,"['nl', 'en']",(045) 8771652,0c661a49-4995-4cf1-baaf-500ca74b3d20
+17d97737-150d-4a06-8255-57c8eb8bce58,,001-458-761-8374x46670,Garrett.Laboratory@dept.healthcare.org,"['et', 'en']",232.434.2284,03e3c25b-700b-4433-b5d6-147620f12d46
+69de61db-972e-461f-aeba-e35a16f215aa,,940.373.0626x86368,Garrett.Gynecologic@dept.healthcare.org,['et'],(618)801-0367,3f79dd31-beb7-48d6-ab02-1118ae63ad3a
+b7929b51-b3e5-4262-a269-94f5cd3b8fe6,,473-772-9840,Garrett.Anesthesia@dept.healthcare.org,"['et', 'en']",+1-655-948-4207x39657,82e2f424-0dbc-4d25-9aac-e3a3c2f89ef4
+996f7edd-209c-4fd8-85e7-13bcc588167e,,936.734.8282,Garrett.Podiatric@dept.healthcare.org,"['et', 'en']",364-678-0347x103,9090d244-c1d4-4db0-909b-f39cacb1691c
+40e3df12-0ea5-4401-bc09-0f8db35eec57,,3928436755,Garrett.Otolaryngologic@dept.healthcare.org,"['et', 'en']",802-509-8453,0438b3d4-a81b-4fe3-bda4-8455acac00dc
+30381d6e-3955-4970-b93a-a37743fe9a82,,+1-402-781-6459x305,Green.Diet@dept.healthcare.org,['et'],+1-847-979-5417x21848,6fa68010-0ddd-49b7-80b4-25aae7eb533c
+f9a6be12-60ea-4dc6-b58b-d76d77c4cdd9,,001-216-444-1588x1009,Green.Rheumatologic@dept.healthcare.org,['et'],566-270-5216,afbae6c3-4b51-4edb-bb76-8615f6b1465d
+00980ff7-58a1-43a7-9b1e-d2c5bf8e8fa6,,+1-407-382-8239,Green.Genetic@dept.healthcare.org,"['et', 'en']",001-374-244-3600,d5562dab-f4a9-44e3-ba4f-4535e45d8903
+854ae19e-7102-47c1-b49b-dfd379251a4f,,001-711-953-4757x78811,Green.Pulmonary@dept.healthcare.org,['et'],(468)378-6813x2685,940f737e-548c-4ec4-a536-5ca8d66a45e9
+872d8896-7f8a-4a7e-bcfe-3d6086755238,,397-985-3806x55803,Green.Public@dept.healthcare.org,"['et', 'en']",356-293-8088,976ae5fb-66f1-40a0-ba1a-262bba13834f
+27e696e8-5b3f-439f-b694-d7c58145d4a1,,001-237-952-0782x64973,Green.Community@dept.healthcare.org,"['et', 'en']",+1-892-897-5956x928,a5dc7c7b-cfa8-4592-8055-6e426b496a3b
+00507b7e-e67f-4667-8b27-e2f68ae8d74f,,592-453-2482x89177,Green.Anesthesia@dept.healthcare.org,['et'],+1-559-731-8734x648,996d6642-3cf8-4ff0-b49d-f1fff13a9049
+89afeb2e-76c1-4a3b-8874-d52853dfba9f,,960-710-5249x87486,Green.Public@dept.healthcare.org,['et'],311.518.0985,d05d2cb9-6b76-411f-bc87-65b6b04a2620
+5a50b1d4-3b6f-4e11-87c3-d1a3a4abda17,,544.622.9322,Green.Respiratory@dept.healthcare.org,['et'],742.994.3126x2390,87fde43c-9c72-41e4-ac1a-c8a3ed51fa2b
+5712081c-f3e9-4944-ab0a-8c966a4ede37,,(778)908-5327,Green.Urologic@dept.healthcare.org,"['et', 'en']",643.515.7458,208d549b-6b0e-4d01-80dd-28b3acea35a3
+e54b7b8f-a8b9-4e48-b6a8-bf15dd4b3c69,,+31(0)72 1174446,Nash.Midwifery@dept.healthcare.org,['nl'],094 5710437,09b12bc9-8805-4048-b53a-7cec4fbf545a
+e3b236c5-3c43-443f-adbf-6920274be4f1,,0090 292719,Nash.Gastroenterologic@dept.healthcare.org,"['nl', 'en']",+31(0)082 111913,0ed91a32-4f0f-49db-8b6a-3fea01cf7f93
+7c74a37f-0830-42f4-962b-9a82fe0caa1c,,+3168-2180831,Nash.Pharmacy@dept.healthcare.org,['nl'],+31(0)585-898643,2360db82-1a14-4f91-8a34-065b2b058a0e
+bed24e0e-0741-470c-9251-af1e9dd85a0c,,(0221) 772442,Nash.Gynecologic@dept.healthcare.org,"['nl', 'en']",025 5318724,bd966783-41ff-4f63-a4a3-b63500513063
+a3fd7317-b1cb-42ff-8334-15e7fa57e355,,053 6068424,Nash.Nursing@dept.healthcare.org,['nl'],041 5604324,5b5eea1f-8eac-4752-a34a-d5b9fd72a908
+986ee565-f2ff-4aa3-b662-eb2cd24a8ad7,,040 0925263,Nash.Anesthesia@dept.healthcare.org,"['nl', 'en']",(0083) 787995,d042c1c8-4900-44e6-a873-6d8a12ee6e46
+fbbaf41c-df3e-4e71-8574-f051cd0c24e0,,+31(0)903-976622,Nash.Neurologic@dept.healthcare.org,"['nl', 'en']",+31(0)67-3412904,bbda98aa-ae43-4b71-b8ec-fe833a614c6c
+fec1f5ae-3669-4bb8-8157-81ea7eb502c4,,(071)-4954446,Nash.Hematologic@dept.healthcare.org,['nl'],0788 364600,6ca1c7a8-ba71-4935-89d9-a4015207cce5
+7983efda-c8c0-4c6e-a9f2-078460fd260e,,001-379-429-0953x4613,LopezKey.Midwifery@dept.healthcare.org,['de'],+1-572-275-7274x758,8e4e7077-71e5-4207-861f-f6a278c49995
+fe33db2c-802e-4866-9d69-21b1fb8a5771,,4776198027,LopezKey.Midwifery@dept.healthcare.org,"['de', 'en']",345-327-5051,0b5560b6-31ce-4544-9707-f76cef137c97
+9b286a1a-655f-4a9c-8aad-73819c79afaa,,(676)926-3634x12755,LopezKey.Musculoskeletal@dept.healthcare.org,"['de', 'en']",732-472-5372x18997,7c7e8bd2-f193-48ca-844d-d831dad389fe
+33e987dc-431f-435f-b8ff-678d16859830,,642.328.2731,LopezKey.Speech@dept.healthcare.org,['de'],3614677220,006287fa-dd33-4a90-8317-310ddb2101c5
+3c4cb59e-6243-4995-a99c-7b7030fca3ed,,352-764-2213x857,LopezKey.Dentistry@dept.healthcare.org,['de'],864.370.2527x33127,b3e1da11-73de-4a9e-87f3-aa2b2c0eb235
+3c6d8616-9a23-443f-8d0b-4da49829bafd,,684.940.9924x3881,LopezKey.Otolaryngologic@dept.healthcare.org,"['de', 'en']",(810)878-8899,a3328206-f963-4ee1-96f9-012957edb96b
+f6f62f89-c15f-47b6-b34c-4b8146d03c79,,(601)580-2105,LopezKey.Primary@dept.healthcare.org,['de'],001-510-232-5689x56360,ce5e761b-7b59-41c0-bd08-b032f9ad5202
+b5b72b3c-4599-447e-9d2e-eb5295feb4ec,,875-786-7548x4785,Williams.Midwifery@dept.healthcare.org,"['de', 'en']",(540)337-4662x2732,e20e2224-47d3-4352-8019-fdfa510020c1
+f9406074-bd7e-4ba8-a366-38d1c4abdd91,,5807119229,Williams.Gastroenterologic@dept.healthcare.org,['de'],(911)667-2598x393,f059a06d-d7fa-45bc-9dc1-1ea22f06771e
+0ef4e235-47c3-42d4-a2f7-9ff1e059738b,,381-716-0035x63569,Williams.Toxicologic@dept.healthcare.org,['de'],779-474-3605,b5e2d9ff-fcb0-407f-b212-78352b4d0a93
+11508a2b-557b-4bd4-900a-f2735d2c2a29,,001-616-747-4060x712,Williams.Speech@dept.healthcare.org,['de'],492-377-0952x6042,deb5b9e5-d838-43ce-b444-8cb3be767191
+25373ebe-8b63-40a3-8d40-a27d0ef95153,,713-613-7306,Williams.Emergency@dept.healthcare.org,['de'],(894)778-0476x370,2b243c58-9743-4bc8-bba4-35db5c0d4feb
+c1443bfc-9a08-421e-9f6b-e08ac1a92e78,,(844)892-6012,Williams.Gastroenterologic@dept.healthcare.org,['de'],319-438-1357,60c3746c-bc6b-404b-9a3d-4eac1e682c1f
+6d803820-3c7c-460b-bcd5-0b5826078aed,,(773)284-9912,Williams.Oncologic@dept.healthcare.org,"['de', 'en']",+1-754-683-9409x651,3027bdbd-981f-45ed-8c7c-9761a617fe49
+af7fc126-9652-423c-b74a-d4ffe4aacf11,,369.274.0297,Williams.Public@dept.healthcare.org,"['de', 'en']",+1-801-626-6923x81006,6e95a644-022b-4290-a685-b54ed17d4cc0
+e6bbf388-7a78-46e5-b66c-c2a5a31a6b2d,,(678)703-5729x33031,Williams.Gynecologic@dept.healthcare.org,['de'],542-829-6406x19726,08415966-ad7b-487f-befd-e1439889cbe1
+3f94fd29-f46c-47af-af92-7101f88a62a8,,001-318-412-2405,Williams.Dentistry@dept.healthcare.org,['de'],+1-589-928-6405x208,396836c7-7c79-4d7c-a64a-aa398354e04f
+9644c5c6-4ee8-4d87-bbd9-995a9ed468f9,,347.571.9451x65015,Brady.Endocrine@dept.healthcare.org,"['et', 'en']",001-900-504-7180,b235872f-f682-43bd-8174-dc65f9646b27
+93e1647f-8a31-45d9-8792-3f99c1bbc76c,,001-999-641-5126,Brady.Gastroenterologic@dept.healthcare.org,['et'],(449)232-8774x711,c2324d72-03d0-4575-94bb-58bd4e8b1b51
+86b2d0fc-2304-41c8-a407-70a12dd79136,,654-695-1507x9259,Brady.Musculoskeletal@dept.healthcare.org,['et'],207.723.5310x6769,81190840-8a64-44fd-8b58-46c879e32aa0
+c2c5c2ec-a671-4355-b136-ef21818f7dff,,9047689415,Brady.Toxicologic@dept.healthcare.org,"['et', 'en']",553-308-3780x650,231e58b0-1acd-4824-83ab-4db80e45aea5
+d3bc58b3-8014-4633-86ca-420fa47b30bc,,+1-245-243-6001x29592,Brady.Cardiovascular@dept.healthcare.org,['et'],+1-829-821-2282,f421e7e0-5c56-4c5c-89d2-30412c05fec3
+5b4d1164-993e-4d6d-bd8d-ed255133f6d5,,463-459-4238,Garcia.Psychiatric@dept.healthcare.org,['de'],915.499.8919x25474,5d81778a-5ef7-4581-af71-f4aead1c4859
+9212ce67-2ac7-4049-a3bf-b89a46ccd6c2,,+1-752-463-3297x96930,Garcia.Public@dept.healthcare.org,['de'],5768910649,44a07ecb-5fb2-4686-8bee-3f1d5fc97072
+bd39fc33-8c9b-4b64-bd68-f6dc4f856ed4,,(825)518-9729,Garcia.Midwifery@dept.healthcare.org,['de'],001-224-907-5758x349,4f5a41c7-0fa0-4b35-a7b1-13deedeeefbd
+62fe41f3-ca3e-4ca0-9c7c-9eeaf76b2d0e,,+1-962-449-8326x975,Garcia.Renal@dept.healthcare.org,['de'],6968654247,cbce125b-da1c-4162-b87e-3cae01b62820
+6d186983-79ad-4f5b-9235-316a2f57000f,,461-244-2234x2253,Garcia.Surgical@dept.healthcare.org,['de'],724-394-4204,86d26605-33d6-4c61-a8f8-a67abdf76a13
+83b6dc42-cfb2-4a08-8ce7-3c9a7843acbe,,416.261.9485,Garcia.Primary@dept.healthcare.org,"['de', 'en']",8263505589,cd1fe22d-965d-4317-ab5e-68c2e3d86d14
+64141322-a599-465c-8b9f-1c64fb03ea14,,(891)563-5112x43236,Garcia.Gynecologic@dept.healthcare.org,['de'],708.746.3819,35331bc5-5abd-452e-a300-47d0085d7943
+8c49ed4d-0e66-4715-a165-3ef02a3268ef,,519-441-3491x16725,Garcia.Pulmonary@dept.healthcare.org,['de'],520.890.7788,53ec7d88-1994-49c4-8995-e98cc82dd858
+3a7e19a0-cd98-4592-a5a3-2c3dec16c0b1,,672.893.9656,Garcia.Podiatric@dept.healthcare.org,['de'],(629)287-1395,7a9f3f59-c92c-463c-8309-28ae79dac846
+3068a7d1-a7f4-40f3-b84b-ce864238f932,,9987000694,Garcia.Anesthesia@dept.healthcare.org,['de'],+1-208-361-6405x0051,c078dac2-bb2b-46f3-ad6d-3a646d2b0123
+7c9d5f59-d5ec-41b8-b8c1-0758de4bfebb,,(079) 4630887,SantanaShaw.Urologic@dept.healthcare.org,['nl'],+31326 713312,3d361779-8dfd-4010-a7ce-5dbadce4708a
+51122513-4bdf-4d43-9175-09ac96bd8c43,,+31(0)046 977965,SantanaShaw.Gynecologic@dept.healthcare.org,"['nl', 'en']",(014) 8835438,7e43c0b7-b356-4e54-a7b9-528c63f72b5f
+16d01411-d2cd-48a2-ba97-e05014c20f5f,,+31(0)53 6734856,SantanaShaw.Respiratory@dept.healthcare.org,"['nl', 'en']",+31977 121844,689a0ced-3e14-44b1-9a00-cb0031f1f4f4
+9373c9c4-2f89-4734-8ddc-40ee565648cd,,(099)-0102983,SantanaShaw.Urologic@dept.healthcare.org,"['nl', 'en']",+31(0)56 2847314,44587bbe-0a66-4218-a13b-be30b8b7da07
+fdfd9f0d-10f0-4f9e-898b-e9b31b818fee,,+31(0)02 0865150,SantanaShaw.Rheumatologic@dept.healthcare.org,"['nl', 'en']",(0834)-606772,9dadf9e4-cebd-49bd-b77d-a5f9618a327d
+186541a8-19da-4882-a825-24c26fad850a,,+31419-921707,SantanaShaw.Dentistry@dept.healthcare.org,['nl'],+3146-2082263,0f33131c-98ec-42e1-bccc-a57a3b1eadb0
+273ecf08-f709-4c31-8e32-f4d6f2c972ce,,048-5521781,SantanaShaw.Primary@dept.healthcare.org,['nl'],+3122 5638455,746e80c4-41fb-4b2a-8fee-b9b05e9bc37d
+510b42eb-2981-4d53-a826-fe248ac170a3,,+31(0)71-1726268,SantanaShaw.Anesthesia@dept.healthcare.org,"['nl', 'en']",056 4421978,b5f1e073-d379-4278-9362-5c7f1c71b0af
+c5ecde9f-0cfa-46dd-bd8b-e9823426d567,,034 8340854,SantanaShaw.Surgical@dept.healthcare.org,['nl'],+31(0)203-943740,8dc78aa7-22ee-475c-a88a-1c8181cd34bb
+468d334e-9424-4067-9c06-e7672a311741,,+31(0)73 0808776,Chan.Rheumatologic@dept.healthcare.org,"['nl', 'en']",0759-981290,7648fb30-2d6d-4fa9-9859-792c2a865fb4
+765539ad-9ffd-4cd9-91a9-30c0daba4df2,,(0953) 248826,Chan.Diet@dept.healthcare.org,['nl'],+3146 3195626,a0a8175d-88f1-4464-85e8-b8d8966f92d4
+1aa746fc-d7fb-41fc-b463-708cf813a593,,+31(0)40-3753150,Chan.Gastroenterologic@dept.healthcare.org,['nl'],+31(0)639-636510,c2555384-f868-44ec-9163-38135b0f0d7c
+4c5105aa-d059-4d03-87af-3bf9fbca660a,,+31(0)38 7027910,Chan.Endocrine@dept.healthcare.org,"['nl', 'en']",074-3882542,4b080778-534b-4cd2-a338-ccfd6f3d0471
+c18f919a-755a-4e10-95df-5d8623360c8f,,+31(0)70-5750575,Chan.Infectious@dept.healthcare.org,['nl'],(0118)-449657,a6fee832-6b63-419e-83bd-e688439983f1
+b404705f-4231-431c-8021-ef3585deae1e,,(089)-6304883,Chan.Toxicologic@dept.healthcare.org,"['nl', 'en']",(0186) 180455,f35fd4a8-05e1-4a9a-a643-7b65c63c3d08
+6fdc28be-aebd-40c9-8599-8f0457307b40,,(042) 3373345,Chan.Surgical@dept.healthcare.org,['nl'],(0952) 163399,45bae81f-7b6f-4e55-8013-6ca46810ae35
+7d755537-7920-4ad2-890a-8ae9eb6dd5ce,,6055174476,Smith.Dermatology@dept.healthcare.org,['de'],+1-885-789-1565x18297,37eb9bfb-4ec7-4b01-b6cf-a3f8fc72dd60
+53bb37a9-0db0-4f5a-b910-9f24fb3bb177,,001-868-851-8970x3860,Smith.Midwifery@dept.healthcare.org,"['de', 'en']",001-688-531-1568,5b1e40ca-ecba-414d-816a-03fba7a120a0
+52de0888-961a-43f3-87f2-6b6a8e83eace,,428.340.1727x482,Smith.Musculoskeletal@dept.healthcare.org,"['de', 'en']",+1-838-927-0185x56531,58edb6ee-c235-470a-972d-982d0079a59f
+174479e9-7b92-4162-afa8-29220b4d65cc,,+1-441-795-0924,Smith.Radiography@dept.healthcare.org,"['de', 'en']",736.858.0559x7376,ef85acba-abff-4cef-919c-91fea8abe4a5
+bb566709-d29f-4059-8571-b1aae6a12ddb,,+1-916-238-0262x16583,Smith.Speech@dept.healthcare.org,['de'],313-281-1819,1cb2cb16-bd9f-4617-ae4a-5c81363ae3bc
+6f4be7c9-6f46-44c3-be37-a633b5022339,,(972)853-3296,Smith.Podiatric@dept.healthcare.org,"['de', 'en']",2924904106,c326fbf2-4731-4680-9275-07dd390cfd7e
+0c7eaa15-e871-4bf6-961b-f25618eef26e,,(576)959-0019x977,Carter.Cardiovascular@dept.healthcare.org,"['et', 'en']",504.730.3584x06533,b6c843e4-1325-4452-ac29-c1bfb0791b94
+32496cd3-4e3e-4805-90f0-b244e4aca274,,491.388.2159,Carter.Pulmonary@dept.healthcare.org,"['et', 'en']",001-346-443-2133x440,756132a4-739f-4249-b038-f3af2fd37e43
+dc4248d4-9386-41ca-8d29-832bbaad1280,,279.871.5682,Carter.Cardiovascular@dept.healthcare.org,"['et', 'en']",+1-599-929-2658x8335,73e3cabd-21a5-423f-b8dd-43bd3f97f4f8
+3d7ef2cc-490f-429a-a4c0-a67a69a82355,,518.996.4982x3071,Carter.Optometric@dept.healthcare.org,"['et', 'en']",294-440-9541x0907,fdcafb55-d386-458c-9341-16e3074af7dc
+468651f9-b6a1-4b5b-aeb8-9e6bc00448a8,,759-797-0897x64903,Carter.Oncologic@dept.healthcare.org,['et'],226-836-0049x83429,f109bc67-a0f8-4547-9713-88efc973c4e3
+3e2bd860-dbc9-4dac-b643-6a4c9bf20579,,668-518-7344x0594,Carter.Pediatric@dept.healthcare.org,"['et', 'en']",001-445-584-4671x163,540f3137-d09a-43b5-ba92-3a649cf31dca
+231ca0e2-8a32-4ad2-b657-181b6c3057b7,,349.910.0138x6581,Carter.Anesthesia@dept.healthcare.org,['et'],577-204-8875x9728,9d2e5daa-3788-47ce-bcab-7a91183947ef
+acee8c40-af01-42b0-91d3-1df83f181a9f,,426.623.0577x154,Carter.Urologic@dept.healthcare.org,['et'],9387443171,623fc5b9-976d-4953-a47f-1aaf5875de0f
+8680ae8c-0aaf-4e11-9e00-41ad97f151bb,,010 4402155,Riggs.Emergency@dept.healthcare.org,"['nl', 'en']",027-6331162,536ff84c-82c7-4e62-9f61-7ff963611515
+e723d345-83a6-449c-96b5-d8cd1b968a7c,,(0590) 188424,Riggs.Community@dept.healthcare.org,"['nl', 'en']",+31616-048469,275ab60d-7b1e-4ff7-8476-d9681803b6e7
+361aec2f-da7e-48c1-8207-6b2f3d7729cf,,(0846) 477996,Riggs.Psychiatric@dept.healthcare.org,['nl'],(0303) 524308,3922c73e-84d7-41e2-a0c5-f3291ea2d7d4
+429170e6-6b85-4a71-af69-c7cb082f054e,,+3110 1269407,Riggs.Geriatric@dept.healthcare.org,['nl'],+3139 9880320,87e8b9a7-1116-4820-a76d-4b32212178c7
+7985d15f-2f0d-4180-a9d3-54f04f09d600,,+31(0)720 904314,Riggs.Hematologic@dept.healthcare.org,"['nl', 'en']",0773-498674,8cff3e99-1e8e-4d52-aab9-c1851af0ed28
+1bafa8f1-3a5d-4fea-aa0b-38370a09d6b6,,(008) 1065335,Riggs.Plastic@dept.healthcare.org,['nl'],+31(0)10-7644694,901355e7-a6fe-434f-a6bd-a493a18b020e
+c35d84f6-1bcf-4a9d-bda3-c437027ededb,,(0605) 867996,Riggs.Otolaryngologic@dept.healthcare.org,"['nl', 'en']",0991-242898,fa17cbeb-6f9f-41b3-9605-e8bc77abb7f8
+b4e51962-666f-4b6c-8dc8-022471d3a220,,(0098) 416565,Riggs.Dentistry@dept.healthcare.org,"['nl', 'en']",+31(0)350-019861,cabd877d-48be-4890-9a9f-454686003bbc
+e66a59a3-b578-4a62-90c9-e76da443b0d8,,0426-963913,Riggs.Primary@dept.healthcare.org,"['nl', 'en']",0724-240035,e3677779-cd45-4722-bf9e-c8b457b0757b
+318cfc04-c210-45c8-8a78-0ca7656f0573,,(074)-6598211,Riggs.Pulmonary@dept.healthcare.org,['nl'],+31(0)641 894827,433ca80a-1b3c-4c49-9776-77c7555e4565
+16c5d27b-9f7b-438b-932c-d6d68ca35d1a,,516.929.9513,Mathis.Laboratory@dept.healthcare.org,"['et', 'en']",001-691-983-8727x95321,aa9bb48d-2134-44aa-bc8f-167a04d6466e
+783106a8-c2be-49c3-9bd1-87350ad460f4,,538.395.0218x13265,Mathis.Toxicologic@dept.healthcare.org,"['et', 'en']",(532)537-9645x24465,00d2ff48-c92f-4d5b-8f67-59680a0110c1
+8ae33628-6431-4f35-9d3d-d17fb21baa32,,+1-404-437-2028x35763,Mathis.Laboratory@dept.healthcare.org,['et'],+1-578-992-0906x20396,dfb0d760-9ace-4bd2-aae1-d0eee5efdaa5
+fddac323-160b-4dd1-a5e0-53025df40556,,+1-557-350-1390x164,Mathis.Psychiatric@dept.healthcare.org,['et'],935-578-6833x61770,b15fd5e8-fc3a-49ce-a2c5-a15cb3d7f89f
+66db4a6c-a0e1-4f5c-b197-2b86faf5c0fe,,913-765-4098,Mathis.Primary@dept.healthcare.org,"['et', 'en']",+1-715-440-4006x5079,98ed2175-7eba-4a36-994a-5bfdcf3f0e62
+007eb07b-2e3f-4de5-aa44-47d05eda74c4,,001-713-521-4775x023,Mathis.Cardiovascular@dept.healthcare.org,"['et', 'en']",3048290745,2fd35a4b-d18d-43c5-8532-25fe375c61ff
+a61cedfe-6c34-4398-8b0a-7a0177649182,,5452299746,Mathis.Diet@dept.healthcare.org,['et'],(784)326-4940,0c1b3c26-325c-4827-9f19-f370b83271dd
+d92b5dd1-a87a-4cf4-82f9-1322360583ce,,(0945) 365865,PriceRobinson.Gastroenterologic@dept.healthcare.org,['nl'],+31664-381415,85573355-b5f2-4c1d-909e-72632a8a9952
+d59e396f-76c8-4b95-a801-5f6cd6fbd54a,,0257 193634,PriceRobinson.Dentistry@dept.healthcare.org,['nl'],009 5894508,81fa55ad-573f-4cd6-8413-63f58ca9db0b
+fb142582-0147-4d8c-b8b6-8856b59cc32e,,(0361) 141526,PriceRobinson.Emergency@dept.healthcare.org,['nl'],+3113 1233851,06f7302d-62bd-49ae-a072-6dd9e0738191
+130ff1cd-9d24-4438-bef3-d9f2860a9fa7,,(031)-9509423,PriceRobinson.Obstetric@dept.healthcare.org,"['nl', 'en']",0879 859362,e73243e6-d087-40dd-a6b6-f42c360ae10c
+210e131d-e100-4ae0-8b13-5555207c440d,,0740 190587,PriceRobinson.Respiratory@dept.healthcare.org,"['nl', 'en']",+31(0)97-1305645,2cf6c298-413b-4c6d-aacc-59ee9875f4f2
+de07f4d9-1e96-46d3-9d97-b72890a9b5df,,+31926-844529,PriceRobinson.Endocrine@dept.healthcare.org,"['nl', 'en']",013 7153472,dc07f7ba-1aa1-4d8f-ba0b-aab0663b1799
+8faaf457-378d-44d1-933c-5cd395724a8a,,032 1567698,PriceRobinson.Musculoskeletal@dept.healthcare.org,"['nl', 'en']",+31(0)095-224292,af2b8e1b-fe5f-4e3b-9c19-85fceda86200
+052d3e46-b126-460a-a46c-859d56f8750a,,+31298-978166,PriceRobinson.Emergency@dept.healthcare.org,['nl'],057-9567127,677ea36d-9c15-4ae0-a3a9-4da989b923d4
+0403fe64-90b5-4fab-94a0-eef063c6eb6c,,+31(0)98 7338672,PriceRobinson.Neurologic@dept.healthcare.org,['nl'],098 4481074,93345811-d480-4956-88f7-07ca20d086a6
+44ebb1f5-640f-42f4-99cd-05f893eade81,,0901-133345,PriceRobinson.Rheumatologic@dept.healthcare.org,"['nl', 'en']",+31(0)86 3381050,f5b9cc00-6c51-4441-b9d7-e05aafde15ec
+9e41de9b-191a-4600-a3e7-221fb4b6b1f0,,+31(0)77-5923559,WilliamsWilliams.Dentistry@dept.healthcare.org,"['nl', 'en']",+31(0)96 6558627,b2205194-ab2d-4221-bbf7-ade9620fe455
+e5d816a6-478d-4633-b22c-00ca2051d42d,,090-0938555,WilliamsWilliams.Community@dept.healthcare.org,['nl'],+31894 020185,02483212-f702-4321-a90a-684302bbc635
+7e9c2bdd-74c3-4d27-85df-bb015efbe8f8,,(0180)-741517,WilliamsWilliams.Dentistry@dept.healthcare.org,"['nl', 'en']",+31866-189026,627a91fe-afdb-444c-a5c2-2565bf0f959f
+54bebb87-dec3-4ecc-b13d-56054ce4cb9c,,(054)-1527076,WilliamsWilliams.Gastroenterologic@dept.healthcare.org,"['nl', 'en']",0530-539813,4a6e9dde-750e-47a7-beaf-e5b2f6ecd320
+d287386c-799d-42ab-afcc-9f0c7bf21b2a,,038-4595699,WilliamsWilliams.Dentistry@dept.healthcare.org,['nl'],+31(0)16-3037583,68159dd7-e780-4601-9430-efd12d92532d
+4617b495-2ffe-46bc-b326-9ba73ce7c042,,+31209-986267,WilliamsWilliams.Community@dept.healthcare.org,['nl'],047 5469681,c838435a-c5de-42ff-8577-c89bbbc173c7
+7af784a0-e6a1-4321-9989-7e98cbbace7f,,+31(0)559-254972,WilliamsWilliams.Infectious@dept.healthcare.org,['nl'],(0417) 241258,fd328aa5-7b82-4faf-9787-fdcd92942cc6
+875d7371-ea13-4e39-a55e-bafa01aef956,,+3105-5131860,WilliamsWilliams.Oncologic@dept.healthcare.org,"['nl', 'en']",+31(0)943-281583,a1ba4586-e54d-47a1-8260-845744ab05ee
+a4e68764-e75b-40fe-a3aa-daaf250fa2d3,,0506-090390,WilliamsWilliams.Gastroenterologic@dept.healthcare.org,['nl'],+31(0)138 665113,4b833e20-73bb-449a-8096-34b215d3c9ba
+efe8ae7e-b483-4d53-93be-a16a61be262e,,+31486-719061,WilliamsWilliams.Endocrine@dept.healthcare.org,['nl'],+3148-0052135,3b4e134a-8367-4cb1-909c-0f916e999c46
+b5f50fc0-537f-4671-9628-8c3f4fcc8f77,,876-767-5502x71852,Daniel.Neurologic@dept.healthcare.org,"['et', 'en']",7762925773,ef1cc4d8-e21d-4459-994e-36b30e016456
+80068b82-d00d-4896-90bb-212b579bac19,,507-800-2072,Daniel.Dentistry@dept.healthcare.org,['et'],(203)528-0312,9d1a45ce-abdc-4286-9d33-37cbfd61c6fc
+0ebac542-10da-41e5-aaf0-32714d490a38,,(373)813-7056,Daniel.Physiotherapy@dept.healthcare.org,['et'],(669)386-4268,badf79f7-b45d-472e-b078-c9f4db0d4810
+2df4bb81-735b-4f8a-ae19-a0160da72d79,,688.430.5334x4664,Daniel.Primary@dept.healthcare.org,['et'],9322973887,ece6ce51-ceea-4c09-9b10-61e27efc5b0d
+a6019e77-a30a-45fa-9d8a-4c677c10cd02,,001-842-534-9974x42438,Daniel.Surgical@dept.healthcare.org,['et'],508.224.9534,b964a0c7-a670-4775-a8d4-4ca7918a4325
+f082a926-ec9c-4359-ba53-ca2931ad653d,,001-944-984-5940x05165,Daniel.Psychiatric@dept.healthcare.org,['et'],001-658-622-0693x123,e7b550fa-b56b-4796-ad82-85675feaf4a9
+252cfa6b-6006-4e86-8751-e2ff835b0243,,871.274.3660,Daniel.Surgical@dept.healthcare.org,"['et', 'en']",(417)435-0278x7680,91abd31a-a8c5-479e-89f4-8eaad57afab9
+364be32e-74bc-4b87-abc6-82da51edb612,,+1-419-534-4037,Daniel.Endocrine@dept.healthcare.org,"['et', 'en']",(300)575-8600x802,785f60a7-3766-4856-8b97-14b05ca5042e
+602536f7-18fa-462c-b0da-06194372a4f0,,(0371)-586979,Lam.Gastroenterologic@dept.healthcare.org,"['nl', 'en']",(031) 4676244,2b289138-e6a4-4bed-8b33-d390c04db309
+b9982702-10ee-4059-a7db-d4f4dabb76cc,,+3177-0494329,Lam.Gynecologic@dept.healthcare.org,"['nl', 'en']",0481-166815,028dba17-7f30-4ca3-916d-5d35e4a85e2b
+b1b9bc63-9036-4280-890b-5a1b2c28ed24,,+31(0)888 996052,Lam.Urologic@dept.healthcare.org,"['nl', 'en']",+31(0)840-500035,e6759c13-1a34-4898-88e4-3374e2d796df
+dadcf7ea-d8fb-4abd-9c29-ce5013b51a4f,,+31(0)690 529750,Lam.Infectious@dept.healthcare.org,['nl'],0438 982697,7e48a1c8-ef4d-478a-b195-c85b1a78dfc0
+d94adcab-5fe2-4ed4-9b08-7f3f395798ea,,(091)-0046863,Lam.Obstetric@dept.healthcare.org,"['nl', 'en']",069 8057358,48a787be-4055-4dbb-b250-43396f9c2d00
+7449cbd5-4232-4d2f-8e64-c9f1c883337f,,0411 389532,Lam.Gynecologic@dept.healthcare.org,['nl'],(061)-5012116,e6d2b4cf-165f-41e2-977c-f2ae98d1bbfa
+64cf4e39-394c-4ccb-897b-abc363c3e52c,,041-6851453,Lam.Midwifery@dept.healthcare.org,['nl'],+31(0)51-0703141,628d87fd-2b74-489d-bd38-c859f810cd78
+c5c64704-6629-4a74-8075-cfcc442e723d,,731-869-9906,Smith.Rheumatologic@dept.healthcare.org,"['de', 'en']",+1-607-584-5704x04432,c24d532f-ca10-425a-912a-21749d270596
+a05da802-e847-4c9b-b7c3-2b64bff8f522,,(368)683-7733,Smith.Community@dept.healthcare.org,"['de', 'en']",(990)864-4884,18f13c60-2bbe-4100-a162-113f8285b5e8
+67529fbb-b092-4d20-a094-ff9a94780d19,,962-548-4908x482,Smith.Pathology@dept.healthcare.org,['de'],(203)449-4197x29415,b311e39c-69d1-4180-b4c1-423311a3c10e
+de16efc2-0bcc-4056-96c0-fa09ca5b2cdc,,999-459-5271,Smith.Psychiatric@dept.healthcare.org,"['de', 'en']",001-476-678-4736x5076,b33f3fa4-5cf7-42d5-867c-6e856d63565f
+9ac72958-6ba3-481d-bfab-3cb8a35c1a33,,001-545-371-0054x6936,Smith.Gastroenterologic@dept.healthcare.org,['de'],001-414-790-6456,56b69aea-ad2f-4073-bdeb-9011bbd09a1c
+184aaba7-82c1-4121-bc5f-8ec3a4a1bda0,,617.520.9250,Smith.Plastic@dept.healthcare.org,['de'],(718)257-9199,3d115920-dfe6-4c51-b1a2-61d82da2f193
+fe0c5393-6852-46c8-9cd4-63053c8cef6d,,243.280.8708,Smith.Primary@dept.healthcare.org,['de'],925-477-8162,0907a963-cf62-4de6-9131-507d92f42460
+ff88503f-8890-4ecb-8ea7-888ba5142a41,,891.719.2729x010,Smith.Speech@dept.healthcare.org,"['de', 'en']",815-467-9103x12707,c59e8235-0d28-4925-b248-50451406baa6
+69bcd91f-c29c-43a8-a281-25a8bede67ee,,+1-910-395-3515x25390,Smith.Pulmonary@dept.healthcare.org,"['de', 'en']",001-729-457-2827,1d697cd0-0662-43bd-98d6-1ed43f78ee36
+7c5c8682-60ed-436a-8463-1d2415b2c5e7,,+1-307-742-4307x470,Smith.Obstetric@dept.healthcare.org,"['de', 'en']",001-439-483-6361x2414,5175198f-ef88-46fd-a58d-b4e449a3421c
+073721df-befb-4dbc-b22e-0f444cbb8b90,,247-766-5676x30145,Newton.Dermatology@dept.healthcare.org,"['de', 'en']",657-519-9209x1630,6da2ca98-e73b-4250-97db-48e4ba159c23
+05c8d25c-9e5a-45c1-a94b-981404ab864b,,923-433-4113x710,Newton.Emergency@dept.healthcare.org,['de'],001-656-365-7299x03631,970e912d-82b3-44b0-b6d4-af46d1e16baa
+2ebc8fd2-a6e3-4ad3-bb99-0be4e8724633,,+1-722-390-3140x32696,Newton.Urologic@dept.healthcare.org,"['de', 'en']",891.667.9012x7643,4ee79c5a-55fd-4bb8-91c0-ccb1d0ebc1e4
+37b9b0e1-9ad6-4643-bfce-babae43c5404,,(399)510-6064x458,Newton.Podiatric@dept.healthcare.org,['de'],(615)203-8619x181,7c923fb0-29ec-4824-b19e-071d267dad13
+b081f1a2-0fb7-4d46-8dad-6afff7c33c8c,,(901)538-2849,Newton.Toxicologic@dept.healthcare.org,['de'],(867)714-4618,cbc6b166-d5ad-4c81-86bc-1e2a7e9d98fd
+fbef6831-3975-475c-88de-bd07ff1c70e4,,964-588-3497x992,Newton.Endocrine@dept.healthcare.org,"['de', 'en']",9515762700,325ac15c-3391-4a64-9ff3-c8b23064f0fc
+60160219-82db-46bd-a698-138404521619,,+1-586-358-7107,Newton.Community@dept.healthcare.org,['de'],287.724.1988,c72d2b32-8295-4c28-b759-9b77ce1be150
+935a3a1b-0bc0-492d-8950-d73b63edad9a,,953.701.8689x3956,Newton.Genetic@dept.healthcare.org,"['de', 'en']",967-716-8433x225,1a1636ce-12ae-47a8-89d1-d42494296b68
+b863d3cf-41ed-4d72-a0b5-19000f2f61bc,,656-723-1695,Newton.Toxicologic@dept.healthcare.org,"['de', 'en']",(560)592-1070,37b84200-2207-48f5-a2ab-5123047286ac
+7ff9a44e-4790-4e57-845c-0091feb0cea1,,001-420-835-4722x18981,Newton.Pharmacy@dept.healthcare.org,['de'],(460)679-4612x38569,4f4390d0-47e1-418a-915d-3e443adf6a11
+0f6379d7-b1a5-4d92-a0aa-d7e39496391e,,563.621.3624x987,Arnold.Speech@dept.healthcare.org,"['et', 'en']",633-885-3094x4978,976545fd-4982-493b-88e0-e8df688ba9e7
+79c4c6b0-a750-4bb7-a8b0-f93454da474b,,+1-660-751-7435x7670,Arnold.Nursing@dept.healthcare.org,"['et', 'en']",375-594-9393,09b521fc-7d51-4f5e-9855-226a6ec6b631
+9cd48781-7fe0-4ce9-8e59-db431f34613a,,694.435.5416x81863,Arnold.Musculoskeletal@dept.healthcare.org,['et'],(332)813-4408,a30e30dc-1349-4ec4-ba5e-999e23ff34b7
+b14b6f2c-9715-46d8-b115-d4ffc36cfc30,,693.326.6496x6712,Arnold.Toxicologic@dept.healthcare.org,"['et', 'en']",677-447-9583,aa4a4a8b-057d-44a3-a99c-e4cdfc9fe8b0
+c3473ba9-cd08-48b5-acd4-143a6495ad82,,799.475.4308x95127,Arnold.Dermatology@dept.healthcare.org,['et'],+1-286-771-2721x647,598c3b62-5edb-4437-a375-545dcc14577b
+069df99e-59b7-4ad7-92f4-e83238d504bc,,424-377-9740x712,Arnold.Renal@dept.healthcare.org,"['et', 'en']",5366036318,dad39cfe-ffb3-44a3-a34c-3f1890645d72
+ad7a3928-62fb-4501-ae01-e227d76c18cb,,+1-869-234-9017x975,Arnold.Surgical@dept.healthcare.org,"['et', 'en']",5382180255,1e804c7b-fba4-4c0f-a6e6-a50615152e75
+15e64f74-832b-42f4-bd1a-aef9ad474726,,+1-514-546-9752x519,Arnold.Obstetric@dept.healthcare.org,"['et', 'en']",+1-222-594-2249,f7ddf9a6-a499-4205-82cf-1dd3dd79270b
+855e879b-a90b-4c11-896a-b1ef17966116,,001-571-361-8056,Arnold.Geriatric@dept.healthcare.org,['et'],287-722-8674,06bad44c-60bb-4747-aebb-8b34328b9a83
+68301b62-18ff-47b3-af05-7f2a5d832b9f,,+1-709-625-5689x829,LeePatton.Pathology@dept.healthcare.org,"['de', 'en']",(667)512-4257,e069d95f-92bb-4f1f-b775-bba92fe5d822
+2ba73fa6-2479-434f-b08b-81115149ef1c,,352-599-1118,LeePatton.Pediatric@dept.healthcare.org,['de'],(838)551-1985x8596,43568c9a-2eaf-4555-a362-1fc63bd4c612
+65d9c43c-3e97-4a88-8298-c51d7ad20be5,,512-533-8071,LeePatton.Midwifery@dept.healthcare.org,"['de', 'en']",939.323.3323x132,48cbdf4c-aa99-4864-9ee1-ecbacc106506
+44ff8654-3dd6-4097-924d-5430a4e2ef37,,784-732-2007x2721,LeePatton.Hematologic@dept.healthcare.org,['de'],(831)743-2871x79740,9efa5314-a5a0-4481-8273-de5a4028539c
+7c17dc57-76e7-4885-9324-2446af0c51a8,,(549)984-9987x6792,LeePatton.Speech@dept.healthcare.org,['de'],4198521617,caa831ba-98fb-439b-93ba-77151f224a02
+483481b0-af13-4ed9-bece-4c174bceec1a,,(563)742-8996x132,LeePatton.Dermatology@dept.healthcare.org,['de'],209-363-4597x2938,4605dc4a-549f-4214-aae4-f71bf91e6fef
+f6b13775-e3f5-4901-90be-444d87bc2e0b,,001-366-736-9526x455,LeePatton.Infectious@dept.healthcare.org,"['de', 'en']",(515)498-3601,7a299619-d524-4973-8b8e-1c51ee31aabc
+965588d3-78d7-4449-9026-09f05ce4c10b,,819.719.8417,LongMartinez.Primary@dept.healthcare.org,['et'],286.250.6068,436bd6b0-6171-4776-be66-203207f61f43
+f68c8a9b-6492-4069-bd53-ac790ec3fcd2,,(995)800-1949x4682,LongMartinez.Physiotherapy@dept.healthcare.org,"['et', 'en']",(849)440-4525x5757,7ef1748c-5e0e-4282-8ff7-46524db8f463
+c7a773ff-6abc-400f-a4ff-45b01253367b,,8724383779,LongMartinez.Hematologic@dept.healthcare.org,"['et', 'en']",001-861-780-8548x852,a5800fe0-c2b4-4ef4-8459-7d0edede780b
+b0e1c4b9-1f00-4c10-ab46-152b08eaf7cd,,(786)516-6261x65962,LongMartinez.Optometric@dept.healthcare.org,"['et', 'en']",(986)831-3507x6668,17485c67-b3a9-4280-a27f-0e232afcfb18
+37fec54a-96fd-421b-b73b-adb971b632e7,,346.622.0231,LongMartinez.Respiratory@dept.healthcare.org,['et'],(872)381-7936x662,2c7fcbfe-ef73-4a0d-b919-ce67f9921fb2
+5d3beddb-92ff-41b4-9f58-e17d0d4fce80,,+1-684-878-6942,Johnson.Gynecologic@dept.healthcare.org,"['de', 'en']",(704)280-9843x0781,dd1d44e8-1d67-4e22-ad42-ec4ed1f4d64d
+fd3723f2-d86f-45b2-b348-14d372f012bc,,001-239-652-6514x45185,Johnson.Cardiovascular@dept.healthcare.org,"['de', 'en']",+1-577-817-7002x6210,10c68cfe-4f2c-4bfa-84d5-86dbca2e255f
+3af52bc4-cf00-475a-85b1-508f47f06205,,(767)407-7108,Johnson.Rheumatologic@dept.healthcare.org,['de'],957-952-6620x65098,464be134-9595-4e63-a138-a502a0c460ab
+8c7c52ce-0a08-4606-ac1a-c2b95dfeffa7,,001-785-808-6459x61125,Johnson.Genetic@dept.healthcare.org,['de'],461-881-4286,5de4a916-8818-4942-b427-d996801688d2
+3eaf2b8d-4163-4cb7-92f7-ef645817a885,,623-975-8747,Johnson.Diet@dept.healthcare.org,['de'],3017749469,594285f4-28ca-4565-bac7-8d4dc9256e17
+9a61493c-7524-46b8-b6a2-f1522a96c1a2,,0565-447879,BuckBurke.Laboratory@dept.healthcare.org,"['nl', 'en']",+31610-043398,be76feab-3fe3-4ef9-9234-21832eefb25b
+04106437-a718-4c4f-bb48-82373d356503,,060 0853882,BuckBurke.Pathology@dept.healthcare.org,"['nl', 'en']",+31(0)62-6422329,5e5a7b11-b9bd-450e-b463-c38f4db90cef
+02497bbb-334d-4ea0-8b86-aa9fa33c7184,,055 4410510,BuckBurke.Dentistry@dept.healthcare.org,['nl'],032 3614982,a8dd31df-a59a-454d-a4bf-82d728eac906
+916ebfa3-9d9b-4bfb-a944-827516f7d7da,,(0558)-089833,BuckBurke.Infectious@dept.healthcare.org,['nl'],+31(0)226-009647,afaaf44c-5482-42d3-afc6-d195af9d872a
+1aa0a644-5996-4e89-a527-aba9a37ee7bd,,+31115 101824,BuckBurke.Primary@dept.healthcare.org,['nl'],+31(0)733 359514,a529c5c4-2131-4d8a-b876-74dc7d8c3b75
+5e6b62cc-42e2-4918-a729-c0733296be48,,(097)-6025894,BuckBurke.Laboratory@dept.healthcare.org,"['nl', 'en']",+3130 4299423,35f690e9-6daa-47f7-b91b-cee8477c2eaa
+f56f4686-5ff9-4845-80e6-5c38a33df2a7,,0520 195182,BuckBurke.Pulmonary@dept.healthcare.org,"['nl', 'en']",+31300-477006,21f2f77d-e8eb-438d-b874-94700305ba49
+2452c16b-fba3-488c-928e-9dddcfb8db62,,572-909-2344,GibbsReese.Community@dept.healthcare.org,"['de', 'en']",001-554-221-6087,1ceea295-d1df-45ed-8a1e-6882da516fed
+352194a1-5ecb-41dd-b144-177a46961ab9,,+1-403-755-3875x5229,GibbsReese.Hematologic@dept.healthcare.org,"['de', 'en']",265.865.5500,c5bf954d-0a9c-40c0-8129-7e8e34cf3d5d
+b6e552f1-2689-4ec5-a20b-4cabec1f6219,,646.346.6651x804,GibbsReese.Laboratory@dept.healthcare.org,['de'],+1-569-375-8884x869,791f0d9d-02e0-4995-8a3f-4bd99cedd191
+3c5b1515-64ee-470d-8fcd-b2bf4aea7bb8,,339.362.3101,GibbsReese.Infectious@dept.healthcare.org,['de'],(674)609-2621,9b28fcc2-c555-4816-8fd6-82749f9e4255
+c757e5cc-d9f7-49d2-adec-bd31b034d9c3,,879-839-9381,GibbsReese.Pathology@dept.healthcare.org,['de'],258-816-0221,91bd3fdf-c4cd-4d57-b59b-05fa3ed3bfbf
+72014221-0309-4df8-aed9-e02ff926c1a6,,(719)394-5021x0498,GibbsReese.Community@dept.healthcare.org,"['de', 'en']",001-583-617-7730,d2764690-5453-4720-8274-3edb9489cd28
+967680d6-6f1d-4843-b96e-8848926161f1,,602.202.8187x957,GibbsReese.Gastroenterologic@dept.healthcare.org,['de'],596.854.9487,689f74ea-108e-4777-95b7-1925686cdeaf
+91d23e38-7900-42cd-925e-a591979ec820,,820.933.6836x106,GibbsReese.Pediatric@dept.healthcare.org,['de'],(399)262-9221,f67473f9-f125-4b02-bb54-7015b8ea558f
+43c94fb4-ed2a-480b-8f0b-65f3e302d742,,001-946-394-0437x2706,GibbsReese.Musculoskeletal@dept.healthcare.org,['de'],550-474-8902x137,b4490f50-c45f-4d56-aea0-0ee8d24e2e20
+33dcdda1-3d0d-4e98-81e3-84cdf875af7f,,001-843-459-8882,GibbsReese.Optometric@dept.healthcare.org,"['de', 'en']",+1-475-359-8855x955,06fa8f94-4cab-4ab8-87b9-7ca2f6da8765
+0219f68e-f85a-4461-a31d-0280da93cb43,,+1-981-413-7263x57452,Cook.Anesthesia@dept.healthcare.org,"['de', 'en']",220-594-6820x8668,bba16224-4663-4bff-b0df-50beb8c9a6d3
+b6947a04-cbdc-4678-927a-60298f184847,,001-352-890-0420,Cook.Urologic@dept.healthcare.org,['de'],001-422-797-1434,4cc57b45-ca6b-4cda-9282-58767dd1c306
+8c7f304e-d9f8-4df6-b4ee-4201627c1da4,,001-277-281-4914x018,Cook.Dermatology@dept.healthcare.org,['de'],001-917-757-8574,db62bcf5-5f76-46c8-90e8-1e7c7b1a7528
+fdbb1aba-2172-407e-81c5-22c83703c1f6,,355.597.6288x1867,Cook.Primary@dept.healthcare.org,['de'],696-231-6937x983,308f3d08-410e-40fc-94ee-511c8b599c63
+866182dd-9fdb-4a42-882f-26deb21726f0,,350-227-5088,Cook.Community@dept.healthcare.org,['de'],001-746-576-8721x0996,c0c8489e-b7bb-4608-b731-b449f7f38542
+dd82bb98-b775-46d1-8180-beafd938773b,,759.370.5975x4947,Cook.Pulmonary@dept.healthcare.org,['de'],382-494-9741,35cb4e44-5282-42cc-b90a-b6294c781201
+6ba77dc1-dc2b-41a9-ac99-3dbfd908d451,,001-408-652-2873x3602,Cook.Endocrine@dept.healthcare.org,['de'],508-546-0002,77aa80d0-427b-4a96-ae24-e998b9a83e16
+0a85df65-83e0-4124-80db-ee94907cfb9e,,7607887631,Austin.Anesthesia@dept.healthcare.org,"['et', 'en']",793.987.1102,8ec10d46-b2ff-4c4f-b86b-a07bb54fe223
+e798661f-0055-4a31-9e2d-126649a825a3,,348-868-7578x97276,Austin.Public@dept.healthcare.org,"['et', 'en']",+1-429-503-3238x785,e02856bd-992c-4bc2-9a7a-d04f22d21847
+4b411c03-d60d-4516-ad0b-6170a4058c92,,(403)407-5452x6468,Austin.Rheumatologic@dept.healthcare.org,['et'],(890)673-4942x31631,c4d15705-8b1a-4951-a3cf-4a95937cdb03
+96fdc943-1a68-49a3-a66a-22968438c666,,(766)308-0455,Austin.Rheumatologic@dept.healthcare.org,['et'],645.942.2932,8395bd69-89a8-4c0d-acfe-54b3293ac00d
+7562d2d9-7341-4fa2-9ce9-bb0f27321017,,001-403-489-0102x079,Austin.Psychiatric@dept.healthcare.org,['et'],743-658-1950x5910,c66a764d-4c99-4848-a7eb-cbed076fdbae
+54950d96-0ea0-465d-ae32-e1168c21f89d,,651-245-5602x2960,Austin.Rheumatologic@dept.healthcare.org,"['et', 'en']",(853)964-3273x56003,231097ae-efcc-453c-8a2c-33955a0ab7e0
+562b731d-aa2f-45e0-887f-7aad67170730,,+1-560-464-8118,Austin.Surgical@dept.healthcare.org,"['et', 'en']",595-499-9067x12703,1dceefa6-27ff-45b1-8fd8-b369dd162eba
+c3e632ca-a86c-4298-bd36-c55da0ef5737,,001-888-387-2858x8598,Austin.Hematologic@dept.healthcare.org,['et'],(257)436-7809,d876ba3e-fae4-4de8-9da2-c90ce0cebd21
+c8775693-aec1-4a81-b2c5-36ca37749a24,,+1-530-330-4080x58378,ReedFry.Optometric@dept.healthcare.org,['de'],(443)232-1659x744,7f49992c-2e95-45b6-b4bd-bf67b5edc7eb
+341f7bd2-9b45-4cb4-9a35-eaaff1be9656,,501.828.4795x741,ReedFry.Neurologic@dept.healthcare.org,"['de', 'en']",(454)262-6764x3430,302242cc-2bdb-4f0c-a5da-896d4aec923c
+a5b91000-ed0d-4a9e-88cd-05174bf0c56b,,001-531-706-4992x229,ReedFry.Pediatric@dept.healthcare.org,['de'],998.575.7524x3580,b5b52170-ec3b-4a45-be86-e65c18ce1760
+c1a29a1f-e87a-4272-8b03-432712f18dac,,+1-274-335-9196,ReedFry.Endocrine@dept.healthcare.org,"['de', 'en']",797.626.1494x025,2a8bc6f6-9f66-4919-9832-91be68522a8b
+c6c0164f-aaff-493d-9fad-cc29982eccbd,,519.957.2589,ReedFry.Pathology@dept.healthcare.org,"['de', 'en']",(653)213-6727,58e71b7b-cc0a-4936-bb33-0e5fcb00bc7c
+881af396-de1d-4dc7-9898-b8aebbfb9eea,,(834)636-1216x51002,ReedFry.Radiography@dept.healthcare.org,"['de', 'en']",(538)271-1821x53945,c2d99561-8013-4073-b949-c2a24a6e1526
+e4cf0082-cc57-424d-a886-540c5821d02b,,(206)249-1658x8042,ReedFry.Midwifery@dept.healthcare.org,"['de', 'en']",+1-654-297-7018,2b6a1d95-d729-46ba-a107-0ff02081671b
+c257c95f-a917-4caa-b8b9-37b59463a82e,,726-420-6632,ReedFry.Toxicologic@dept.healthcare.org,['de'],402-692-9438,1e3f6d3e-27b0-47f3-ad76-31fc71e16a87
+8d1acaa9-496d-45ea-bf53-eadbf2831c8b,,001-651-735-9834,ReedFry.Dermatology@dept.healthcare.org,['de'],001-270-498-4558x306,53295c46-1fa9-47e3-b5df-1a9da2faf159
+bb18d12a-fdec-4688-9a82-299b6eda16bd,,356.276.1728,Guerrero.Physiotherapy@dept.healthcare.org,"['de', 'en']",+1-540-271-5120,f33c5682-6053-494b-9db0-3e9a0c248f08
+0359d09f-b81b-4d2a-9904-5bedb6af52ce,,278.430.0803x602,Guerrero.Toxicologic@dept.healthcare.org,"['de', 'en']",653-707-5799x3855,35d5230f-9193-4af4-91fd-9097a31d9ef6
+880a1fea-c309-4e4d-bc54-198d23744286,,001-718-415-4294x40567,Guerrero.Geriatric@dept.healthcare.org,"['de', 'en']",(488)926-3318,937b1cb5-9a7f-4ed4-aef1-fbb620ee7327
+3e42afac-4dff-4d98-b38c-8a5b9bfcb7ac,,001-299-358-0386x8709,Guerrero.Geriatric@dept.healthcare.org,"['de', 'en']",500.653.0708,e3eacc96-ae74-4428-8839-944dda76035f
+c49156be-79af-48fc-9633-ce430e66408d,,(654)801-0577x23112,Guerrero.Dermatology@dept.healthcare.org,"['de', 'en']",001-401-487-4899x431,60286ee0-5526-40ce-a430-4d47db54d7ee
+b10f2c3e-349e-4168-8ee2-5177183f8bef,,001-237-869-9643,Guerrero.Rheumatologic@dept.healthcare.org,['de'],(925)213-1356x2211,db410c2e-3aec-435b-a24e-05ffdd79c474
+c958ae84-96e1-4ae2-b0e5-2006845df0c3,,442-706-5159x5631,Guerrero.Public@dept.healthcare.org,['de'],(289)805-1688,aacf7c01-6bf7-411e-a545-aafca2a8d7f7
+04440882-ae17-481a-b9a7-9d923dbe79b9,,+1-903-748-4741x361,Guerrero.Radiography@dept.healthcare.org,"['de', 'en']",(374)615-7838,60f210f0-06ad-4140-883d-5ca3616a87da
+c3388a53-847b-4c8c-a7d1-e05dc233c55c,,584-725-0107,Baker.Gastroenterologic@dept.healthcare.org,['de'],(230)733-7758x92537,fe9a3c26-7dbe-48f5-8aee-b090601bb630
+a8973cc0-093c-4ecb-8e60-083d7458584d,,584.201.8196x08400,Baker.Speech@dept.healthcare.org,"['de', 'en']",904-879-6490x74687,6cdbb48c-b3b3-4d5e-a77a-d1148a35ad5c
+1b4b7dd4-e8da-42e3-9c20-dde956f837bc,,601.890.5258,Baker.Optometric@dept.healthcare.org,"['de', 'en']",001-677-770-8160x985,5968b4b7-91ad-42a0-a820-53e2d813db5e
+ea7b45c1-7a2e-4fb5-9943-9447856bf2c8,,499.900.8885,Baker.Respiratory@dept.healthcare.org,"['de', 'en']",(588)583-2696x03608,da324532-ef91-4809-9b05-b8cb99fbc141
+9057b6b1-9d5e-41e1-b87c-899afb4a29f6,,(629)875-5172x249,Baker.Urologic@dept.healthcare.org,['de'],(233)265-2900,dc21c621-ccc7-48df-a82f-5c7eaeb502c3
+46397c9d-4322-419d-9404-6e2244ec637a,,569-301-5726x711,Baker.Optometric@dept.healthcare.org,"['de', 'en']",3814210311,ac6ceb8a-75a8-4ab6-89a2-ff858174332e
+50e6556d-c23e-4762-85b3-3dc72e9e1cf6,,993-475-1775x08313,Baker.Podiatric@dept.healthcare.org,['de'],278-400-1316,b3063ec4-040b-4e15-b296-d8322fca696a
+e4915986-6712-40b0-bc2a-e703e3250857,,001-958-733-1999x824,Baker.Genetic@dept.healthcare.org,['de'],(973)655-6902x675,9f7411e7-6400-434e-93fa-4235ccb93f91
+b08ccd8e-faea-4e63-b115-aa45aa67eeec,,001-229-863-8942x09877,Baker.Anesthesia@dept.healthcare.org,['de'],(786)610-0132,7aa95e0c-880f-42fd-96a6-1a5d05516291
+87eeeff5-5bec-4817-a381-2fb473de570d,,(910)368-8779x391,Baker.Cardiovascular@dept.healthcare.org,"['de', 'en']",+1-347-793-9685x69840,d57a00a3-4600-4654-b637-9ee556bf4493
+43b07542-07d4-4b93-87b4-a1ad2471ea9b,,+3115-3711172,ValenciaThomas.Pulmonary@dept.healthcare.org,['nl'],(041)-7298482,199831f0-8250-439c-bc84-e1d8786fd5d5
+f667d550-a3f3-4b90-b17b-826c07ac6598,,(0563) 689219,ValenciaThomas.Otolaryngologic@dept.healthcare.org,['nl'],(064) 3422451,9f77fa69-8487-41a9-b460-1e943c258fb9
+c5cdc4b6-efb8-4ba3-93c7-051ccd2296a9,,+31(0)050 475929,ValenciaThomas.Infectious@dept.healthcare.org,['nl'],(0103) 079567,9e996246-f4d3-435c-81d7-4a3ce30481a5
+720c21f1-ad41-4150-872e-ad8a1afc940d,,(020) 6208561,ValenciaThomas.Public@dept.healthcare.org,['nl'],+3160-6655565,0217f0a3-3096-445e-a061-ddc6765dfe41
+c23ca621-cfc1-4ee9-baca-d4f7a74ee9c8,,0437-924097,ValenciaThomas.Geriatric@dept.healthcare.org,"['nl', 'en']",081-1413435,138ea6ed-4e49-4628-9f86-9dbb3cd2d63f
+efd0fac2-5ecc-4d9c-aba7-f33afab817bf,,+31(0)16-6103758,ValenciaThomas.Geriatric@dept.healthcare.org,['nl'],067-0090355,d3e2736b-d15b-43f0-a149-9f675c8629e2
+ee330b3f-ff0f-48c7-908e-fbbe797a8517,,082-1686563,ValenciaThomas.Laboratory@dept.healthcare.org,['nl'],(041) 4622292,d7e5486c-066b-43ff-bfb0-7b560d823875
+2bd7e5e3-8a5c-4183-a3bf-0c5f4b02e286,,(041) 0559302,ValenciaThomas.Endocrine@dept.healthcare.org,"['nl', 'en']",(058)-7351419,888d1e8c-ccf5-4994-b839-30ee760b6d38
+172c96d5-4d63-4de1-bcf7-f2ad6e7074c5,,(092) 6092376,ValenciaThomas.Obstetric@dept.healthcare.org,"['nl', 'en']",+3197-1898513,b81c0cd4-f797-49ea-9872-daa0a2947b91
+794ce0dc-f27d-43e3-8cdf-c3f28cc01c7d,,0265 599503,ValenciaThomas.Obstetric@dept.healthcare.org,['nl'],0242-447800,83d685f7-9654-4df0-9e5b-9e4ac15bef1e
+276677a3-df22-4c3b-bb4a-8317fdaea11b,,680.695.9773x931,Obrien.Geriatric@dept.healthcare.org,"['de', 'en']",2518578223,ff4ab7c5-4d8a-42ce-97b8-323253f7489a
+e93cf65d-57bb-4eed-a486-a8b00cc45a3a,,001-592-222-2836x8684,Obrien.Optometric@dept.healthcare.org,"['de', 'en']",525.316.1891x9953,f628f550-d3cb-416f-b4b1-5a9793096bcc
+668dec89-d207-40ee-abc3-36942cf89385,,495.341.1344x98068,Obrien.Emergency@dept.healthcare.org,['de'],201-839-2071x5155,e36a614f-5812-447f-8276-e4480d3e2b86
+4b5b3bc4-0f48-41f9-bfec-7b41e420a408,,+1-432-267-7778x59022,Obrien.Diet@dept.healthcare.org,['de'],+1-675-496-3345,8c65fc7a-c938-4b8d-ab49-3e1162e61cf1
+00c85a71-9ed5-4298-a8d2-d85ac2543789,,2026010750,Obrien.Radiography@dept.healthcare.org,"['de', 'en']",460-529-6419x417,eff8b24b-af8b-4fbe-a5ed-5d8a8ff7401a
+1d699a3c-b1a4-4154-b4e8-4b0efffdd450,,(650)873-8401x041,Obrien.Otolaryngologic@dept.healthcare.org,"['de', 'en']",001-561-288-0097x06829,cf34a1ea-3318-4029-a3b2-f9f9cb578ed4
+db84fea0-cc68-40ff-9c31-2076bc339775,,325.313.9825x177,Obrien.Gastroenterologic@dept.healthcare.org,['de'],+1-754-412-2438x90681,08c64569-dc98-4e99-80a1-4ad8e17e7630
+fee7b4eb-5fad-47f7-b6ed-0ce07fffab73,,+1-342-322-0338x1177,Obrien.Hematologic@dept.healthcare.org,['de'],001-566-292-2396,f2dce1b5-0a0b-4e93-b07e-79b4774079fc
+bea9538d-ea62-432f-805e-639b89f5a270,,654-421-5099x63625,Obrien.Nursing@dept.healthcare.org,"['de', 'en']",323.303.3837x25660,19a14af2-15e0-41f2-907f-88de0fe8b3f2
+495071a8-b317-4487-8cea-be3f623023b7,,6013030717,Obrien.Anesthesia@dept.healthcare.org,['de'],922-656-0053x878,141c7bda-3578-47cd-9cbf-26cb9082bfd1
+29517dfd-5c5d-4689-b342-2bc546bd68e8,,695.588.1376x68944,Fisher.Genetic@dept.healthcare.org,['et'],5434557439,623ae7d8-4cc3-4606-b187-9eb87d453d9e
+d3b57c4e-3e10-4d00-aabd-5137d6742f2b,,(383)248-6763,Fisher.Public@dept.healthcare.org,"['et', 'en']",+1-559-950-7694,a4569258-9567-4664-ade3-57a96104ad32
+3cf925ad-2ccd-4069-88ff-beb320cd3ad6,,(969)675-0117x4387,Fisher.Cardiovascular@dept.healthcare.org,"['et', 'en']",836.719.9370x31554,573dfca2-89ea-4cb1-8d81-fde153860bcd
+d3ec78af-8c15-423a-862c-b64ed2df8bd0,,427.213.5480,Fisher.Otolaryngologic@dept.healthcare.org,['et'],(619)403-5767,14998517-6e5e-4126-9082-9e6189a14e1a
+77b46e31-426c-4db3-ba1c-aa51e35d6b09,,(993)824-1659,Fisher.Respiratory@dept.healthcare.org,"['et', 'en']",001-799-481-6492x60048,a3d5485d-a440-4b4e-8b20-0d7490fe65df
+1a799122-0dde-4b65-b42f-5f401073135c,,001-623-418-8431x770,Fisher.Psychiatric@dept.healthcare.org,"['et', 'en']",9787126493,2db6b14d-c54f-4abe-9543-d4396682988f
+a0b0e4ac-2ab7-4c20-a135-ca9c3976cbd2,,306-360-1684x334,Fisher.Pathology@dept.healthcare.org,"['et', 'en']",(468)305-3460x795,e5d6fb7f-0147-48f2-853b-8ffa4512a1e1
+6d99abb0-79d0-4066-a0ed-076ff53ed1b5,,349-582-8740,Fisher.Emergency@dept.healthcare.org,['et'],(496)890-6515x83885,e6cbe3a6-2f7a-40a3-b4f1-5f46c9e7f8ba
+16861fbf-2921-4a62-9aa3-dc089a77ae94,,001-227-419-5814x380,Bishop.Pathology@dept.healthcare.org,['et'],337-222-1289,2433b7fd-eced-4ce2-b3cf-6b78967d5a3f
+2470e98e-f423-406f-ad92-3259e06d92e7,,(628)798-1322,Bishop.Physiotherapy@dept.healthcare.org,['et'],+1-399-330-5644x7776,114ee720-68e0-45ec-a3f9-c7f2dd865ec6
+78b4fa20-0208-4663-9d04-211671f9bcf3,,838.506.7347x8750,Bishop.Infectious@dept.healthcare.org,"['et', 'en']",3486296654,a8043f49-61fb-4b45-9bf8-16597a0cb6f8
+1f2c7f1d-fcb8-4f73-9aef-27f66b4fe4c6,,001-681-342-9425x377,Bishop.Optometric@dept.healthcare.org,"['et', 'en']",350-309-0750x6000,e35724ed-26d1-4c53-948e-94d475070970
+2b81922e-f3ea-4893-aed8-2226266f8642,,588.804.1578x19735,Bishop.Plastic@dept.healthcare.org,"['et', 'en']",001-264-815-9757x8939,5c47c5a2-27dd-4d1f-acb2-5622eb37f4c2
+363f56f1-9165-4efd-82de-1fc50dbaa756,,(253)617-7670x48830,Bishop.Plastic@dept.healthcare.org,['et'],(542)282-8785,a77c6b54-f7f1-4de7-a74a-7fff513c6538
+8fb6bc99-b99b-4ebe-bde0-b06e8a4e5c7a,,+1-690-269-6830x2873,Bishop.Toxicologic@dept.healthcare.org,['et'],+1-255-648-9935x721,220c3451-2714-4f43-90f5-a5a010b03641
+454b6d7a-5fff-4dad-a227-ab7944cea439,,(676)411-4213x94209,Bishop.Endocrine@dept.healthcare.org,"['et', 'en']",733.591.6805x084,1dadcde9-ca4f-4281-ad58-323b4e1272f5
+f1fee53f-8c8f-43c5-ad19-b2c9620aaa7c,,001-309-273-9735x4739,Bishop.Infectious@dept.healthcare.org,"['et', 'en']",2536036701,b3d55a90-fb0c-47db-82da-2de29ae17ed8
+ee6dcf85-c409-4880-a5a9-b1c6e0e21728,,262.804.0716,Bishop.Otolaryngologic@dept.healthcare.org,"['et', 'en']",+1-223-450-5181x3575,ddbba0d7-af0b-453f-b5c6-a05da6e4a329

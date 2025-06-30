@@ -1,16 +1,16 @@
-identifier,healthcareOrganizationName,address,contactPoint
-06d2ed7c-e6ac-4d8a-8160-ff927c7550f2,Ibarra PLC Zorg,7d859725-c707-4ef9-86c3-744cc88e03b6,ef151673-a1df-4da7-9d44-c93e7799a8e2
-4a863655-0a9d-499c-a269-8c2d614f1ddc,"Berg, Long and Middleton Tervisekeskus",6bc9e970-c48a-4374-86dc-1579647640a1,29502326-7644-4183-9aab-d22d75ef8aab
-037d9752-48f3-431c-8fb7-c3bb4408c04c,"Jordan, Jackson and Kramer Zorg",6756264d-c864-4f78-beaf-167952b04994,57627626-2037-4089-b11f-a10a0b2975c6
-5d393bf9-b2da-41f6-8c16-014a2e4a6e78,Perez-Becker Gesundheitszentrum,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,fae3fcee-7636-4fd9-8376-ffa876fe579f
-c058a332-b4cf-4fa8-ac98-f73d27fe1b4b,"Griffin, Ross and Saunders Zorg",27649a62-b02d-452c-9b05-0db28ee4fd02,74151acc-f5a3-4893-bf7a-27482cbb93c2
-3e332f35-086c-4768-b0fe-3cfc991ab513,Novak PLC Tervisekeskus,99755cb9-7c76-4592-a73e-3f3b5c27761d,eec9fa67-4cc6-42fc-b006-ff85166a1a98
-92d6ff73-5b3a-4595-8458-92c14e0e15d3,"Delgado, Guerrero and Simpson Zorg",3856be31-f568-49c6-833c-14694f06ea18,b4480761-505e-4c9b-8bc8-8bcf7b1d4049
-9db3466d-1ba6-4c61-aaf9-4919e69b7971,"Parker, Murphy and Brooks Gesundheitszentrum",1095e497-3d79-4f0b-a6cd-3595d4f0d65d,23254d81-2bdf-4727-9501-e917496dc27b
-30d6863f-11c2-42d8-8126-77895c6be596,Kim-Todd Gesundheitszentrum,4598244b-f0bd-4405-a50d-d400a27ee80d,4e98ce25-1733-4a7c-93e8-36639c14940d
-71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0,Figueroa-Strong Zorg,8b279c29-a274-40d7-b4a5-cc36692a7bce,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c
-52ebdac5-a145-4899-a1f8-c1569e0df45b,Allen Ltd Zorg,ef7e85ec-a417-456f-a9ee-7f3d0ff030b8,0932f5b6-f11d-4ff7-8e37-05265582a3bd
-8b5885ca-0bb2-43f0-bd30-291a55fea08e,"Mcneil, Gonzalez and Howard Tervisekeskus",19d5f970-98b3-4c6e-8a14-b90a7795e986,eb21a3f6-e6fd-48e8-969c-91c278601602
-c7405255-25cf-41c4-9c89-929692b035e0,Burch LLC Zorg,541d1a81-4815-442c-a2bb-62833d83ad7c,7680891b-6bb6-404e-a0db-22d329e316ad
-27d99a23-e4f7-425e-afe6-790abc18a40b,Peck LLC Zorg,bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd,122411e6-ba89-42dd-85e6-9ea9db66bfda
-a59cec98-126c-4c8f-b888-447911ebcd49,"Robinson, Montoya and Walters Gesundheitszentrum",daf66c5f-2577-4ffa-887a-746319c16a0d,12f175ff-ae3b-46ec-9a27-d85888c132ad
+identifier,healthcareOrganizationName,address,contactPoint,anchor
+a41e6ccd-d0c1-44b9-a7da-c8d53626810d,Ibarra PLC Zorg,2fb2e908-4ffb-4ba9-bc7d-21df4bf426e3,7c781d92-534a-4aaf-a61c-bce5c63631ee,06d2ed7c-e6ac-4d8a-8160-ff927c7550f2
+bf3206ba-1e0d-4c22-992b-594d2752dd0d,"Berg, Long and Middleton Tervisekeskus",44cb8e91-e9b2-421f-b3ba-f42cd572e714,9ebbc757-b59b-4386-b239-47b1d07b139f,4a863655-0a9d-499c-a269-8c2d614f1ddc
+cc5f1a49-5d85-43f8-bb6a-164b69730ecb,"Jordan, Jackson and Kramer Zorg",84602dbe-46fd-479c-b606-b1caf073d43e,1421edd8-4917-4b35-a34a-e6e9da391146,037d9752-48f3-431c-8fb7-c3bb4408c04c
+8c9bb66f-8360-453b-bbe3-1fd1492b8f43,Perez-Becker Gesundheitszentrum,e4284dea-3112-4a0a-a1ec-54136a319877,e5b057bf-1cab-4116-98c6-3196f8daa82b,5d393bf9-b2da-41f6-8c16-014a2e4a6e78
+0a6d917c-99ef-4e39-80ed-3b6ac3266fbf,"Griffin, Ross and Saunders Zorg",97b11d83-d53d-4af0-ba4f-d6a9db60f1e7,2630dd6c-6ff8-4971-8d46-18751a0d2c72,c058a332-b4cf-4fa8-ac98-f73d27fe1b4b
+30e89979-4a7e-418c-acaa-f979a331e54f,Novak PLC Tervisekeskus,5a90a5f7-e23f-45bf-9f2f-4db09f6243d4,8a75f05d-04c6-472a-9925-83d8922ad7a1,3e332f35-086c-4768-b0fe-3cfc991ab513
+e9db2757-e0c5-4ea0-8ee7-29c07d09a465,"Delgado, Guerrero and Simpson Zorg",f966a11f-ac8e-448f-b0eb-ca727052cb26,7e3af6ff-5c49-4d45-9065-0d22f73d63ce,92d6ff73-5b3a-4595-8458-92c14e0e15d3
+615b2b92-fe9e-4ec7-a99b-a7136217c34b,"Parker, Murphy and Brooks Gesundheitszentrum",b23f93da-9655-44ad-9c27-3ccbd1e66908,43ee3a98-f7fd-4730-808e-e2f0b4682696,9db3466d-1ba6-4c61-aaf9-4919e69b7971
+8fcfaef8-12e8-4104-b70b-b270885f2cc3,Kim-Todd Gesundheitszentrum,50284bea-72eb-4b79-b707-d0de80912105,2c9b9c29-8d87-4aea-9a53-ee6e5cc33b1e,30d6863f-11c2-42d8-8126-77895c6be596
+9b59dbd2-1235-44b2-9540-b19964f6692d,Figueroa-Strong Zorg,ce3d5089-f5c0-444a-ae4e-0e365d1fb92a,9d6acf61-69f3-4924-a5d7-8cffe90ff783,71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0
+9e1ae78f-ed83-4d01-afce-3a5ec5f4b3ad,Allen Ltd Zorg,f787a17f-2389-41bf-a0f6-e149585a1aeb,ec6321ea-60aa-423d-8d7a-999c5ab5ed01,52ebdac5-a145-4899-a1f8-c1569e0df45b
+2232415b-7983-4b41-a2f2-5232be6b529e,"Mcneil, Gonzalez and Howard Tervisekeskus",6a178459-bd92-4eb3-b70b-9df119338f38,cabc7c88-4d42-4606-a2af-d8179998c610,8b5885ca-0bb2-43f0-bd30-291a55fea08e
+aa60aed9-81c1-4fb8-b023-b08b9998c8e8,Burch LLC Zorg,d2b76380-fd4d-4301-8148-0029bc17033d,8b2133d1-7a05-4f44-9ef0-f5cf1adf729d,c7405255-25cf-41c4-9c89-929692b035e0
+2f3d4c7c-23db-4e0a-83c6-a92cfd9aec3d,Peck LLC Zorg,9dab494d-c30c-4d5a-ae58-e42c3cb3e058,5d01f96e-84d2-4ff8-b18d-fe48ca730040,27d99a23-e4f7-425e-afe6-790abc18a40b
+4aafddd1-9809-425a-a352-24b87fdfc4bb,"Robinson, Montoya and Walters Gesundheitszentrum",3b335e26-1adb-46dd-9277-6999a263b92e,efa8ab87-89ce-40a3-b4fb-af5ff05faa92,a59cec98-126c-4c8f-b888-447911ebcd49
