@@ -28,7 +28,7 @@ if delete == "low":
         'Address': ['postalCode'],  # example fields
         'Person': ['birthDate'],
         'HealthcarePersonnel': ['email'],
-        'ContactPoint': ['fax'],
+        'ContactPoint': ['availableLanguage'],
     }
 if delete =="high":
     fields_to_delete_map = {
