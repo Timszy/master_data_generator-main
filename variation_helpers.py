@@ -70,20 +70,21 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
 #### Address variations
 # Updated address_variation function with balanced variation application
 
-def delete_literals(data_list, fields_to_delete):
+def delete_literals(data_list, fields_to_delete, delete_rate=1.0):
     """
-    Remove specified fields (literals) from each entity in the list.
+    Set specified fields (literals) to None for a percentage of entities in the list.
     Args:
         data_list: List of dicts (entities)
-        fields_to_delete: List of field names to delete from each entity
+        fields_to_delete: List of field names to set to None in each entity
+        delete_rate: Float between 0.0 and 1.0, fraction of records to delete each field in
     Returns:
-        List of dicts with specified fields removed
+        List of dicts with specified fields set to None in a subset of records
     """
     new_list = []
     for entity in data_list:
         entity_copy = entity.copy()
         for field in fields_to_delete:
-            if field in entity_copy:
+            if field in entity_copy and random.random() <= delete_rate:
                 entity_copy[field] = None
         new_list.append(entity_copy)
     return new_list
