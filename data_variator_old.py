@@ -1,5 +1,5 @@
 import pandas as pd
-from variation_helpers import delete_literals, introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation, export_duplicate_registry
+from variation_helpers import delete_values, introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation, export_duplicate_registry
 # When data already exists, we can introduce variations to existing records to create a more diverse dataset.
 # Load existing CSV files
 # addresses = pd.read_csv('Data_source/Sample_35_train/train_data/Address.csv').to_dict('records')
@@ -40,12 +40,12 @@ if delete =="high":
         'ContactPoint': ['contactType'],
     }
 # Apply deletion before variations
-addresses = delete_literals(addresses, fields_to_delete_map.get('Address', []))
-persons = delete_literals(persons, fields_to_delete_map.get('Person', []))
-healthcare_organization = delete_literals(healthcare_organization, fields_to_delete_map.get('HealthcareOrganization', []))
-service_department = delete_literals(service_department, fields_to_delete_map.get('ServiceDepartment', []))
-healthcare_personnel = delete_literals(healthcare_personnel, fields_to_delete_map.get('HealthcarePersonnel', []))
-contact_points = delete_literals(contact_points, fields_to_delete_map.get('ContactPoint', []))
+addresses = delete_values(addresses, fields_to_delete_map.get('Address', []))
+persons = delete_values(persons, fields_to_delete_map.get('Person', []))
+healthcare_organization = delete_values(healthcare_organization, fields_to_delete_map.get('HealthcareOrganization', []))
+service_department = delete_values(service_department, fields_to_delete_map.get('ServiceDepartment', []))
+healthcare_personnel = delete_values(healthcare_personnel, fields_to_delete_map.get('HealthcarePersonnel', []))
+contact_points = delete_values(contact_points, fields_to_delete_map.get('ContactPoint', []))
 
 # Save the structurally edited dataframes before introducing variations
 pd.DataFrame(addresses).to_csv(f'Data_source/Sample_35_train/train_struct/Address_{delete}.csv', index=False)
