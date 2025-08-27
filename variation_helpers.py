@@ -1,7 +1,6 @@
 import random
 import copy
-import re
-from datetime import datetime, timedelta
+import uuid
 from faker import Faker
 from deep_translator import GoogleTranslator
 import pandas as pd
@@ -12,10 +11,6 @@ variation_rate_default = 0.2
 # Dictionary to track all introduced duplicates across all entities
 duplicate_registry = {}
 
-# In variation_helpers.py, modify the functions to use a deterministic UUID generation
-
-import hashlib
-import uuid
 
 # Add this global dictionary at the top with other globals
 variation_id_cache = {}

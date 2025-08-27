@@ -438,6 +438,6 @@ dupe_contact_points = introduce_variations(contact_points, email_variation, vari
 
 # Export the duplicate registry for validation
 from variation_helpers import export_duplicate_registry
-export_duplicate_registry('golden_standard_duplicates.csv')
+export_duplicate_registry('ground_truths/golden_standard_duplicates.csv')
 
 
