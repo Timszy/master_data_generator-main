@@ -13,7 +13,7 @@ Faker.seed(0)
 # Function to store table data as CSV
 def store_table_as_csv(data, filename):
     fieldnames = data[0].keys()
-    with open(f"testdata/{filename}", 'w', newline='', encoding='utf-8') as csvfile:
+    with open(f"src/Data_Source/{filename}", 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for row in data:
@@ -427,17 +427,17 @@ store_table_as_csv(persons, 'Person.csv')
 #################################################################################################################
 ####################################################Original Data stored#########################################
 
-from variation_helpers import introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation
-# Apply variations with explicit entity type registration
-dupe_addresses = introduce_variations(addresses, address_variation, variation_rate=0.2, entity_type='Address')
-dupe_healthcare_organization = introduce_variations(healthcare_organization, organization_name_variation, variation_rate=0.2, entity_type='HealthcareOrganization')
-dupe_service_department = introduce_variations(service_department, department_name_variation, variation_rate=0.2, entity_type='ServiceDepartment')
-dupe_persons = introduce_variations(persons, person_variation, variation_rate=0.2, entity_type='Person')
-dupe_healthcare_personnel = introduce_variations(healthcare_personnel, email_variation, variation_rate=0.2, entity_type='HealthcarePersonnel')
-dupe_contact_points = introduce_variations(contact_points, email_variation, variation_rate=0.2, entity_type='ContactPoint')
+# from variation_helpers import introduce_variations, address_variation, person_variation, organization_name_variation, email_variation, department_name_variation
+# # Apply variations with explicit entity type registration
+# dupe_addresses = introduce_variations(addresses, address_variation, variation_rate=0.2, entity_type='Address')
+# dupe_healthcare_organization = introduce_variations(healthcare_organization, organization_name_variation, variation_rate=0.2, entity_type='HealthcareOrganization')
+# dupe_service_department = introduce_variations(service_department, department_name_variation, variation_rate=0.2, entity_type='ServiceDepartment')
+# dupe_persons = introduce_variations(persons, person_variation, variation_rate=0.2, entity_type='Person')
+# dupe_healthcare_personnel = introduce_variations(healthcare_personnel, email_variation, variation_rate=0.2, entity_type='HealthcarePersonnel')
+# dupe_contact_points = introduce_variations(contact_points, email_variation, variation_rate=0.2, entity_type='ContactPoint')
 
-# Export the duplicate registry for validation
-from variation_helpers import export_duplicate_registry
-export_duplicate_registry('ground_truths/golden_standard_duplicates.csv')
+# # Export the duplicate registry for validation
+# from variation_helpers import export_duplicate_registry
+# export_duplicate_registry('ground_truths/golden_standard_duplicates.csv')
 
 

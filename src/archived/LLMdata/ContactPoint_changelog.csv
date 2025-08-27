@@ -1,0 +1,172 @@
+row,identifier,column,original,new,variation
+0,12f175ff-ae3b-46ec-9a27-d85888c132ad,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+0,12f175ff-ae3b-46ec-9a27-d85888c132ad,fax,+1-303-621-7300x869,+1-303-621-73006869,Fax Number Typo
+1,eb21a3f6-e6fd-48e8-969c-91c278601602,phone,001-323-902-2584,001-324-902-2584,Phone Number Typo
+1,eb21a3f6-e6fd-48e8-969c-91c278601602,fax,+1-920-376-9845x64280,+1-920-376-9245x64280,Fax Number Typo
+1,eb21a3f6-e6fd-48e8-969c-91c278601602,email,Mcneil@healthcare.org,Mcnecl@healthcare.org,Email Typo
+2,122411e6-ba89-42dd-85e6-9ea9db66bfda,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+3,0932f5b6-f11d-4ff7-8e37-05265582a3bd,fax,(0670)-172009,(0670)-170009,Fax Number Typo
+4,ef151673-a1df-4da7-9d44-c93e7799a8e2,phone,+31194-264183,+31194-564183,Phone Number Typo
+5,74151acc-f5a3-4893-bf7a-27482cbb93c2,phone,+31825-717340,+318251717340,Phone Number Typo
+5,74151acc-f5a3-4893-bf7a-27482cbb93c2,fax,(0970)-341489,(0970)-341889,Fax Number Typo
+5,74151acc-f5a3-4893-bf7a-27482cbb93c2,email,Griffin@healthcare.org,Greffin@healthcare.org,Email Typo
+6,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c,phone,+31(0)211 669728,+34(0)211 669728,Phone Number Typo
+6,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+7,23254d81-2bdf-4727-9501-e917496dc27b,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+7,23254d81-2bdf-4727-9501-e917496dc27b,email,Parker@healthcare.org,Ptrker@healthcare.org,Email Typo
+9,57627626-2037-4089-b11f-a10a0b2975c6,email,Jordan@healthcare.org,Joraan@healthcare.org,Email Typo
+10,4e98ce25-1733-4a7c-93e8-36639c14940d,email,KimTodd@healthcare.org,KemTodd@healthcare.org,Email Typo
+11,7680891b-6bb6-404e-a0db-22d329e316ad,phone,+3192-6902906,+3192-6903906,Phone Number Typo
+11,7680891b-6bb6-404e-a0db-22d329e316ad,email,Burch@healthcare.org,Bunch@healthcare.org,Email Typo
+12,29502326-7644-4183-9aab-d22d75ef8aab,email,Berg@healthcare.org,Bexg@healthcare.org,Email Typo
+12,29502326-7644-4183-9aab-d22d75ef8aab,phone,(757)762-9481,(757)792-9481,Phone Number Typo
+12,29502326-7644-4183-9aab-d22d75ef8aab,fax,(757)680-3429,(757)680-3129,Fax Number Typo
+13,fae3fcee-7636-4fd9-8376-ffa876fe579f,fax,456.336.0906x1435,456.336.0906x9435,Fax Number Typo
+13,fae3fcee-7636-4fd9-8376-ffa876fe579f,phone,001-293-368-4735,011-293-368-4735,Phone Number Typo
+14,eec9fa67-4cc6-42fc-b006-ff85166a1a98,availableLanguage,"['et', 'en']","['Estonian', 'English']",Language Representation Variation
+15,42f81126-6c2c-40a7-a4e9-031675f80092,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+15,42f81126-6c2c-40a7-a4e9-031675f80092,email,Robinson.Midwifery@dept.healthcare.org,Robinson.Midwiiery@dept.healthcare.org,Email Typo
+15,42f81126-6c2c-40a7-a4e9-031675f80092,fax,001-889-320-4978x96373,001-8898320-4978x96373,Fax Number Typo
+16,d41cc2bc-e335-4f8b-91d5-6acf680fe5e2,email,Robinson.Respiratory@dept.healthcare.org,Robijson.Respiratory@dept.healthcare.org,Email Typo
+17,74286356-3c91-4458-a4b2-7e8301cbd9c2,email,Robinson.Obstetric@dept.healthcare.org,Robinson.Obstttric@dept.healthcare.org,Email Typo
+17,74286356-3c91-4458-a4b2-7e8301cbd9c2,phone,319.544.6541x9175,309.544.6541x9175,Phone Number Typo
+17,74286356-3c91-4458-a4b2-7e8301cbd9c2,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+18,091523be-650f-4375-a0fc-01e2bcd635cc,email,Robinson.Neurologic@dept.healthcare.org,Robinyon.Neurologic@dept.healthcare.org,Email Typo
+19,b5eca796-dc5f-4db7-87b5-2a8b0af01e69,phone,+1-491-974-9486x23198,+7-491-974-9486x23198,Phone Number Typo
+20,5536212a-58d7-46da-8f01-3f4e73961f8e,phone,566-904-3319x238,566-904-3519x238,Phone Number Typo
+20,5536212a-58d7-46da-8f01-3f4e73961f8e,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+21,c6d82ceb-a1ac-4d49-8d4d-daab72824622,availableLanguage,['de'],['German'],Language Representation Variation
+21,c6d82ceb-a1ac-4d49-8d4d-daab72824622,email,Robinson.Renal@dept.healthcare.org,Rnbinson.Renal@dept.healthcare.org,Email Typo
+22,c784499d-6909-4290-9496-a305314a332e,availableLanguage,['et'],['Estonian'],Language Representation Variation
+22,c784499d-6909-4290-9496-a305314a332e,phone,(813)857-7256,(813)897-7256,Phone Number Typo
+23,24fa9196-f801-4987-8008-cccf565e5ae7,availableLanguage,['et'],['Estonian'],Language Representation Variation
+23,24fa9196-f801-4987-8008-cccf565e5ae7,email,Mcneil.Diet@dept.healthcare.org,Mcneid.Diet@dept.healthcare.org,Email Typo
+23,24fa9196-f801-4987-8008-cccf565e5ae7,fax,+1-527-660-1015,+1-527-060-1015,Fax Number Typo
+24,2a630fd1-71cf-439d-aa1f-ff41af1b7013,fax,741-463-4637,741-463-4677,Fax Number Typo
+25,e16e3336-77b1-4e21-bccc-c53ac36a4162,phone,001-645-542-2375x0579,001-645-542-2315x0579,Phone Number Typo
+26,84ddf869-b816-4f1a-9677-013ba8e19b83,availableLanguage,"['et', 'en']","['Estonian', 'English']",Language Representation Variation
+26,84ddf869-b816-4f1a-9677-013ba8e19b83,email,Mcneil.Pediatric@dept.healthcare.org,Mcneil.qediatric@dept.healthcare.org,Email Typo
+27,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,availableLanguage,['et'],['Estonian'],Language Representation Variation
+27,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,fax,313-453-6095x2271,313-453-609552271,Fax Number Typo
+28,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,email,Peck.Podiatric@dept.healthcare.org,Peqk.Podiatric@dept.healthcare.org,Email Typo
+28,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,phone,+3140-4154353,+3140-4154313,Phone Number Typo
+29,80082244-1ac5-443b-b7dd-3c21e618d25d,email,Peck.Speech@dept.healthcare.org,Pech.Speech@dept.healthcare.org,Email Typo
+29,80082244-1ac5-443b-b7dd-3c21e618d25d,fax,038-9317356,032-9317356,Fax Number Typo
+30,66ab247a-75fe-400c-8407-32b4ef1772f4,fax,(0921)-163416,(0991)-163416,Fax Number Typo
+31,a7486875-29bd-4604-bed2-7848c6950d85,phone,+3118 9245783,+3118 9245773,Phone Number Typo
+31,a7486875-29bd-4604-bed2-7848c6950d85,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+32,49556582-7e54-4d03-aef4-2592ec1c6fe4,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+32,49556582-7e54-4d03-aef4-2592ec1c6fe4,email,Peck.Infectious@dept.healthcare.org,Peck.Infectkous@dept.healthcare.org,Email Typo
+32,49556582-7e54-4d03-aef4-2592ec1c6fe4,fax,+31417-201745,+31717-201745,Fax Number Typo
+33,047595fb-338b-4372-a00c-ea03b7d52dce,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+33,047595fb-338b-4372-a00c-ea03b7d52dce,fax,0621 208435,0621 408435,Fax Number Typo
+34,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,email,Peck.Radiography@dept.healthcare.org,Pejk.Radiography@dept.healthcare.org,Email Typo
+34,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+35,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+35,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,phone,+31996 776098,+319964776098,Phone Number Typo
+35,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,email,Peck.Rheumatologic@dept.healthcare.org,Pecu.Rheumatologic@dept.healthcare.org,Email Typo
+36,5aa970d9-801a-4ff7-a6cd-d662c4e813db,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+36,5aa970d9-801a-4ff7-a6cd-d662c4e813db,fax,(099) 9073342,(099) 9073842,Fax Number Typo
+37,cec1871a-b5c8-4060-89c7-35079d592a7b,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+37,cec1871a-b5c8-4060-89c7-35079d592a7b,email,Allen.Renal@dept.healthcare.org,Allek.Renal@dept.healthcare.org,Email Typo
+38,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,fax,+31219-957937,+35219-957937,Fax Number Typo
+38,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,phone,+31(0)872-208716,+31(0)872-201716,Phone Number Typo
+38,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+39,7e39fd94-f850-4bec-a7f5-794c007ea2cb,phone,+31747 857914,+31747 877914,Phone Number Typo
+39,7e39fd94-f850-4bec-a7f5-794c007ea2cb,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+40,c47090c6-bad8-4464-959b-0d078f022246,email,Allen.Pediatric@dept.healthcare.org,AllenmPediatric@dept.healthcare.org,Email Typo
+40,c47090c6-bad8-4464-959b-0d078f022246,fax,000 3610679,000 3615679,Fax Number Typo
+41,28986430-fabd-4787-bd5a-95ecc315c8b0,email,Ibarra.Primary@dept.healthcare.org,IbarradPrimary@dept.healthcare.org,Email Typo
+41,28986430-fabd-4787-bd5a-95ecc315c8b0,phone,(0338) 007752,(0338) 006752,Phone Number Typo
+42,88bf1035-d8cf-4d5c-b35c-f88bfae203e1,email,Ibarra.Gynecologic@dept.healthcare.org,Ibarrk.Gynecologic@dept.healthcare.org,Email Typo
+43,50bbd1c7-f01c-4cc7-bb87-c961fa17e092,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+44,689f2d23-100a-4f24-8dd1-5beb5d98abc9,phone,054-0275331,054-0275361,Phone Number Typo
+44,689f2d23-100a-4f24-8dd1-5beb5d98abc9,fax,+31(0)58-1229381,+31(0)58-1259381,Fax Number Typo
+45,e9e1a3d1-1a12-4068-815c-77ed779571dd,phone,(0359)-559906,(0359)-559966,Phone Number Typo
+45,e9e1a3d1-1a12-4068-815c-77ed779571dd,email,Ibarra.Speech@dept.healthcare.org,Ibarra.Splech@dept.healthcare.org,Email Typo
+46,da47b8f9-cee4-4404-9648-1f4b0c747a90,email,Ibarra.Neurologic@dept.healthcare.org,Ibagra.Neurologic@dept.healthcare.org,Email Typo
+46,da47b8f9-cee4-4404-9648-1f4b0c747a90,fax,+3176-5445627,+3176-7445627,Fax Number Typo
+47,5351c342-5b7c-48ed-b239-6f882516de06,fax,(007) 7131339,(001) 7131339,Fax Number Typo
+47,5351c342-5b7c-48ed-b239-6f882516de06,phone,(0145) 901789,(01451 901789,Phone Number Typo
+48,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,email,Ibarra.Pulmonary@dept.healthcare.org,Ibatra.Pulmonary@dept.healthcare.org,Email Typo
+48,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+49,4f5ab827-3b33-445b-952b-c38cce0790d7,fax,0923 808299,0927 808299,Fax Number Typo
+49,4f5ab827-3b33-445b-952b-c38cce0790d7,phone,(0806) 446410,(6806) 446410,Phone Number Typo
+49,4f5ab827-3b33-445b-952b-c38cce0790d7,email,Griffin.Musculoskeletal@dept.healthcare.org,Griffin.Muscvloskeletal@dept.healthcare.org,Email Typo
+50,8dfc0cb0-dc97-4aec-8fac-816ce2d371cc,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+50,8dfc0cb0-dc97-4aec-8fac-816ce2d371cc,email,Griffin.Respiratory@dept.healthcare.org,Griffin.Reypiratory@dept.healthcare.org,Email Typo
+51,68aeb048-72ec-4932-a075-44b56eb7b98b,fax,+31(0)99-2009421,+31(0799-2009421,Fax Number Typo
+51,68aeb048-72ec-4932-a075-44b56eb7b98b,email,Griffin.Psychiatric@dept.healthcare.org,GriffinlPsychiatric@dept.healthcare.org,Email Typo
+52,d7c5a147-ebd2-452e-b18f-3aee34a25626,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+52,d7c5a147-ebd2-452e-b18f-3aee34a25626,fax,+3147 9124838,+3147 9128838,Fax Number Typo
+52,d7c5a147-ebd2-452e-b18f-3aee34a25626,email,Griffin.Respiratory@dept.healthcare.org,Griffin.Respirftory@dept.healthcare.org,Email Typo
+53,46c91999-4187-4dc0-aa20-ccea22e87c8d,fax,(0875) 267737,(7875) 267737,Fax Number Typo
+53,46c91999-4187-4dc0-aa20-ccea22e87c8d,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+54,c40421fb-18fb-4f2c-9602-a43750ea62aa,phone,+31(0)378 207287,+31(0)378 208287,Phone Number Typo
+55,9e3589b2-eb14-4394-bd70-57fbc7caa96b,email,Griffin.Respiratory@dept.healthcare.org,Griffii.Respiratory@dept.healthcare.org,Email Typo
+55,9e3589b2-eb14-4394-bd70-57fbc7caa96b,phone,+31956-110289,+31956-180289,Phone Number Typo
+56,91db735e-dc21-43e8-902e-4f400a013a86,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+56,91db735e-dc21-43e8-902e-4f400a013a86,phone,+31(0)049 493858,+31(7)049 493858,Phone Number Typo
+57,e1f51fdc-c203-453a-8b78-44b004747134,phone,+31(0)25-1238274,+31(0)20-1238274,Phone Number Typo
+58,b11826f6-66c3-400c-9cae-80b846695f55,email,Griffin.Diet@dept.healthcare.org,Grlffin.Diet@dept.healthcare.org,Email Typo
+58,b11826f6-66c3-400c-9cae-80b846695f55,fax,(019) 0391103,(019) 1391103,Fax Number Typo
+59,77059fa8-56be-4bee-a67c-4de762f8d20a,fax,020 5749452,02005749452,Fax Number Typo
+60,c46e1738-790b-4990-a428-da2ed8900991,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+61,8a8ed273-ece1-4e8b-85cc-70a1a49266c9,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+61,8a8ed273-ece1-4e8b-85cc-70a1a49266c9,fax,+31(0)215-271250,+31(0)215-071250,Fax Number Typo
+62,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,phone,0469 145886,04692145886,Phone Number Typo
+62,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,fax,041-7347030,041-7347090,Fax Number Typo
+63,6db16e7a-23e0-484e-bc30-9d334ea8c3b1,phone,0546-698497,0546-198497,Phone Number Typo
+63,6db16e7a-23e0-484e-bc30-9d334ea8c3b1,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+64,fef5a551-87a9-4185-9166-465bb0464634,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+64,fef5a551-87a9-4185-9166-465bb0464634,phone,049 7612433,049 7612933,Phone Number Typo
+64,fef5a551-87a9-4185-9166-465bb0464634,email,FigueroaStrong.Cardiovascular@dept.healthcare.org,FigueroaStrong.Caraiovascular@dept.healthcare.org,Email Typo
+65,6278f95a-7438-4b47-aa83-c504ebbc854b,fax,+31292 592965,+31292 092965,Fax Number Typo
+65,6278f95a-7438-4b47-aa83-c504ebbc854b,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+66,15f66e23-75e6-43b6-b952-7fba397ce787,fax,098-1014243,098-1012243,Fax Number Typo
+67,11d0fd54-750e-41b1-997e-b2fc26fc574c,email,Parker.Public@dept.healthcare.org,Parker.Purlic@dept.healthcare.org,Email Typo
+67,11d0fd54-750e-41b1-997e-b2fc26fc574c,phone,+1-461-782-8173,+1-461-788-8173,Phone Number Typo
+68,16b9315a-eea6-4d23-aaf3-913e301c8730,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+68,16b9315a-eea6-4d23-aaf3-913e301c8730,fax,(802)712-1753x9241,(862)712-1753x9241,Fax Number Typo
+69,3d550d82-be18-4b30-93b7-9970dd8159b8,email,Parker.Infectious@dept.healthcare.org,Parker.Infecaious@dept.healthcare.org,Email Typo
+70,cb628a19-a79e-431f-86ad-ad4a37c6c427,phone,875.885.5906,875.883.5906,Phone Number Typo
+71,a76f80a9-1db9-4322-ad85-ceb25291b049,email,Parker.Pediatric@dept.healthcare.org,Plrker.Pediatric@dept.healthcare.org,Email Typo
+71,a76f80a9-1db9-4322-ad85-ceb25291b049,phone,856.355.2393,856.355.2593,Phone Number Typo
+72,b00fecf4-d53a-4c3a-83ff-0b3a5380531c,availableLanguage,['de'],['German'],Language Representation Variation
+72,b00fecf4-d53a-4c3a-83ff-0b3a5380531c,email,Parker.Obstetric@dept.healthcare.org,Parker.Oustetric@dept.healthcare.org,Email Typo
+73,c23ce929-89bc-44b6-9da4-01e9b331cf4d,fax,734-342-3528x117,734-342-35287117,Fax Number Typo
+74,e354f6ae-6d19-4acc-9167-c254a9800a11,phone,(829)381-9675x49717,(859)381-9675x49717,Phone Number Typo
+74,e354f6ae-6d19-4acc-9167-c254a9800a11,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+75,8e13c327-b461-4c8f-ae16-25f34b4444b5,availableLanguage,['de'],['German'],Language Representation Variation
+76,367cf088-7f4a-41b5-a72f-abab25edfea9,email,Delgado.Cardiovascular@dept.healthcare.org,Delgado.Caldiovascular@dept.healthcare.org,Email Typo
+76,367cf088-7f4a-41b5-a72f-abab25edfea9,phone,(022)-5402417,(522)-5402417,Phone Number Typo
+76,367cf088-7f4a-41b5-a72f-abab25edfea9,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+78,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+78,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,email,Delgado.Dentistry@dept.healthcare.org,Delgado.Dentistmy@dept.healthcare.org,Email Typo
+78,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,fax,+31666 357058,+316662357058,Fax Number Typo
+79,322515a5-3a89-491e-b7b9-387b677bd216,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+79,322515a5-3a89-491e-b7b9-387b677bd216,email,Delgado.Nursing@dept.healthcare.org,Delgado.Nursnng@dept.healthcare.org,Email Typo
+80,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+80,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,email,Delgado.Public@dept.healthcare.org,Delrado.Public@dept.healthcare.org,Email Typo
+81,a0e33935-f515-49fd-b68b-604992edb418,email,Delgado.Physiotherapy@dept.healthcare.org,Delgcdo.Physiotherapy@dept.healthcare.org,Email Typo
+82,8aa97d3f-bd63-47b3-9595-7c157d3e3711,phone,+3181 7857028,+1817 5703828,Phone/Fax Number Typo
+83,4d668807-a68f-4bb3-8cb6-cfc37e49eb8d,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+84,659185b7-664e-4107-99a6-f4165e66ddc3,fax,(0150)-493331,(1504)-331331,Phone/Fax Number Typo
+85,3b6f2ad2-6ec1-47b0-99bb-f03db6d06615,fax,0857 010951,0858 109511,Phone/Fax Number Typo
+86,64a335b5-a973-439e-a2c9-b2627ed24723,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+87,ea6d5565-3810-4725-952a-4ff52da4d7f2,fax,+31(0)089-028744,+10(8)038-448744,Phone/Fax Number Typo
+88,92738995-ca89-4d11-8646-356bc28611fd,phone,(0918)-558554,(9185)-554554,Phone/Fax Number Typo
+89,095e2e87-c893-485b-acbb-85648b3941d5,phone,(045) 1726813,(461) 6813813,Phone/Fax Number Typo
+90,d44b5548-066d-4e1e-a16b-347d9babbdab,phone,972-699-7024,972-997-2424,Phone/Fax Number Typo
+91,089f8b86-b99e-43e5-a908-a3aa20adb06e,phone,001-322-740-5966x2026,001-227-059-6203x2026,Phone/Fax Number Typo
+92,31692d4e-9b24-4fa1-b264-5654489d80b6,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation
+93,51c756d4-6dda-4925-86d2-5fcc6714224c,email,KimTodd.Midwifery@dept.healthcare.org,KcmTodd.Midwifery@dept.healthcare.org,Email Typo
+94,749ef679-c161-4767-b28a-85434a974df5,phone,305.568.6116,305.686.1616,Phone/Fax Number Typo
+95,52c71bbd-94b2-4c54-be2b-0f3a655ff99f,email,Burch.Public@dept.healthcare.org,Burcs.Public@dept.healthcare.org,Email Typo
+96,8a624be8-c7e2-4825-8fd2-64ff06fb6410,fax,+31(0)68-3403275,+10(8)40-2753275,Phone/Fax Number Typo
+97,3ab88289-7324-4b18-96b1-a336ba2831ca,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation
+98,b81b7f03-fb0a-4705-8e9a-a076faac8f76,phone,(0164) 630310,(1746) 310310,Phone/Fax Number Typo
+99,e558abe1-7fc8-42e7-8a2d-e86e6910124a,availableLanguage,['nl'],['Dutch'],Language Representation Variation
+100,6706e199-9aaa-4aa8-9bec-11a0d5bccf5e,phone,+31(0)54-7591563,+10(5)59-5631563,Phone/Fax Number Typo
+101,68f111c6-ddef-4680-9eb8-39597f119389,email,Burch.Diet@dept.healthcare.org,Burlh.Diet@dept.healthcare.org,Email Typo
+102,10d44b3d-8aca-4410-9c10-126197762b3a,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation

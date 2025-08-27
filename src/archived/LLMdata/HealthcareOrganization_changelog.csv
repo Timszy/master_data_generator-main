@@ -1,0 +1,13 @@
+row,identifier,column,original,new,variation
+0,06d2ed7c-e6ac-4d8a-8160-ff927c7550f2,healthcareOrganizationName,Ibarra PLC Zorg,Ibarra PLk Zorg,Organization Name Typo
+1,4a863655-0a9d-499c-a269-8c2d614f1ddc,healthcareOrganizationName,"Berg, Long and Middleton Tervisekeskus","Berg, Long and Middleton Terivsekeskus",Organization Name Typo
+2,037d9752-48f3-431c-8fb7-c3bb4408c04c,healthcareOrganizationName,"Jordan, Jackson and Kramer Zorg","Jordan, Jackson and Krame rZorg",Organization Name Typo
+3,5d393bf9-b2da-41f6-8c16-014a2e4a6e78,healthcareOrganizationName,Perez-Becker Gesundheitszentrum,PG,Organization Name Abbreviation
+5,3e332f35-086c-4768-b0fe-3cfc991ab513,healthcareOrganizationName,Novak PLC Tervisekeskus,Noavk PLC Tervisekeskus,Organization Name Typo
+6,92d6ff73-5b3a-4595-8458-92c14e0e15d3,healthcareOrganizationName,"Delgado, Guerrero and Simpson Zorg",D Guerrero and Simpson Zorg,Organization Name Abbreviation
+7,9db3466d-1ba6-4c61-aaf9-4919e69b7971,healthcareOrganizationName,"Parker, Murphy and Brooks Gesundheitszentrum",P Murphy and Brooks Gesundheitszentrum,Organization Name Abbreviation
+9,71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0,healthcareOrganizationName,Figueroa-Strong Zorg,Figueroa-Storng Zorg,Organization Name Typo
+10,52ebdac5-a145-4899-a1f8-c1569e0df45b,healthcareOrganizationName,Allen Ltd Zorg,Allen Ltd Zrog,Organization Name Typo
+11,8b5885ca-0bb2-43f0-bd30-291a55fea08e,healthcareOrganizationName,"Mcneil, Gonzalez and Howard Tervisekeskus",M Gonzalez and Howard Tervisekeskus,Organization Name Abbreviation
+12,c7405255-25cf-41c4-9c89-929692b035e0,healthcareOrganizationName,Burch LLC Zorg,Burch LL CZorg,Organization Name Typo
+14,a59cec98-126c-4c8f-b888-447911ebcd49,healthcareOrganizationName,"Robinson, Montoya and Walters Gesundheitszentrum",R Montoya and Walters Gesundheitszentrum,Organization Name Abbreviation

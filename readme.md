@@ -1,17 +1,3 @@
-# AIDAVA Synthetic Master Data Generator
-
-This simple Python script generates synthetic data for the master data tables in the AIDAVA schema. 
-
-The database includes five main tables: 
-
-- HealthcareOrganization
-- HealthcarePersonnel
-- Person
-- ServiceDepartment
-- Address. 
-
-The script respects specified cardinality rules based on the Master Data schema [here](https://dbdiagram.io/d/Copy-of-AIDAVA-Master-Data-685ab724f413ba3508a3cb74)
-and creates realistic, interconnected data suitable for testing or development purposes.
 
 
 ## Overview

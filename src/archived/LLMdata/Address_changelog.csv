@@ -1,0 +1,188 @@
+row,identifier,column,original,new,variation
+0,daf66c5f-2577-4ffa-887a-746319c16a0d,postalCode,9573,9573 ,Postal Code Formatting Variations
+0,daf66c5f-2577-4ffa-887a-746319c16a0d,city,Kufstein,Kufsetin,City and Locality Name Variations
+0,daf66c5f-2577-4ffa-887a-746319c16a0d,text,Sulzergasse 127,Sulzergassr 127,Street Name Manipulation
+1,19d5f970-98b3-4c6e-8a14-b90a7795e986,city,Maiechester,aMiechester,City and Locality Name Variations
+1,19d5f970-98b3-4c6e-8a14-b90a7795e986,text,Andrei Parkway 88,Andrei Parkway 88B,Street Number Manipulation
+1,19d5f970-98b3-4c6e-8a14-b90a7795e986,postalCode,20239,2023 9,Postal Code Formatting Variations
+2,bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd,country,NL,Netherlands,Country Representation Variations
+3,ef7e85ec-a417-456f-a9ee-7f3d0ff030b8,text,Majaring 76,Majaring 76A,Street Number Manipulation
+4,7d859725-c707-4ef9-86c3-744cc88e03b6,country,NL,Netherlands,Country Representation Variations
+4,7d859725-c707-4ef9-86c3-744cc88e03b6,text,Jordyring 13,Jordyring 13-1,Street Number Manipulation
+5,27649a62-b02d-452c-9b05-0db28ee4fd02,country,NL,Netherlands,Country Representation Variations
+6,8b279c29-a274-40d7-b4a5-cc36692a7bce,text,Benteboulevard 95,Benteboulevarq 95,Street Name Manipulation
+6,8b279c29-a274-40d7-b4a5-cc36692a7bce,city,Vorchten,Vorchetn,City and Locality Name Variations
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,postalCode,3985,3985 ,Postal Code Formatting Variations
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,text,Hahnweg 92,Hahnwen 92,Street Name Manipulation
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,country,AT,Austria,Country Representation Variations
+8,3856be31-f568-49c6-833c-14694f06ea18,text,Zakariasingel 13,Zakariasingel 13B,Street Number Manipulation
+8,3856be31-f568-49c6-833c-14694f06ea18,city,Arcen,Arecn,City and Locality Name Variations
+9,6756264d-c864-4f78-beaf-167952b04994,postalCode,4271 LL,4271LL,Postal Code Formatting Variations
+10,4598244b-f0bd-4405-a50d-d400a27ee80d,postalCode,2354,2354 ,Postal Code Formatting Variations
+10,4598244b-f0bd-4405-a50d-d400a27ee80d,city,Gänserndorf,äGnserndorf,City and Locality Name Variations
+10,4598244b-f0bd-4405-a50d-d400a27ee80d,country,AT,Austria,Country Representation Variations
+11,541d1a81-4815-442c-a2bb-62833d83ad7c,text,Bilalhof 68,Bilalhof 68B,Street Number Manipulation
+11,541d1a81-4815-442c-a2bb-62833d83ad7c,postalCode,1625 AP,1625AP,Postal Code Formatting Variations
+12,6bc9e970-c48a-4374-86dc-1579647640a1,country,EE,Estonia,Country Representation Variations
+12,6bc9e970-c48a-4374-86dc-1579647640a1,text,Elena Station 124,Elena Station 124-1,Street Number Manipulation
+12,6bc9e970-c48a-4374-86dc-1579647640a1,postalCode,95238,9523 8,Postal Code Formatting Variations
+13,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,city,Ferlach,Ferlcah,City and Locality Name Variations
+13,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,text,Hauserweg 75,Hauserweg 75B,Street Number Manipulation
+13,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,country,AT,Austria,Country Representation Variations
+14,99755cb9-7c76-4592-a73e-3f3b5c27761d,city,Markberg,Makrberg,City and Locality Name Variations
+14,99755cb9-7c76-4592-a73e-3f3b5c27761d,text,Meelis Haven 129,Meelis Haven 129-1,Street Number Manipulation
+14,99755cb9-7c76-4592-a73e-3f3b5c27761d,country,EE,Estonia,Country Representation Variations
+15,ea4f44cf-eafd-480b-9ec8-633fb73888a4,postalCode,7229,7229 ,Postal Code Formatting Variations
+15,ea4f44cf-eafd-480b-9ec8-633fb73888a4,city,Litschau,Litscahu,City and Locality Name Variations
+16,60c36cdd-9937-4592-985a-eb983d9f3e80,text,Chris-Grünberger-Platz 54,Chris-Grünberger-Platz 54-1,Street Number Manipulation
+16,60c36cdd-9937-4592-985a-eb983d9f3e80,country,AT,Austria,Country Representation Variations
+16,60c36cdd-9937-4592-985a-eb983d9f3e80,postalCode,3867,3867 ,Postal Code Formatting Variations
+17,d35f581e-3648-431f-ae9e-8d0384983111,text,Raphael-Lengauer-Platz 79,Raphael-Lengauer-Platr 79,Street Name Manipulation
+17,d35f581e-3648-431f-ae9e-8d0384983111,postalCode,9664,9664 ,Postal Code Formatting Variations
+18,b9c4abb6-a6a9-4aab-ac81-1d57b2835bff,country,AT,Austria,Country Representation Variations
+18,b9c4abb6-a6a9-4aab-ac81-1d57b2835bff,city,Lienz,iLenz,City and Locality Name Variations
+19,853a9135-3ee2-451b-be88-c93319db1d7b,text,Katarina-Rohrer-Gasse 42,Katarina-Rohrer-Gasse 42A,Street Number Manipulation
+19,853a9135-3ee2-451b-be88-c93319db1d7b,city,Perg,Pegr,City and Locality Name Variations
+20,faa83536-d3d7-49d5-a430-1b871322439a,city,Schrattenthal,Schrattetnhal,City and Locality Name Variations
+20,faa83536-d3d7-49d5-a430-1b871322439a,postalCode,5842,5842 ,Postal Code Formatting Variations
+21,a4b0c73b-f74e-41a1-a2e5-b72606b9370b,city,Kindberg,Kindbegr,City and Locality Name Variations
+22,eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf,text,Mati Inlet 51,Mate Inlet 51,Street Name Manipulation
+22,eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf,country,EE,Estonia,Country Representation Variations
+23,ad82e067-ab35-4414-8ed2-b26b1fda2e53,text,Klaas Pine 145,Klaai Pine 145,Street Name Manipulation
+23,ad82e067-ab35-4414-8ed2-b26b1fda2e53,country,EE,Estonia,Country Representation Variations
+24,1c7bc6c8-d62f-4e8c-abca-09663eef04eb,country,EE,Estonia,Country Representation Variations
+25,da595d3e-a0fe-4e1b-b910-18255057df41,text,Kuus Passage 1,Kuus Passage 1B,Street Number Manipulation
+26,21ab9e3d-fdf4-4f09-bd87-d79311705ee3,country,EE,Estonia,Country Representation Variations
+27,eafe0d1f-6e79-4d5f-9314-70c8acb14314,text,Jefimov Locks 88,Jefimop Locks 88,Street Name Manipulation
+27,eafe0d1f-6e79-4d5f-9314-70c8acb14314,city,Lake Matiport,Lake aMtiport,City and Locality Name Variations
+27,eafe0d1f-6e79-4d5f-9314-70c8acb14314,postalCode,30371,3037 1,Postal Code Formatting Variations
+28,1ae3237f-aa88-4965-9654-7b4d317588ff,country,NL,Netherlands,Country Representation Variations
+29,15f82b2f-bc89-4faf-8cf4-627782dcf736,city,Beinsdorp,Beisndorp,City and Locality Name Variations
+29,15f82b2f-bc89-4faf-8cf4-627782dcf736,postalCode,1040 RN,1040RN,Postal Code Formatting Variations
+29,15f82b2f-bc89-4faf-8cf4-627782dcf736,text,Lucashof 89,Lucashof 89-1,Street Number Manipulation
+30,100cfe80-2132-4c24-81b3-77bd59eae69a,text,Maritweg 143,Maritwek 143,Street Name Manipulation
+30,100cfe80-2132-4c24-81b3-77bd59eae69a,city,Den Dungen,Den Dunegn,City and Locality Name Variations
+31,e31b328e-3a32-4205-9e26-b29d8615ad73,city,Losser,oLsser,City and Locality Name Variations
+31,e31b328e-3a32-4205-9e26-b29d8615ad73,text,Sethring 78,Sethrine 78,Street Name Manipulation
+31,e31b328e-3a32-4205-9e26-b29d8615ad73,country,NL,Netherlands,Country Representation Variations
+32,b2b5591a-9d7f-442b-85e2-b0787a3e9905,text,Kyaraweg 147,Kyaraweg 147B,Street Number Manipulation
+33,f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9,country,NL,Netherlands,Country Representation Variations
+33,f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9,city,Mill,iMll,City and Locality Name Variations
+34,054efa50-4962-473b-a0f9-986ab2363b7e,text,Félineweg 114,Félinewep 114,Street Name Manipulation
+35,3b6b8130-f687-4f7a-b683-4a01bdb5ff1d,postalCode,1278 TQ,1278TQ,Postal Code Formatting Variations
+36,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,text,Rensring 147,Rensring 147-1,Street Number Manipulation
+36,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,postalCode,1965 WF,1965WF,Postal Code Formatting Variations
+36,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,city,Achterveld,Achterevld,City and Locality Name Variations
+37,2542cff6-0710-41c5-802e-3a7aa1515f1e,city,Beilen,Beilne,City and Locality Name Variations
+38,335be677-df1b-425e-af66-be879a4c2227,country,NL,Netherlands,Country Representation Variations
+38,335be677-df1b-425e-af66-be879a4c2227,text,Nikkiweg 141,Nikkiweg 141A,Street Number Manipulation
+39,970ea1aa-c76f-48ae-adf3-d0246f88c633,text,Mirteweg 112,Mirtewex 112,Street Name Manipulation
+40,df66946a-0116-4168-bac8-a7602d5df04a,city,Elburg,lEburg,City and Locality Name Variations
+40,df66946a-0116-4168-bac8-a7602d5df04a,text,Ilseboulevard 58,Ilseboulevard 58B,Street Number Manipulation
+41,700e6a4f-2543-43f8-b349-f09340601a0d,postalCode,1088 FP,1088FP,Postal Code Formatting Variations
+41,700e6a4f-2543-43f8-b349-f09340601a0d,text,Colinbaan 105,Colinbaan 105A,Street Number Manipulation
+42,a7fd116e-d8f5-417f-85bd-ca63a100ba8f,text,Katepad 61,Katepad 61B,Street Number Manipulation
+43,929c8ac4-bf28-40fb-a8cb-2f6eee5e256e,postalCode,1392 BN,1392BN,Postal Code Formatting Variations
+44,eae9c546-446c-4893-89d3-cdb9ebb9aa72,text,Rikpad 149,Rikpan 149,Street Name Manipulation
+44,eae9c546-446c-4893-89d3-cdb9ebb9aa72,country,NL,Netherlands,Country Representation Variations
+44,eae9c546-446c-4893-89d3-cdb9ebb9aa72,postalCode,6850 ER,6850ER,Postal Code Formatting Variations
+45,f67d2311-33a8-49fd-9091-6a5f97ad1730,text,Kaisingel 138,Kaisingec 138,Street Name Manipulation
+45,f67d2311-33a8-49fd-9091-6a5f97ad1730,country,NL,Netherlands,Country Representation Variations
+46,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,country,NL,Netherlands,Country Representation Variations
+46,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,text,Lunaring 21,Lunarins 21,Street Name Manipulation
+46,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,city,Haringhuizen,Hairnghuizen,City and Locality Name Variations
+47,b41fdcad-e36a-4265-ae51-686507afe1c5,city,Emmeloord,Emmeloodr,City and Locality Name Variations
+47,b41fdcad-e36a-4265-ae51-686507afe1c5,postalCode,6368 NR,6368NR,Postal Code Formatting Variations
+48,69259d81-2a2e-4ea7-9834-aeaf0f332bab,text,Olafstraat 113,Olafstraat 113B,Street Number Manipulation
+49,5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa,country,NL,Netherlands,Country Representation Variations
+50,9883502e-7f32-4e78-a7fe-651efd8c2a6f,text,Suusbaan 58,Suusbaan 58B,Street Number Manipulation
+50,9883502e-7f32-4e78-a7fe-651efd8c2a6f,city,Goënga,Goënag,City and Locality Name Variations
+51,b31190b6-21e4-4b25-adb2-bb78765d13de,city,Oudemolen,Oudeomlen,City and Locality Name Variations
+52,c04bd397-54a9-4898-bcb7-b35d68298389,postalCode,8763 WJ,8763WJ,Postal Code Formatting Variations
+52,c04bd397-54a9-4898-bcb7-b35d68298389,text,Emirring 54,Emirrinp 54,Street Name Manipulation
+52,c04bd397-54a9-4898-bcb7-b35d68298389,city,Anerveen,nAerveen,City and Locality Name Variations
+53,25b09e48-1ca1-4fa7-83b8-bbaa7e24238e,city,Zandpol,Zandopl,City and Locality Name Variations
+53,25b09e48-1ca1-4fa7-83b8-bbaa7e24238e,postalCode,3393 KY,3393KY,Postal Code Formatting Variations
+54,45baf444-bb7e-41bf-9b2f-fda39f013834,postalCode,2406 DQ,2406DQ,Postal Code Formatting Variations
+55,b098a39f-12e9-43c1-a33a-812367ac9755,city,Woltersum,oWltersum,City and Locality Name Variations
+55,b098a39f-12e9-43c1-a33a-812367ac9755,postalCode,7527 KK,7527KK,Postal Code Formatting Variations
+56,fbfa7549-13ee-4ee8-950e-18400e60f583,country,NL,Netherlands,Country Representation Variations
+56,fbfa7549-13ee-4ee8-950e-18400e60f583,city,IJsselstein,IJsslestein,City and Locality Name Variations
+57,db03dadf-a10f-4588-b1e1-9146f654f453,country,NL,Netherlands,Country Representation Variations
+57,db03dadf-a10f-4588-b1e1-9146f654f453,postalCode,2678 UN,2678UN,Postal Code Formatting Variations
+58,055c64dd-e478-40a6-9368-e0d60b46b634,text,Corneliahof 35,Corneliahov 35,Street Name Manipulation
+58,055c64dd-e478-40a6-9368-e0d60b46b634,postalCode,2967 UN,2967UN,Postal Code Formatting Variations
+59,c78ad66d-4a9b-4c00-992e-dd37379c05da,text,Jesselaan 86,Jesselaan 86B,Street Number Manipulation
+59,c78ad66d-4a9b-4c00-992e-dd37379c05da,country,NL,Netherlands,Country Representation Variations
+60,b366dcbc-abbf-4882-affa-0875e4a7c828,text,Timboulevard 130,Timboulevard 130A,Street Number Manipulation
+60,b366dcbc-abbf-4882-affa-0875e4a7c828,postalCode,6148 FA,6148FA,Postal Code Formatting Variations
+60,b366dcbc-abbf-4882-affa-0875e4a7c828,city,Lunteren,uLnteren,City and Locality Name Variations
+61,d693bf11-7721-4931-9734-2123e3ed9637,postalCode,9369 CH,9369CH,Postal Code Formatting Variations
+62,35152cba-ec4f-46ab-aa07-cfddee9cee1f,text,Elizaweg 94,Elizawez 94,Street Name Manipulation
+62,35152cba-ec4f-46ab-aa07-cfddee9cee1f,country,NL,Netherlands,Country Representation Variations
+63,d2865c01-77f7-4d19-8ee5-ddf0d996f125,country,NL,Netherlands,Country Representation Variations
+64,93a7468c-10c1-4f57-bed6-8dc13265b5b3,text,Finnbaan 52,Finnbaai 52,Street Name Manipulation
+65,94e5efab-8e36-47af-b1c2-d7b2ed384c44,postalCode,2535 FY,2535FY,Postal Code Formatting Variations
+65,94e5efab-8e36-47af-b1c2-d7b2ed384c44,country,NL,Netherlands,Country Representation Variations
+65,94e5efab-8e36-47af-b1c2-d7b2ed384c44,text,Robinsteeg 109,Robinsteeg 109B,Street Number Manipulation
+66,f01688e4-b43b-4ab8-802b-7d666abb6f15,text,Silstraat 6,Silstraav 6,Street Name Manipulation
+66,f01688e4-b43b-4ab8-802b-7d666abb6f15,country,NL,Netherlands,Country Representation Variations
+67,358d3e42-ed1e-454f-9fb7-86f4f61ed233,country,AT,Austria,Country Representation Variations
+67,358d3e42-ed1e-454f-9fb7-86f4f61ed233,postalCode,8549,8549 ,Postal Code Formatting Variations
+67,358d3e42-ed1e-454f-9fb7-86f4f61ed233,text,Gärtnerstr. 91,Gärtnerstr. 91B,Street Number Manipulation
+68,62fe8d68-95f4-4a1f-a1d2-92ab36f4851f,postalCode,8231,8231 ,Postal Code Formatting Variations
+68,62fe8d68-95f4-4a1f-a1d2-92ab36f4851f,text,Engelring 10,Engelring 10B,Street Number Manipulation
+69,98e63241-243f-4229-ace4-8fdc68d60b08,postalCode,6073,6073 ,Postal Code Formatting Variations
+70,bc67b332-a89d-4114-9841-c24912882f60,postalCode,1357,1357 ,Postal Code Formatting Variations
+70,bc67b332-a89d-4114-9841-c24912882f60,text,Anabella-Hartl-Gasse 91,Anabella-Hartl-Gasse 91A,Street Number Manipulation
+70,bc67b332-a89d-4114-9841-c24912882f60,country,AT,Austria,Country Representation Variations
+71,6a2ca004-0465-46d5-a086-f2af3059c498,text,Luisa-Stöckl-Ring 60,Luisa-Stöckl-Ring 60A,Street Number Manipulation
+71,6a2ca004-0465-46d5-a086-f2af3059c498,postalCode,7486,7486 ,Postal Code Formatting Variations
+71,6a2ca004-0465-46d5-a086-f2af3059c498,city,Voitsberg,Viotsberg,City and Locality Name Variations
+72,09fa0833-e2fe-46d1-8b64-acd73331cc05,postalCode,3169,3169 ,Postal Code Formatting Variations
+72,09fa0833-e2fe-46d1-8b64-acd73331cc05,city,Langenlois,Lagnenlois,City and Locality Name Variations
+72,09fa0833-e2fe-46d1-8b64-acd73331cc05,text,Anabella-Klug-Ring 92,Anabella-Klug-Ring 92A,Street Number Manipulation
+73,3e903735-4716-4271-b69c-39b9a73d23a6,postalCode,7071,7071 ,Postal Code Formatting Variations
+73,3e903735-4716-4271-b69c-39b9a73d23a6,city,Langenlois,Lnagenlois,City and Locality Name Variations
+74,425aaf83-4eaa-4a65-942f-4290d7bda791,text,Beatrice-Aschauer-Gasse 40,Beatrice-Aschauer-Gassm 40,Street Name Manipulation
+74,425aaf83-4eaa-4a65-942f-4290d7bda791,country,AT,Austria,Country Representation Variations
+75,47006868-578e-451a-8a99-908598f1d552,postalCode,5885,5885 ,Postal Code Formatting Variations
+75,47006868-578e-451a-8a99-908598f1d552,city,Oberpullendorf,Oberpullendrof,City and Locality Name Variations
+75,47006868-578e-451a-8a99-908598f1d552,country,AT,Austria,Country Representation Variations
+76,269dc3b6-c740-43ac-b14f-7e995a24e786,text,Jurrelaan 50,Jurrelnan 50,Street Name Manipulation
+77,5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8,text,Joeyboulevard 98,Joeybyulevard 98,Street Name Manipulation
+77,5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8,city,Ulrum,lrum,City and Locality Name Variations
+78,71494031-67ef-4e9e-803f-00347399a177,postalCode,9277 GF,9277GF,Postal Code Formatting Variations
+78,71494031-67ef-4e9e-803f-00347399a177,country,Netherlands,Austria,Country Representation Variations
+79,406ec398-9a4a-4a9c-a735-a17352ec0382,text,Chloélaan 150A,Cbloélaan 150A,Street Name Manipulation
+79,406ec398-9a4a-4a9c-a735-a17352ec0382,postalCode,9819 EB,9819EB,Postal Code Formatting Variations
+80,9f78299c-b9a9-4a03-bf8d-c9f2e3a10464,country,Netherlands,Austria,Country Representation Variations
+80,9f78299c-b9a9-4a03-bf8d-c9f2e3a10464,city,Eext,Eet,City and Locality Name Variations
+81,eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c,text,Timosingel 89,Timosingel 89A,Street Number Manipulation
+83,2985c817-a937-4c86-9f40-ec4712d527a0,text,Barthof 44,Borthof 44,Street Name Manipulation
+84,c3629df7-6898-4668-9f18-1e4f394e61fe,text,Elikboulevard 29,Elikboulevard 29B,Street Number Manipulation
+84,c3629df7-6898-4668-9f18-1e4f394e61fe,city,Tiel,Til,City and Locality Name Variations
+85,a775cc44-ee07-4366-8d2f-e15174c88f42,city,Norden,orden,City and Locality Name Variations
+86,f1521976-65d6-4b7f-8f9a-fd63236e747e,postalCode,4009 AY,4009AY,Postal Code Formatting Variations
+86,f1521976-65d6-4b7f-8f9a-fd63236e747e,text,Saarbaan 80,Saarbaan 80B,Street Number Manipulation
+87,02299f58-9071-414d-b4f2-ba8e32fa6380,postalCode,6019 MI,6019MI,Postal Code Formatting Variations
+87,02299f58-9071-414d-b4f2-ba8e32fa6380,country,Netherlands,Austria,Country Representation Variations
+88,a2c1e1d4-131b-4956-872a-5ac130c97d34,country,Netherlands,Austria,Country Representation Variations
+88,a2c1e1d4-131b-4956-872a-5ac130c97d34,city,Njeholtpade,Njeholpade,City and Locality Name Variations
+89,f3e50e26-2e07-4578-8e4b-b53cf3dacf72,text,Evipad 110,Evipad 110A,Street Number Manipulation
+90,5a8fe4b2-8ffd-4977-85b8-93b04d36c61a,postalCode,3713 EU,3713EU,Postal Code Formatting Variations
+92,c77239f2-2d47-40cc-a5c5-063d4c444d95,country,AT,Austria,Country Representation Variations
+92,c77239f2-2d47-40cc-a5c5-063d4c444d95,city,Radstadt,Radtadt,City and Locality Name Variations
+93,8057b537-92ec-41d0-b2bb-8a67ec5b03af,city,Gerasdorf bei Wien,Gerasdorf bei Wen,City and Locality Name Variations
+94,f95cad47-3b5a-4257-a195-ace68506d5ba,city,Friedbrg,Fiedbrg,City and Locality Name Variations
+95,022c88c0-b563-446c-9cbf-0c64c039c71e,city,Linz,Lnz,City and Locality Name Variations
+96,4a8b2fae-6209-41c3-afb6-88bbe3a56430,city,Oudwoude,Ouwoude,City and Locality Name Variations
+97,7c5246f1-8fe5-475b-b771-877e141e39e7,text,Marinusstraat 115,Marinusstraat 115A,Street Number Manipulation
+98,0e8cff18-9e9d-4b77-ba34-b580eda0a0af,city,Pernis Rotterdam,PernisRotterdam,City and Locality Name Variations
+99,6f30a7a2-5853-40c4-b053-7fbb2bcdacf3,country,NL,Netherlands,Country Representation Variations
+100,603fa8f0-1549-4dee-830b-4d6d9575d095,text,Puckboulevard 64,Pukkboulevard 64,Street Name Manipulation
+101,b9d2aef5-0fd2-4271-b440-d4eb03ed8da8,text,Jefsweg 69,Jefsweg 69A,Street Number Manipulation
+101,b9d2aef5-0fd2-4271-b440-d4eb03ed8da8,city,Nispen,Nspen,City and Locality Name Variations
+102,daac3c58-e266-44c0-9848-d32e65f628ac,country,NL,Netherlands,Country Representation Variations
+102,daac3c58-e266-44c0-9848-d32e65f628ac,city,Warmond,armond,City and Locality Name Variations
+103,43419ace-febd-4b72-ae24-df89e9c5c130,city,Barendrecht,Barendrcht,City and Locality Name Variations
