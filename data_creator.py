@@ -8,6 +8,12 @@ import csv
 fake = Faker()
 Faker.seed(0)
 
+# Configuration: set desired dataset sizes here
+NUM_ORGANIZATIONS = 50               # number of HealthcareOrganization to create
+MIN_DEPARTMENTS_PER_ORG = 5          # minimum ServiceDepartments per organization
+MAX_DEPARTMENTS_PER_ORG = 10         # maximum ServiceDepartments per organization
+MIN_PERSONNEL_PER_ORG = 15           # min total personnel per organization
+MAX_PERSONNEL_PER_ORG = 40           # max total personnel per organization
 
 
 # Function to store table data as CSV
@@ -347,6 +353,9 @@ def generate_healthcare_personnel(organization, department):
     }
     
     return person, personnel
+
+
+
 #################################################################################################################
 #################################################################################################################
 ###### Start of data generation ######
@@ -358,7 +367,8 @@ contact_points = []
 service_department = []
 healthcare_personnel = []
 persons = []
-for _ in range(50):
+## how many HCO do we want?
+for _ in range(NUM_ORGANIZATIONS):  # Select the amount of organizations
     country_code = random.choice(["NL", "AT", "EE"])
     address = generate_address(country_code)
     addresses.append(address)
@@ -377,7 +387,7 @@ org_departments = {}
 for org in healthcare_organization:
     org_departments[org["identifier"]] = []
     # Find the organization's address identifier
-    for _ in range(random.randint(5, 10)):  # Each org has 5-10 departments
+    for _ in range(random.randint(MIN_DEPARTMENTS_PER_ORG, MAX_DEPARTMENTS_PER_ORG)):  # Select the amount of departments
         department = generate_service_department(org)
         service_department.append(department)
         org_departments[org["identifier"]].append(department)
@@ -389,7 +399,7 @@ for org in healthcare_organization:
         continue
         
     # Define target personnel count for this organization
-    target_total_personnel = random.randint(15, 40)  # Each org has 15-40 personnel
+    target_total_personnel = random.randint(MIN_PERSONNEL_PER_ORG, MAX_PERSONNEL_PER_ORG)  # Select the amount of personnel
     current_personnel_count = 0
     
     # First ensure all departments have at least 2 personnel
