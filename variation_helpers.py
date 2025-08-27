@@ -68,7 +68,6 @@ def introduce_variations(data_list, variation_function, variation_rate=variation
     return data_list + variations
 
 #### Address variations
-# Updated address_variation function with balanced variation application
 
 def delete_values(data_list, fields_to_delete, delete_rate=1.0):
     """
