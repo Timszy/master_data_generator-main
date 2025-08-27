@@ -200,7 +200,7 @@ All generated CSVs are stored in **`src/Data_Source/`** and can be transformed i
 The eventual Knowledge graphs alongside their respective ground truth are used to compare. To compare one needs at least three files
 The original clean knowledge graph, which is healthcare_graph_Main and one of the variated graphs alongside the golden standard file belonging to the variant.
 
-## 🚀 How to Use
+## 🚀 How to Install
 
 1. **Set up the environment**
    ```bash
