@@ -35,8 +35,6 @@ This enables graph-based experiments such as embeddings, SPARQL queries, and ded
 
 ## 📂 Knowledge graph Description
 
-## 🧭 Data Model (Exact Tables, Attributes & Schema.org Mappings)
-
 Below is the **authoritative master data format** used by this project, with each attribute mapped to its nearest **Schema.org** property.
 
 ### Address
@@ -55,7 +53,7 @@ _Source: [`schema:ContactPoint`](https://schema.org/ContactPoint)_
 
 | Column              | Type   | Constraints | Schema.org Mapping      |
 |---------------------|--------|-------------|-------------------------|
-| `identifier`        | string | PK          | —                       |
+| `identifier`        | string | PK          | `schema:identifier`                    |
 | `phone`             | string |             | `schema:telephone`      |
 | `email`             | string |             | `schema:email`          |
 | `fax`               | string |             | `schema:faxNumber`      |
@@ -73,7 +71,7 @@ _Source: [`schema:MedicalOrganization`](https://schema.org/MedicalOrganization)_
 | `address`    | string | FK -> Address.identifier | `schema:address`     |
 
 ### ServiceDepartment
-_Source: Organization **department** pattern (`schema:department` / `schema:parentOrganization`)_
+_Source: Organization **department** pattern (`schema:parentOrganization`)_
 
 | Column        | Type   | Constraints | Schema.org Mapping            |
 |---------------|--------|-------------|--------------------------------|
@@ -84,7 +82,7 @@ _Source: Organization **department** pattern (`schema:department` / `schema:pare
 | `address`     | string | FK -> Address.identifier | `schema:address`            |
 
 > In the KG, `ServiceDepartment → schema:parentOrganization → HealthCareOrganization`.  
-> The inverse triple `HealthCareOrganization → schema:department → ServiceDepartment` may also be materialized.
+
 
 ### Person
 _Source: [`schema:Person`](https://schema.org/Person)_
@@ -129,4 +127,21 @@ _Source: specialization of Person_
 
 ---
 
+## Codebase file descriptions
+├─ data_creator.py
+│  └─ Main script to synthesize the tabular CSVs (orgs, departments, personnel, people, addresses, contacts). :contentReference[oaicite:4]{index=4}
+├─ variation_helpers.py
+│  └─ Helper functions for injecting/handling variations (e.g., typos, missing attributes) for dedupe benchmarking. :contentReference[oaicite:5]{index=5}
+├─ data_variator.ipynb
+│  └─ Notebook for exploring/creating data variations across the synthetic tables. :contentReference[oaicite:6]{index=6}
+├─ Turndupeintoset_missing_attributes.ipynb
+│  └─ Notebook to transform duplicate outputs into “set” representations focused on missing-attribute scenarios. :contentReference[oaicite:7]{index=7}
+├─ Turndupeintoset_relation.ipynb
+│  └─ Notebook to convert duplicate/linkage results into relation-level sets for analysis. :contentReference[oaicite:8]{index=8}
+├─ Turndupeintoset_syntactic.ipynb
+│  └─ Notebook to build sets of duplicates under syntactic-noise (typos/format) conditions. :contentReference[oaicite:9]{index=9}
+├─ ground_truths/
+│  └─ Folder intended for ground-truth files used to evaluate deduplication; stores labeled duplicate mappings. :contentReference[oaicite:10]{index=10}
+└─ src/
+   └─ Source code folder (project modules/utilities live here; use for organized imports). :contentReference[oaicite:11]{index=11}
 
