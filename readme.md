@@ -1,7 +1,7 @@
 # Master Data Generator
 
 ## 📖 Overview
-This repository provides a framework for generating **synthetic healthcare organizational data** starting from **tabular (CSV)** and converted into **knowledge graph (RDF/Turtle)** formats. The f
+This repository provides a framework for generating **synthetic healthcare organizational data** starting from **tabular (CSV)** and converted into **knowledge graph (RDF/Turtle)** formats. 
 
 The synthetic data models a simplified but realistic structure of healthcare organizations, including their service departments, personnel, and associated addresses, with a focus on European countries (Netherlands, Austria, Estonia). Each healthcare organization is linked to service departments, healthcare personnel (who are also represented in the Person table), and addresses. The generator ensures realistic patterns such as region-specific names, addresses, and email formats.
 
